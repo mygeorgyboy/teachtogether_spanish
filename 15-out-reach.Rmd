@@ -1,0 +1,263 @@
+# Superar a
+Está de moda en los círculos tecnológicos menospreciar a las universidades e instituciones gubernamentales como dinosaurios que se mueven lentamente, pero en mi experiencia no son peores que las empresas de tamaño similar. La junta escolar local, la biblioteca y la oficina del concejal de su ciudad pueden ofrecerle espacio, fondos, publicidad, conexiones con otros grupos que aún no haya conocido y una gran cantidad de otras cosas útiles; conocerlos puede ayudarlo a resolver o evitar problemas a corto plazo y pagar dividendos en el futuro.
+
+Márketing
+Las personas con antecedentes académicos o técnicos a menudo piensan que el marketing se trata de giro y dirección errónea. En realidad, se trata de ver las cosas desde la perspectiva de otras personas, comprender sus deseos y necesidades, y explicar cómo puede ayudarlos, en resumen, cómo enseñarles. Este capítulo analizará cómo usar las ideas de los capítulos anteriores para que la gente entienda y apoye lo que está haciendo.
+
+El primer paso es descubrir qué le está ofreciendo a quién, es decir, qué aporta realmente a los voluntarios, la financiación y otro tipo de apoyo que necesita para continuar. La respuesta es a menudo contra-intuitiva. Por ejemplo, la mayoría de los científicos piensan que sus documentos son su producto, pero en realidad son sus propuestas de subvención, porque eso es lo que aporta el dinero de la subvención [Kuch2011]. Sus documentos son la publicidad que convence a las personas para que financien esas propuestas, así como los álbumes son ahora lo que convence a las personas a comprar boletos y camisetas para conciertos de músicos.
+
+Suponga que su grupo ofrece talleres de programación de fin de semana a personas que están reingresando a la fuerza laboral después de estar fuera durante varios años. Si los participantes del taller pueden pagar lo suficiente para cubrir sus costos, entonces son sus clientes y los talleres son el producto. Si, por otro lado, los talleres son gratuitos o los alumnos solo pagan una cantidad simbólica para reducir la tasa de no presentación, entonces su producto real puede ser una combinación de:
+
+* sus propuestas de subvención;
+
+* los alumnos de sus talleres que las empresas patrocinadoras le gustaría contratar;
+
+* el resumen de media página de sus talleres en el informe anual del alcalde al ayuntamiento que muestra cómo está apoyando al sector tecnológico local; o
+
+* La satisfacción personal que los voluntarios obtienen de la enseñanza.
+
+Al igual que con el diseño de la lección (Capítulo 6), los primeros pasos en marketing son crear personas de personas que puedan estar interesadas en lo que está haciendo y determinar cuáles de sus necesidades puede satisfacer. Una forma de resumir esto último es escribir lanzamientos de elevadores dirigidos a diferentes personas. Una plantilla ampliamente utilizada para estos es:
+
+|  |  |
+|--|--|
+|Para| público objetivo|
+|quien |no está satisfecho con lo que está disponible actualmente|
+|nuestra |categoria|
+|proporcionar| un beneficio clave|
+|A diferencia| de las alternativas|
+|nuestra característica| distintiva clave del programa.|
+
+
+Continuando con el ejemplo del taller de fin de semana, podríamos usar este campo para los participantes:
+
+>Para las personas que vuelven a ingresar a la fuerza laboral después de estar fuera durante varios años y que aún tienen responsabilidades familiares, nuestros talleres de programación introductoria brindan clases de fin de semana con cuidado infantil en el lugar. A diferencia de las clases en línea, nuestro programa brinda a las personas la oportunidad de conocer a otros en la misma etapa de la vida.
+
+y este para tomadores de decisiones en empresas que podrían patrocinar los talleres:
+
+>Para las empresas que desean reclutar desarrolladores de software de nivel básico que luchan por encontrar candidatos maduros de diversos orígenes, nuestros talleres de programación introductoria ofrecen reclutas potenciales. A diferencia de las ferias de reclutamiento universitario, nuestro programa conecta a las empresas con una amplia variedad de candidatos.
+
+Si no sabe por qué diferentes interesados potenciales podrían estar interesados en lo que está haciendo, pregúnteles. Si lo sabe, pregúnteles de todos modos: las respuestas pueden cambiar con el tiempo y puede descubrir cosas que previamente pasó por alto.
+
+Una vez que tenga estos argumentos, deben conducir lo que usted ponga en su sitio web y en material publicitario para ayudar a las personas a descubrir lo más rápido posible si usted y ellos tienen algo de qué hablar. (Sin embargo, probablemente no debería copiarlos textualmente: muchas personas en tecnología han visto esta plantilla con tanta frecuencia que sus ojos se verán vidriosos si la vuelven a encontrar).
+
+Mientras escribe estos lanzamientos, recuerde que hay muchas razones para aprender a programar (Sección 1.4). Un sentido de logro, control sobre sus propias vidas y ser parte de una comunidad puede motivar a las personas más que el dinero (Capítulo 10). Podrían ofrecerse como voluntarios para enseñarle porque sus amigos lo están haciendo; Del mismo modo, una empresa puede decir que está patrocinando clases para estudiantes de secundaria económicamente desfavorecidos porque quieren un grupo más grande de empleados potenciales más adelante, pero el CEO podría estar haciéndolo simplemente porque es lo correcto.
+
+## Marca y posicionamiento
+
+Una marca es la primera reacción de alguien ante una mención de un producto; si la reacción es "¿qué es eso?", todavía no tiene una marca. La marca es importante porque las personas no van a ayudar a algo que no conocen o no les importa.
+
+La mayor parte de la discusión sobre la marca de hoy se centra en cómo crear conciencia en línea. Las listas de correo, los blogs y Twitter le brindan formas de llegar a las personas, pero a medida que aumenta el volumen de información errónea, las personas prestan menos atención a cada interrupción individual. Esto hace que el posicionamiento sea cada vez más importante. A veces llamada "diferenciación", es lo que distingue su oferta de los demás, la sección "diferente" de las parcelas de su ascensor. Cuando se comunique con personas que ya están familiarizadas con su campo, debe enfatizar su posición, ya que es lo que llamará su atención.
+
+Hay otras cosas que puede hacer para ayudar a construir su marca. Una es usar accesorios como un robot que uno de tus alumnos hizo con los restos que encontró en la casa [Schw2013] o el sitio web que otro alumno hizo para la casa de retiro de sus padres. Otra es hacer un video corto, de no más de unos minutos de duración, que muestre los antecedentes y logros de sus alumnos. El objetivo de ambos es contar una historia: aunque las personas siempre solicitan datos, creen y recuerdan historias.
+
+>**Mitos Fundacionales**
+>
+>Una de las historias más convincentes que una persona o grupo puede contar es por qué y cómo comenzaron. ¿Estás enseñando lo que desearías que alguien te hubiera enseñado pero no lo hiciste? ¿Hubo una persona en particular a la que quisiste ayudar y que abrió las compuertas? Si no hay una sección en su sitio web que comience, "Érase una vez", piense en agregar una.
+
+
+Un paso crucial es hacer que su organización sea localizable en búsquedas en línea. [DiSa2014b] descubrió que los términos de búsqueda que los padres usaban para las clases de computación fuera de la escuela en realidad no encontraron esas clases, y muchos otros grupos enfrentan desafíos similares. Hay mucho folklore sobre cómo hacer que las cosas se puedan encontrar (también conocido como optimización de motores de búsqueda o SEO); Dado el poder casi monopólico de Google y la falta de transparencia, la mayor parte se reduce a tratar de estar un paso por delante de los algoritmos diseñados para evitar que las personas clasifiquen en los juegos.
+
+A menos que esté muy bien financiado, lo mejor que puede hacer es buscarse a sí mismo y a su organización de manera regular y ver qué surge, luego leer estas pautas y hacer lo que pueda para mejorar su sitio. Tenga en cuenta esta caricatura de XKCD: las personas no quieren saber acerca de su organigrama u obtener un recorrido virtual de su sitio; quieren su dirección, información de estacionamiento y alguna idea de lo que enseña, cuándo lo enseña y cómo Va a cambiar sus vidas.
+
+>**No todos viven en línea**
+>
+>Estos ejemplos suponen que las personas tienen acceso a Internet y que los grupos tienen dinero, materiales, tiempo libre y / o habilidades técnicas. Muchos no lo hacen, de hecho, aquellos que sirven a grupos económicamente desfavorecidos casi con certeza no lo hacen. (Como dice Rosario Robinson, "lo gratuito funciona para aquellos que pueden pagarlo gratis"). Las historias son más importantes que los esquemas del curso en esas situaciones porque son más fáciles de volver a contar. Del mismo modo, si las personas con las que desea comunicarse no están en línea tan a menudo como usted, entonces los tablones de anuncios en las escuelas, bibliotecas locales, centros de acogida y tiendas de abarrotes pueden ser la forma más efectiva de comunicarse con ellos.
+
+## El arte de la llamada fría
+Construir un sitio web y esperar que la gente lo encuentre es fácil; llamar a las personas o llamar a su puerta sin ningún tipo de presentación previa es mucho más difícil. Sin embargo, al igual que pararse y enseñar, es un oficio que se puede aprender. Aquí hay diez reglas simples para convencer a las personas de las cosas:
+
+**1. no.**
+Si tienes que convencer a alguien de algo, lo más probable es que realmente no quieran hacerlo. Respeta eso. casi siempre es mejor a largo plazo dejar algo sin hacer que usar la culpa o cualquier truco psicológico que solo genere resentimiento.
+
+**2. Sé amable.**
+No sé si realmente hay un libro llamado Secret Tricks of the Ninja Sales Masters, pero si lo hay, probablemente les dice a los lectores que hacer algo por un cliente potencial crea una sensación de obligación, lo que a su vez aumenta las probabilidades de un rebaja. Eso puede funcionar, pero solo funciona una vez y es algo difícil de hacer. Por otro lado, si eres genuinamente amable y ayudas a otras personas porque es lo que hacen las personas buenas, podrías inspirarlas a ser buenas personas también.
+
+**3. Apelar al bien mayor.**
+Si abres hablando de lo que hay para ellos, estás indicando que deberían pensar en su interacción contigo como un intercambio comercial de valor para negociar. En su lugar, comience explicando cómo lo que sea que quiera que ayuden va a hacer del mundo un lugar mejor, y lo dice en serio. Si lo que está proponiendo no va a hacer del mundo un lugar mejor, proponga algo mejor.
+
+**4. Comience con algo pequeño.**
+Es comprensible que la mayoría de las personas se muestren reacias a sumergirse de lleno en las cosas, así que deles la oportunidad de probar las aguas y conocerte a ti y a todos los demás involucrados en lo que sea que necesites ayuda. No se sorprenda ni decepcione si ahí es donde terminan las cosas. todos están ocupados o cansados o tienen proyectos propios, o tal vez simplemente tienen un modelo mental diferente de cómo se supone que funciona la colaboración. Recuerde la regla 90-9-1. el 90% de las personas mirará, el 9% hablará y el 1% realmente hará las cosas, y establezca sus expectativas en consecuencia.
+
+**5. No construir un proyecto. construir una comunidad.**
+Solía pertenecer a un equipo de béisbol que en realidad nunca jugó béisbol. nuestros "juegos" eran solo una excusa para pasar el rato y disfrutar de la compañía del otro. Probablemente no quieras llegar tan lejos, pero compartir una taza de té con alguien o celebrar el nacimiento de su primer nieto puede darte cosas que ninguna cantidad razonable de dinero puede.
+
+**6. Establecer un punto de conexión.**
+“Estaba hablando con X” o “nos conocimos en Y” les da contexto, lo que a su vez los hace más cómodos. Esto debe ser específico. los spammers y las personas que llaman en frío nos han capacitado a todos para ignorar todo lo que comienza, "Hace poco encontré su sitio web ..."
+
+**7. Sea específico sobre lo que está pidiendo.**
+Las personas necesitan saber esto para poder determinar si el tiempo y las habilidades que tienen coinciden con lo que necesita. Ser realista desde el principio también es una señal de respeto. si le dices a la gente que necesitas una mano moviendo algunas cajas cuando estás empacando una casa entera, probablemente no te ayudarán por segunda vez.
+
+**8. Establece tu credibilidad.**
+Mencione a sus patrocinadores, su tamaño, cuánto tiempo ha estado presente su grupo o algo que haya logrado en el pasado para que crean que vale la pena tomarlo en serio.
+
+**9. Crea un ligero sentido de urgencia.**
+"Esperamos lanzar esto en la primavera" es más probable que obtenga una respuesta positiva que "eventualmente nos gustaría lanzar esto". Sin embargo, la palabra "leve" es importante. si su solicitud es urgente, la mayoría de la gente asumirá que está desorganizado o que algo ha salido mal y que puede equivocarse por el lado de la prudencia.
+
+**10. Toma una pista.**
+Si la primera persona a la que pide ayuda dice que no, pregúntele a otra persona. Si la quinta o la décima persona dice que no, pregúntese si lo que está tratando de hacer tiene sentido y vale la pena hacerlo.
+
+La siguiente plantilla de correo electrónico sigue todas estas reglas. Funcionó bastante bien. descubrimos que aproximadamente la mitad de los correos electrónicos fueron respondidos, aproximadamente la mitad de los que querían hablar más, y aproximadamente la mitad de los que llevaron a talleres, lo que significa que el 10-15% de los correos electrónicos específicos se convirtieron en talleres. Eso puede ser bastante desmoralizador si no está acostumbrado, pero es mucho mejor que la tasa de respuesta del 2–3% que la mayoría de las organizaciones esperan con las llamadas frías.
+
+
+> Nombre Hola,
+> 
+> Espero que no le importe el correo de la nada, pero quería seguir nuestra conversación en VENUE para ver si estaría interesado en que organicemos > un taller de capacitación de maestros: estamos programando el próximo lote para el próximo par de semanas.
+> 
+> Este taller de un día enseñará a sus voluntarios un puñado de prácticas prácticas de enseñanza basadas en evidencia. Se ha ejecutado más de cien > veces en varias formas en seis continentes para organizaciones sin fines de lucro, bibliotecas y empresas, y todo el material está disponible > gratuitamente en línea en http://teachtogether.tech. Los temas incluirán:
+> 
+> personas aprendices
+> 
+> diferencias entre diferentes tipos de alumnos
+> 
+> utilizando la evaluación formativa para diagnosticar malentendidos
+> 
+> la enseñanza como arte de performance
+> 
+> qué motiva y desmotiva a los estudiantes adultos
+> 
+> La importancia de la inclusión y cómo ser un buen aliado
+> 
+> Si esto suena interesante, por favor dame un grito. Me gustaría tener la oportunidad de hablar de formas y medios.
+> 
+> Gracias,
+> 
+> NOMBRE
+
+
+>**Referencias**
+>
+>Construir alianzas con otros grupos que están haciendo cosas relacionadas con su trabajo vale la pena de muchas maneras. Una de ellas son las referencias: si alguien que se acerca a usted para pedirle ayuda sería mejor atendido por otra organización, tómese un momento para hacer una presentación. Si ha hecho esto varias veces, agregue algo a su sitio web para ayudar a la siguiente persona a encontrar lo que necesita. Las organizaciones a las que está ayudando pronto comenzarán a ayudarlo a cambio.
+
+
+## Cambio académico
+Todos tienen miedo de lo desconocido y de avergonzarse a sí mismos. Como resultado, la mayoría de las personas prefieren fallar que cambiar. Por ejemplo, Lauren Herckis analizó por qué los docentes universitarios no adoptan mejores métodos de enseñanza. Ella descubrió que la razón principal es el miedo a parecer estúpido frente a los alumnos; Las razones secundarias fueron la preocupación de que los inevitables golpes en el cambio de los métodos de enseñanza afectarían las evaluaciones de los cursos (que a su vez podrían afectar la promoción y la tenencia) y el deseo de las personas de seguir emulando a los maestros que los inspiraron. No tiene sentido discutir si estos problemas son "reales" o no: los profesores creen que sí, por lo que cualquier plan para trabajar con los profesores debe abordarlos349.
+
+[Bark2015] realizó un estudio de dos partes sobre cómo los educadores informáticos adoptan nuevas prácticas de enseñanza como individuos, organizacionalmente y en la sociedad en general. Hicieron y respondieron tres preguntas clave:
+
+**¿Cómo se entera el profesorado sobre las nuevas prácticas docentes?**
+Intencionalmente buscan nuevas prácticas porque están motivados para resolver un problema (particularmente la participación de los estudiantes), sus instituciones las toman en cuenta a través de iniciativas deliberadas, las recogen de sus colegas o las obtienen de interacciones esperadas e inesperadas en conferencias (enseñanza- relacionado o de otra manera).
+
+**¿Por qué los prueban?**
+A veces, debido a los incentivos institucionales (por ejemplo, innovan para mejorar sus posibilidades de promoción), pero a menudo existe tensión en las instituciones de investigación donde la retórica sobre la importancia de la enseñanza no se cree. Otra razón importante es su propio análisis de costo / beneficio: ¿la innovación les ahorrará tiempo? Un tercero es que están inspirados en modelos a seguir, una vez más, esto afecta en gran medida las innovaciones destinadas a mejorar el compromiso y la motivación en lugar de los resultados de aprendizaje, y un cuarto son fuentes confiables, p. personas que se encuentran en conferencias que se encuentran en la misma situación que ellos y que informaron una adopción exitosa. Pero el profesorado tenía preocupaciones que a menudo no eran abordadas por personas que abogaban por cambios. La primera fue la Ley de Glass: cualquier herramienta o práctica nueva inicialmente te ralentiza, por lo que si bien las nuevas prácticas pueden hacer que la enseñanza sea más efectiva a largo plazo, no se pueden permitir a corto plazo. Otra es que el diseño físico de las aulas dificulta muchas prácticas nuevas: por ejemplo, los grupos de discusión no funcionan bien en asientos estilo teatro. Pero el resultado más revelador fue este: "A pesar de ser investigadores, el profesorado de CS con el que hablamos en su mayor parte no creía que los resultados de los estudios educativos fueran razones creíbles para probar las prácticas de enseñanza". Esto es consistente con otros hallazgos: incluso las personas cuyas carreras completas se dedican a la investigación a menudo ignoran la investigación educativa.
+
+**¿Por qué siguen usándolos?**
+Como dice [Bark2015], “La retroalimentación de los estudiantes es crítica” y, a menudo, es la razón más poderosa para continuar usando una práctica, aunque sabemos que los autoinformes de los alumnos no se correlacionan fuertemente con los resultados del aprendizaje [Star2014, Uttl2017] (aunque la asistencia a conferencias es un buen indicador de compromiso). Otra razón para retener una práctica son los requisitos institucionales, aunque si esta es la única motivación, las personas a menudo abandonarán la práctica cuando se elimine el incentivo o monitoreo explícito.
+
+
+La buena noticia es que puede abordar estos problemas sistemáticamente. [Baue2015] analizó la adopción de nuevas técnicas médicas dentro de la Administración de Veteranos de los Estados Unidos. Descubrieron que las prácticas basadas en evidencia en medicina tardan un promedio de 17 años en incorporarse a la práctica general de rutina, y que solo aproximadamente la mitad de tales prácticas son ampliamente adoptadas. Este hallazgo deprimente y otros similares estimularon el crecimiento de la ciencia de la implementación, que es el estudio de cómo lograr que las personas adopten mejores prácticas.
+
+Como dijo el Capítulo 13, el punto de partida es descubrir qué creen que necesitan las personas que estás tratando de ayudar. Por ejemplo, [Yada2016] resume los comentarios de los maestros de K-12 sobre la preparación y el apoyo que desean. Si bien puede no ser aplicable a todos los entornos, tomar una taza de té con algunas personas y escuchar antes de hablar hace una gran diferencia en su disposición a probar algo nuevo.
+
+Una vez que sepa lo que la gente necesita, el siguiente paso es hacer cambios de forma incremental, dentro de los propios marcos de las instituciones. [Nara2018] describe un programa intensivo de licenciatura de tres años basado en cohortes muy unidas y apoyo administrativo que triplicó las tasas de graduación, mientras que [Hu2017 ] describe el impacto de la introducción de un programa de certificación de seis meses para los maestros de secundaria existentes que desean enseñar informática. El número de maestros de computación había sido estable entre 2007 y 2013, pero se cuadruplicó después de la introducción del nuevo programa de certificación sin diluir la calidad: los maestros nuevos en computación parecían ser tan efectivos como los maestros con más capacitación en computación en la enseñanza del curso introductorio.
+
+En términos más generales, [Borr2014] clasifica las formas de lograr el cambio en la educación superior. Las categorías se definen según si el cambio es individual o sistémico y si se prescribe (de arriba abajo) o emergente (de abajo hacia arriba). La persona que intenta hacer los cambios (y hacer que se mantengan) tiene un papel diferente en cada situación, y debe seguir diferentes estrategias en consecuencia. El documento continúa explicando cada uno de los métodos en detalle, mientras que [Hend2015a, Hend2015b] presenta las mismas ideas en una forma más procesable.
+
+Al comenzar, probablemente entrará en la categoría Individual / Emergente, ya que se acercará a los maestros uno por uno y tratará de hacer que el cambio ocurra de abajo hacia arriba. Si este es el caso, las estrategias que Borrego y Henderson recomiendan se centran en hacer que los maestros reflexionen sobre su enseñanza individualmente o en grupos. La codificación en vivo para mostrarles lo que haces o los ejemplos que usas, y luego tenerlos en vivo para mostrar cómo usarían esas ideas y técnicas en su entorno, les da a todos la oportunidad de elegir cosas que les serán útiles en su contexto
+
+
+## Enseñanza de campo libre
+Las escuelas y las universidades no son los únicos lugares donde las personas van a aprender programación; En los últimos años, un número creciente ha recurrido a talleres de campo libre y programas intensivos de bootcamp. Estos últimos suelen durar entre uno y seis meses, están dirigidos por grupos de voluntarios o por compañías con fines de lucro, y se dirigen a las personas que se están volviendo a capacitar para ingresar a la tecnología. Algunos son de muy alta calidad, pero otros existen principalmente para separar a las personas de su dinero [McMi2017].
+
+[Thay2017] entrevistó a 26 alumnos de tales bootcamps que brindan una segunda oportunidad para aquellos que perdieron las oportunidades de educación en computación antes (aunque expresarlo de esta manera hace algunas suposiciones bastante grandes cuando se trata de personas de grupos subrepresentados). Los participantes de bootcamp enfrentan grandes costos y riesgos personales: deben gastar mucho tiempo, dinero y esfuerzo antes, durante y después de los bootcamps, y cambiar de carrera puede llevar un año o más. Varios entrevistados consideraron que sus certificados eran despreciados por los empleadores; Como algunos dijeron, conseguir un trabajo significa pasar una entrevista, pero como los entrevistadores a menudo no comparten sus razones de rechazo, es difícil saber qué arreglar o qué más aprender. Muchos recurrieron a pasantías (remuneradas o no) y pasaron mucho tiempo construyendo sus carteras y redes. Las tres barreras informales que identificaron más claramente fueron la jerga, el síndrome del impostor y la sensación de no encajar.
+
+[Burk2018] profundizó un poco más en esto al comparar las habilidades y credenciales que buscan los reclutadores de la industria tecnológica con las que brindan los títulos de cuatro años y los campamentos de entrenamiento. Basado en entrevistas con 15 gerentes de contratación de empresas de varios tamaños y algunos grupos focales, descubrieron que los reclutadores enfatizaban uniformemente las habilidades blandas (especialmente el trabajo en equipo, la comunicación y la capacidad de continuar aprendiendo). Muchas compañías requieren un título de cuatro años (aunque no necesariamente en ciencias de la computación), pero muchas también elogiaron a los graduados de bootcamp por ser mayores o más maduros y tener un conocimiento más actualizado.
+
+Si se está acercando a un campamento de entrenamiento existente, su mejor estrategia podría ser enfatizar lo que sabe sobre la enseñanza en lugar de lo que sabe sobre tecnología, ya que muchos de sus fundadores y personal tienen experiencia en programación pero poca o ninguna capacitación en educación. Los primeros capítulos de este libro han jugado bien con esta audiencia en el pasado, y [Lang2016] describe prácticas de enseñanza basadas en evidencia que pueden implementarse con un mínimo esfuerzo y bajo costo. Es posible que estos no tengan el mayor impacto, pero obtener algunas victorias tempranas ayuda a generar apoyo para esfuerzos más grandes.
+
+## Pensamientos finales
+Es imposible cambiar las grandes instituciones por su cuenta: necesita aliados, y para obtener aliados, necesita tácticas. La guía más útil que he encontrado es [Mann2015], que cataloga más de cuatro docenas de estos y los organiza de acuerdo a si se implementan mejor temprano, más tarde, durante todo el ciclo de cambio o cuando encuentra resistencia. Algunos de sus patrones incluyen:
+
+**En tu espacio**
+Mantenga visible la nueva idea colocando recordatorios en toda la organización.
+
+**Simbólico:**
+Para mantener viva una nueva idea en la memoria de una persona, entregue fichas que puedan identificarse con el tema que se presenta.
+
+**Escéptico campeón:**
+Pida a líderes de opinión fuertes que sean escépticos acerca de su nueva idea que jueguen el papel de "escépticos oficiales". Use sus comentarios para mejorar su esfuerzo, incluso si no cambia de opinión.
+
+**Compromiso futuro:**
+Si puede anticipar algunas de sus necesidades, puede solicitar un compromiso futuro de personas ocupadas. Si se les da un plazo de entrega, pueden estar más dispuestos a ayudar.
+La estrategia más importante es estar dispuesto a cambiar sus objetivos en función de lo que aprenda de las personas a las que intenta ayudar. Los tutoriales que les muestran cómo usar una hoja de cálculo pueden ayudarlos de manera más rápida y confiable que una introducción a JavaScript. A menudo he cometido el error de confundir cosas que me apasionaban con cosas que otras personas deberían saber; Si realmente quieres ser un socio, recuerda siempre que el aprendizaje y el cambio tienen que ser en ambos sentidos.
+
+La parte más difícil de construir relaciones es comenzar. Reserve una o dos horas cada mes para encontrar aliados y mantener sus relaciones con ellos. Una forma de hacer esto es pedirles consejo: ¿cómo creen que debería crear conciencia sobre lo que está haciendo? ¿Dónde han encontrado espacio para ejecutar clases? ¿Qué necesidades creen que no se están cumpliendo y sería capaz de satisfacer? Cualquier grupo que haya existido durante algunos años tendrá consejos útiles; también se sentirán halagados de que se les pregunte y sabrán quién es la próxima vez que llame.
+
+Y como dice [Kuch2011], si no puede ser el primero en una categoría, intente crear una nueva categoría en la que pueda ser el primero. Si no puede hacerlo, únase a un grupo existente o piense en hacer algo completamente diferente. . Esto no es derrotista: si alguien más ya está haciendo lo que tienes en mente, deberías intervenir o abordar una de las otras cosas igualmente útiles que podrías estar haciendo en su lugar.
+
+
+## Ejercicios
+###Lanzar a un concejal de la ciudad (individual / 10)
+Este capítulo describe una organización que ofrece talleres de programación de fin de semana para personas que vuelven a ingresar a la fuerza laboral. Escriba una presentación de ascensor para esa organización dirigida a un concejal de la ciudad cuyo apoyo necesita la organización.
+
+### Lanzando su organización (individual / 30)
+Identifique dos grupos de personas de las que su organización necesita apoyo y escriba un discurso de ascensor dirigido a cada uno.
+
+### Temas de correo electrónico (pares / 10)
+Escriba las líneas de asunto (y solo las líneas de asunto) para tres mensajes de correo electrónico: uno anunciando un nuevo curso, uno anunciando un nuevo patrocinador y otro anunciando un cambio en el liderazgo del proyecto. Compare sus líneas de asunto con las de un socio y vea si puede combinar las mejores características de cada una al tiempo que las acorta.
+
+### Manejo de resistencia pasiva (grupos pequeños / 30)
+Las personas que no quieren un cambio a veces lo dicen en voz alta, pero a menudo también pueden usar varias formas de resistencia pasiva, como no hacerlo una y otra vez, o plantear un posible problema tras otro para hacer que el cambio parezca más riesgoso y más costoso de lo que es probable que sea. [Scot1987] Trabajando en grupos pequeños, enumere tres o cuatro razones por las cuales las personas podrían no querer que su iniciativa de enseñanza continúe, y explique qué puede hacer con el tiempo y los recursos que tiene para Contrarrestar cada uno.
+
+### ¿Por qué aprender a programar? (individual / 15)
+Vuelva a visitar "¿Por qué aprender a programar?" ejercicio en la Sección 1.4. ¿Dónde se alinean sus razones para enseñar y las razones de sus alumnos para aprender? ¿Dónde no lo hacen? ¿Cómo afecta eso a su comercialización?
+
+### Programadores conversacionales (think-pair-share / 15)
+Un programador conversacional es alguien que necesita saber lo suficiente sobre informática para tener una conversación significativa con un programador, pero no se va a programar a sí mismo. [Wang2018] descubrió que la mayoría de los recursos de aprendizaje no abordan las necesidades de este grupo. Trabajando en parejas, escriba un discurso para un taller de medio día destinado a ayudar a las personas que se ajusten a esta descripción y luego comparta el discurso de su pareja con el resto de la clase.
+
+### Colaboraciones (grupos pequeños / 30)
+Responda las siguientes preguntas por su cuenta, luego compare sus respuestas con las de otros miembros de su grupo.
+
+1. ¿Tiene algún acuerdo o relación con otros grupos?
+
+2. ¿Quieres tener relaciones con otros grupos?
+
+3. ¿De qué manera tener (o no tener) colaboraciones lo ayudaría a lograr sus objetivos?
+
+4. ¿Cuáles son sus relaciones colaborativas clave?
+
+5. ¿Son estos los colaboradores adecuados para alcanzar sus objetivos?
+
+6. ¿Con qué grupos o entidades le gustaría que su organización tuviera acuerdos o relaciones?
+
+
+### Educacion (clase entera / 10)
+[Laba2008] explora por qué Estados Unidos y otros países siguen presionando la solución de problemas sociales en las instituciones educativas y por qué eso sigue sin funcionar. Como él señala, “[la educación] ha hecho muy poco para promover la igualdad de raza, clase y género; para mejorar la salud pública, la productividad económica y la buena ciudadanía; o para reducir el sexo adolescente, las muertes por tráfico, la obesidad y la destrucción del medio ambiente. De hecho, en muchos sentidos ha tenido un efecto negativo en estos problemas al drenar el dinero y la energía de las reformas sociales que podrían haber tenido un impacto más sustancial ". Él continúa escribiendo:
+
+>Entonces, ¿cómo debemos entender el éxito de esta institución a la luz de su incapacidad para hacer lo que le pedimos? Una forma de pensar sobre esto es que la educación puede no estar haciendo lo que le pedimos, pero está haciendo lo que queremos. Queremos una institución que persiga nuestros objetivos sociales de una manera que esté en línea con el individualismo en el corazón del ideal liberal, con el objetivo de resolver los problemas sociales buscando cambiar los corazones, las mentes y las capacidades de los estudiantes individuales. Otra forma de decir esto es que queremos una institución a través de la cual podamos expresar nuestros objetivos sociales sin violar el principio de elección individual que se encuentra en el centro de la estructura social, incluso si esto tiene el costo de no lograr estos objetivos. Por lo tanto, la educación puede servir como un punto de orgullo cívico, un lugar de exhibición para nuestros ideales y un medio para participar en disputas edificantes pero en última instancia sin consecuencias sobre visiones alternativas de la buena vida. Al mismo tiempo, también puede servir como un niño de azotes conveniente que podemos culpar por su fracaso para lograr nuestras aspiraciones más altas para nosotros mismos como sociedad.
+
+¿Cómo encajan los esfuerzos para enseñar el pensamiento computacional y la ciudadanía digital en las escuelas en este marco? ¿Los bootcamps evitan estas trampas o simplemente las entregan con una nueva apariencia?
+
+### Adopción Institucional (clase entera / 15)
+Vuelva a leer la lista de motivaciones para adoptar nuevas prácticas que figura en la Sección 14.4. ¿Cuál de estos se aplica a usted y sus colegas? ¿Cuáles son irrelevantes para su contexto? ¿Qué enfatiza si interactúa con personas que trabajan en instituciones educativas formales?
+
+### Si al principio no tienes éxito (grupos pequeños / 15)
+BAÑO. Probablemente Fields nunca dijo: "Si al principio no tienes éxito, inténtalo, inténtalo de nuevo. Luego, déjalo, no sirve de nada ser un tonto ". Sigue siendo un buen consejo: si las personas con las que intenta comunicarse no responden, es posible que nunca las convenza. En grupos de 3 a 4, haga una breve lista de señales de que debe dejar de intentar hacer algo en lo que cree. ¿Cuántos de ellos ya son ciertos?
+
+### Hacer que falle (individual / 15)
+[Farm2006] presenta algunas reglas irónicas para garantizar que no se adopten nuevas herramientas, todas las cuales se aplican a las nuevas prácticas de enseñanza:
+
+1. Hazlo opcional.
+
+2. Economizar en formación.
+
+3. No lo use en un proyecto real.
+
+4. Nunca lo integres.
+
+5. Úselo esporádicamente.
+
+6. Hazlo parte de una iniciativa de calidad.
+
+7. Marginar al campeón.
+
+8. Aproveche los primeros pasos en falso.
+
+9. Haz una pequeña inversión.
+
+10. Explotar el miedo, la incertidumbre, la duda, la pereza y la inercia.
+
+¿Cuál de estos has visto hecho recientemente? ¿Qué has hecho tú mismo? ¿Qué forma tomaron?
+
+### Tutoría (toda la clase / 15)
+El Instituto de Mentoría Afroamericana en Informática ha publicado pautas para la tutoría de estudiantes de doctorado. Léalos individualmente, luego repáselos como una clase y califique sus esfuerzos para su propio grupo como +1 (definitivamente haciendo), 0 (no estoy seguro o no es aplicable) o -1 (definitivamente no está haciendo).
+

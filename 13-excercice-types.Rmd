@@ -1,0 +1,256 @@
+# Tipos de ejercicio
+
+Todo buen carpintero tiene un juego de destornilladores, y cada buen maestro tiene diferentes tipos de ejercicios para verificar lo que los alumnos realmente están aprendiendo, ayudarlos a practicar sus nuevas habilidades y mantenerlos comprometidos. Este capítulo comienza describiendo varios tipos de ejercicios que puede usar para verificar si su enseñanza ha sido efectiva. Luego analiza el estado del arte en la calificación automatizada y cierra explorando debates, proyectos y otros tipos importantes de trabajo que requieren más atención humana para evaluar. Nuestra discusión se basa en parte en el Banco de preguntas de Canterbury [Sand2013], que tiene entradas para varios idiomas y temas en informática introductoria.
+
+## Los clásicos
+Como se discutió en la Sección 2.1, las preguntas de opción múltiple (MCQ) son más efectivas cuando las respuestas incorrectas analizan conceptos erróneos específicos. Por lo general, están diseñados para probar los niveles más bajos de la Taxonomía de Bloom (Sección 6.2), pero también pueden requerir que los alumnos ejerzan su juicio.
+
+>**Una pregunta de opción múltiple**
+>
+>¿En qué orden ocurren las operaciones cuando la computadora evalúa la expresión precio = addTaxes (costo - descuento
+>
+> 1.- resta, llamada de función, asignación
+>
+> 2.- llamada a función, resta, asignación
+>
+> 3.- llamada a funciones, luego asignación y resta simultáneamente
+>
+> 4.- Ninguna de las anteriores
+
+El segundo tipo clásico de ejercicio de programación es code and run (C&R), en el que el alumno escribe código que produce un resultado específico. Los ejercicios de C&R pueden ser tan simples o complejos como el maestro quiera, pero cuando se usan en clase, deben ser breves y tener solo una o dos respuestas correctas plausibles. A menudo es suficiente pedirles a los principiantes que calculen e impriman un solo valor o que llamen a una función específica: los maestros experimentados a menudo olvidan lo difícil que puede ser determinar qué parámetros van a dónde. Para los alumnos más avanzados, descubrir qué función llamar es más interesante y un mejor indicador de su comprensión.
+
+>**Code & Run**
+>
+>La imagen variable contiene una imagen a todo color leída de un archivo. Usando una función, cree una versión en blanco y negro de la imagen y asígnela a una nueva variable llamada monocromo.
+
+Los ejercicios de escritura y ejecución se pueden combinar con MCQ. Por ejemplo, este MCQ solo se puede responder ejecutando el comando Unix ls:
+
+>**Combinando MCQ con Code & Run**
+>
+>Estás en el directorio / home. ¿Cuál de los siguientes archivos no está en ese directorio?
+>
+> 1. autumn.csv
+>
+> 2. fall.csv
+>
+> 3. spring.csv
+> 
+> 4. winter.csv
+
+Los C&R ayudan a las personas a practicar las habilidades que más desean aprender, pero pueden ser difíciles de evaluar: puede haber muchas formas inesperadas de obtener la respuesta correcta, y las personas se desmoralizarán si un sistema de calificación automático rechaza su código porque no lo hace. No coincide con la del profesor. Una forma de reducir la frecuencia con la que esto ocurre es evaluar solo su producción, pero eso no les da retroalimentación sobre cómo están programando. Otra es darles un pequeño conjunto de pruebas en el que puedan ejecutar su código antes de enviarlo (en ese momento se ejecuta en un conjunto más completo de pruebas). Hacer esto les ayuda a determinar si han entendido mal la intención del ejercicio antes de hacer algo que creen que podría costarles calificaciones.
+
+En lugar de escribir código que satisfaga algunas especificaciones, se les puede pedir a los estudiantes que escriban pruebas para determinar si un fragmento de código se ajusta a una especificación. Esta es una habilidad útil por derecho propio, y hacerlo puede dar a los estudiantes un poco más de simpatía por lo duro que trabajan sus maestros.
+
+
+>**Código de inversión y ejecución**
+>
+>La función monotonic_sum calcula la suma de cada sección de una lista de números en la que los valores están aumentando estrictamente. Por ejemplo, dada la entrada [1, 3, 3, 4, 5, 1], la salida es [4, 12, 1]. Escriba y ejecute pruebas unitarias para determinar cuál de los siguientes errores contiene la función:
+>
+> * Considera que cada número negativo es el comienzo de una nueva subsecuencia.
+>
+> * No incluye el primer valor de cada subsecuencia en la sub-suma.
+>
+> * No incluye el último valor de cada subsecuencia en la sub-suma.
+>
+> * Solo reinicia la suma cuando los valores disminuyen en lugar de no aumentar.
+
+
+Completar los espacios en blanco es un refinamiento de C&R en el que el alumno recibe un código de inicio y debe completarlo. (En la práctica, la mayoría de los ejercicios de C&R en realidad se llenan los espacios en blanco porque el maestro proporciona comentarios para recordar a los alumnos los pasos que deben seguir). Las preguntas de este tipo son la base de ejemplos desvaídos; Como se discutió en el Capítulo 4, los principiantes a menudo los encuentran menos intimidantes que escribir todo el código desde cero, y dado que el maestro ha proporcionado la mayor parte de la estructura de la respuesta, las presentaciones son mucho más predecibles y, por lo tanto, más fáciles de verificar.
+
+>**Rellenar los espacios en blanco**
+>
+>Complete los espacios en blanco para que el siguiente código imprima la cadena "sombrero".
+>
+> texto = 'todo lo que es'
+> rebanada = texto [____: ____]
+> imprimir (corte)  
+
+Los problemas de Parsons también evitan el problema de la "pantalla en blanco del terror" mientras permiten a los estudiantes concentrarse en el flujo de control por separado del vocabulario. [Pars2006, Eric2015, Morr2016, Eric2017] Existen herramientas para construir y hacer problemas de Parsons en línea [Ihan2011], pero pueden ser emulado (aunque algo torpemente) al pedirles a los alumnos que reorganicen las líneas de código en un editor.
+
+>**Problema de Parsons**
+>
+> Reorganizar e sangrar estas líneas para sumar los valores positivos en una lista. (También deberá agregar dos puntos en los lugares apropiados).
+> 
+> total = 0
+> si v> 0
+> total + = v
+> para v en valores
+
+Tenga en cuenta que dar a los alumnos más líneas de las que necesitan, o pedirles que reorganicen algunas líneas y agreguen algunas más, hace que los problemas de Parsons sean mucho más difíciles [Harm2016].
+
+## Rastreo
+El seguimiento de la ejecución es el inverso de un problema de Parsons: dadas unas pocas líneas de código, el alumno tiene que rastrear el orden en que se ejecutan esas líneas. Esta es una habilidad de depuración esencial y una buena manera de solidificar la comprensión de los alumnos sobre los bucles, condicionales y el orden de evaluación de las llamadas a funciones y métodos. La forma más fácil de implementarlo es hacer que los alumnos escriban una secuencia de pasos etiquetados. Hacer que elijan la secuencia correcta de un conjunto (es decir, presentar esto como un MCQ) agrega carga cognitiva sin agregar valor, ya que tienen que hacer todo el trabajo de averiguar la secuencia correcta, luego buscarla en la lista de opciones.
+
+> **Orden de ejecución de rastreo**
+>¿En qué orden se ejecutan las líneas etiquetadas en este bloque de código?
+>
+>A) vals = [-1, 0, 1]
+>B) inverse_sum = 0
+>        tratar:
+>             para v en vals:
+>C) suma_inversa + = 1 / v
+>       excepto:
+> D) pasar
+
+Los valores de seguimiento son similares a la ejecución de seguimiento, pero en lugar de detallar el orden en que se ejecuta el código, el alumno enumera los valores que una o más variables toman a medida que se ejecuta el programa. Una forma de implementar esto es darle al alumno una tabla cuyas columnas están etiquetadas con nombres de variables y cuyas filas están etiquetadas con números de línea, y pedirles que completen los valores asumidos por las variables en esas líneas.
+
+>**Valores de rastreo**
+>¿Qué valores toman izquierda y derecha a medida que se ejecuta este programa?
+>
+> A) izquierda = 23
+> B) derecha = 6
+> C) mientras está bien:
+> D) izquierda, derecha = derecha, izquierda% derecha
+
+|Line|	left|	right|
+|---|----|---|
+| |  |  .|
+| |  |  .|
+
+
+También puede solicitar a los alumnos que rastreen el código hacia atrás para determinar cuál debe haber sido la entrada para que el código produzca un resultado particular [Armo2008]. Estos problemas de ejecución inversa requieren búsqueda y razonamiento deductivo, y cuando la salida es un mensaje de error, ayudan a los alumnos a desarrollar valiosas habilidades de depuración.
+
+>**Ejecución inversa**
+>Complete el número que falta en los valores que causaron el bloqueo de esta función.
+>
+> valores = [[1.0, -0.5], [3.0, 1.5], [2.5, ]]
+> runningTotal = 0.0
+> para (lectura, escala) en valores:
+>     runningTotal + = lectura / escalado
+
+
+Los ejercicios de corrección mínima también ayudan a los alumnos a desarrollar habilidades de depuración. Dadas algunas líneas de código que > contienen un error, el alumno debe encontrarlo y hacer un pequeño cambio para solucionarlo. Se puede hacer el cambio usando C&R, mientras que > identificarlo se puede hacer como una pregunta de opción múltiple.
+
+> **Minimal Fix**
+> Se supone que esta función prueba si un número se encuentra dentro de un rango. Haga un pequeño cambio para que realmente lo haga.
+> 
+> def inside (punto, más bajo, más alto):
+>     if (punto <= inferior):
+>         falso retorno
+>     elif (punto <= más alto):
+>         falso retorno
+>     más:
+>         volver verdadero
+
+
+Los ejercicios de tema y variación son similares, pero se le pide al alumno que realice una pequeña alteración que cambie la salida de alguna manera específica en lugar de hacer un cambio para corregir un error. Los cambios permitidos pueden incluir cambiar el valor inicial de una variable, reemplazar una llamada de función con otra, intercambiar bucles internos y externos, o cambiar el orden de las pruebas en un condicional complejo. Nuevamente, este tipo de ejercicio brinda a los alumnos la oportunidad de practicar una habilidad útil en el mundo real: la forma más rápida de producir el código que necesitan es ajustar el código que ya hace algo cercano.
+
+> **Tema y variaciones**
+> Cambie el bucle interno en la función a continuación para que llene el triángulo superior izquierdo de una imagen con un color específico.
+> 
+> La función fillTriangle (imagen, color) es
+>     para x: = 1 a picture.width do
+>         para y: = 1 a la imagen.
+>             imagen [x, y] = color
+>         final
+>     final
+> final
+
+Los ejercicios de refactorización son el complemento de los ejercicios de tema y variación: dado un código de trabajo, el alumno tiene que modificarlo de alguna manera sin cambiar su salida. Por ejemplo, el alumno podría reemplazar los bucles con expresiones vectorizadas o simplificar la condición en un bucle while. Esta también es una habilidad útil en el mundo real, pero a menudo hay tantas formas de refactorizar el código que la calificación requiere inspección humana.
+
+> **Refactorización**
+> Escriba una única lista de comprensión que tenga el mismo efecto que este bucle.
+> 
+> resultado = []
+> para v en valores:
+>     si len (v)> umbral:
+>         resultado.append (v)
+
+## Diagramas
+Hacer que los alumnos dibujen mapas conceptuales y otros diagramas da una idea de cómo están pensando (Sección 3.1), pero los diagramas de forma libre requieren tiempo y juicio humanos para evaluarlos. Etiquetar diagramas, por otro lado, es casi tan poderoso pedagógicamente pero mucho más fácil de escalar.
+
+En lugar de que los alumnos creen diagramas desde cero, proporcióneles un diagrama y un conjunto de etiquetas y pídales que coloquen este último en los lugares correctos del primero. El diagrama puede ser una estructura de datos ("después de ejecutar este código, ¿qué variables apuntan a qué partes de esta estructura?"), Un gráfico ("hacer coincidir cada una de estas piezas de código con la parte del gráfico que generó"), o el código en sí ("hacer coincidir cada término con un ejemplo de ese elemento del programa").
+
+> **Etiquetar un diagrama**
+> La figura [f: etiquetado de ejercicios] muestra cómo se representa un pequeño fragmento de HTML en la memoria. Coloque las etiquetas 1–9 en los > elementos del árbol para mostrar el orden en que se alcanzan en un recorrido de profundidad primero.
+
+![etiquetas](./img_traning/labeling.svg)
+
+
+Otra forma de usar diagramas es dar a los alumnos las piezas del diagrama y pedirles que las organicen correctamente. Este es un equivalente visual de un problema de Parsons, y puede proporcionar tanto o tan poco esqueleto para ayudar con la colocación como cree que están listos. Tengo buenos recuerdos de tratar de colocar resistencias y condensadores en un diagrama de circuito para obtener el voltaje correcto en cierto punto, y he visto a los maestros darles a los alumnos un conjunto fijo de bloques Scratch y pedirles que creen un dibujo particular usando solo esos bloques
+
+Los problemas de correspondencia pueden considerarse como un caso especial de etiquetado en el que el "diagrama" es una columna de texto y las etiquetas se toman de la otra columna. La correspondencia uno a uno le da al alumno dos listas de igual longitud y le pide que empareje los elementos correspondientes, p. "Unir cada fragmento de código con la salida que produce".
+
+>**Pareo**
+> Haga coincidir cada operador de expresión regular en la Figura [f: combinación de ejercicios] con lo que hace.
+
+![pareo](./img_traning/matching.svg)
+
+Con coincidencias de muchos a muchos, las listas no tienen la misma longitud, por lo que algunos elementos pueden coincidir con otros y otros pueden no coincidir en absoluto. Muchos a muchos son más difíciles porque los alumnos no pueden hacer coincidencias fáciles primero para reducir su espacio de búsqueda. Los problemas de coincidencia se pueden implementar haciendo que los alumnos envíen listas de pares coincidentes (como "A3, B1, C2"), pero eso es torpe y propenso a errores. Hacer que reconozcan un conjunto de pares correctos en un MCQ es aún peor, ya que es dolorosamente fácil de leer mal. Dibujar o arrastrar funciona mucho mejor, pero puede requerir cierto trabajo para implementarlo.
+
+La clasificación es un caso especial de correspondencia que es (ligeramente) más susceptible de responder a través de listas, ya que nuestras mentes son bastante buenas para detectar errores o anomalías en las secuencias. Los criterios de clasificación determinan el nivel de razonamiento requerido. Si tiene alumnos que ordenan algoritmos de clasificación de más rápido a más lento, probablemente esté ejerciendo el recuerdo (es decir, pidiéndoles que reconozcan los nombres de los algoritmos y conozcan sus propiedades), mientras les pide que clasifiquen las soluciones de razonamiento y juicio más robustos a más frágiles.
+
+El resumen también requiere que los alumnos usen el pensamiento de orden superior y les da la oportunidad de practicar una habilidad que es muy útil al informar errores. Por ejemplo, puede preguntar a los alumnos: "¿Qué oración describe mejor cómo cambia la salida de f cuando x varía de 0 a 10?" y luego se le dan varias opciones como una pregunta de opción múltiple. También puede solicitar respuestas de forma libre muy cortas a preguntas en dominios restringidos, como "¿Cuál es la característica clave de un algoritmo de clasificación estable?" No podemos automatizar completamente las comprobaciones sin una cantidad frustrante de falsos positivos (aceptando respuestas incorrectas) y falsos negativos (rechazando las correctas), pero las preguntas de este tipo se prestan bien a la calificación de pares (Sección 5.3).
+
+## Calificación automática
+Las herramientas automáticas de clasificación de programas han existido más tiempo de lo que he estado vivo: la primera mención publicada data de 1960 [Holl1960], y las encuestas publicadas en [Douc2005, Ihan2010] mencionan muchas herramientas específicas por nombre. Construir tales herramientas es mucho más complejo de lo que parece. ¿Cómo se representan las tareas? ¿Cómo se rastrean e informan los envíos? ¿Pueden los alumnos cooperar? ¿Cómo se pueden ejecutar los envíos de forma segura? [Edwa2014a] es un artículo completo dedicado a un esquema adaptativo para detectar y administrar bucles infinitos en los envíos de código, y ese es solo uno de los muchos problemas que surgen.
+
+Al hablar sobre los autoevaluadores, es importante distinguir la satisfacción del alumno de los resultados del aprendizaje. Por ejemplo, [Magu2018] cambió los laboratorios de programación informal para un curso de CS de segundo año a un examen semanal evaluado por una máquina usando un auto-calificador. A los estudiantes no les gustó el sistema automatizado, pero la tasa general de reprobación del curso se redujo a la mitad y el número de estudiantes que obtuvieron honores de primera clase se triplicó. Por el contrario, [Rubi2014] también comenzó a usar un auto-clasificador diseñado para competiciones, pero no vio una disminución significativa en las tasas de deserción de sus alumnos; Una vez más, los alumnos hicieron algunos comentarios negativos sobre la herramienta, que los autores atribuyen a la calidad de sus mensajes de retroalimentación en lugar de aversión a la clasificación automática.
+
+[Srid2016] tomó un enfoque diferente. Utilizaron pruebas fuzz (es decir, casos de prueba generados aleatoriamente) para verificar si el código del alumno hace lo mismo que una implementación de referencia proporcionada por el profesor. En el primer proyecto de un curso introductorio de 1400 estudiantes, las pruebas fuzz detectaron errores que fueron omitidos por un conjunto de casos de prueba escritos a mano para más del 48% de los estudiantes.
+
+[Basu2015] proporcionó a los alumnos un conjunto de casos de prueba de solución, pero los participantes tuvieron que desbloquear cada uno respondiendo preguntas sobre su comportamiento esperado antes de que se les permitiera aplicarlo a su solución propuesta. Por ejemplo, suponga que los alumnos tienen que escribir una función para encontrar el par de números adyacentes más grande en una lista. Antes de poder usar las pruebas de la pregunta, tuvieron que elegir la respuesta correcta a, "¿Qué produce el mayor par (4, 3, -1, 5, 3, 3)?" En un curso universitario de 1300 personas, la gran mayoría de los estudiantes eligieron validar su comprensión de los casos de prueba de esta manera antes de intentar resolver problemas, y luego hicieron menos preguntas y expresaron menos confusión sobre las tareas.
+
+> **Contra herramientas listas para usar**
+> Es tentador utilizar herramientas de verificación de estilo estándar para calificar el código de los alumnos. Sin embargo, [Nutb2016] inicialmente  no encontró correlación entre las marcas proporcionadas por humanos y las violaciones de las reglas del verificador de estilo. Algunas veces esto  se debió a que los alumnos violaron una regla muchas veces (perdiendo así más puntos de los que deberían), pero otras veces fue porque enviaron el  código de inicio de la tarea con pocas alteraciones y obtuvieron más puntos de los que deberían.
+> 
+> Incluso las herramientas creadas específicamente para la enseñanza pueden estar a la altura de las necesidades de los maestros. [Keun2016a,  Keun2016b] examinó los mensajes producidos por 69 herramientas de clasificación automática. Descubrieron que las herramientas a menudo no dan  retroalimentación sobre cómo solucionar problemas y dan el siguiente paso. También descubrieron que la mayoría de los maestros no pueden adaptar  fácilmente la mayoría de las herramientas a sus necesidades: como muchas herramientas de flujo de trabajo, tienden a hacer cumplir las suposiciones no reconocidas de sus creadores sobre cómo funcionan las instituciones. Su esquema de clasificación es una lista de compras útil cuando se miran  herramientas de este tipo.
+
+
+[Buff2015] presenta una reflexión bien informada sobre la idea de proporcionar comentarios automatizados. Su punto de partida es que "los sistemas automatizados de calificación ayudan a los alumnos a identificar errores en su código, [pero] pueden desanimar inadvertidamente a los alumnos a pensar críticamente y evaluar exhaustivamente, y en su lugar fomentan la dependencia de las pruebas del maestro". Uno de los problemas clave que identificaron es que un alumno puede probar a fondo su código, pero la característica aún puede no implementarse de acuerdo con las especificaciones del maestro. En este caso, la "falla" no es causada por la falta de pruebas sino por un malentendido de los requisitos, y es poco probable que más pruebas expongan el problema. Si el sistema de clasificación automática no proporciona comentarios perspicaces y procesables, esta experiencia solo frustrará al alumno.
+
+Para proporcionar esa retroalimentación, el sistema de [Buff2015] identifica qué métodos en el código del alumno se ejecutan mediante las pruebas fallidas para que el sistema pueda asociar las pruebas fallidas con características particulares dentro del envío del alumno. El sistema decide si se han "obtenido" sugerencias específicas al ver si el alumno ha probado la característica asociada lo suficiente, por lo que los alumnos no pueden confiar en las sugerencias en lugar de hacer pruebas.
+
+[Srid2016] describe algunos otros enfoques para compartir comentarios con los alumnos cuando prueban automáticamente su código. El primero es proporcionar la salida esperada para las pruebas, pero luego la salida del código duro de los alumnos para esas entradas (porque cualquier cosa que se pueda jugar será). El segundo es informar los resultados aprobados / reprobados para el código de los alumnos, pero solo proporcionar las entradas y salidas reales de las pruebas después de la fecha de envío. Sin embargo, decirles a los alumnos que están equivocados pero no decirles por qué es frustrante.
+
+Una tercera opción es usar una técnica llamada hashing para generar un valor que depende de la salida pero que no lo revela. Si el usuario produce exactamente el resultado correcto, entonces su hash desbloqueará la solución, pero es imposible trabajar hacia atrás desde el hash para descubrir cuál se supone que es la salida. Hashing requiere más trabajo y explicación para configurar, pero logra un buen equilibrio entre revelar respuestas prematuramente y no revelarlas cuando ayudaría.
+
+
+## Pensamiento de nivel superior
+
+Muchos otros tipos de ejercicios de programación son difíciles de evaluar para los maestros en una clase con más de un puñado de estudiantes e igualmente difíciles de evaluar para las plataformas automatizadas. Los proyectos de programación más grandes son (con suerte) hacia qué clases se están construyendo, pero la única forma de dar retroalimentación es caso por caso.
+
+La revisión del código también es difícil de calificar automáticamente en general, pero se puede abordar si se les da a los alumnos una lista de fallas que deben buscar y se les pide que hagan coincidir comentarios particulares con líneas de código particulares. Por ejemplo, se le puede decir al alumno que hay dos errores de sangría y un nombre de variable incorrecto y pedirle que los señale. Si están más avanzados, se les podría dar media docena de tipos de comentarios que podrían hacer sobre el código sin que se les diga cuántos de cada uno deberían encontrar.
+
+[Steg2016b] es un buen punto de partida para una rúbrica de estilo de código, mientras que [Luxt2009] analiza la revisión por pares en las clases de programación de manera más general. Si va a hacer que los alumnos realicen revisiones, utilice una revisión por pares calibrada (Sección 5.3) para que tengan modelos de cómo deberían ser los buenos comentarios.
+
+> **Revisión de código**
+> Marque los problemas en cada línea de código utilizando la rúbrica provista.
+> 
+> 01) def addem (f):
+> 02) x1 = abierto (f) .readlines ()
+> 03) x2 = [x para x en x1 si x.strip ()]
+> 04) cambios = 0
+> 05) para v en x2:
+> 06) imprimir ('total', total)
+> 07) tot = tot + int (v)
+> 08) imprimir ('total')
+> 1. nombre de variable pobre 2. uso de variable indefinida
+> 3. valor de retorno faltante 4. variable no utilizada
+
+## Ejercicios
+###Código y ejecución (pares / 10)
+Cree un breve ejercicio de C&R, luego negocie con un socio y vea cuánto tiempo les lleva a cada uno comprender y hacer el ejercicio del otro. ¿Hubo alguna ambigüedad o malentendido en la descripción del ejercicio?
+
+### Código de inversión y ejecución (grupos pequeños / 15)
+Forme grupos de 4 a 6 personas. Haga que cada miembro del grupo cree un ejercicio invertido de C&R que requiera que las personas descubran qué entrada produce una salida particular. Elija dos al azar y vea cuántas entradas diferentes puede encontrar el grupo que satisfagan los requisitos.
+
+### Valores de rastreo (pares / 10)
+Escriba un programa corto (10–15 líneas), negocie con un socio y rastree cómo las variables en el programa cambian de valor con el tiempo. ¿Qué diferencias hay en cómo usted y su pareja escribieron sus huellas?
+
+### Refactorización (grupos pequeños / 15)
+Forme grupos de 3 a 4 personas. Haga que cada persona seleccione un fragmento corto de código (de 10 a 30 líneas de largo) que haya escrito que no sea tan ordenado como podría ser, luego elija uno al azar y haga que todos en el grupo lo arreglen de forma independiente. ¿Cómo difieren sus versiones limpiadas? ¿Qué tan bien o qué tan mal sería capaz de acomodar todas estas variaciones si marca automáticamente o en una clase grande?
+
+### Etiquetar un diagrama (pares / 10)
+Dibuje un diagrama que muestre algo que haya explicado recientemente: cómo los navegadores obtienen datos de los servidores, la relación entre objetos y clases, o cómo se indexan los marcos de datos en R. Coloque las etiquetas a un lado y pídale a su compañero que las coloque.
+
+### Rompecabezas de lápiz y papel (toda la clase / 15)
+[Butl2017] describe un conjunto de rompecabezas de lápiz y papel que pueden convertirse en tareas de programación introductorias e informa que los alumnos disfrutan de estas tareas y fomentan la metacognición. Piense en un simple rompecabezas o juego de lápiz y papel que jugó de niño y describa cómo lo convertiría en un ejercicio de programación.
+
+### Fallas de conteo (pares / 15)
+Cualquier estimación útil de cuánto tiempo necesita un ejercicio debe tener en cuenta la frecuencia de las fallas y cuánto tiempo se pierde para ellas. Por ejemplo, editar archivos de texto parece una tarea simple, pero ¿qué hay de encontrar esos archivos? La mayoría de los editores de GUI guardan cosas en el escritorio del usuario o en el directorio principal; Si los archivos utilizados en un curso se almacenan en otro lugar, una fracción sustancial no podrá navegar al directorio correcto sin ayuda. (Si esto le parece un pequeño problema, por favor revise la discusión del punto ciego experto en el Capítulo 3).
+
+Al trabajar con un compañero, haga una lista de las cosas "simples" que ha visto salir mal en los ejercicios que ha usado o tomado. ¿Con qué frecuencia aparecen? ¿Cuánto tiempo tardan los alumnos en arreglarlos solos o con ayuda? ¿Cuánto tiempo tienes actualmente en clase para lidiar con ellos?
+
+### Hablando de tiempos (individual / 10)
+¿Qué tan precisas han sido las estimaciones de tiempo sobre los ejercicios en este libro hasta ahora?

@@ -1,0 +1,352 @@
+
+# Construyendo una comunidad de práctica
+
+No tiene que arreglar todos los males de la sociedad para enseñar programación, pero sí debe involucrarse en lo que sucede fuera de su clase si quiere que la gente aprenda. Esto se aplica tanto a los maestros como a los estudiantes: muchos maestros de campo libre comienzan como voluntarios o trabajadores a tiempo parcial y tienen que hacer malabarismos con muchos otros compromisos. Lo que sucede fuera del aula es tan importante para su éxito como lo es para sus alumnos, por lo que la mejor manera de ayudar a ambos es fomentar una comunidad docente.
+
+>**Finlandia y por qué no**
+>
+>Las escuelas de Finlandia se encuentran entre las más exitosas del mundo, pero como Anu Partanen señaló, no han tenido éxito en forma aislada. Los intentos de otros países de adoptar métodos de enseñanza finlandeses están condenados al fracaso a menos que esos países también garanticen que los niños (y sus padres) estén seguros, bien alimentados y tratados de manera justa por los tribunales [Sahl2015, Wilk2011]. Esto no es sorprendente dado lo que sabemos sobre la importancia de la motivación para el aprendizaje (Capítulo 10): todos lo hacen peor si creen que el sistema es impredecible, injusto o indiferente.
+
+Un marco para pensar en las comunidades de enseñanza es el aprendizaje situado, que se centra en cómo la participación periférica legítima lleva a las personas a convertirse en miembros de una comunidad de práctica [Weng2015]. Desempacando esos términos, una comunidad de práctica es un grupo de personas unidas por interés en alguna actividad, como tejer o física de partículas. La participación periférica legítima significa realizar tareas simples y de bajo riesgo que la comunidad reconoce como contribuciones válidas: hacer su primer pañuelo, llenar sobres durante una campaña electoral o revisar la documentación para el software de código abierto.
+
+El aprendizaje situado se centra en la transición de ser un recién llegado a ser aceptado como un compañero por aquellos que ya son miembros de la comunidad. Esto normalmente significa comenzar con tareas y herramientas simples, luego realizar tareas similares con herramientas más complejas y finalmente abordar el mismo trabajo que los profesionales avanzados. Por ejemplo, los niños que aprenden música pueden comenzar tocando canciones infantiles en una grabadora o un ukelele, luego tocar otras canciones simples en una trompeta o saxofón en una banda, y finalmente comenzar a explorar sus propios gustos musicales. Las formas comunes de apoyar esta progresión incluyen:
+
+**Resolución de problemas:**
+"Estoy atrapado, ¿podemos trabajar en el diseño de esta lección juntos?"
+
+**Solicitudes de información:**
+"¿Cuál es la contraseña para el administrador de la lista de correo?"
+
+**Buscando experiencia:**
+"¿Alguien ha tenido un alumno con una discapacidad de lectura?"
+
+**Compartir activos:**
+"Creé un sitio web para una clase el año pasado que puedes usar como punto de partida".
+
+**Coordinación:**
+"¿Podemos combinar nuestros pedidos de camisetas para obtener un descuento?"
+
+**Construyendo un argumento:**
+"Será más fácil convencer a mi jefe para que haga cambios si sé cómo otros bootcamps hacen esto".
+
+**Documentación de proyectos:**
+"Hemos tenido este problema cinco veces ahora. Vamos a escribirlo de una vez por todas.
+
+**Conocimiento de mapeo:**
+"¿Qué otros grupos están haciendo cosas como esta en vecindarios o ciudades cercanas?"
+
+**Visitas:**
+“¿Podemos venir a ver su programa después de la escuela? Necesitamos establecer uno en nuestra ciudad ".
+En términos generales, una comunidad de práctica puede ser:
+
+**Comunidad de acción:**
+personas enfocadas en un objetivo compartido, como lograr que alguien sea elegido.
+
+**Comunidad de preocupación:**
+los miembros se reúnen por un problema compartido, como tratar una enfermedad a largo plazo.
+
+**Comunidad de interés:**
+enfocado en un amor compartido por algo como el backgammon o tejer.
+
+**Comunidad de lugar:**
+personas que viven o trabajan juntas.
+
+La mayoría de las comunidades son mezclas de estos, como las personas en Toronto a quienes les gusta enseñar tecnología. El enfoque de una comunidad también puede cambiar con el tiempo: por ejemplo, un grupo de apoyo para personas con depresión (comunidad de interés) puede decidir recaudar fondos para mantener una línea de ayuda (comunidad de acción). Ejecutar la línea de ayuda puede convertirse en el foco del grupo (comunidad de interés).
+
+>**Sopa, luego Himnos**
+>
+>Es divertido escribir los manifiestos, pero la mayoría de las personas se unen a una comunidad de voluntarios para ayudar y ser ayudados en lugar de discutir sobre la redacción de una declaración de visión327. Por lo tanto, debe centrarse en lo que las personas pueden crear que otros miembros de la comunidad utilizarán de inmediato. Una vez que su organización demuestre que puede lograr cosas pequeñas, la gente estará más segura de que vale la pena ayudarlo con proyectos más grandes. Es el momento de preocuparse por definir los valores que guiarán a sus miembros.
+
+## Aprende, luego haz
+
+El primer paso para construir una comunidad es decidir si debería hacerlo, o si sería más efectivo unirse a una organización existente. Miles de grupos ya están enseñando habilidades tecnológicas a las personas, desde el 4-H Club y los programas de alfabetización hasta organizaciones sin fines de lucro como Black Girls Code y Bridge. Unirse a un grupo existente le dará una ventaja inicial en la enseñanza, un grupo inmediato de colegas y la oportunidad de aprender más sobre cómo manejar las cosas; Con suerte, aprender esas habilidades mientras se hace una contribución inmediata será más importante que poder decir que eres el fundador o líder de algo nuevo.
+
+Ya sea que se una a un grupo existente o establezca uno propio, será más efectivo si lee un poco sobre la organización de la comunidad. [Alin1989, Lake2018] es probablemente el trabajo más conocido en la organización de base, mientras que [Brow2007 , Midw2010, Lake2018] son ​​manuales prácticos arraigados en décadas de práctica. Si desea leer más profundamente, [Adam1975] es una historia de la Highlander Folk School, cuyo enfoque ha sido emulado por muchos grupos exitosos, mientras que [Spal2014] es una guía para enseñar a adultos escrita por alguien con profundas raíces personales en la organización y NonprofitReady.org ofrece capacitación gratuita de desarrollo profesional.
+
+## Cuatro pasos
+Todos los que se involucran con su organización (incluido usted) pasan por cuatro fases: reclutamiento, incorporación, retención y jubilación. No necesita preocuparse por este ciclo cuando comienza, pero vale la pena pensarlo tan pronto como participen más de un puñado de no fundadores.
+
+El primer paso es reclutar voluntarios. Su comercialización debería ayudarlo con esto haciendo que su organización sea localizable y dejando en claro su misión y valor para las personas que quieran involucrarse (Capítulo 14). Comparta historias que ejemplifiquen el tipo de ayuda que desea, así como historias sobre las personas a las que está ayudando, y deje en claro que hay muchas maneras de involucrarse. (Discutimos esto con más detalle en la siguiente sección).
+
+Su mejor fuente de nuevos reclutas son sus propias clases: "ver uno, hacer uno, enseñar uno" ha funcionado bien para las organizaciones de voluntarios durante el tiempo que ha habido organizaciones de voluntarios. Asegúrese de que cada clase u otro encuentro termine diciéndoles a las personas cómo pueden ayudar y que su ayuda será bienvenida. Las personas que se acerquen a usted de esta manera sabrán lo que hace y tienen experiencia reciente de estar en el lado receptor de lo que ofrece, lo que ayuda a su organización a evitar el punto ciego experto colectivo (Capítulo 3).
+
+>**Empieza pequeño**
+>
+>Ben Franklin observó que una persona que ha hecho un favor a alguien tiene más probabilidades de hacerle otro favor que alguien que recibió un favor de esa persona. Por lo tanto, pedirle a la gente que haga algo pequeño por ti es un buen paso para lograr que hagan algo más grande. Una forma natural de hacer esto cuando se enseña es pedirle a la gente que envíe soluciones para los materiales de su lección para errores tipográficos o redacción poco clara, o sugerir nuevos ejercicios o ejemplos. Si sus materiales están escritos de manera sostenible (Sección 6.3), esto les da la oportunidad de practicar algunas habilidades útiles y le da la oportunidad de comenzar una conversación que podría conducir a un nuevo recluta.
+
+La mitad del ciclo de vida del voluntario es la incorporación y la retención, que cubriremos en las Secciones 13.3 y 13.4. El paso final es la jubilación: todos eventualmente se mueven y las organizaciones saludables planean esto. Algunas cosas simples pueden hacer que tanto la persona que se va como todos los que se quedan se sientan positivos sobre el cambio:
+
+**Pida a las personas que sean explícitas sobre su partida.**
+para que todos sepan que realmente se han ido.
+
+**Asegúrese de que no se sientan avergonzados o avergonzados por irse**
+o sobre cualquier otra cosa.
+
+**Dales la oportunidad de transmitir sus conocimientos.**
+Por ejemplo, puede pedirles que sean mentores de alguien durante unas pocas semanas como su última contribución, o que alguien que se quede en la organización lo entreviste para recopilar cualquier historia que valga la pena contar.
+
+**Asegúrese de que entreguen las llaves.**
+Es incómodo descubrir seis meses después de que alguien se ha ido que es la única persona que sabe cómo reservar un campo para el picnic anual.
+
+**Haga un seguimiento de 2 a 3 meses después de que se vayan**
+para ver si tienen más ideas sobre lo que funcionó y lo que no funcionó mientras estaban con usted, o algún consejo para ofrecerles que no pensaron dar o se sintieron incómodos al salir por la puerta.
+
+**Agradeceles,**
+tanto cuando se van como la próxima vez que su grupo se reúna.
+
+>**Un manual perdido**
+>
+>Se han escrito miles de libros sobre cómo iniciar una empresa. Solo unos pocos describen cómo terminar uno o dejarlo con gracia, aunque haya un final para cada comienzo. Si alguna vez escribes uno, avísame.
+
+
+## Inducción
+Después de decidir formar parte de un grupo, las personas necesitan ponerse al día, y [Shol2019] resume lo que sabemos sobre esto. La primera regla es tener y hacer cumplir un Código de Conducta (Sección 9.1), y encontrar una parte independiente que esté dispuesta a recibir y revisar informes de comportamiento inapropiado. Alguien fuera de la organización tendrá la objetividad que los miembros de la organización pueden carecer, y puede proteger a los periodistas que puedan dudar en plantear problemas relacionados con los líderes del proyecto por temor a represalias o daños a su reputación. Los líderes del proyecto también deben publicitar las decisiones de aplicación para que la comunidad reconozca que el código es significativo.
+
+Lo siguiente más importante es ser acogedor. Como dijo Fogel [Foge2005], "si un proyecto no causa una buena primera impresión, los recién llegados pueden esperar mucho tiempo antes de darle una segunda oportunidad". Otros autores han confirmado empíricamente la importancia de entornos sociales amables y educados en proyectos abiertos [Sing2012, Stei2013, Stei2018]:
+
+**Publica un mensaje de bienvenida**
+en las páginas de redes sociales, canales de Slack, foros o listas de correo electrónico del proyecto. Los proyectos pueden considerar mantener un canal o lista de "Bienvenida" dedicada, donde un líder del proyecto o un gerente de la comunidad escribe una breve publicación pidiendo a los recién llegados que se presenten.
+
+**Ayudar a las personas a encontrar formas de hacer una contribución inicial,**
+como etiquetar lecciones particulares o talleres que necesitan trabajar como "adecuados para los recién llegados" y pedir a los miembros establecidos que no los arreglen para asegurarse de que haya lugares adecuados para que los recién llegados comiencen a trabajar.
+
+**Dirija al recién llegado a miembros del proyecto como ellos**
+para demostrar que pertenecen.
+
+**Dirija al recién llegado a los recursos esenciales del proyecto**
+tales como las pautas de contribución.
+
+**Designar a uno o dos miembros para que sirvan como punto de contacto.**
+para cada recién llegado Hacer esto puede hacer que el recién llegado sea menos reacio a hacer preguntas.
+Una tercera regla que ayuda a todos (no solo a los recién llegados) es hacer que el conocimiento se pueda encontrar y mantenerlo actualizado. Los recién llegados son como exploradores que deben orientarse dentro de un paisaje desconocido [Dage2010]. La información que se distribuye generalmente hace que los recién llegados se sientan perdidos y desorientados. Dadas las diferentes posibilidades de los lugares para mantener información (por ejemplo, wikis, archivos en control de versiones, documentos compartidos, tweets antiguos o mensajes de Slack y archivos de correo electrónico) es importante mantener la información sobre un tema específico consolidado en un solo lugar para que los recién llegados No es necesario navegar por múltiples fuentes de datos para encontrar lo que necesitan. Organizar la información hace que los recién llegados tengan más confianza y orientación [Stei2016].
+
+Finalmente, reconozca las primeras contribuciones de los recién llegados y descubra dónde y cómo podrían ayudar a largo plazo. Una vez que hayan llevado su primera contribución a través de la línea, es probable que usted y ellos tengan una mejor idea de lo que tienen para ofrecer y de cómo el proyecto puede ayudarlos. Ayude a los recién llegados a encontrar el siguiente problema en el que podrían querer trabajar o señalarles lo siguiente que podrían disfrutar leyendo. En particular, alentarlos a ayudar a la próxima ola de recién llegados es una buena forma de reconocer lo que han aprendido y una forma efectiva de transmitirlo.
+
+
+## Retencion
+
+> Si tu gente no se divierte, hay algo muy mal.
+>  -- Saul Alinsky
+
+Los miembros de la comunidad no deberían esperar disfrutar cada momento de su trabajo con su organización, pero si no disfrutan de nada de eso, no se quedarán. El disfrute no significa necesariamente tener una fiesta anual: las personas pueden disfrutar de cocinar, entrenar o simplemente trabajar en silencio junto a los demás. Hay varias cosas que toda organización debe hacer para garantizar que las personas obtengan algo que valoren de su trabajo:
+
+**Pregunte a las personas qué quieren en lugar de adivinar.**
+Al igual que no eres tu alumno (Sección 6.1), probablemente seas diferente de otros miembros de tu organización. Pregúnteles a las personas qué quieren hacer, qué se sienten cómodos haciendo (lo que puede no ser lo mismo) y qué limitaciones hay en su tiempo. Podrían decir: "Cualquier cosa", pero incluso una conversación corta probablemente descubrirá el hecho de que les gusta interactuar con las personas, pero preferirían no administrar las finanzas del grupo o viceversa.
+
+**Proporcione muchas formas de contribuir.**
+Cuantas más formas haya para que las personas ayuden, más personas podrán hacerlo. Alguien a quien no le guste estar frente a una audiencia puede mantener el sitio web de su organización, manejar sus cuentas o corregir las lecciones.
+
+**Reconocer contribuciones.**
+A todos les gusta que los aprecien, por lo que las comunidades deben reconocer las contribuciones de sus miembros tanto en público como en privado al mencionarlas en presentaciones, ponerlas en el sitio web, etc. Cada hora que alguien le haya dado a su proyecto puede ser una hora quitada de su vida personal o de su empleo oficial; reconozca ese hecho y deje en claro que, si bien más horas serían bienvenidas, no espera que hagan sacrificios insostenibles.
+
+**Haz espacio.**
+Cree que está siendo útil, pero intervenir en cada decisión priva a las personas de su autonomía, lo que a cambio reduce su motivación (Sección 10). En particular, si siempre eres el primero en responder a mensajes de correo electrónico o chat, las personas tienen menos oportunidades de crecer como miembros y crear colaboraciones horizontales. Como resultado, la comunidad continuará centrada en una o dos personas en lugar de convertirse en una red altamente conectada en la que otros se sientan cómodos participando.
+Otra forma de recompensar la participación es ofrecer capacitación. Las organizaciones necesitan presupuestos, propuestas de subvenciones y resolución de disputas. A la mayoría de las personas nunca se les enseña cómo hacer esto más de lo que se les enseña a enseñar, por lo que la oportunidad de adquirir habilidades transferibles es una razón poderosa para que las personas se involucren y se mantengan involucradas. Si va a hacer esto, no intente proporcionar la capacitación usted mismo a menos que sea en lo que se especialice. Muchos grupos cívicos y comunitarios tienen programas de este tipo, y probablemente pueda llegar a un acuerdo con uno de ellos.
+
+Finalmente, aunque los voluntarios pueden hacer mucho, tareas como la administración del sistema y la contabilidad eventualmente necesitan personal remunerado. Cuando llegue a este punto, no pague nada a las personas o les pague un salario adecuado. Si no les paga nada, su verdadera recompensa es la satisfacción de hacer el bien; si les paga una cantidad simbólica, por otro lado, se los quita sin darles la satisfacción de ganarse la vida.
+
+
+## Gobernancia
+Cada organización tiene una estructura de poder: la única pregunta es si es formal y responsable o informal y, por lo tanto, no rinde cuentas [Free1972]. Este último en realidad funciona bastante bien para grupos de hasta media docena de personas en las que todos se conocen. Más allá de eso, necesita reglas para explicar quién tiene la autoridad para tomar qué decisiones y cómo lograr el consenso (Sección 20.1).
+
+El modelo de gobernanza que prefiero es un bien común, que es algo administrado conjuntamente por una comunidad de acuerdo con las reglas que ellos mismos han desarrollado y adoptado [Ostr2015]. Como subraya [Boll2014], las tres partes de esa definición son esenciales: un bien común no es solo un pasto compartido o un conjunto de bibliotecas de software, sino que también incluye a la comunidad que lo comparte y las reglas que usan para hacerlo.
+
+Las corporaciones con fines de lucro y las organizaciones sin fines de lucro incorporadas son modelos más populares; la mecánica varía de una jurisdicción a otra, por lo que debe buscar asesoramiento antes de elegir 340. Ambos tipos de organización otorgan la máxima autoridad en su junta. En términos generales, se trata de una junta de servicio cuyos miembros también asumen otras funciones en la organización o una junta de gobierno cuya responsabilidad principal es contratar, supervisar y, si es necesario, despedir al director. Los miembros de la junta pueden ser elegidos por la comunidad o nombrados; En cualquier caso, es importante priorizar la competencia sobre la pasión (esta última es más importante para el rango y el archivo) y tratar de reclutar para habilidades particulares como la contabilidad, el marketing, etc.
+
+>**Elige democracia**
+>
+>Cuando llegue el momento, haga de su organización una democracia: tarde o temprano (generalmente antes), cada junta designada se convierte en una sociedad de mutuo acuerdo. Otorgar poder a sus miembros es complicado, pero es la única forma inventada hasta ahora para garantizar que las organizaciones continúen satisfaciendo las necesidades reales de las personas.
+
+
+## Cuídate
+El agotamiento es un riesgo crónico en cualquier actividad comunitaria [Pign2016], así que aprenda a decir no más seguido de lo que dice sí. Si no te cuidas, no podrás cuidar a tu comunidad.
+
+>**Quedando sin "No"**
+>
+>La investigación en la década de 1990 parecía mostrar que nuestra capacidad de ejercer fuerza de voluntad es finita: si tenemos que resistirnos a comer la última dona en la caja cuando tenemos hambre, es menos probable que doblemos la ropa y viceversa. Este fenómeno se llama agotamiento del ego, y si bien los estudios recientes no han podido replicar esos primeros resultados [Hagg2016], decir "sí" cuando estamos demasiado cansados   para decir "no" es una trampa en la que caen muchos organizadores.
+
+Una forma de hacer que su "no" se quede es escribir una lista de cosas que no vale la pena hacer pero que no va a hacer. Al momento de escribir, el mío incluye cuatro libros, dos proyectos de software, el rediseño de mi sitio web personal y aprender a tocar el silbato.
+
+Finalmente, recuérdese de vez en cuando que cada organización eventualmente necesita nuevas ideas y liderazgo. Cuando llegue ese momento, entrene a sus sucesores y avance con la mayor gracia posible. Sin duda, harán cosas que no harías, pero pocas cosas en la vida son tan satisfactorias como ver algo que ayudaste a construir cobrar vida propia. Celebre eso: no tendrá ningún problema para encontrar otra cosa que lo mantenga ocupado.
+
+
+## Ejercicios
+Varios de estos ejercicios están tomados de [Brow2007].
+
+### ¿Qué tipo de comunidad? (individual / 15)
+Vuelva a leer la descripción de los cuatro tipos de comunidades y decida cuál es su grupo o aspira a ser.
+
+### Personas que puede conocer (grupos pequeños / 30)
+Como organizador, parte de su trabajo es a veces ayudar a las personas a encontrar una manera de contribuir a pesar de sí mismos. En pequeños grupos, elija tres de las personas a continuación y analice cómo podría ayudarlas a convertirse en un mejor contribuyente para su organización.
+
+**Anna**
+sabe más sobre cada tema que todos los demás juntos, al menos, ella cree que sí. No importa lo que digas, ella te corregirá; no importa lo que sepas, ella lo sabe mejor.
+
+**Catherine**
+tiene tan poca confianza en su propia habilidad que no tomará ninguna decisión, por pequeña que sea, hasta que lo haya consultado con otra persona.
+
+**Franco**
+disfruta saber cosas que otras personas no saben. Puede hacer milagros, pero cuando se le pregunta cómo lo hizo, sonreirá y dirá: "Oh, estoy seguro de que puedes resolverlo".
+
+**Hediyeh**
+es tranquilo. Ella nunca habla en las reuniones, incluso cuando sabe que otras personas están equivocadas. Ella podría contribuir a la lista de correo, pero es muy sensible a las críticas y siempre retrocede en lugar de defender su punto.
+
+**Ken**
+aprovecha el hecho de que la mayoría de las personas prefieren asumir su parte del trabajo que quejarse de él. Lo frustrante es que es tan plausible cuando alguien finalmente lo confronta. "Ha habido errores por todos lados", dice, o "Bueno, creo que estás metiendo la pata".
+
+**Toronjil**
+tiene buenas intenciones, pero de alguna manera siempre surge algo, y sus tareas nunca terminan hasta el último momento posible. Por supuesto, eso significa que todos los que dependen de ella no pueden hacer su trabajo hasta después del último momento posible ...
+
+**Raj**
+es rudo. "Así es como hablo", dice. "Si no puedes hackearlo, ve a buscar otro equipo". Su frase favorita es, "Eso es estúpido", y usa una obscenidad en cada segunda oración.
+
+### Valores (grupos pequeños / 45)
+Responda estas preguntas por su cuenta, luego compare sus respuestas con las de otros.
+
+1. ¿Cuáles son los valores que expresa su organización?
+
+2. ¿Son estos los valores que desea que la organización exprese?
+
+3. Si no, ¿qué valores le gustaría expresar?
+
+4. ¿Cuáles son los comportamientos específicos que demuestran esos valores?
+
+5. ¿Qué comportamientos demostrarían lo contrario de esos valores?
+
+### Procedimientos de reunión (grupos pequeños / 30)
+
+Responda estas preguntas por su cuenta, luego compare sus respuestas con las de otros.
+
+1. ¿Cómo se llevan a cabo sus reuniones?
+
+2. ¿Es así como quieres que se realicen tus reuniones?
+
+3. ¿Las reglas para ejecutar reuniones son explícitas o simplemente se asumen?
+
+4. ¿Estas son las reglas que quieres?
+
+5. ¿Quién es elegible para votar o tomar decisiones?
+
+6. ¿Es a quien quieres que se le otorgue autoridad para tomar decisiones?
+
+7. ¿Utiliza la regla de la mayoría, toma decisiones por consenso u otra cosa?
+
+8. ¿Es así como quieres tomar decisiones?
+
+9. ¿Cómo saben las personas en una reunión cuándo se ha tomado una decisión?
+
+10. ¿Cómo saben las personas que no estuvieron en una reunión qué decisiones se tomaron?
+
+11. ¿Funciona esto para tu grupo?
+
+### Tamaño (grupos pequeños / 20)
+Responda estas preguntas por su cuenta, luego compare sus respuestas con las de otros.
+
+1. ¿Qué tan grande es tu grupo?
+
+2. ¿Es este el tamaño que desea para su organización?
+
+3. Si no, ¿de qué tamaño te gustaría que fuera?
+
+4. ¿Tiene algún límite en cuanto al tamaño de la membresía?
+
+5. ¿Te beneficiarías de establecer ese límite?
+
+
+### Convertirse en miembro (grupos pequeños / 45)
+Responda estas preguntas por su cuenta, luego compare sus respuestas con las de otros.
+
+1. ¿Cómo se une alguien a tu grupo?
+
+2. ¿Qué tan bien funciona este proceso?
+
+3. ¿Hay cuotas de membresía?
+
+4. ¿Se requiere que las personas estén de acuerdo con alguna regla de comportamiento al unirse?
+
+5. ¿Son estas las reglas de comportamiento que quieres?
+
+6. ¿Cómo descubre un recién llegado lo que hay que hacer?
+
+7. ¿Qué tan bien funciona este proceso?
+
+### Dotación de personal (grupos pequeños / 30)
+Responda estas preguntas por su cuenta, luego compare sus respuestas con las de otros.
+
+1. ¿Tiene personal pagado en su organización o todos son voluntarios?
+
+2. ¿Deberías haber pagado personal?
+
+3. ¿Quieres / necesitas más o menos personal?
+
+4. ¿Qué hacen los miembros del personal?
+
+5. ¿Son estos los roles y funciones principales que necesita que el personal desempeñe?
+
+6. ¿Quién supervisa a tu personal?
+
+7. ¿Es este el proceso de supervisión que desea para su grupo?
+
+8. ¿Cuánto le pagan a su personal?
+
+9. ¿Es este el salario adecuado para realizar el trabajo necesario?
+
+### Dinero (grupos pequeños / 30)
+Responda estas preguntas por su cuenta, luego compare sus respuestas con las de otros.
+
+1. ¿Quién paga por qué?
+
+2. ¿Es esto a quien quieres pagar?
+
+3. ¿De dónde sacas tu dinero?
+
+4. ¿Es así como quieres obtener tu dinero?
+
+5. Si no, ¿tienes algún plan para hacerlo de otra manera?
+
+6. Si es así, ¿Que son?
+
+7. ¿Quién está siguiendo para asegurarse de que eso suceda?
+
+8. ¿Cuánto dinero tiene usted?
+
+9. ¿Cuánto necesitas?
+
+10. ¿En qué gastas la mayor parte de tu dinero?
+
+11. ¿Es así como quieres gastar tu dinero?
+
+### Préstamo de ideas (toda la clase / 15)
+Muchas de mis ideas sobre cómo construir una comunidad han sido moldeadas por mi experiencia en el desarrollo de software de código abierto. [Foge2005] (que está disponible en línea) es una buena guía de lo que ha funcionado y lo que no ha funcionado para esas comunidades, y Open El sitio de Source Guides también tiene una gran cantidad de información útil. Elija una sección de este último, como "Encontrar usuarios para su proyecto" o "Liderazgo y gobernanza", y dé una presentación de dos minutos al grupo de una idea que le haya resultado útil o con la que no esté de acuerdo.
+
+### ¿Quién eres tú? (grupos pequeños / 20)
+La Administración Nacional Oceánica y Atmosférica (NOAA) tiene una guía breve, útil y divertida para lidiar con los comportamientos disruptivos. Clasifica esos comportamientos bajo etiquetas como "hablador", "indeciso" y "tímido", y describe las estrategias para manejar cada uno. En grupos de 3 a 6, lea la guía y decida cuál de estas descripciones le queda mejor. ¿Crees que las estrategias descritas para manejar personas como tú son efectivas? ¿Son otras estrategias igualmente o más efectivas?
+
+### Creando lecciones juntos (grupos pequeños / 30)
+Una de las claves del éxito de las Carpinterías es su énfasis en construir y mantener lecciones en colaboración [Wils2016, Deve2018]. Trabajando en grupos de 3–4:
+
+1. Elija una breve lección que todos hayan usado.
+
+2. Haga una revisión cuidadosa para crear una lista unificada de sugerencias para mejoras.
+
+3. Ofrezca esas sugerencias al autor de la lección.
+
+### ¿Eres crujiente? (individual / 10)
+Johnathan Nightingale escribió:
+
+>Cuando trabajaba en Mozilla, utilizamos el término "crujiente" para referirnos al estado justo antes del agotamiento. Las personas que son crujientes no son divertidas. Son breves. Están ansiosos por una pelea que pueden ganar. Lloran sin mucha advertencia. ... reconoceríamos la frescura de nuestros colegas y nos cuidaríamos los unos a los otros [pero] es una cosa fea que lo vimos tanto que teníamos todo un proceso cultural alrededor.
+
+
+Responda "sí" o "no" a cada una de las siguientes preguntas. ¿Qué tan cerca estás de quemarte?
+
+* ¿Te has vuelto cínico o crítico en el trabajo?
+
+* ¿Tienes que arrastrarte al trabajo o tienes problemas para comenzar?
+
+* ¿Te has vuelto irritable o impaciente con tus compañeros de trabajo?
+
+* ¿Le resulta difícil concentrarse?
+
+* ¿No logras la satisfacción de tus logros?
+
+* ¿Estás usando comida, drogas o alcohol para sentirte mejor o simplemente no sentirte?

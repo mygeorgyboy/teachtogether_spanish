@@ -1,0 +1,115 @@
+# Introducción
+Los grupos de base han surgido en todo el mundo para enseñar programación, diseño web, robótica y otras habilidades a los estudiantes de campo libre. Estos grupos existen para que las personas no tengan que aprender estas cosas por su cuenta, pero irónicamente, sus fundadores y maestros a menudo se enseñan a sí mismos cómo enseñar.
+
+Hay una mejor manera. Así como conocer algunos datos básicos sobre gérmenes y nutrición puede ayudarlo a mantenerse saludable, conocer algunas cosas sobre psicología cognitiva, diseño de instrucción, inclusión y organización comunitaria puede ayudarlo a ser un maestro más efectivo. Este libro presenta ideas clave que puede usar en este momento, explica por qué creemos que son verdaderas y le señala otros recursos que lo ayudarán a llegar más lejos.
+
+>**Reutilizar**
+>
+>Partes de este libro se crearon originalmente para el programa de capacitación de instructores de Carpintería de software, y todo se puede distribuir y reutilizar libremente bajo la licencia Creative Commons Attribution-NonCommercial 4.0 (Apéndice 16). Puede usar la versión en línea en http://teachtogether.tech/ en cualquier clase (gratuita o de pago), y puede citar extractos breves en virtud de las disposiciones de uso justo, pero no puede volver a publicar grandes piezas en obras comerciales sin permiso previo.
+
+Las contribuciones, correcciones y sugerencias son bienvenidas, y todos los contribuyentes serán reconocidos cada vez que se publique una nueva versión. Consulte el Apéndice 18 para más detalles y el Apéndice 17 para nuestro código de conducta.
+
+
+## ¿Quienes somos?
+
+La Sección 6.1 explica cómo descubrir quiénes son sus alumnos. Los cuatro para los que sirve este libro son todos maestros de usuarios finales: la enseñanza no es su ocupación principal, tienen poca o ninguna experiencia en pedagogía y pueden trabajar fuera de las aulas institucionales.
+
+### Emily
+Se formó como bibliotecario y ahora trabaja como diseñador web y gerente de proyectos en una pequeña empresa de consultoría. En su tiempo libre, ella ayuda a organizar clases de diseño web para mujeres que ingresan a la tecnología como una segunda carrera. Ahora está reclutando colegas para impartir más clases en su área, y quiere saber cómo hacer lecciones que otros puedan usar y hacer crecer una organización de enseñanza voluntaria.
+
+### Moshe
+Es un programador profesional con dos hijos adolescentes cuya escuela no ofrece clases de programación. Se ha ofrecido como voluntario para dirigir un club de programación mensual después de la escuela, y aunque frecuentemente hace presentaciones a colegas, no tiene experiencia en el aula. Quiere aprender a construir lecciones efectivas en un tiempo razonable y le gustaría saber más sobre los pros y los contras de las clases en línea a su propio ritmo.
+
+### Samira
+Es un estudiante universitario en robótica que está pensando en convertirse en maestra después de graduarse. Ella quiere ayudar en los talleres de robótica de fin de semana para sus compañeros, pero nunca ha enseñado una clase antes y siente mucho síndrome de impostor. Quiere aprender más sobre educación en general para decidir si es para ella, y también está buscando consejos específicos para ayudarla a impartir lecciones de manera más efectiva.
+
+### Gene
+Es profesor de informática. Han estado impartiendo cursos de pregrado sobre sistemas operativos durante seis años, y cada vez más creen que tiene que haber una mejor manera. La única capacitación disponible a través del centro de enseñanza y aprendizaje de su universidad consiste en publicar tareas y presentar calificaciones en el sistema de gestión de aprendizaje en línea, por lo que quieren saber qué más deberían pedir.
+Estas personas tienen una variedad de antecedentes técnicos y alguna experiencia docente previa, pero no tienen capacitación formal en enseñanza, diseño de lecciones u organización comunitaria. La mayoría trabaja con estudiantes de rango libre y se enfoca en adolescentes y adultos en lugar de niños; Todos tienen tiempo y recursos limitados. Esperamos que nuestro cuarteto use este material de la siguiente manera:
+
+**Emily** Participará en un grupo semanal de lectura en línea con sus voluntarios.
+
+**Moshe** Cubrirá parte de este libro en un taller de fin de semana de un día y estudiará el resto por su cuenta.
+
+**Samira** Utilizará este libro en un curso de pregrado de un semestre con tareas, un proyecto y un examen final.
+
+**Gene** Leerá el libro solo en su oficina o mientras viaja, deseando todo el tiempo que las universidades hagan más para apoyar la enseñanza de alta calidad.
+
+
+## Qué leer en su lugar
+Si tiene prisa o quiere saber qué cubrirá este libro, [Brow2018] presenta diez consejos basados en la evidencia para enseñar computación. También puedes disfrutar de:
+
+* La capacitación de instructores de carpintería, de la cual se deriva este libro.
+
+* [Lang2016] y [Hust2012], que son breves y accesibles, y que conectan las cosas que puede hacer ahora mismo con la investigación que las respalda.
+
+* [Berg2012, Lemo2014, Majo2015, Broo2016, Rice2018, Wein2018b] están llenos de sugerencias prácticas sobre las cosas que puede hacer en su clase, pero pueden tener más sentido una vez que tenga un marco para comprender por qué funcionan sus ideas.
+
+* [DeBr2015], que explica lo que es verdad sobre la educación al explicar lo que no es, y [Dida2016], que fundamenta la teoría del aprendizaje en psicología cognitiva.
+
+* [Pape1993], que sigue siendo una visión inspiradora de cómo las computadoras pueden cambiar la educación. La excelente descripción de Amy Ko hace un mejor trabajo al resumir las ideas de Papert de lo que posiblemente podría, y [Craw2010] es un compañero estimulante para ambos.
+
+* [Gree2014, McMi2017, Watt2014] explican por qué tantos intentos de reforma educativa han fracasado en los últimos cuarenta años, cómo las universidades con fines de lucro están explotando y exacerbando la creciente desigualdad en nuestra sociedad, y cómo la tecnología ha fallado repetidamente en revolucionar la educación.
+
+* [Brow2007] y [Mann2015], porque no puedes enseñar bien sin cambiar el sistema en el que enseñamos, y no puedes hacerlo solo.
+
+Aquellos que quieran más material académico también pueden encontrar [Guzd2015a, Hazz2014, Sent2018, Finc2019, Hpl2018] gratificante, mientras que el blog de Mark Guzdial ha sido consistentemente informativo y estimulante.
+
+## Agradecimientos
+Este libro no existiría sin las contribuciones de Laura Acion, Jorge Aranda, Mara Averick, Erin Becker, Yanina Bellini Saibene, Azalee Bostroem, Hugo Bowne-Anderson, Neil Brown, Gerard Capes, Francis Castro, Daniel Chen, Dav Clark, Warren Code , Ben Cotton, Richie Cotton, Karen Cranston, Katie Cunningham, Natasha Danas, Matt Davis, Neal Davis, Mark Degani, Tim Dennis, Paul Denny, Michael Deutsch, Brian Dillingham, Grae Drake, Kathi Fisler, Denae Ford, Auriel Fournier, Bob Freeman, Nathan Garrett, Mark Guzdial, Rayna Harris, Ahmed Hasan, Ian Hawke, Felienne Hermans, Kate Hertweck, Toby Hodges, Roel Hogervorst, Mike Hoye, Dan Katz, Christina Koch, Shriram Krishnamurthi, Katrin Leinweber, Colleen Lewis, Dave Loyall, Paweł Marczewski, Lenny Markus, Sue McClatchy, Jessica McKellar, Ian Milligan, Julie Moronuki, Lex Nederbragt, Aleksandra Nenadic, Jeramia Ory, Joel Ostblom, Elizabeth Patitsas, Aleksandra Pawlik, Sorawee Porncharoenwase, Emily Porta, Alex Pounds, Thomas Price Inn, Ian Ragsdale, Erin Robinson, Rosario Robinson, Ariel Rokem, Pat Schloss, Malvika Sharan, Florian Shkurti, Dan Sholler, Juha Sorva, Igor Steinmacher, Tracy Teal, Tiffany Timbers, Richard Tomsett, Preston Tunnell Wilson, Matt Turk, Fiona Tweedie , Martin Ukrop, Anelda van der Walt, Stéfan van der Walt, Allegra Via, Petr Viktorin, Belinda Weaver, Hadley Wickham, Jason Williams, Simon Willison, Karen Word, John Wrenn y Andromeda Yelton. También estoy agradecido a Lukas Blakk por el logotipo, a Shashi Kumar por la ayuda de LaTeX, a Markku Rontu por hacer que los diagramas se vean mejor, y a todos los que han usado este material a lo largo de los años. Cualquier error que quede es mío.
+
+## Ejercicios
+Cada capítulo finaliza con una variedad de ejercicios que incluyen un formato sugerido y cuánto tiempo suelen llevar en persona. La mayoría se puede usar en otros formatos, en particular, si está leyendo este libro por su cuenta, aún puede hacer muchos de los ejercicios destinados a grupos, y siempre puede dedicar más tiempo a lo que se sugiere.
+
+Si está utilizando este material en un taller de capacitación de maestros, puede dar los ejercicios a continuación a los participantes con uno o dos días de anticipación para tener una idea de quiénes son y cómo puede ayudarlos mejor. Lea las advertencias en la Sección 9.4 antes de hacer esto.
+
+### Altas y bajas (toda la clase / 5)
+Escriba respuestas breves a las siguientes preguntas y compártalas con sus compañeros. (Si está tomando notas juntas en línea como se describe en la Sección 9.7, ponga sus respuestas allí).
+
+¿Cuál es la mejor clase o taller que hayas tomado? ¿Qué lo hizo tan bueno?
+
+¿Cuál fue el peor? ¿Qué lo hizo tan malo?
+
+
+### Conócete a ti mismo (toda la clase / 10)
+Comparta breves respuestas a las siguientes preguntas con sus compañeros. Registre sus respuestas para que pueda consultarlas a medida que avance en el resto de este libro.
+
+¿Qué es lo que más quieres enseñar?
+
+¿A quién más quieres enseñar?
+
+¿Por qué quieres enseñar?
+
+¿Cómo sabrás si estás enseñando bien?
+
+¿Qué es lo que más quieres aprender sobre la enseñanza y el aprendizaje?
+
+¿Cuál es una cosa específica que crees que es verdad acerca de la enseñanza y el aprendizaje?
+
+
+### ¿Por qué aprender a programar? (individual / 20)
+Los políticos, los líderes empresariales y los educadores a menudo dicen que las personas deberían aprender a programar porque los trabajos del futuro lo requerirán. Sin embargo, como señaló Benjamin Doxtdator, muchas de esas afirmaciones se basan en un terreno inestable. Incluso si fueran ciertas, la educación no debería preparar a las personas para los trabajos del futuro: debería darles el poder de decidir qué tipo de trabajos hay y garantizar que esos trabajos valgan la pena. Y como señala Mark Guzdial, en realidad hay muchas razones para aprender a programar:
+
+1. Para entender nuestro mundo.
+
+2. Estudiar y comprender procesos.
+
+3. Poder hacer preguntas sobre las influencias en sus vidas.
+
+4. Usar una nueva forma importante de alfabetización.
+
+5. Tener una nueva forma de aprender arte, música, ciencias y matemáticas.
+
+6. Como una habilidad laboral.
+
+7. Para usar mejor las computadoras.
+
+8. Como medio para aprender a resolver problemas.
+
+Dibuje una cuadrícula de 3 × 3 cuyos ejes estén etiquetados como "bajo", "medio" y "alto" y coloque cada razón en un sector de acuerdo con lo importante que es para usted (el eje X) y para las personas que planea enseñar. (el eje Y).
+
+1. ¿Qué puntos están estrechamente alineados en importancia (es decir, en la diagonal en su cuadrícula)?
+
+2. ¿Qué puntos están desalineados (es decir, en las esquinas fuera de la diagonal)?
+
+3. ¿Cómo debería afectar esto lo que enseñas?

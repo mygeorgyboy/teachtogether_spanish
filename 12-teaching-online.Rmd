@@ -1,0 +1,212 @@
+# Enseñando en línea
+
+> Si usas robots para enseñar, enseñas a las personas a ser robots.
+> -- atribuido diversamente
+
+La tecnología ha cambiado la enseñanza y el aprendizaje muchas veces. Antes de que los pizarrones se introdujeran en las escuelas a principios de 1800, no había forma de que los maestros compartieran un ejemplo, diagrama o ejercicio improvisados con toda una clase a la vez. Las pizarras económicas, confiables, fáciles de usar y flexibles, permitieron a los maestros hacer las cosas rápidamente y a una escala que antes solo podían hacer lentamente y poco a poco. Del mismo modo, las videocámaras portátiles revolucionaron el entrenamiento deportivo, al igual que las grabadoras revolucionaron la instrucción musical una década antes.
+
+Muchas de las personas que empujan Internet a las aulas no conocen esta historia y no se dan cuenta de que la suya es solo la última de una larga serie de intentos de usar máquinas para enseñar [Watt2014]. Desde la imprenta a través de la radio y la televisión hasta las computadoras de escritorio y los dispositivos móviles, cada nueva forma de compartir conocimiento ha producido una ola de optimistas agresivos que creen que la educación está rota y que la tecnología puede solucionarlo. Sin embargo, los defensores más fuertes de la tecnología de la educación a menudo han sabido menos acerca de "educación" que "tecnología", y detrás de su retórica, muchos han sido impulsados más por la perspectiva de ganancias que por el deseo de empoderar a los estudiantes.
+
+El debate de hoy a menudo se confunde al confundir "en línea" con "automatizado". Corre bien, una docena de personas que trabajan a través de un problema en un chat de video se siente como cualquier otra discusión en grupos pequeños. Por el contrario, un escuadrón de auxiliares docentes que clasifiquen cientos de documentos contra una rúbrica inflexible también podría ser una colección de guiones de Perl. Por lo tanto, este capítulo comienza analizando la instrucción en línea totalmente automatizada utilizando videos grabados y ejercicios calificados automáticamente, luego explora algunos modelos híbridos alternativos.
+
+## MOOC
+El esfuerzo de más alto perfil para reinventar la educación a través de Internet es el curso masivo abierto en línea, o MOOC. El término fue inventado por David Cormier en 2008 para describir un curso organizado por George Siemens y Stephen Downes. Ese curso se basó en una visión conectivista del aprendizaje, que sostiene que el conocimiento se distribuye y que el aprendizaje es el proceso de encontrar, crear y podar conexiones.
+
+El término "MOOC" fue rápidamente cooptado por los creadores de cursos que se parecían más al modelo de un aula tradicional de un aula tradicional, con el maestro en el centro definiendo objetivos y los alumnos vistos como receptores o replicadores de conocimiento. Las clases que usan el modelo conectivista original ahora a veces se denominan "cMOOC", mientras que las clases que centralizan el control se denominan "xMOOC". (A este último también se le llama a veces "MESS", para Sage masivamente mejorado en el escenario).
+
+Hace cinco años, no se podía caminar por un campus universitario importante sin escuchar a alguien hablar sobre cómo los MOOC revolucionarían la educación, la destruirían o posiblemente ambas cosas. Los MOOC darían a los alumnos acceso a una gama más amplia de cursos y les permitirían trabajar cuando fuera conveniente para ellos en lugar de adaptar su aprendizaje al horario de otra persona.
+
+Pero los MOOC no han sido tan efectivos como predijeron sus defensores más entusiastas [Ubel2017]. Una razón es que el contenido grabado es ineficaz para muchos novatos porque no puede aclarar sus conceptos erróneos individuales (Capítulo 2): si no comprenden una explicación la primera vez, generalmente no se ofrece una diferente. Otra es que la evaluación automatizada necesaria para poner lo "masivo" en MOOC solo funciona bien en los niveles más bajos de la Taxonomía de Bloom (Sección 6.2). Ahora también está claro que los estudiantes tienen que soportar mucho más la carga de mantenerse enfocados en un MOOC, que la impersonalidad de trabajar en línea puede alentar un comportamiento no civil y desmotivar a las personas, y que "disponible para todos" en realidad significa "disponible para todos lo suficientemente ricos tener internet de alta velocidad y mucho tiempo libre ".
+
+[Marg2015] examinó 76 MOOCs sobre diversos temas y descubrió que si bien la organización y presentación del material era buena, la calidad del diseño de la lección era deficiente. Más cerca de casa, [Kim2017] estudió treinta tutoriales populares de codificación en línea, y descubrió que en gran medida enseñaban el mismo contenido de la misma manera: de abajo hacia arriba, comenzando con conceptos de programación de bajo nivel y construyendo objetivos de alto nivel. La mayoría de los alumnos exigieron que escribieran programas y proporcionaron alguna forma de retroalimentación inmediata, pero esta retroalimentación fue típicamente muy superficial. Pocos explicaron cuándo y por qué los conceptos son útiles (es decir, no mostraron cómo transferir conocimiento) o brindaron orientación para errores comunes, y aparte de la diferenciación rudimentaria basada en la edad, ninguna lección personalizada basada en la experiencia de codificación previa o los objetivos del alumno.
+
+>**Aprendizaje personalizado**
+>
+>Pocos términos se han utilizado y abusado de tantas formas como el aprendizaje personalizado. Para la mayoría de los defensores de la tecnología ed, significa ajustar dinámicamente el ritmo de las lecciones en función del rendimiento del alumno, de modo que si alguien responde correctamente varias preguntas seguidas, la computadora omitirá algunas de las preguntas posteriores.
+>
+Hacer esto puede producir mejoras modestas, pero mejor es posible. Por ejemplo, si muchos alumnos encuentran difícil un tema en particular, el maestro puede preparar múltiples explicaciones alternativas de ese punto en lugar de acelerar un solo camino. De esa manera, si una explicación no resuena, hay otras disponibles. Sin embargo, esto requiere mucho más trabajo de diseño por parte del maestro, lo que puede ser la razón por la cual no ha resultado popular. E incluso si funciona, es probable que los efectos sean mucho menores de lo que creen algunos de sus defensores. Un buen maestro hace una diferencia de 0.1 a 0.15 desviaciones estándar en el desempeño de fin de año en la escuela primaria [Chet2014] (vea este artículo para un breve resumen). No es realista creer que cualquier tipo de automatización pueda superar esto en el corto plazo.
+
+
+Entonces, ¿cómo debe usarse Internet para enseñar y aprender habilidades tecnológicas? Sus ventajas y desventajas son:
+
+**Los alumnos pueden acceder a más lecciones, más rápido, que nunca.**
+Siempre que, por supuesto, un motor de búsqueda considere esas lecciones que valga la pena indexar, que su proveedor de servicios de Internet y el gobierno no lo bloqueen, y que la verdad no se ahogue en un mar de desinformación que debilita la atención.
+
+**Los alumnos pueden acceder a mejores lecciones que nunca antes,**
+a menos que estén siendo dirigidos hacia material de segunda categoría para redistribuir la riqueza de los que no tienen a los que tienen [McMi2017]. También vale la pena recordar que la escasez aumenta el valor percibido, por lo que a medida que la educación en línea se vuelve más barata, se convertirá cada vez más en lo que todos quieren para los hijos de otra persona.
+
+**Los alumnos también pueden acceder a muchas más personas que nunca.**
+Pero solo si esos alumnos realmente tienen acceso a la tecnología requerida, pueden permitirse el lujo de usarla y no son expulsados ​​del hostigamiento o marginados porque no se ajustan a las normas sociales de cualquier grupo que esté hablando más alto. En la práctica, la mayoría de los usuarios de MOOC provienen de entornos seguros y ricos [Hans2015].
+
+**Los profesores pueden obtener una visión mucho más detallada de cómo trabajan los alumnos.**
+Mientras los alumnos estén haciendo cosas que sean susceptibles de análisis automatizados a gran escala y no se opongan a la vigilancia en el aula o no sean lo suficientemente potentes como para que sus objeciones tengan importancia.
+[Marg2015, Mill2016a, Nils2017] describen formas de acentuar los aspectos positivos en la lista anterior, evitando los negativos:
+
+**Hacer plazos frecuentes y bien publicitados,**
+y hacerlos cumplir para que los alumnos entren en un ritmo de trabajo.
+
+**Mantenga las actividades sincrónicas de toda la clase como conferencias en vivo al mínimo**
+para que las personas no se pierdan cosas debido a conflictos de programación.
+
+**Haga que los alumnos contribuyan al conocimiento colectivo,**
+p.ej. tomen notas juntas (Sección 9.7), sirvan como escribas de clase o contribuyan con problemas a conjuntos de problemas compartidos (Sección 5.3).
+
+**Fomentar o exigir a los alumnos que realicen parte de su trabajo en grupos pequeños.**
+que tienen actividades en línea sincrónicas como una discusión semanal en línea. Esto ayuda a los estudiantes a mantenerse comprometidos y motivados sin crear demasiados dolores de cabeza de programación. (Consulte el Apéndice 20 para obtener algunos consejos sobre cómo hacer que estas discusiones sean justas y productivas).
+
+**Crear, publicar y aplicar un código de conducta.**
+para que todos puedan participar en debates en línea (Sección 9.1).
+Use muchos episodios de lecciones cortas en lugar de un puñado de fragmentos de conferencias
+para minimizar la carga cognitiva y brindar muchas oportunidades para la evaluación formativa. Esto también ayuda con el mantenimiento: si todos sus videos son cortos, simplemente puede volver a grabar cualquiera que necesite mantenimiento, que a menudo es más barato que tratar de parchear videos más largos.
+
+**Use el video para participar en lugar de instruir.**
+Dejando a un lado las discapacidades (Sección 10.3), los alumnos pueden leer más rápido de lo que usted puede hablar. La excepción a esta regla es que el video es en realidad la mejor manera de enseñar verbos (acciones) a las personas: capturas de pantalla cortas que muestran a las personas cómo usar un editor, recorrer el código en un depurador, etc., son más efectivas que las capturas de pantalla con texto.
+
+**Identificar y aclarar conceptos erróneos temprano.**
+Si los datos muestran que los alumnos tienen dificultades con algunas partes de una lección, cree explicaciones alternativas de esos puntos y ejercicios adicionales para que practiquen.
+
+Todo esto debe implementarse de alguna manera, lo que significa que necesita algún tipo de plataforma de enseñanza. Puede usar un **sistema de gestión de aprendizaje** todo en uno como Moodle o Sakai, o armar algo usted mismo usando Slack o Zulip para chatear, Hangouts de Google o aparecer .in para conversaciones de video y WordPress, Google Docs o cualquier número de wiki sistemas de autoría colaborativa. Si recién está comenzando, elija lo que sea más fácil de configurar y administrar y que sea más familiar para sus alumnos. Si te enfrentas a una elección, la segunda consideración es más importante que la primera: esperas que las personas aprendan mucho en tu clase, por lo que es justo que aprendas a manejar las herramientas con las que se sienten más cómodos.
+
+Crear una plataforma para el aprendizaje es necesario pero no suficiente: si quieres que tus alumnos prosperen, debes crear una comunidad. Cientos de libros y presentaciones hablan sobre cómo hacer esto, pero la mayoría se basan en las experiencias personales de sus autores. [Krau2016] es una excepción bienvenida: mientras precede al descenso acelerado de Twitter y Facebook en el abuso armado y la información errónea, la mayoría de sus los resultados aún son relevantes. [Foge2005] también está lleno de consejos útiles sobre las comunidades de práctica a las que los alumnos pueden unirse; Exploramos algunas de sus ideas en el Capítulo 13.
+
+>**Libertad ay libertad de**
+>
+>El ensayo de Isaiah Berlin de 1958 "Dos conceptos de libertad" hizo una distinción entre la libertad positiva, que es la capacidad de hacer algo realmente, y la libertad negativa, que es la ausencia de reglas que digan que no se puede hacer. Las discusiones en línea generalmente ofrecen libertad negativa (nadie te impide decir lo que piensas) pero no libertad positiva (muchas personas no pueden ser escuchadas). Una forma de abordar esto es introducir algún tipo de limitación, como permitir que cada alumno contribuya con un mensaje por hilo de discusión por día. Al hacer esto, los que tienen algo que decir tienen la oportunidad de decirlo, al tiempo que dejan espacio para que otros también digan cosas.
+
+Otra preocupación que la gente tiene sobre la enseñanza en línea es hacer trampa. La deshonestidad diaria no es más común en las clases en línea que en entornos presenciales [Beck2014], pero la tentación de que alguien más escriba el examen final, y la dificultad de verificar si esto sucedió, es una de las razones por las que las instituciones educativas se han mostrado reacias a ofrecer crédito por clases en línea puras. La supervisión remota del examen es posible, pero antes de invertir en esto, lea [Lang2013]: explora por qué y cómo los alumnos hacen trampa, y cómo se pueden estructurar los cursos para evitar darles una razón para hacerlo.
+
+
+## Video
+A prominent feature of most MOOCs is their use of recorded video lectures. These can be effective: as mentioned in Chapter 8, a teaching technique called Direct Instruction based on precise delivery of a well-designed script has repeatedly been shown to be effective [Stoc2018]. However, scripts for direct instruction have to be designed, tested, and refined very carefully, which is an investment that many MOOCs have been unwilling or unable to make. Making a small change to a web page or a slide deck only takes a few minutes; making even a small change to a short video takes an hour or more, so the cost to the teacher of acting on feedback can be unsupportable. And even when they’re well made, videos have to be combined with activities to be beneficial:[Koed2015] estimated, “…the learning benefit from extra doing…to be more than six times that of extra watching or reading.”
+
+If you are teaching programming, you may use screencasts instead of slides, since they offer some of the same advantages as live coding (Section 8.1).[Chen2009] offers useful tips for creating and critiquing screencasts and other videos; Figure [f:online-screencasting] (from[Chen2009]) reproduces the patterns that paper presents and the relationships between them. (It’s also a good example of a concept map (Section 3.1).)
+
+![screen cast](./img_traning/screencast.svg)
+
+Entonces, ¿qué hace que un video instructivo sea efectivo? [Guo2014] midió el compromiso observando cuánto tiempo los estudiantes vieron videos MOOC y descubrieron que:
+
+* Los videos más cortos son mucho más atractivos: los videos no deben durar más de seis minutos.
+
+* Una cabeza parlante superpuesta en diapositivas es más atractiva que la voz en diapositivas sola.
+
+* Los videos que parecían personales podrían ser más atractivos que las grabaciones de estudio de alta calidad, por lo que filmar en entornos informales podría funcionar mejor que el trabajo de estudio profesional a un costo menor.
+
+* Dibujar en una tableta es más atractivo que las diapositivas de PowerPoint o las capturas de pantalla de código, aunque no está claro si esto se debe al movimiento y la informalidad o porque reduce la cantidad de texto en la pantalla.
+
+* Está bien que los maestros hablen bastante rápido siempre que estén entusiasmados.
+
+Una cosa que [Guo2014] no abordó es el problema del huevo y la gallina: ¿los estudiantes encuentran que cierto tipo de video es atractivo porque están acostumbrados, por lo que producir más videos de ese tipo aumentará el compromiso simplemente por un comentario? ¿lazo? ¿O estas recomendaciones reflejan algunos procesos cognitivos más profundos? Otra cosa que este documento no analizó son los resultados de aprendizaje: sabemos que las evaluaciones de los alumnos de los cursos no se correlacionan con el aprendizaje [Star2014, Uttl2017], y si bien es posible que los alumnos no aprendan de cosas que no ven, queda por demostrar que aprenden de las cosas que ven.
+
+>**Estoy un poco incomodo**
+>
+>La investigación de [Guo2014] fue aprobada por una junta de ética de investigación de la universidad, los alumnos cuyos hábitos de visualización fueron monitoreados casi con certeza hicieron clic en "aceptar" un acuerdo de términos de servicio en algún momento, y me alegra tener estos conocimientos. Por otro lado, la palabra "privacidad" no apareció en el título ni en el resumen de ninguna de las docenas de artículos o carteles en la conferencia donde se presentaron estos resultados. Teniendo una opción, prefiero no saber qué tan comprometidos están los alumnos que fomentar la vigilancia ubicua en el aula.
+
+Hay muchas formas diferentes de grabar lecciones en video; Para descubrir cuáles son los más efectivos, [Mull2007a] asignó a 364 estudiantes de física de primer año a tratamientos multimedia en línea de las Leyes Primera y Segunda de Newton en uno de los cuatro estilos:
+
+**Exposición:**
+presentación concisa de estilo conferencia.
+
+**Exposición extendida:**
+como arriba con información interesante adicional.
+
+**Refutación:**
+Exposición con conceptos erróneos comunes explícitamente declarados y refutados.
+
+**Diálogo:**
+Discusión aprendiz-tutor del mismo material que en la Refutación.
+
+Refutation and Dialog produjo las mayores ganancias de aprendizaje en comparación con Exposition; los alumnos con poco conocimiento previo se beneficiaron más, y aquellos con alto conocimiento previo no se vieron en desventaja. Nuevamente, esto resalta la importancia de abordar directamente los conceptos erróneos de los alumnos. No solo le digas a la gente qué es: diles qué no es y por qué no.
+
+
+## Modelos híbridos
+La enseñanza totalmente automatizada es solo una forma de utilizar la web en la enseñanza. En la práctica, casi todo el aprendizaje en sociedades ricas tiene un componente en línea hoy, ya sea oficialmente o mediante canales de retroceso entre pares y búsquedas subrepticias de respuestas a preguntas de tarea. La combinación de instrucción en vivo y automatizada permite a los maestros usar las fortalezas de ambos. En un aula tradicional, el maestro puede responder preguntas de inmediato, pero a los alumnos les lleva días o semanas recibir comentarios sobre sus ejercicios de codificación. En línea, puede tomar más tiempo para que un alumno obtenga una respuesta, pero puede obtener retroalimentación inmediata sobre su codificación (al menos para ese tipo de ejercicios podemos auto-calificar).
+
+Otra diferencia es que los ejercicios en línea deben ser más detallados porque tienen que anticipar las preguntas de los alumnos. Encuentro que las lecciones en persona comienzan con la intersección de lo que todos necesitan saber y se expande bajo demanda, mientras que las lecciones en línea deben incluir la unión de lo que todos necesitan saber porque el maestro no está allí para hacer la expansión.
+
+En realidad, la distinción entre en línea y en persona ahora es menos importante para la mayoría de las personas que la distinción entre síncrono y asíncrono: ¿los profesores y los alumnos interactúan en tiempo real, o su comunicación se extiende e intercala con otras actividades? En persona casi siempre será sincrónico, pero en línea es cada vez más una mezcla de ambos:
+
+>Creo que nuestros nietos probablemente considerarán la distinción que hacemos entre lo que llamamos el mundo real y lo que piensan que es >simplemente el mundo como lo más extraño e incomprensible de nosotros.
+> -- William Gibson
+
+
+La implementación más popular de este futuro combinado hoy en día es el **aula invertida**, en la que los alumnos ven las lecciones grabadas por su cuenta y el tiempo de clase se utiliza para debatir y resolver los problemas. Originalmente descrita en [King1993], la idea se popularizó como parte de la instrucción entre pares (Sección 9.2) y se ha estudiado intensamente durante la última década. Por ejemplo, [Camp2016] comparó a los estudiantes que tomaron una clase introductoria de ciencias de la computación en línea con aquellos que la tomaron en un aula invertida. La finalización de los ejercicios de práctica (sin marcar) se correlacionó con los puntajes de los exámenes para ambos, pero la tasa de finalización de los ejercicios de ensayo por parte de los alumnos en línea fue significativamente menor que las tasas de asistencia a la clase para los alumnos en persona.
+
+Pero si hay grabaciones disponibles, ¿los alumnos seguirán apareciendo en clase para hacer ejercicios de práctica? [Nord2017] examinó el impacto de las grabaciones tanto en la asistencia a la conferencia como en el rendimiento de los alumnos en diferentes niveles. En la mayoría de los casos, el estudio no encontró consecuencias negativas de hacer disponibles las grabaciones; en particular, los alumnos no se saltaron las conferencias cuando hay grabaciones disponibles (al menos, no más de lo que suelen hacer). Los beneficios de proporcionar grabaciones fueron mayores para los estudiantes al principio de sus carreras, pero disminuyeron a medida que los estudiantes se hicieron más maduros.
+
+Otro modelo híbrido trae la vida en línea al aula. Tomar notas juntas es un primer paso (Sección 9.7); agrupar respuestas a preguntas de opción múltiple en tiempo real utilizando herramientas como Pear Deck y Socrative es otra. Si la clase es pequeña, digamos, de una docena a quince personas, también puede hacer que todos los alumnos se unan a una videoconferencia para que puedan compartir la pantalla con el maestro. Esto les permite mostrar su trabajo (o sus problemas) a toda la clase sin tener que conectar su computadora portátil al proyector. Los alumnos también pueden usar el chat en la videollamada para publicar preguntas para el profesor; En mi experiencia, la mayoría de ellos serán respondidos por sus compañeros de aprendizaje, y el maestro puede manejar el resto cuando lleguen a un descanso natural. Este modelo ayuda a nivelar el campo de juego para los alumnos remotos: si alguien no puede asistir a clase por razones de salud o por compromisos familiares o laborales, aún puede participar de manera casi igual si todos están acostumbrados a colaborar en línea en tiempo real.
+
+También he impartido clases utilizando la instrucción remota en tiempo real, en la que los alumnos se ubican en 2–6 sitios con ayudantes presentes mientras enseño a través de la transmisión de video (Sección 18.1). Esto escala bien, ahorra en costos de viaje y permite el uso de técnicas como la programación de pares (Sección 9.6). Lo que no funciona es tener un grupo en persona y uno o más grupos de forma remota: con la mejor voluntad del mundo, los participantes locales reciben mucha más atención.
+
+
+## Compromiso en línea
+[Nuth2007] descubrió que hay tres mundos superpuestos en cada aula: el público (lo que dice y hace el maestro), lo social (interacciones entre alumnos) y lo privado (dentro de la cabeza de cada alumno). De estos, el más importante suele ser el social: los alumnos captan tanto a través de las señales de sus compañeros como lo hacen de la instrucción formal.
+
+Por lo tanto, la clave para hacer efectiva cualquier forma de enseñanza en línea es facilitar las interacciones entre pares. Para ayudar a esto, los cursos casi siempre tienen algún tipo de foro de discusión. [Mill2016a] observó que los alumnos usan estos de maneras muy diferentes:
+
+>… Los postergadores son particularmente improbables de participar en foros de discusión en línea, y esta participación reducida, a su vez, se correlaciona con peores calificaciones. Una posible explicación para esta correlación es que los postergadores dudan especialmente en unirse una vez que se inicia la discusión, tal vez porque les preocupa ser percibidos como recién llegados en una conversación establecida. Esta aversión a saltar tarde hace que se pierdan los importantes beneficios de aprendizaje y motivación de la interacción entre pares.
+
+[Vell2017] analiza los mensajes del foro de discusión de 395 estudiantes de CS2 en dos universidades dividiéndolos en cuatro categorías:
+
+**Activo:**
+Solicitud de ayuda que no muestra el razonamiento y no muestra lo que el estudiante ya ha intentado o ya sabe.
+
+**Constructivo:**
+reflejar el razonamiento o los intentos de los estudiantes de construir una solución al problema.
+
+**Logística:**
+políticas del curso, horarios, envío de tareas, etc.
+
+**Aclaración de contenido:**
+Solicitar información adicional que no revele el pensamiento del estudiante.
+Descubrieron que las preguntas constructivas y logísticas dominaban, y que las preguntas constructivas se correlacionaban con las calificaciones. También descubrieron que los estudiantes rara vez hacen más de una pregunta activa en un curso, y que no se correlacionan con las calificaciones. Si bien esto es decepcionante, saber que ayuda a establecer las expectativas de los maestros: si bien todos queremos que nuestros cursos tengan comunidades en línea animadas, tenemos que aceptar que la mayoría no lo hará, o que la mayoría de la discusión de alumno a alumno se llevará a cabo a través de canales que ya están usando y de los que no formamos parte.
+
+>**Cooperacion**
+>[Gull2004] describe un concurso de codificación en línea que combina colaboración y competencia. El concurso comienza cuando se publica una descripción del problema junto con una solución correcta pero ineficiente. Cuando termina, el ganador es la persona que ha realizado la mayor contribución general para mejorar el rendimiento de la solución general. Todos los envíos son abiertos, para que los participantes puedan ver el trabajo de los demás y tomar ideas prestadas entre ellos. Como muestra el documento, la solución final es casi siempre una idea de préstamo híbrido de muchas personas.
+>
+>[Batt2018] describió una variación a pequeña escala de esto en una clase de computación introductoria. En la etapa uno, cada alumno presentó un proyecto de programación individualmente. En la etapa dos, los alumnos se emparejaron para crear una solución mejorada para el mismo problema. La evaluación indica que los proyectos de dos etapas tienden a mejorar la comprensión de los alumnos y que disfrutaron el proceso. Proyectos como estos no solo mejoran el compromiso, sino que también brindan a los participantes más experiencia sobre la base del código de otra persona.
+
+La discusión no es la única forma de lograr que los alumnos trabajen juntos en línea. [Pare2008] y [Kulk2013] informan experimentos en los que los alumnos califican el trabajo de los demás, y las calificaciones que asignan se comparan con las calificaciones otorgadas por los asistentes de enseñanza de posgrado u otros expertos. Ambos descubrieron que las calificaciones asignadas por el alumno coincidían con las calificaciones asignadas por expertos tan a menudo como las calificaciones de los expertos coincidían entre sí, y que unos pocos pasos simples (como filtrar respuestas obviamente no consideradas o estructurar rúbricas) disminuyeron aún más el desacuerdo. Y como se discutió en la Sección 5.3, la colusión y el sesgo no son factores significativos en la clasificación por pares.
+
+>**Confía, pero educa**
+>
+>La forma más común de medir la validez de la retroalimentación es comparar las calificaciones de los alumnos con las calificaciones de los expertos, pero la revisión por pares calibrada (Sección 5.3) puede ser igualmente efectiva. Antes de pedirles a los alumnos que califiquen el trabajo de los demás, se les pide que califiquen muestras y comparen sus resultados con las calificaciones asignadas por el maestro. Una vez que los dos se alinean, el alumno puede comenzar a dar calificaciones a sus compañeros. Dado que la lectura crítica es una forma efectiva de aprender, este resultado puede apuntar a un futuro en el que los estudiantes usan la tecnología para emitir juicios, en lugar de ser juzgados por la tecnología.
+
+Una técnica que definitivamente veremos más en los próximos años es la transmisión en línea de sesiones de codificación en vivo [Raj2018, Haar2017]. Esto tiene la mayoría de los beneficios discutidos en la Sección 8.1, y cuando se combina con la toma de notas en colaboración (Sección 9.7) puede ser una aproximación cercana a una experiencia en clase.
+
+Mirando aún más adelante, [Ijss2000] identificó cuatro niveles de presencia en línea, desde el realismo (no podemos distinguir la diferencia) hasta la inmersión (olvidamos la diferencia) y la participación (estamos comprometidos pero conscientes de la diferencia) hasta la suspensión de incredulidad (estamos haciendo la mayor parte del trabajo). Crucialmente, distinguen la presencia física, que es la sensación de estar realmente en algún lugar, y la presencia social, que es la sensación de estar con los demás. Esto último es más importante en la mayoría de las situaciones de aprendizaje y, una vez más, podemos fomentarlo utilizando la tecnología cotidiana de los alumnos en el aula. Por ejemplo, [Deb2018] descubrió que la retroalimentación en tiempo real sobre los ejercicios en clase utilizando los dispositivos móviles de los propios alumnos mejoró la retención de conceptos y la participación de los alumnos al tiempo que redujo las tasas de fracaso.
+
+La enseñanza en línea y asincrónica todavía están en pañales. Los MOOC centralizados pueden llegar a ser un callejón sin salida evolutivo, pero todavía hay muchos otros modelos prometedores para explorar. En particular, [Broo2016] describe cincuenta formas en que los grupos pueden discutir cosas de manera productiva, de las cuales solo unas pocas son ampliamente conocidas o implementadas en línea. Si vamos a donde nuestros alumnos están tecnológicamente en lugar de exigirles que vengan a nosotros, podemos terminar aprendiendo tanto como ellos.
+
+
+## Ejercicios
+
+### Video bidireccional (pares / 10)
+Grabe un video de 2–3 minutos de usted mismo haciendo algo, luego intercambie máquinas con un compañero para que cada uno pueda ver el video del otro a una velocidad 4x. ¿Qué tan fácil es seguir lo que está pasando? ¿Y si te perdiste algo?
+
+### Puntos de vista (individual / 10)
+Según [Irib2009], diferentes disciplinas se centran en diferentes factores que afectan el éxito o no de las comunidades en línea:
+
+**Negocio:**
+fidelización de clientes, gestión de marca, motivación extrínseca.
+
+**Psicología:**
+sentido de comunidad, motivación intrínseca.
+
+**Sociología:**
+identidad grupal, comunidad física, capital social, acción colectiva.
+
+**Ciencias de la Computación:**
+Implementación tecnológica.
+
+¿Cuál de estas perspectivas se corresponde más con la suya? ¿Con cuál estás menos alineado?
+
+### Ayudando o Dañando (grupos pequeños / 30)
+El artículo de Susan Dynarski en el New York Times explica cómo y por qué las escuelas están colocando a los estudiantes que reprobaron los cursos en persona en cursos en línea, y cómo esto los prepara para un fracaso aún mayor. Lea el artículo y luego:
+
+1. En grupos pequeños, piense en 2-3 cosas que las escuelas podrían hacer para compensar estos efectos negativos y crear estimaciones aproximadas de sus costos por alumno.
+
+2. Compare sus sugerencias y costos con los de otros grupos. ¿Cuántos puestos de enseñanza a tiempo completo cree que deberían eliminarse para liberar recursos para implementar las ideas más populares para un centenar de estudiantes?
+
+3. Como clase, ¿crees que sería un beneficio neto para los alumnos o no?
+
+Los ejercicios de presupuestación como este son una buena manera de saber quién toma en serio el cambio educativo. Todos pueden pensar en cosas que les gustaría hacer; Muchos menos están dispuestos a hablar sobre las compensaciones necesarias para que el cambio suceda.

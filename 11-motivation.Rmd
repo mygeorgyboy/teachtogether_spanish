@@ -1,0 +1,257 @@
+# Motivación y Desmotivación
+
+Los alumnos necesitan estímulo para salir a terrenos desconocidos, por lo que este capítulo analiza las formas en que los maestros pueden motivarlos. Más importante aún, habla sobre cómo los maestros pueden desmotivarlos y cómo evitar hacerlo.
+
+Nuestro punto de partida es la diferencia entre la motivación extrínseca, que sentimos cuando hacemos algo para evitar el castigo o ganar una recompensa, y la motivación intrínseca, que es lo que sentimos cuando encontramos algo personalmente satisfactorio. Ambas afectan la mayoría de las situaciones (por ejemplo, las personas enseñan porque lo disfrutan y porque les pagan), pero aprendemos mejor cuando estamos intrínsecamente motivados [Wlod2017]. Según la teoría de la autodeterminación, los tres impulsores de la motivación intrínseca son:
+
+**Competencia:** la sensación de que sabes lo que estás haciendo.
+
+**Autonomía:** la sensación de estar en control de tu propio destino.
+
+**Parentesco:** El sentimiento de estar conectado con los demás.
+
+Una lección bien diseñada alienta a los tres. Por ejemplo, un ejercicio de programación puede permitir a los alumnos practicar las herramientas que necesitan para resolver un problema mayor (competencia), permitirles abordar las partes de ese problema en el orden que deseen (autonomía) y permitirles hablar con sus compañeros. (relación).
+
+>**El problema de los grados**
+>
+>Nunca he tenido una audiencia en mi vida. Mi audiencia es una rúbrica.
+> -- citado por Matt Tierney
+>
+Los grados y la forma en que distorsionan el aprendizaje a menudo se usan como un ejemplo de motivación extrínseca, pero como observa [Mill2016a], no van a desaparecer en el corto plazo, por lo que no tiene sentido tratar de construir un sistema que los ignore. En cambio, [Lang2013] explora cómo los cursos que enfatizan las calificaciones pueden incentivar a los estudiantes a hacer trampa y ofrece algunos consejos sobre cómo disminuir este efecto, mientras que [Covi2017] analiza el problema más amplio de equilibrar la motivación intrínseca y extrínseca en la educación institucional, y la alineación constructiva El enfoque propuesto en [Bigg2011] busca alinear las actividades de aprendizaje y los resultados de aprendizaje entre sí.
+
+[Ambr2010] contiene una lista de métodos basados en evidencia para motivar a los alumnos. Ninguno de ellos es sorprendente, es difícil imaginar que alguien diga que no debemos identificar y recompensar lo que valoramos, pero es útil revisar las lecciones para asegurarse de que están haciendo al menos algunas de estas cosas. Una estrategia que me gusta especialmente es que los alumnos que tuvieron dificultades pero que tuvieron éxito entren y cuenten sus historias al resto de la clase. Es mucho más probable que los alumnos crean historias de personas como ellos [Mill2016a], y las personas que han completado su curso siempre tendrán consejos en los que nunca habrían pensado.
+
+
+>**No solo para estudiantes**
+>Las discusiones sobre motivación en educación a menudo pasan por alto la necesidad de motivar al maestro. Los alumnos responden al entusiasmo de un maestro, y los maestros (particularmente los voluntarios) deben preocuparse por un tema para seguir enseñándolo. Esta es otra razón poderosa para enseñar en conjunto (Sección 9.3): así como tener un compañero para correr hace que sea más probable que continúes corriendo, tener un compañero para enseñar te ayuda a levantarte y continuar esos días cuando tienes un resfriado y la bombilla del proyector se ha quemado y nadie sabe dónde encontrar un reemplazo y, en serio, ¿están haciendo la construcción nuevamente?
+
+Los maestros también pueden hacer otras cosas positivas. [Bark2014] descubrió tres cosas que impulsaron la retención para todos los alumnos: tareas significativas, interacción del profesorado con los alumnos y colaboración de los alumnos en las tareas. El ritmo y la carga de trabajo en relación con las expectativas también fueron factores importantes, pero principalmente para los estudiantes varones. Las cosas que no impulsaron la retención fueron interacciones con asistentes de enseñanza e interacciones con compañeros en actividades extracurriculares. Estos resultados parecen obvios, pero lo contrario también parecería obvio: si el estudio hubiera encontrado que las actividades extracurriculares impulsan la retención, también pensaríamos que eso tiene sentido. Notablemente, dos de los cuatro impulsores de retención (interacción del profesorado y colaboración del alumno) requieren un esfuerzo adicional para replicarse en línea (Capítulo 11).
+
+## Tareas auténticas
+Como señala Dylan Wiliam en [Hend2017], la motivación no siempre conduce al logro, pero el logro casi siempre conduce a la motivación: el éxito de los alumnos los motiva mucho más que a que les digan lo maravillosos que son. Podemos utilizar esta idea en la enseñanza creando una cuadrícula cuyos ejes son "tiempo medio para dominar" y "utilidad una vez dominada" (Figura [f: motivación-qué]).
+
+![Que enseñar](./img_traning/what-to-teach.svg)
+
+Las cosas que son rápidas de dominar e inmediatamente útiles deben enseñarse primero, incluso si no son consideradas fundamentales por personas que ya son profesionales competentes, porque unas pocas victorias tempranas construirán la confianza de los alumnos en sí mismos y en su maestro. Por el contrario, las cosas que son difíciles de aprender y que no son útiles para sus alumnos en su etapa actual de desarrollo deben omitirse por completo, mientras que los temas a lo largo de la diagonal deben sopesarse entre sí.
+
+>**¿Útil para quién?**
+>
+>Si alguien quiere crear sitios web, los conceptos básicos de informática como la recursividad y la computabilidad pueden habitar en la esquina inferior derecha de esta cuadrícula. Eso no significa que no valga la pena aprender, pero si nuestro objetivo es motivar a las personas, pueden y deben diferirse. Por el contrario, una persona mayor que está tomando una clase de programación para estimular su mente puede preferir explorar estas grandes ideas a hacer algo práctico. Cuando esté creando su grilla, debe hacerlo teniendo en cuenta a sus alumnos (Sección 6.1). Si los temas terminan en lugares muy diferentes para diferentes personas, debe pensar en crear diferentes cursos.
+
+Una instancia bien estudiada de priorizar lo que es útil sin sacrificar lo fundamental es el enfoque de cálculo de medios desarrollado en Georgia Tech [Guzd2013]. En lugar de imprimir "hola mundo" o sumar los primeros diez enteros, el primer programa de un alumno puede abrir una imagen, cambiar su tamaño para crear una miniatura y guardar el resultado. Esta es una **tarea auténtica**, es decir, algo que los alumnos creen que realmente harían en la vida real. También tiene un **artefacto tangible**: si la imagen sale del tamaño incorrecto, los alumnos tienen algo en la mano que puede guiar su depuración. [Lee2013] describe una adaptación de este enfoque de Python a MATLAB, mientras que otros están construyendo cursos similares sobre ciencia de datos , procesamiento de imágenes y biología [Dahl2018, Meys2018, Ritz2018].
+
+Siempre habrá tensión entre darles a los alumnos problemas auténticos y ejercitar las habilidades individuales que necesitan para resolver esos problemas: después de todo, los programadores no responden preguntas de opción múltiple en el trabajo más de lo que los músicos tocan una y otra vez frente a una audiencia . Encontrar el equilibrio es difícil, pero un primer paso es sacar cualquier cosa arbitraria o sin sentido. Por ejemplo, los ejemplos de programación no deben usar variables llamadas foo y bar, y si va a hacer que los alumnos clasifiquen una lista, hágala una lista de canciones en lugar de cadenas como "aaa" y "bbb".
+
+## Desmotivación
+
+>Las mujeres no abandonan la informática porque no saben cómo es; se van porque lo saben.
+> -- atribuido diversamente
+
+Si está enseñando en un entorno de campo libre, sus alumnos probablemente sean voluntarios y probablemente quieran estar en su clase. Por lo tanto, motivarlos es menos preocupante que no desmotivarlos. Desafortunadamente, puede desmotivar fácilmente a las personas por accidente. Por ejemplo, [Cher2009] informó cuatro estudios que muestran que las pistas ambientales sutiles tienen una diferencia apreciable en el interés que tienen las personas de diferentes géneros en la informática: cambiar los objetos en un aula de informática de aquellos considerados estereotípicos de la informática (por ejemplo, carteles de Star Trek y videojuegos) a objetos que no se consideran estereotipados (p. ej., carteles de la naturaleza y guías telefónicas) aumentaron el interés de las estudiantes universitarias al nivel de sus compañeros varones. De manera similar, [Gauc2011] informa un trío de estudios que muestran que las palabras de género comúnmente empleadas en los materiales de reclutamiento laboral pueden mantener la desigualdad de género en ocupaciones tradicionalmente dominadas por hombres.
+
+Hay tres desmotivadores principales para estudiantes adultos:
+
+**Imprevisibilidad** Desmotiva a las personas porque si no hay una conexión confiable entre lo que hacen y el resultado que logran, no hay razón para que intenten hacer algo.
+
+**Indiferencia** Se desmotiva porque los alumnos que creen que el maestro o el sistema educativo no se preocupan por ellos o que el material tampoco se preocupa por ellos.
+
+**Injusticia** Desmotiva a las personas que están en desventaja por razones obvias. Lo sorprendente es que también desmotiva a las personas que se benefician de la injusticia: consciente o inconscientemente, les preocupa que algún día se encuentren en el grupo desfavorecido [Wilk2011].
+
+En situaciones extremas, los alumnos pueden desarrollar la impotencia aprendida: cuando se les somete repetidamente a comentarios negativos en una situación que no pueden cambiar, pueden aprender a ni siquiera intentar cambiar las cosas que podrían.
+
+Una de las formas más rápidas y seguras de desmotivar a los alumnos es utilizar un lenguaje que sugiera que algunas personas son programadores naturales y otras no. Guzdial ha llamado a esto el mayor mito sobre la enseñanza de la informática, y [Pati2016] respaldó esto al demostrar que las personas ven evidencia de un "gen geek" donde no existe ninguno. Analizaron las distribuciones de calificaciones de 778 cursos universitarios y descubrieron que solo el 5.8% mostraba signos de ser multimodal, es decir, solo una de cada veinte clases mostraba signos de tener dos poblaciones distintas de estudiantes. Luego mostraron a 53 profesores de ciencias de la computación histogramas de distribuciones ambiguas de calificaciones; aquellos que creían que algunas personas tienen una predisposición innata a ser mejores en Ciencias de la Computación eran más propensos a verlos como bimodales que aquellos que no.
+
+Estas creencias importan porque los maestros actúan sobre ellas [Brop1983]. Si un maestro cree que es probable que a un alumno le vaya bien, naturalmente (a menudo inconscientemente) se enfoca en ese alumno, quien luego cumple con las expectativas del maestro debido a la mayor atención, que a su vez parece confirmar la creencia del maestro. Lamentablemente, hay pocas señales de que la mera evidencia del tipo presentado en [Pati2016] sea suficiente para romper este círculo vicioso ...
+
+Aquí hay algunas otras cosas específicas que desmotivarán a sus alumnos:
+
+**Una actitud más santa que tú o despectiva** de un maestro o un compañero de aprendizaje.
+
+**Diciéndoles que sus habilidades existentes son basura.** Los usuarios de Unix se burlan de Windows, los programadores de todo tipo hacen bromas sobre Excel, y no importa qué marco de aplicaciones web ya conozca, algún programador le dirá que está desactualizado. Los estudiantes a menudo han invertido mucho tiempo y esfuerzo en adquirir las habilidades que tienen; menospreciarlos es una buena manera de garantizar que no escuchen nada más que tengas que decir.
+
+**Sumérgete en discusiones técnicas complejas o detalladas** con los alumnos más avanzados de la clase.
+
+**Fingiendo que sabes más que tú.** Los estudiantes confiarán más en usted si es franco sobre las limitaciones de su conocimiento, y será más probable que haga preguntas y busque ayuda.
+
+**Usando la palabra J ("solo") o fingiendo sorpresa.** Como se discutió en el Capítulo 3, decir cosas como "No puedo creer que no sepas X" o "¿nunca has oído hablar de Y?" Señala al alumno que el maestro piensa que su problema es trivial y que debe ser estúpido por no poder resolverlo.
+
+**Dolores de cabeza de instalación de software.**
+El primer contacto de las personas con la programación o con nuevas herramientas de programación a menudo es desmoralizante, y creer que algo es difícil de aprender es una profecía autocumplida. No es solo el tiempo que toma configurarlo o la sensación de que es injusto tener que depurar algo que depende precisamente del conocimiento que aún no tienen. El verdadero problema es que cada fracaso refuerza su creencia de que tendrían una mejor oportunidad de cumplir con la fecha límite del próximo jueves si siguieran haciendo las cosas como siempre lo han hecho.
+
+
+Es aún más fácil desmotivar a las personas en línea que en persona, pero ahora existen estrategias basadas en la evidencia para hacer frente a esto. [Ford2016] descubrió que las mujeres que los hombres consideran que cinco barreras a la contribución al Desbordamiento de pila son significativamente más problemáticas: falta de conciencia de las características del sitio, sentirse descalificado para responder preguntas, intimidar el tamaño de la comunidad, incomodidad al interactuar o confiar en extraños, y la sensación de que buscar cosas en línea no era "trabajo real". El miedo a los comentarios negativos no estaba en esta lista, pero habría sido el siguiente agregado si los autores no fueran tan estrictos con respecto a sus límites estadísticos. Todos estos factores pueden y deben abordarse tanto en entornos en persona como en línea utilizando métodos como los de la Sección 10.4, y hacerlo mejora los resultados para todos [Sved2016].
+
+>**Fracaso productivo y privilegio**
+>
+>Algunos trabajos recientes han explorado el fracaso productivo, donde los alumnos reciben deliberadamente problemas que no pueden resolverse con el conocimiento que tienen y tienen que salir y adquirir nueva información para progresar [Kapu2016]. El fracaso productivo recuerda superficialmente al mantra de la tecnología "falla rápido, falla a menudo", pero este último es más un signo de privilegio que de comprensión. Las personas solo pueden darse el lujo de celebrar el fracaso si están seguras de tener la oportunidad de volver a intentarlo; muchos de sus alumnos, y muchas personas de grupos marginados o desfavorecidos, no pueden estar seguros de eso, y asumir que el fracaso es una opción es una excelente manera de desmotivarlos.
+
+
+### Sindrome impostor
+
+**El síndrome de Impostor** es la creencia de que sus logros son casualidades afortunadas y el temor de que alguien finalmente lo resuelva. Es común entre los estudiantes de alto rendimiento que emprenden un trabajo visible públicamente, pero afecta desproporcionadamente a los miembros de grupos subrepresentados: como se discutió en la Sección 7.1, [Wilc2018] descubrió que las alumnas con exposición previa a la computación superaron a sus pares masculinos en todas las áreas en los cursos de programación introductoria, pero estaban constantemente menos confiados en sus habilidades, en parte porque la sociedad sigue señalando en formas sutiles y no tan sutiles que realmente no pertenecen.
+
+Las aulas tradicionales pueden alimentar el síndrome del impostor. Con frecuencia, el trabajo escolar se realiza solo o en pequeños grupos, pero los resultados se comparten y critican públicamente. Como resultado, rara vez vemos cómo otros luchan por terminar su trabajo, lo que puede alimentar la creencia de que todos los demás lo encuentran fácil. Los miembros de grupos subrepresentados que ya sienten una presión adicional para demostrar su valía pueden verse particularmente afectados.
+
+La Iniciativa Ada ha creado algunas pautas para combatir su propio síndrome de impostor, que incluyen:
+
+**Hable sobre el problema con personas de su confianza.** Cuando escuchas de otros que el síndrome del impostor es un problema común, se hace más difícil creer que tus sentimientos de fraude son reales.
+
+**Ir a una sesión de síndrome de impostor en persona.** No hay nada como estar en una habitación llena de personas a las que respetas y descubrir que el 90% de ellas tienen síndrome de impostor.
+
+**Cuida tus palabras, porque influyen en cómo piensas.** Decir cosas como "No soy un experto en esto, pero ..." resta valor al conocimiento que realmente posees.
+
+**Enseñe a otros sobre su campo.** Ganará confianza en su propio conocimiento y habilidad y ayudará a otros a evitar algunos cardúmenes de síndrome de impostor.
+
+**Hacer preguntas.** Hacer preguntas puede ser intimidante si cree que debe saber la respuesta, pero obtener respuestas elimina la agonía prolongada de la incertidumbre y el miedo al fracaso.
+
+**Construir alianzas.** Tranquiliza y construye a tus amigos, quienes te tranquilizarán y construirán a cambio. (Si no lo hacen, es posible que desee pensar en encontrar nuevos amigos ...)
+
+**Sé dueño de tus logros.** Sigue grabando y revisando activamente lo que has hecho, lo que has construido y los éxitos que has tenido.
+
+Como profesor, puede ayudar a las personas con su síndrome de impostor compartiendo historias de errores que haya cometido o cosas que tuvo dificultades para aprender. Esto asegura a la clase que está bien encontrar temas difíciles. Ser abierto con el grupo también genera confianza y les da confianza para hacer preguntas. (La codificación en vivo es excelente para esto: como se señaló en la Sección 8.1, sus errores tipográficos le muestran a su clase que usted es humano). Las evaluaciones formativas frecuentes también ayudan, especialmente si los alumnos lo ven ajustando lo que enseña o la rapidez con la que se basa en su resultados.
+
+### Amenaza mental y estereotipo
+
+Carol Dweck y otros han estudiado las diferencias de **mentalidad fija** y **mentalidad de crecimiento** en los resultados del aprendizaje. Si las personas creen que la competencia en alguna área es intrínseca (es decir, que "tienes el gen" o no la tienes), todos lo hacen peor, incluidos los supuestamente ventajosos. La razón es que si a alguien no le va bien al principio, asumen que carecen de esa aptitud, lo que sesga su rendimiento futuro. Por otro lado, si las personas creen que una habilidad se aprende y se puede mejorar, lo hacen mejor en promedio.
+
+Existe la preocupación de que la mentalidad de crecimiento se haya sobrevendido, o que sea mucho más difícil traducir la investigación al respecto a la práctica de lo que sus defensores más entusiastas han implicado [Sisk2018]. Sin embargo, parece que los estudiantes con un bajo nivel socioeconómico o que están en riesgo académico podrían beneficiarse de las intervenciones de mentalidad.
+
+Otro efecto ampliamente discutido es la **amenaza de estereotipo** [Stee2011]. Recordar a las personas los estereotipos negativos, incluso de manera sutil, puede hacerlos sentir ansiosos por el riesgo de confirmar esos estereotipos, lo que a su vez puede reducir su rendimiento. Una vez más, hay algunas preocupaciones sobre la replicabilidad de los estudios clave, y el problema se ve aún más nublado por el hecho de que el término se ha utilizado de muchas maneras [Shap2007], pero nadie diría que mencionar los estereotipos en clase ayudará a los alumnos.
+
+## Accesibilidad
+Poner las lecciones y los ejercicios fuera del alcance de alguien es tan desmotivador como es posible, y es muy fácil hacerlo sin darse cuenta. Por ejemplo, las primeras lecciones de programación en línea que escribí tenían una transcripción de la narración junto a las diapositivas, pero no incluían el código fuente real: eso estaba en capturas de pantalla de las diapositivas de PowerPoint. Por lo tanto, alguien que usa un lector de pantalla podría escuchar lo que se dice sobre el programa, pero no sabría qué es realmente el programa. No siempre es factible satisfacer las necesidades de cada alumno, pero agregar leyendas descriptivas a las imágenes y hacer que los controles de navegación sean accesibles para las personas que no pueden usar un mouse puede marcar una gran diferencia.
+
+>**Cortes de acera**
+>
+>Hacer que el material sea accesible ayuda a todos, no solo a las personas que enfrentan desafíos. Los cortes de acera, las pequeñas rampas inclinadas que unían una acera a la calle, se crearon originalmente para facilitar el desplazamiento de los discapacitados físicos, pero resultaron igualmente útiles para las personas con cochecitos y carritos de supermercado. Del mismo modo, el subtitulado de imágenes no solo ayuda a las personas con discapacidad visual: también hace que las imágenes sean más fáciles de encontrar e indexar para los motores de búsqueda.
+
+El primer y más importante paso para hacer que las lecciones sean accesibles es involucrar a las personas con discapacidad en la toma de decisiones: el eslogan nihil de nobis, sine nobis (literalmente, "nada para nosotros sin nosotros") es anterior a los derechos de accesibilidad, pero siempre es el lugar adecuado para comienzo. Algunas recomendaciones específicas son:
+
+**Descubre lo que necesitas hacer.** Cada uno de estos carteles ofrece qué hacer y qué no hacer para personas en el espectro autista, usuarios de lectores de pantalla y personas con baja visión, discapacidades físicas o motoras, ejercicios de audición y dislexia.
+
+**No hagas todo a la vez.** Las mejoras descritas en el punto anterior pueden parecer bastante desalentadoras, así que haga un cambio a la vez.
+
+**Haz las cosas fáciles primero.** Tamaño de fuente, utilizando un micrófono con clip para que las personas puedan escucharlo más fácilmente, y comprobar sus opciones de color son buenos lugares para comenzar.
+
+
+**Sepa qué tan bien lo está haciendo.** Sitios como WebAIM le permiten verificar qué tan accesibles son sus materiales en línea para los usuarios con discapacidad visual.
+[Coom2012, Burg2015] son buenas guías para el diseño visual de accesibilidad. Sus recomendaciones incluyen:
+
+**Formatear documentos con encabezados reales y otros puntos de referencia** en lugar de simplemente cambiar los tamaños y estilos de fuente.
+
+**Evite usar solo el color para transmitir significado en texto o gráficos.** 
+En su lugar, use el color más diferentes patrones de sombreado cruzado (lo que también hace que el material sea comprensible cuando se imprime en blanco y negro).
+
+**Eliminar elementos innecesarios**  en lugar de simplemente hacerlos invisibles, porque los lectores de pantalla a menudo los dicen en voz alta.
+
+**Permitir el ritmo y la repetición** para personas con problemas de lectura o audición.
+
+**Incluye narración de acción en pantalla en videos** (y hable mientras escribe cuando codifique en vivo).
+
+### Cucharas
+
+En 2003, Christine Miserandino comenzó a usar cucharas como una forma de explicar cómo es vivir con una enfermedad crónica. Las personas sanas comienzan cada día con un suministro ilimitado de cucharas, pero las personas con lupus u otras afecciones debilitantes solo tienen unas pocas, y todo lo que hacen les cuesta una. ¿Levantarse de la cama? Eso es una cuchara. Haciendo una comida? Esa es otra cuchara, y muy pronto, se te acaba.
+
+>No puedes simplemente ponerte la ropa cuando estás enfermo ... Si me duelen las manos ese día, los botones están fuera de discusión. Si tengo moretones ese día, necesito usar mangas largas, y si tengo fiebre, necesito un suéter para mantener el calor, etc. Si mi cabello se está cayendo, necesito pasar más tiempo para parecer presentable, y luego debes tener en cuenta otros 5 minutos para sentirte mal de que te tomó 2 horas hacer todo esto.
+
+Como ha argumentado Elizabeth Patitsas, las personas que tienen muchas cucharas pueden acumular más, pero las personas cuyo suministro es limitado pueden tener dificultades para salir adelante. Cuando diseñe clases y ejercicios, recuerde que algunos de sus alumnos pueden tener obstáculos físicos o mentales que no son obvios. En caso de duda, pregunte: es casi seguro que tienen más experiencia con lo que funciona y lo que no funciona que nadie.
+
+## Inclusividad
+La inclusión es una política de inclusión de personas que de otro modo podrían ser excluidas o marginadas. En informática, significa hacer un esfuerzo positivo para ser más acogedor con las mujeres, los grupos raciales o étnicos subrepresentados, las personas con diversas orientaciones sexuales, las personas mayores, los que enfrentan desafíos físicos, los que anteriormente estaban encarcelados, los económicamente desfavorecidos y todos los demás que no No se ajusta al grupo demográfico masculino / asiático afluente de Silicon Valley. La figura [f: motivacion-mujeres-en-cs] (de NPR) ilustra gráficamente los efectos de la cultura excluyente de la informática en las mujeres.
+
+![Mujeres](./img_traning/women-coding.png)
+
+
+[Lee2017] es una guía breve y práctica para hacer eso con referencias a la literatura de investigación. Las prácticas que describe ayudan a los alumnos que pertenecen a uno o más grupos marginados o excluidos, pero también ayudan a motivar a los demás. Están redactados en términos de cursos a largo plazo, pero muchos se pueden aplicar en talleres y otros entornos de campo libre:
+
+**Pida a los alumnos que le envíen un correo electrónico antes del taller** para explicar cómo creen que la capacitación podría ayudarlos a alcanzar sus objetivos.
+
+**Revisa tus notas** para asegurarse de que estén libres de pronombres de género, incluya nombres culturalmente diversos, etc.
+
+**Haga hincapié en que lo que importa es la velocidad a la que están aprendiendo,** no las ventajas o desventajas que tenían cuando comenzaron.
+
+**Fomentar la programación de pares,** pero demuéstralo primero para que los alumnos comprendan los roles de conductor y navegador.
+
+**Mitigar activamente el comportamiento que algunos alumnos pueden encontrar intimidante,** p.ej. uso de jerga o "preguntas" que en realidad se les pide que muestren conocimiento.
+
+Una forma de apoyar a los alumnos de grupos marginados es hacer que las personas se inscriban en talleres en grupos en lugar de hacerlo individualmente. De esa manera, todos en la sala saben de antemano que estarán con personas de confianza, lo que aumenta las posibilidades de que realmente vengan. También ayuda después del taller: si las personas vienen con sus amigos o colegas, pueden trabajar juntas para usar lo que han aprendido.
+
+Más fundamentalmente, los autores de las lecciones deben tener en cuenta la situación de todos. Por ejemplo, [DiSa2014a] descubrió que el 65% de los participantes afroamericanos varones en un programa de prueba de juegos estudiaron informática, en parte porque el aspecto de juego del programa era algo que sus compañeros respetaban. [Lach2018] exploró dos estrategias generales para creando contenido inclusivo y los riesgos asociados con ellos:
+
+**Representación de la comunidad** 
+destaca las identidades sociales, las historias y las redes comunitarias de los alumnos que utilizan mentores después de la escuela o modelos a seguir de los vecindarios de los alumnos, o actividades que utilizan narrativas e historias de la comunidad como base para un proyecto informático. El mayor riesgo con este enfoque es la superficialidad, p. usando computadoras para crear presentaciones de diapositivas en lugar de hacer computación real.
+
+**Integración computacional** 
+incorpora ideas de la comunidad de alumnos, como la reproducción de diseños gráficos autóctonos en un entorno de programación visual. El mayor riesgo aquí es la apropiación cultural, p. usando prácticas sin reconocer los orígenes.
+Si tiene dudas, pregunte a sus alumnos y miembros de la comunidad qué creen que deberían hacer. Volveremos a esto en el Capítulo 13.
+
+>**Conducta como accesibilidad**
+>
+>Dijimos en la Sección 9.1 que las clases deberían aplicar un Código de Conducta como el del Apéndice 17. Esta es una forma de accesibilidad: mientras que los subtítulos hacen que el video sea accesible para las personas con discapacidad auditiva, un Código de Conducta hace que las lecciones sean accesibles para las personas que de lo contrario quedará marginado.
+
+### Pasando el modelo de déficit
+Dependiendo de en quién confíe, solo entre el 12 y el 18% de las personas que obtienen títulos en informática son mujeres, que es menos de la mitad del porcentaje visto a mediados de la década de 1980 (Figura [f: motivación-género], de [Robe2017]). Y los países occidentales son los más extraños por tener un porcentaje tan bajo de mujeres en informática: las mujeres todavía son a menudo del 30 al 40% de los estudiantes de informática en otros lugares [Galp2002, Varm2015].
+
+![Enrolment](./img_traning/enrollment.png)
+
+Como es poco probable que las mujeres hayan cambiado drásticamente en los últimos 30 años, tenemos que buscar causas estructurales para entender qué salió mal y cómo solucionarlo. Una explicación es la forma en que las computadoras domésticas se comercializaron como "juguetes para niños" a partir de la década de 1980 [Marg2003]; otra es la forma en que los departamentos de informática respondieron al crecimiento explosivo de la matrícula en la década de 1980 y nuevamente en la década de 2000 cambiando los requisitos de admisión [Robe2017]. Ninguno de estos factores puede parecer dramático para las personas que no se ven afectadas por ellos, pero actúan como el goteo constante de agua sobre una piedra: con el tiempo, erosionan la motivación y, con ello, la participación.
+
+El primer y más importante paso para solucionar esto es dejar de pensar en términos de una "tubería con fugas" [Mill2015]. En términos más generales, debemos superar un **modelo de déficit**, es decir, dejar de pensar que los miembros de los grupos subrepresentados carecen de algo y, por lo tanto, son responsables de no avanzar. Creer eso pone la carga sobre las personas que ya tienen que hacer un trabajo extra para superar las desigualdades estructurales y (no por casualidad) les da a quienes se benefician de los acuerdos actuales una excusa para no verse demasiado de cerca.
+
+>**Reescribiendo la historia**
+>
+>[Abba2012] describe las carreras y logros de las mujeres que dieron forma a la historia temprana de la informática, pero que con demasiada frecuencia se han descartado de ella; [Ensm2003, Ensm2012] describe cómo la programación se convirtió de una profesión femenina a masculina en la década de 1960 , mientras que [Hick2018] analiza cómo Gran Bretaña perdió su dominio temprano en informática al discriminar sistemáticamente a sus trabajadores más calificados: las mujeres. (Ver [Milt2018] para una revisión de los tres libros). Discutir esta historia hace que algunos hombres en informática se sientan muy incómodos; en mi opinión, esa es una buena razón para hacerlo.
+
+La misoginia en los videojuegos, el uso del "ajuste cultural" en la contratación para disculpar los prejuicios conscientes o inconscientes, una cultura de silencio en torno al acoso y la creciente desigualdad en la sociedad que produce privilegios preparatorios (Sección 9.5) no son culpa de ninguna persona, pero arreglarlos es responsabilidad de todos. Como profesor, tienes más poder que la mayoría; Este taller tiene excelentes consejos prácticos sobre cómo ser un buen aliado, y su consejo es probablemente más importante que cualquier cosa que este libro le enseñe sobre la enseñanza.
+
+
+## Ejercicios
+### Tareas auténticas (pares / 15)
+1. En parejas, enumere media docena de cosas que hizo esta semana que utilizan las habilidades que enseña.
+
+2. Coloque sus artículos en una cuadrícula de 2x2 de "tiempo para dominar" y "utilidad". ¿Dónde estás de acuerdo y en desacuerdo?
+
+### Necesidades principales (toda la clase / 10)
+Paloma Medina identifica seis necesidades básicas para las personas en el trabajo: pertenencia, mejora (es decir, progresar), elección, igualdad, previsibilidad e importancia. Después de leer su descripción de estos, ordénelos de mayor a menor importancia para usted personalmente, luego compare las clasificaciones con sus pares. ¿Cómo crees que se compara tu clasificación con la de tus alumnos?
+
+### Implementar una estrategia para la inclusión (individual / 5)
+Elija una actividad o cambio en la práctica de [Lee2017] en el que le gustaría trabajar. Ponga un recordatorio en su calendario tres meses en el futuro para preguntarse si ha hecho algo al respecto.
+
+### Después del hecho (think-pair-share / 20)
+1. Piense en un curso que tomó en el pasado e identifique una cosa que el maestro hizo que lo desmotivó. Tome notas sobre lo que podría haberse hecho después para corregir la situación.
+
+2. Emparéjese con su vecino y compare historias, luego agregue sus comentarios a un conjunto de notas compartidas por toda la clase.
+
+3. Revise los comentarios en las notas compartidas como un grupo. Destaque y discuta algunas de las cosas que podrían haberse hecho de manera diferente.
+
+4. ¿Crees que hacer esto te ayudará a manejar situaciones como estas en el futuro?
+
+### Recorrer la ruta (toda la clase / 15)
+Encuentre el punto de entrega de transporte público más cercano a su edificio y camine desde allí a su oficina y luego al baño más cercano, tomando notas sobre cosas que cree que serían difíciles para alguien con problemas de movilidad. Ahora pida prestada una silla de ruedas y repita el viaje. ¿Cuán completa fue su lista de ejercicios? ¿Y notaron que la primera oración en este ejercicio asumía que realmente podían caminar?
+
+### ¿Quien decide? (toda la clase / 15)
+En [Litt2004], Kenneth Wesson escribió: "Si los niños pobres del centro de la ciudad superaran sistemáticamente a los niños de los hogares suburbanos ricos en pruebas estandarizadas, ¿alguien es tan ingenuo como para creer que aún insistiríamos en usar estas pruebas como indicadores de éxito?" Lea este artículo de Cameron Cottrill y luego describa un ejemplo de su propia experiencia de evaluaciones "objetivas" que reforzó el status quo.
+
+### Estereotipos comunes (pares / 10)
+Algunas personas todavía dicen: "Es tan simple que incluso tu abuela podría usarlo". En parejas, enumere otras dos o tres frases que refuercen los estereotipos sobre computación.
+
+### No ser un imbécil (individual / 15)
+Este breve artículo de Gary Bernhardt reescribe un mensaje innecesariamente hostil para ser menos grosero. Utilizándolo como modelo, encuentre algo desagradable en Stack Overflow o en algún otro foro de debate público y vuelva a escribirlo para que sea más inclusivo.
+
+### Cara de ahorro (individual / 10)
+¿Se avergonzaría alguno de sus alumnos deseados de admitir que ya no saben algunas de las cosas que desea enseñar? Si es así, ¿cómo puede ayudarlos a salvar la cara?
+
+### Juguetes infantiles (toda la clase / 15)
+[Cutt2017] encuestó a usuarios adultos de computadoras sobre sus actividades infantiles y descubrió que la correlación más fuerte entre la confianza y el uso de la computadora se basaba en la lectura por su cuenta y jugar con juguetes de construcción como Lego que no tienen partes móviles. Examine la clase y vea en qué otras actividades participaron las personas, luego busque estas actividades en línea. ¿Qué grado de género tienen las descripciones y la publicidad para ellos? ¿Qué efecto crees que tiene esto?
+
+### Accesibilidad a la lección (pares / 30)
+En parejas, elija una lección cuyos materiales estén disponibles en línea y clasifíquelos independientemente de acuerdo con lo que se debe y no se debe hacer en estos carteles. ¿Dónde estuvieron de acuerdo usted y su pareja? ¿Dónde estabas en desacuerdo? ¿Qué tan bien fue la lección para cada una de las seis categorías de usuarios?
+
+### Rastreando el ciclo (grupos pequeños / 15)
+[Coco2018] traza un patrón deprimentemente común en el que las buenas intenciones se ven socavadas por el liderazgo de una organización que no está dispuesto a cambiar realmente. Trabajando en grupos de 4 a 6, escriba breves textos o correos electrónicos que imagina que cada una de las partes involucradas se enviaría a la otra en cada etapa de este ciclo.
+
+### ¿Qué es lo peor que podría pasar? (grupos pequeños / 5)
+A lo largo de los años, un proyector se incendió, un estudiante se puso de parto y comenzó una pelea en clase. Me caí del escenario dos veces, me quedé dormido en una de mis propias conferencias y muchos chistes se me cayeron. En pequeños grupos, haga una lista de las peores cosas que le han sucedido mientras enseñaba, luego comparta con la clase. Mantenga la lista para recordarse más tarde que no importa cuán mala sea la clase, al menos nada de eso sucedió.
+
+## Resumen
+![motivation](./img_traning/conceptmap-motivation.svg)

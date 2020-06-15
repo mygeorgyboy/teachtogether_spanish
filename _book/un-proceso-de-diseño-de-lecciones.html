@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítulo 8 Un proceso de diseño de lecciones | Enseñando tecnología juntos</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítulo 8 Un proceso de diseño de lecciones | Enseñando tecnología juntos" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítulo 8 Un proceso de diseño de lecciones | Enseñando tecnología juntos" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Greg Wilson" />
+
+
+<meta name="date" content="2020-06-11" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="aprendizaje-individual.html"/>
+<link rel="next" href="conocimiento-pedagógico-del-contenido.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Dedicatoria</a></li>
+<li class="chapter" data-level="2" data-path="las-reglas.html"><a href="las-reglas.html"><i class="fa fa-check"></i><b>2</b> Las reglas</a></li>
+<li class="chapter" data-level="3" data-path="introducción.html"><a href="introducción.html"><i class="fa fa-check"></i><b>3</b> Introducción</a><ul>
+<li class="chapter" data-level="3.1" data-path="introducción.html"><a href="introducción.html#quienes-somos"><i class="fa fa-check"></i><b>3.1</b> ¿Quienes somos?</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="introducción.html"><a href="introducción.html#emily"><i class="fa fa-check"></i><b>3.1.1</b> Emily</a></li>
+<li class="chapter" data-level="3.1.2" data-path="introducción.html"><a href="introducción.html#moshe"><i class="fa fa-check"></i><b>3.1.2</b> Moshe</a></li>
+<li class="chapter" data-level="3.1.3" data-path="introducción.html"><a href="introducción.html#samira"><i class="fa fa-check"></i><b>3.1.3</b> Samira</a></li>
+<li class="chapter" data-level="3.1.4" data-path="introducción.html"><a href="introducción.html#gene"><i class="fa fa-check"></i><b>3.1.4</b> Gene</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="introducción.html"><a href="introducción.html#qué-leer-en-su-lugar"><i class="fa fa-check"></i><b>3.2</b> Qué leer en su lugar</a></li>
+<li class="chapter" data-level="3.3" data-path="introducción.html"><a href="introducción.html#agradecimientos"><i class="fa fa-check"></i><b>3.3</b> Agradecimientos</a></li>
+<li class="chapter" data-level="3.4" data-path="introducción.html"><a href="introducción.html#ejercicios"><i class="fa fa-check"></i><b>3.4</b> Ejercicios</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="introducción.html"><a href="introducción.html#altas-y-bajas-toda-la-clase-5"><i class="fa fa-check"></i><b>3.4.1</b> Altas y bajas (toda la clase / 5)</a></li>
+<li class="chapter" data-level="3.4.2" data-path="introducción.html"><a href="introducción.html#conócete-a-ti-mismo-toda-la-clase-10"><i class="fa fa-check"></i><b>3.4.2</b> Conócete a ti mismo (toda la clase / 10)</a></li>
+<li class="chapter" data-level="3.4.3" data-path="introducción.html"><a href="introducción.html#por-qué-aprender-a-programar-individual-20"><i class="fa fa-check"></i><b>3.4.3</b> ¿Por qué aprender a programar? (individual / 20)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html"><i class="fa fa-check"></i><b>4</b> Modelos mentales y evaluación formativa</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#novicios"><i class="fa fa-check"></i><b>4.0.1</b> Novicios</a></li>
+<li class="chapter" data-level="4.0.2" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#practicantes-competentes"><i class="fa fa-check"></i><b>4.0.2</b> Practicantes competentes</a></li>
+<li class="chapter" data-level="4.0.3" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#expertos"><i class="fa fa-check"></i><b>4.0.3</b> Expertos</a></li>
+<li class="chapter" data-level="4.1" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#están-aprendiendo-las-personas"><i class="fa fa-check"></i><b>4.1</b> ¿Están aprendiendo las personas?</a></li>
+<li class="chapter" data-level="4.2" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#máquinas-nocionales"><i class="fa fa-check"></i><b>4.2</b> Máquinas nocionales</a></li>
+<li class="chapter" data-level="4.3" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#ejercicios-1"><i class="fa fa-check"></i><b>4.3</b> Ejercicios</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#sus-modelos-mentales-think-pair-share-15"><i class="fa fa-check"></i><b>4.3.1</b> Sus modelos mentales (think-pair-share / 15)</a></li>
+<li class="chapter" data-level="4.3.2" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#síntomas-de-ser-un-novato-toda-la-clase-5"><i class="fa fa-check"></i><b>4.3.2</b> Síntomas de ser un novato (toda la clase / 5)</a></li>
+<li class="chapter" data-level="4.3.3" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#modelado-de-modelos-mentales-para-principiantes-pares-20"><i class="fa fa-check"></i><b>4.3.3</b> Modelado de modelos mentales para principiantes (pares / 20)</a></li>
+<li class="chapter" data-level="4.3.4" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#pensando-en-las-cosas-toda-la-clase-15"><i class="fa fa-check"></i><b>4.3.4</b> Pensando en las cosas (toda la clase / 15)</a></li>
+<li class="chapter" data-level="4.3.5" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#una-progresión-diferente-individual-15"><i class="fa fa-check"></i><b>4.3.5</b> Una progresión diferente (individual / 15)</a></li>
+<li class="chapter" data-level="4.3.6" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#qué-tipo-de-computación-individual-10"><i class="fa fa-check"></i><b>4.3.6</b> ¿Qué tipo de computación? (individual / 10)</a></li>
+<li class="chapter" data-level="4.3.7" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#explicando-por-qué-no-pares-5"><i class="fa fa-check"></i><b>4.3.7</b> Explicando por qué no (pares / 5)</a></li>
+<li class="chapter" data-level="4.3.8" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#su-modelo-ahora-toda-la-clase-5"><i class="fa fa-check"></i><b>4.3.8</b> Su modelo ahora (toda la clase / 5)</a></li>
+<li class="chapter" data-level="4.3.9" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#sus-máquinas-nocionales-grupos-pequeños-20"><i class="fa fa-check"></i><b>4.3.9</b> Sus máquinas nocionales (grupos pequeños / 20)</a></li>
+<li class="chapter" data-level="4.3.10" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#disfrutando-sin-aprender-individual-5"><i class="fa fa-check"></i><b>4.3.10</b> Disfrutando sin aprender (individual / 5)</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="modelos-mentales-y-evaluación-formativa.html"><a href="modelos-mentales-y-evaluación-formativa.html#resumen"><i class="fa fa-check"></i><b>4.4</b> Resumen</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html"><i class="fa fa-check"></i><b>5</b> Experiencia y memoria</a><ul>
+<li class="chapter" data-level="5.1" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#mapas-conceptuales"><i class="fa fa-check"></i><b>5.1</b> Mapas conceptuales</a></li>
+<li class="chapter" data-level="5.2" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#siete-más-o-menos-dos"><i class="fa fa-check"></i><b>5.2</b> Siete más o menos dos</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#reconocimiento-de-patrones"><i class="fa fa-check"></i><b>5.2.1</b> Reconocimiento de patrones</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#convertirse-en-un-experto"><i class="fa fa-check"></i><b>5.3</b> Convertirse en un experto</a></li>
+<li class="chapter" data-level="5.4" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#ejercicios-2"><i class="fa fa-check"></i><b>5.4</b> Ejercicios</a><ul>
+<li class="chapter" data-level="5.4.1" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#mapeo-de-conceptos-pares-30"><i class="fa fa-check"></i><b>5.4.1</b> Mapeo de conceptos (pares / 30)*</a></li>
+<li class="chapter" data-level="5.4.2" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#mapeo-de-conceptos-nuevamente-grupos-pequeños-20"><i class="fa fa-check"></i><b>5.4.2</b> Mapeo de conceptos (nuevamente) (grupos pequeños / 20)</a></li>
+<li class="chapter" data-level="5.4.3" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#mejora-de-la-memoria-a-corto-plazo-individual-5-minutos"><i class="fa fa-check"></i><b>5.4.3</b> Mejora de la memoria a corto plazo (individual / 5 minutos)</a></li>
+<li class="chapter" data-level="5.4.4" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#eso-es-un-poco-autorreferencial-no-clase-completa-30"><i class="fa fa-check"></i><b>5.4.4</b> Eso es un poco autorreferencial, ¿no? (clase completa / 30)</a></li>
+<li class="chapter" data-level="5.4.5" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#darse-cuenta-de-su-punto-ciego-grupos-pequeños-10"><i class="fa fa-check"></i><b>5.4.5</b> Darse cuenta de su punto ciego (grupos pequeños / 10)</a></li>
+<li class="chapter" data-level="5.4.6" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#qué-enseñar-a-continuación-individual-5"><i class="fa fa-check"></i><b>5.4.6</b> Qué enseñar a continuación (individual / 5)</a></li>
+<li class="chapter" data-level="5.4.7" data-path="experiencia-y-memoria.html"><a href="experiencia-y-memoria.html#el-poder-de-fragmentar-individual-5"><i class="fa fa-check"></i><b>5.4.7</b> El poder de fragmentar (individual / 5)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html"><i class="fa fa-check"></i><b>6</b> Arquitectura cognitiva</a><ul>
+<li class="chapter" data-level="6.1" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#qué-está-pasando-allí"><i class="fa fa-check"></i><b>6.1</b> ¿Qué está pasando allí?</a></li>
+<li class="chapter" data-level="6.2" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#carga-cognitiva"><i class="fa fa-check"></i><b>6.2</b> Carga cognitiva</a></li>
+<li class="chapter" data-level="6.3" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#problemas-de-parsons"><i class="fa fa-check"></i><b>6.3</b> Problemas de Parsons</a></li>
+<li class="chapter" data-level="6.4" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#ejemplos-descoloridos"><i class="fa fa-check"></i><b>6.4</b> Ejemplos descoloridos</a></li>
+<li class="chapter" data-level="6.5" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#submetas-marcadas"><i class="fa fa-check"></i><b>6.5</b> Submetas marcadas</a></li>
+<li class="chapter" data-level="6.6" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#manuales-minimos"><i class="fa fa-check"></i><b>6.6</b> Manuales Minimos</a></li>
+<li class="chapter" data-level="6.7" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#otros-modelos-de-aprendizaje"><i class="fa fa-check"></i><b>6.7</b> Otros modelos de aprendizaje</a></li>
+<li class="chapter" data-level="6.8" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#ejercicios-3"><i class="fa fa-check"></i><b>6.8</b> Ejercicios</a><ul>
+<li class="chapter" data-level="6.8.1" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#crear-un-ejemplo-desvanecido-pares-30"><i class="fa fa-check"></i><b>6.8.1</b> Crear un ejemplo desvanecido (pares / 30)</a></li>
+<li class="chapter" data-level="6.8.2" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#carga-de-clasificación-grupos-pequeños-15"><i class="fa fa-check"></i><b>6.8.2</b> Carga de clasificación (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="6.8.3" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#crear-un-problema-de-parsons-pares-20"><i class="fa fa-check"></i><b>6.8.3</b> Crear un problema de Parsons (pares / 20)</a></li>
+<li class="chapter" data-level="6.8.4" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#manuales-mínimos-individual-20"><i class="fa fa-check"></i><b>6.8.4</b> Manuales mínimos (individual / 20)</a></li>
+<li class="chapter" data-level="6.8.5" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#aprendizaje-cognitivo-pares-15"><i class="fa fa-check"></i><b>6.8.5</b> Aprendizaje cognitivo (pares / 15)</a></li>
+<li class="chapter" data-level="6.8.6" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#ejemplos-resueltos-pares-15"><i class="fa fa-check"></i><b>6.8.6</b> Ejemplos resueltos (pares / 15)</a></li>
+<li class="chapter" data-level="6.8.7" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#gráficos-críticos-individual-30"><i class="fa fa-check"></i><b>6.8.7</b> Gráficos críticos (individual / 30)</a></li>
+</ul></li>
+<li class="chapter" data-level="6.9" data-path="arquitectura-cognitiva.html"><a href="arquitectura-cognitiva.html#resumen-1"><i class="fa fa-check"></i><b>6.9</b> Resumen</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html"><i class="fa fa-check"></i><b>7</b> Aprendizaje individual</a><ul>
+<li class="chapter" data-level="7.1" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#seis-estrategias"><i class="fa fa-check"></i><b>7.1</b> Seis estrategias</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#práctica-espaciada"><i class="fa fa-check"></i><b>7.1.1</b> Práctica espaciada</a></li>
+<li class="chapter" data-level="7.1.2" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#práctica-de-recuperación"><i class="fa fa-check"></i><b>7.1.2</b> Práctica de recuperación</a></li>
+<li class="chapter" data-level="7.1.3" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#intercalar"><i class="fa fa-check"></i><b>7.1.3</b> Intercalar</a></li>
+<li class="chapter" data-level="7.1.4" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#elaboración"><i class="fa fa-check"></i><b>7.1.4</b> Elaboración</a></li>
+<li class="chapter" data-level="7.1.5" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#ejemplos-concretos"><i class="fa fa-check"></i><b>7.1.5</b> Ejemplos concretos</a></li>
+<li class="chapter" data-level="7.1.6" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#codificación-dual"><i class="fa fa-check"></i><b>7.1.6</b> Codificación dual</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#gestión-del-tiempo"><i class="fa fa-check"></i><b>7.2</b> Gestión del tiempo</a></li>
+<li class="chapter" data-level="7.3" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#evaluación-por-pares"><i class="fa fa-check"></i><b>7.3</b> Evaluación por pares</a></li>
+<li class="chapter" data-level="7.4" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#ejercicios-4"><i class="fa fa-check"></i><b>7.4</b> Ejercicios</a><ul>
+<li class="chapter" data-level="7.4.1" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#estrategias-de-aprendizaje-individual-20"><i class="fa fa-check"></i><b>7.4.1</b> Estrategias de aprendizaje (individual / 20)</a></li>
+<li class="chapter" data-level="7.4.2" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#ideas-de-conexión-pares-5"><i class="fa fa-check"></i><b>7.4.2</b> Ideas de conexión (pares / 5)</a></li>
+<li class="chapter" data-level="7.4.3" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#evolución-convergente-pares-15"><i class="fa fa-check"></i><b>7.4.3</b> Evolución convergente (pares / 15)</a></li>
+<li class="chapter" data-level="7.4.4" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#mentes-cambiantes-pares-10"><i class="fa fa-check"></i><b>7.4.4</b> Mentes cambiantes (pares / 10)</a></li>
+<li class="chapter" data-level="7.4.5" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#tarjetas-flash-individuales-15"><i class="fa fa-check"></i><b>7.4.5</b> Tarjetas Flash (individuales / 15)</a></li>
+<li class="chapter" data-level="7.4.6" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#usando-adept-toda-la-clase-15"><i class="fa fa-check"></i><b>7.4.6</b> Usando ADEPT (toda la clase / 15)</a></li>
+<li class="chapter" data-level="7.4.7" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#el-costo-de-la-multitarea-pares-10"><i class="fa fa-check"></i><b>7.4.7</b> El costo de la multitarea (pares / 10)</a></li>
+<li class="chapter" data-level="7.4.8" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#mitos-en-la-educación-informática-toda-la-clase-20"><i class="fa fa-check"></i><b>7.4.8</b> Mitos en la educación informática (toda la clase / 20)</a></li>
+<li class="chapter" data-level="7.4.9" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#revisión-por-pares-calibrada-pares-20"><i class="fa fa-check"></i><b>7.4.9</b> Revisión por pares calibrada (pares / 20)</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="aprendizaje-individual.html"><a href="aprendizaje-individual.html#resumen-2"><i class="fa fa-check"></i><b>7.5</b> Resumen</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html"><i class="fa fa-check"></i><b>8</b> Un proceso de diseño de lecciones</a><ul>
+<li class="chapter" data-level="8.1" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#personas-aprendices"><i class="fa fa-check"></i><b>8.1</b> Personas aprendices</a></li>
+<li class="chapter" data-level="8.2" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#objetivos-de-aprendizaje"><i class="fa fa-check"></i><b>8.2</b> Objetivos de aprendizaje</a></li>
+<li class="chapter" data-level="8.3" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#mantenibilidad"><i class="fa fa-check"></i><b>8.3</b> Mantenibilidad</a></li>
+<li class="chapter" data-level="8.4" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#ejercicios-5"><i class="fa fa-check"></i><b>8.4</b> Ejercicios</a><ul>
+<li class="chapter" data-level="8.4.1" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#crear-personas-aprendices-grupos-pequeños-30"><i class="fa fa-check"></i><b>8.4.1</b> Crear personas aprendices (grupos pequeños / 30)</a></li>
+<li class="chapter" data-level="8.4.2" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#clasificar-los-objetivos-de-aprendizaje-pares-10"><i class="fa fa-check"></i><b>8.4.2</b> Clasificar los objetivos de aprendizaje (pares / 10)</a></li>
+<li class="chapter" data-level="8.4.3" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#escribir-objetivos-de-aprendizaje-pares-20"><i class="fa fa-check"></i><b>8.4.3</b> Escribir objetivos de aprendizaje (pares / 20)</a></li>
+<li class="chapter" data-level="8.4.4" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#escribir-más-objetivos-de-aprendizaje-pares-20"><i class="fa fa-check"></i><b>8.4.4</b> Escribir más objetivos de aprendizaje (pares / 20)</a></li>
+<li class="chapter" data-level="8.4.5" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#ayúdame-a-hacerlo-solo-grupos-pequeños-15"><i class="fa fa-check"></i><b>8.4.5</b> Ayúdame a hacerlo solo (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="8.4.6" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#desarrollar-lecciones-restando-complejidad-individual-20"><i class="fa fa-check"></i><b>8.4.6</b> Desarrollar lecciones restando complejidad (individual / 20)</a></li>
+<li class="chapter" data-level="8.4.7" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#rareza-no-esencial-individual-15"><i class="fa fa-check"></i><b>8.4.7</b> Rareza no esencial (individual / 15)</a></li>
+<li class="chapter" data-level="8.4.8" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#pete-individual-15"><i class="fa fa-check"></i><b>8.4.8</b> PETE (individual / 15)</a></li>
+<li class="chapter" data-level="8.4.9" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#primm-individual-15"><i class="fa fa-check"></i><b>8.4.9</b> PRIMM (individual / 15)</a></li>
+<li class="chapter" data-level="8.4.10" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#concreto-representacional-abstracto-pares-15"><i class="fa fa-check"></i><b>8.4.10</b> Concreto-Representacional-Abstracto (pares / 15)</a></li>
+<li class="chapter" data-level="8.4.11" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#evaluación-de-un-repositorio-de-lecciones-grupos-pequeños-10"><i class="fa fa-check"></i><b>8.4.11</b> Evaluación de un repositorio de lecciones (grupos pequeños / 10)</a></li>
+</ul></li>
+<li class="chapter" data-level="8.5" data-path="un-proceso-de-diseño-de-lecciones.html"><a href="un-proceso-de-diseño-de-lecciones.html#resumen-3"><i class="fa fa-check"></i><b>8.5</b> Resumen</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html"><i class="fa fa-check"></i><b>9</b> Conocimiento pedagógico del contenido</a><ul>
+<li class="chapter" data-level="9.1" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#qué-les-estamos-enseñando-ahora"><i class="fa fa-check"></i><b>9.1</b> ¿Qué les estamos enseñando ahora?</a></li>
+<li class="chapter" data-level="9.2" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#cuánto-están-aprendiendo"><i class="fa fa-check"></i><b>9.2</b> ¿Cuánto están aprendiendo?</a></li>
+<li class="chapter" data-level="9.3" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#qué-ideas-erróneas-tienen-los-novatos"><i class="fa fa-check"></i><b>9.3</b> ¿Qué ideas erróneas tienen los novatos?</a></li>
+<li class="chapter" data-level="9.4" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#qué-errores-cometen-los-novatos"><i class="fa fa-check"></i><b>9.4</b> ¿Qué errores cometen los novatos?</a></li>
+<li class="chapter" data-level="9.5" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#cómo-se-programa-de-novicios"><i class="fa fa-check"></i><b>9.5</b> ¿Cómo se programa de novicios?</a></li>
+<li class="chapter" data-level="9.6" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#cómo-se-depuran-los-novatos"><i class="fa fa-check"></i><b>9.6</b> ¿Cómo se depuran los novatos?</a></li>
+<li class="chapter" data-level="9.7" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#qué-pasa-con-las-pruebas"><i class="fa fa-check"></i><b>9.7</b> ¿Qué pasa con las pruebas?</a></li>
+<li class="chapter" data-level="9.8" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#importan-los-idiomas"><i class="fa fa-check"></i><b>9.8</b> ¿Importan los idiomas?</a></li>
+<li class="chapter" data-level="9.9" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#programación-orientada-a-objetos"><i class="fa fa-check"></i><b>9.9</b> Programación orientada a objetos</a></li>
+<li class="chapter" data-level="9.10" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#declaraciones-de-tipo"><i class="fa fa-check"></i><b>9.10</b> Declaraciones de tipo</a></li>
+<li class="chapter" data-level="9.11" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#nomenclatura-variable"><i class="fa fa-check"></i><b>9.11</b> Nomenclatura variable</a></li>
+<li class="chapter" data-level="9.12" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#ayudan-los-mejores-mensajes-de-error"><i class="fa fa-check"></i><b>9.12</b> ¿Ayudan los mejores mensajes de error?</a></li>
+<li class="chapter" data-level="9.13" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#ayuda-la-visualización"><i class="fa fa-check"></i><b>9.13</b> ¿Ayuda la visualización?</a></li>
+<li class="chapter" data-level="9.14" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#qué-más-podemos-hacer-para-ayudar"><i class="fa fa-check"></i><b>9.14</b> ¿Qué más podemos hacer para ayudar?</a></li>
+<li class="chapter" data-level="9.15" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#dónde-sigue"><i class="fa fa-check"></i><b>9.15</b> ¿Dónde sigue?</a></li>
+<li class="chapter" data-level="9.16" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#ejercicios-6"><i class="fa fa-check"></i><b>9.16</b> Ejercicios</a><ul>
+<li class="chapter" data-level="9.16.1" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#malentendidos-de-sus-alumnos-grupos-pequeños-15"><i class="fa fa-check"></i><b>9.16.1</b> Malentendidos de sus alumnos (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="9.16.2" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#comprobación-de-errores-comunes-individual-20"><i class="fa fa-check"></i><b>9.16.2</b> Comprobación de errores comunes (individual / 20)</a></li>
+<li class="chapter" data-level="9.16.3" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#código-destrozado-pares-15"><i class="fa fa-check"></i><b>9.16.3</b> Código destrozado (pares / 15)</a></li>
+<li class="chapter" data-level="9.16.4" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#el-problema-de-la-lluvia-pares-10"><i class="fa fa-check"></i><b>9.16.4</b> El problema de la lluvia (pares / 10)</a></li>
+<li class="chapter" data-level="9.16.5" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#roles-de-variables-pares-15"><i class="fa fa-check"></i><b>9.16.5</b> Roles de variables (pares / 15)</a></li>
+<li class="chapter" data-level="9.16.6" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#qué-estás-enseñando-individual-10"><i class="fa fa-check"></i><b>9.16.6</b> ¿Qué estás enseñando? (individual / 10)</a></li>
+<li class="chapter" data-level="9.16.7" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#actividades-beneficiosas-individual-10"><i class="fa fa-check"></i><b>9.16.7</b> Actividades beneficiosas (individual / 10)</a></li>
+<li class="chapter" data-level="9.16.8" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#conceptos-erróneos-y-desafíos-grupos-pequeños-15"><i class="fa fa-check"></i><b>9.16.8</b> Conceptos erróneos y desafíos (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="9.16.9" data-path="conocimiento-pedagógico-del-contenido.html"><a href="conocimiento-pedagógico-del-contenido.html#qué-es-lo-que-más-te-importa-toda-la-clase-15"><i class="fa fa-check"></i><b>9.16.9</b> ¿Qué es lo que más te importa? (toda la clase / 15)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html"><i class="fa fa-check"></i><b>10</b> La enseñanza como arte de performance</a><ul>
+<li class="chapter" data-level="10.1" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#codificación-en-vivo"><i class="fa fa-check"></i><b>10.1</b> Codificación en vivo</a></li>
+<li class="chapter" data-level="10.2" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#abraza-tus-errores"><i class="fa fa-check"></i><b>10.2</b> Abraza tus errores</a></li>
+<li class="chapter" data-level="10.3" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#pedir-predicciones"><i class="fa fa-check"></i><b>10.3</b> Pedir predicciones</a></li>
+<li class="chapter" data-level="10.4" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#tomar-con-calma"><i class="fa fa-check"></i><b>10.4</b> Tomar con calma</a></li>
+<li class="chapter" data-level="10.5" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#ser-visto-y-escuchado"><i class="fa fa-check"></i><b>10.5</b> Ser visto y escuchado</a></li>
+<li class="chapter" data-level="10.6" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#refleje-el-entorno-de-su-alumno"><i class="fa fa-check"></i><b>10.6</b> Refleje el entorno de su alumno</a></li>
+<li class="chapter" data-level="10.7" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#usa-la-pantalla-sabiamente"><i class="fa fa-check"></i><b>10.7</b> Usa la pantalla sabiamente</a></li>
+<li class="chapter" data-level="10.8" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#dispositivos-dobles"><i class="fa fa-check"></i><b>10.8</b> Dispositivos dobles</a></li>
+<li class="chapter" data-level="10.9" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#dibuja-temprano-dibuja-a-menudo"><i class="fa fa-check"></i><b>10.9</b> Dibuja temprano, dibuja a menudo</a></li>
+<li class="chapter" data-level="10.10" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#evitar-distracciones"><i class="fa fa-check"></i><b>10.10</b> Evitar distracciones</a></li>
+<li class="chapter" data-level="10.11" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#improvisar-después-de-conocer-el-material"><i class="fa fa-check"></i><b>10.11</b> Improvisar: después de conocer el material</a><ul>
+<li class="chapter" data-level="10.11.1" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#mira-la-pantalla-de-vez-en-cuando"><i class="fa fa-check"></i><b>10.11.1</b> Mira la pantalla: de vez en cuando</a></li>
+<li class="chapter" data-level="10.11.2" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#inconvenientes"><i class="fa fa-check"></i><b>10.11.2</b> Inconvenientes</a></li>
+<li class="chapter" data-level="10.11.3" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#estudio-de-la-lección"><i class="fa fa-check"></i><b>10.11.3</b> Estudio de la lección</a></li>
+</ul></li>
+<li class="chapter" data-level="10.12" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#dando-y-recibiendo-retroalimentación-sobre-la-enseñanza"><i class="fa fa-check"></i><b>10.12</b> Dando y recibiendo retroalimentación sobre la enseñanza</a></li>
+<li class="chapter" data-level="10.13" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#cómo-practicar-el-rendimiento"><i class="fa fa-check"></i><b>10.13</b> Cómo practicar el rendimiento</a></li>
+<li class="chapter" data-level="10.14" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#ejercicios-7"><i class="fa fa-check"></i><b>10.14</b> Ejercicios</a><ul>
+<li class="chapter" data-level="10.14.1" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#dar-comentarios-sobre-la-mala-enseñanza-toda-la-clase-20"><i class="fa fa-check"></i><b>10.14.1</b> Dar comentarios sobre la mala enseñanza (toda la clase / 20)</a></li>
+<li class="chapter" data-level="10.14.2" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#practicar-dar-comentarios-grupos-pequeños-45"><i class="fa fa-check"></i><b>10.14.2</b> Practicar dar comentarios (grupos pequeños / 45)</a></li>
+<li class="chapter" data-level="10.14.3" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#lo-malo-y-lo-bueno-toda-la-clase-20"><i class="fa fa-check"></i><b>10.14.3</b> Lo malo y lo bueno (toda la clase / 20)</a></li>
+<li class="chapter" data-level="10.14.4" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#mira-luego-haz-pares-30"><i class="fa fa-check"></i><b>10.14.4</b> Mira, luego haz (pares / 30)</a></li>
+<li class="chapter" data-level="10.14.5" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#cuenta-grupos-pequeños-15"><i class="fa fa-check"></i><b>10.14.5</b> Cuenta (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="10.14.6" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#consejos-de-enseñanza-grupos-pequeños-15"><i class="fa fa-check"></i><b>10.14.6</b> Consejos de enseñanza (grupos pequeños / 15)</a></li>
+</ul></li>
+<li class="chapter" data-level="10.15" data-path="la-enseñanza-como-arte-de-performance.html"><a href="la-enseñanza-como-arte-de-performance.html#resumen-4"><i class="fa fa-check"></i><b>10.15</b> Resumen</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="en-el-aula.html"><a href="en-el-aula.html"><i class="fa fa-check"></i><b>11</b> En el aula</a><ul>
+<li class="chapter" data-level="11.1" data-path="en-el-aula.html"><a href="en-el-aula.html#hacer-cumplir-el-código-de-conducta"><i class="fa fa-check"></i><b>11.1</b> Hacer cumplir el Código de conducta</a></li>
+<li class="chapter" data-level="11.2" data-path="en-el-aula.html"><a href="en-el-aula.html#instrucción-de-pares"><i class="fa fa-check"></i><b>11.2</b> Instrucción de pares</a></li>
+<li class="chapter" data-level="11.3" data-path="en-el-aula.html"><a href="en-el-aula.html#enseñar-juntos"><i class="fa fa-check"></i><b>11.3</b> Enseñar juntos</a></li>
+<li class="chapter" data-level="11.4" data-path="en-el-aula.html"><a href="en-el-aula.html#evaluar-conocimiento-previo"><i class="fa fa-check"></i><b>11.4</b> Evaluar conocimiento previo</a></li>
+<li class="chapter" data-level="11.5" data-path="en-el-aula.html"><a href="en-el-aula.html#plan-para-habilidades-mixtas"><i class="fa fa-check"></i><b>11.5</b> Plan para habilidades mixtas</a></li>
+<li class="chapter" data-level="11.6" data-path="en-el-aula.html"><a href="en-el-aula.html#programación-en-pareja"><i class="fa fa-check"></i><b>11.6</b> Programación en pareja</a></li>
+<li class="chapter" data-level="11.7" data-path="en-el-aula.html"><a href="en-el-aula.html#tomar-notas-juntos"><i class="fa fa-check"></i><b>11.7</b> Tomar notas … ¿Juntos?</a><ul>
+<li class="chapter" data-level="11.7.1" data-path="en-el-aula.html"><a href="en-el-aula.html#points-for-improvement"><i class="fa fa-check"></i><b>11.7.1</b> Points for Improvement</a></li>
+</ul></li>
+<li class="chapter" data-level="11.8" data-path="en-el-aula.html"><a href="en-el-aula.html#notas-adhesivas"><i class="fa fa-check"></i><b>11.8</b> Notas adhesivas</a><ul>
+<li class="chapter" data-level="11.8.1" data-path="en-el-aula.html"><a href="en-el-aula.html#como-banderas-de-estado"><i class="fa fa-check"></i><b>11.8.1</b> Como banderas de estado</a></li>
+<li class="chapter" data-level="11.8.2" data-path="en-el-aula.html"><a href="en-el-aula.html#para-distribuir-la-atención"><i class="fa fa-check"></i><b>11.8.2</b> Para distribuir la atención</a></li>
+<li class="chapter" data-level="11.8.3" data-path="en-el-aula.html"><a href="en-el-aula.html#como-tarjetas-de-minutos"><i class="fa fa-check"></i><b>11.8.3</b> Como tarjetas de minutos</a></li>
+</ul></li>
+<li class="chapter" data-level="11.9" data-path="en-el-aula.html"><a href="en-el-aula.html#nunca-una-página-en-blanco"><i class="fa fa-check"></i><b>11.9</b> Nunca una página en blanco</a></li>
+<li class="chapter" data-level="11.10" data-path="en-el-aula.html"><a href="en-el-aula.html#preparando-a-tus-alumnos"><i class="fa fa-check"></i><b>11.10</b> Preparando a tus alumnos</a></li>
+<li class="chapter" data-level="11.11" data-path="en-el-aula.html"><a href="en-el-aula.html#otras-prácticas-docentes"><i class="fa fa-check"></i><b>11.11</b> Otras prácticas docentes</a><ul>
+<li class="chapter" data-level="11.11.1" data-path="en-el-aula.html"><a href="en-el-aula.html#comience-con-introducciones"><i class="fa fa-check"></i><b>11.11.1</b> Comience con introducciones</a></li>
+<li class="chapter" data-level="11.11.2" data-path="en-el-aula.html"><a href="en-el-aula.html#configura-tu-propio-entorno"><i class="fa fa-check"></i><b>11.11.2</b> Configura tu propio entorno</a></li>
+<li class="chapter" data-level="11.11.3" data-path="en-el-aula.html"><a href="en-el-aula.html#evite-la-tarea-en-formatos-de-todo-el-día"><i class="fa fa-check"></i><b>11.11.3</b> Evite la tarea en formatos de todo el día</a></li>
+<li class="chapter" data-level="11.11.4" data-path="en-el-aula.html"><a href="en-el-aula.html#no-toque-el-teclado-del-alumno"><i class="fa fa-check"></i><b>11.11.4</b> No toque el teclado del alumno</a></li>
+<li class="chapter" data-level="11.11.5" data-path="en-el-aula.html"><a href="en-el-aula.html#repita-la-pregunta"><i class="fa fa-check"></i><b>11.11.5</b> Repita la pregunta</a></li>
+<li class="chapter" data-level="11.11.6" data-path="en-el-aula.html"><a href="en-el-aula.html#uno-arriba-uno-abajo"><i class="fa fa-check"></i><b>11.11.6</b> Uno arriba, uno abajo</a></li>
+<li class="chapter" data-level="11.11.7" data-path="en-el-aula.html"><a href="en-el-aula.html#haga-que-los-alumnos-hagan-predicciones"><i class="fa fa-check"></i><b>11.11.7</b> Haga que los alumnos hagan predicciones</a></li>
+<li class="chapter" data-level="11.11.8" data-path="en-el-aula.html"><a href="en-el-aula.html#configurando-tablas"><i class="fa fa-check"></i><b>11.11.8</b> Configurando Tablas</a></li>
+<li class="chapter" data-level="11.11.9" data-path="en-el-aula.html"><a href="en-el-aula.html#pastillas-para-la-tos"><i class="fa fa-check"></i><b>11.11.9</b> Pastillas para la tos</a></li>
+<li class="chapter" data-level="11.11.10" data-path="en-el-aula.html"><a href="en-el-aula.html#piensa-par-comparte"><i class="fa fa-check"></i><b>11.11.10</b> Piensa-Par-Comparte</a></li>
+<li class="chapter" data-level="11.11.11" data-path="en-el-aula.html"><a href="en-el-aula.html#mañana-mediodía-y-noche"><i class="fa fa-check"></i><b>11.11.11</b> Mañana, mediodía y noche</a></li>
+<li class="chapter" data-level="11.11.12" data-path="en-el-aula.html"><a href="en-el-aula.html#humor"><i class="fa fa-check"></i><b>11.11.12</b> Humor</a></li>
+</ul></li>
+<li class="chapter" data-level="11.12" data-path="en-el-aula.html"><a href="en-el-aula.html#limite-la-innovación"><i class="fa fa-check"></i><b>11.12</b> Limite la innovación</a></li>
+<li class="chapter" data-level="11.13" data-path="en-el-aula.html"><a href="en-el-aula.html#ejercicios-8"><i class="fa fa-check"></i><b>11.13</b> Ejercicios</a><ul>
+<li class="chapter" data-level="11.13.1" data-path="en-el-aula.html"><a href="en-el-aula.html#crear-un-cuestionario-individual-20"><i class="fa fa-check"></i><b>11.13.1</b> Crear un cuestionario (individual / 20)</a></li>
+<li class="chapter" data-level="11.13.2" data-path="en-el-aula.html"><a href="en-el-aula.html#uno-de-los-tuyos-clase-completa-15"><i class="fa fa-check"></i><b>11.13.2</b> Uno de los tuyos (clase completa / 15)</a></li>
+<li class="chapter" data-level="11.13.3" data-path="en-el-aula.html"><a href="en-el-aula.html#puedo-conducir-pares-10"><i class="fa fa-check"></i><b>11.13.3</b> ¿Puedo conducir? (pares / 10)</a></li>
+<li class="chapter" data-level="11.13.4" data-path="en-el-aula.html"><a href="en-el-aula.html#emparejamiento-pares-15"><i class="fa fa-check"></i><b>11.13.4</b> Emparejamiento (pares / 15)</a></li>
+<li class="chapter" data-level="11.13.5" data-path="en-el-aula.html"><a href="en-el-aula.html#comparar-notas-grupos-pequeños-15"><i class="fa fa-check"></i><b>11.13.5</b> Comparar notas (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="11.13.6" data-path="en-el-aula.html"><a href="en-el-aula.html#credibilidad-individual-15"><i class="fa fa-check"></i><b>11.13.6</b> Credibilidad (individual / 15)</a></li>
+<li class="chapter" data-level="11.13.7" data-path="en-el-aula.html"><a href="en-el-aula.html#medición-de-efectividad-individual-15"><i class="fa fa-check"></i><b>11.13.7</b> Medición de efectividad (individual / 15)</a></li>
+<li class="chapter" data-level="11.13.8" data-path="en-el-aula.html"><a href="en-el-aula.html#objeciones-y-contra-objeciones-think-pair-share-15"><i class="fa fa-check"></i><b>11.13.8</b> Objeciones y contra objeciones (think-pair-share / 15)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html"><i class="fa fa-check"></i><b>12</b> Motivación y Desmotivación</a><ul>
+<li class="chapter" data-level="12.1" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#tareas-auténticas"><i class="fa fa-check"></i><b>12.1</b> Tareas auténticas</a></li>
+<li class="chapter" data-level="12.2" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#desmotivación"><i class="fa fa-check"></i><b>12.2</b> Desmotivación</a><ul>
+<li class="chapter" data-level="12.2.1" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#sindrome-impostor"><i class="fa fa-check"></i><b>12.2.1</b> Sindrome impostor</a></li>
+<li class="chapter" data-level="12.2.2" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#amenaza-mental-y-estereotipo"><i class="fa fa-check"></i><b>12.2.2</b> Amenaza mental y estereotipo</a></li>
+</ul></li>
+<li class="chapter" data-level="12.3" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#accesibilidad"><i class="fa fa-check"></i><b>12.3</b> Accesibilidad</a><ul>
+<li class="chapter" data-level="12.3.1" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#cucharas"><i class="fa fa-check"></i><b>12.3.1</b> Cucharas</a></li>
+</ul></li>
+<li class="chapter" data-level="12.4" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#inclusividad"><i class="fa fa-check"></i><b>12.4</b> Inclusividad</a><ul>
+<li class="chapter" data-level="12.4.1" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#pasando-el-modelo-de-déficit"><i class="fa fa-check"></i><b>12.4.1</b> Pasando el modelo de déficit</a></li>
+</ul></li>
+<li class="chapter" data-level="12.5" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#ejercicios-9"><i class="fa fa-check"></i><b>12.5</b> Ejercicios</a><ul>
+<li class="chapter" data-level="12.5.1" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#tareas-auténticas-pares-15"><i class="fa fa-check"></i><b>12.5.1</b> Tareas auténticas (pares / 15)</a></li>
+<li class="chapter" data-level="12.5.2" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#necesidades-principales-toda-la-clase-10"><i class="fa fa-check"></i><b>12.5.2</b> Necesidades principales (toda la clase / 10)</a></li>
+<li class="chapter" data-level="12.5.3" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#implementar-una-estrategia-para-la-inclusión-individual-5"><i class="fa fa-check"></i><b>12.5.3</b> Implementar una estrategia para la inclusión (individual / 5)</a></li>
+<li class="chapter" data-level="12.5.4" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#después-del-hecho-think-pair-share-20"><i class="fa fa-check"></i><b>12.5.4</b> Después del hecho (think-pair-share / 20)</a></li>
+<li class="chapter" data-level="12.5.5" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#recorrer-la-ruta-toda-la-clase-15"><i class="fa fa-check"></i><b>12.5.5</b> Recorrer la ruta (toda la clase / 15)</a></li>
+<li class="chapter" data-level="12.5.6" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#quien-decide-toda-la-clase-15"><i class="fa fa-check"></i><b>12.5.6</b> ¿Quien decide? (toda la clase / 15)</a></li>
+<li class="chapter" data-level="12.5.7" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#estereotipos-comunes-pares-10"><i class="fa fa-check"></i><b>12.5.7</b> Estereotipos comunes (pares / 10)</a></li>
+<li class="chapter" data-level="12.5.8" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#no-ser-un-imbécil-individual-15"><i class="fa fa-check"></i><b>12.5.8</b> No ser un imbécil (individual / 15)</a></li>
+<li class="chapter" data-level="12.5.9" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#cara-de-ahorro-individual-10"><i class="fa fa-check"></i><b>12.5.9</b> Cara de ahorro (individual / 10)</a></li>
+<li class="chapter" data-level="12.5.10" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#juguetes-infantiles-toda-la-clase-15"><i class="fa fa-check"></i><b>12.5.10</b> Juguetes infantiles (toda la clase / 15)</a></li>
+<li class="chapter" data-level="12.5.11" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#accesibilidad-a-la-lección-pares-30"><i class="fa fa-check"></i><b>12.5.11</b> Accesibilidad a la lección (pares / 30)</a></li>
+<li class="chapter" data-level="12.5.12" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#rastreando-el-ciclo-grupos-pequeños-15"><i class="fa fa-check"></i><b>12.5.12</b> Rastreando el ciclo (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="12.5.13" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#qué-es-lo-peor-que-podría-pasar-grupos-pequeños-5"><i class="fa fa-check"></i><b>12.5.13</b> ¿Qué es lo peor que podría pasar? (grupos pequeños / 5)</a></li>
+</ul></li>
+<li class="chapter" data-level="12.6" data-path="motivación-y-desmotivación.html"><a href="motivación-y-desmotivación.html#resumen-5"><i class="fa fa-check"></i><b>12.6</b> Resumen</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html"><i class="fa fa-check"></i><b>13</b> Enseñando en línea</a><ul>
+<li class="chapter" data-level="13.1" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html#mooc"><i class="fa fa-check"></i><b>13.1</b> MOOC</a></li>
+<li class="chapter" data-level="13.2" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html#video"><i class="fa fa-check"></i><b>13.2</b> Video</a></li>
+<li class="chapter" data-level="13.3" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html#modelos-híbridos"><i class="fa fa-check"></i><b>13.3</b> Modelos híbridos</a></li>
+<li class="chapter" data-level="13.4" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html#compromiso-en-línea"><i class="fa fa-check"></i><b>13.4</b> Compromiso en línea</a></li>
+<li class="chapter" data-level="13.5" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html#ejercicios-10"><i class="fa fa-check"></i><b>13.5</b> Ejercicios</a><ul>
+<li class="chapter" data-level="13.5.1" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html#video-bidireccional-pares-10"><i class="fa fa-check"></i><b>13.5.1</b> Video bidireccional (pares / 10)</a></li>
+<li class="chapter" data-level="13.5.2" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html#puntos-de-vista-individual-10"><i class="fa fa-check"></i><b>13.5.2</b> Puntos de vista (individual / 10)</a></li>
+<li class="chapter" data-level="13.5.3" data-path="enseñando-en-línea.html"><a href="enseñando-en-línea.html#ayudando-o-dañando-grupos-pequeños-30"><i class="fa fa-check"></i><b>13.5.3</b> Ayudando o Dañando (grupos pequeños / 30)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html"><i class="fa fa-check"></i><b>14</b> Tipos de ejercicio</a><ul>
+<li class="chapter" data-level="14.1" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#los-clásicos"><i class="fa fa-check"></i><b>14.1</b> Los clásicos</a></li>
+<li class="chapter" data-level="14.2" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#rastreo"><i class="fa fa-check"></i><b>14.2</b> Rastreo</a></li>
+<li class="chapter" data-level="14.3" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#diagramas"><i class="fa fa-check"></i><b>14.3</b> Diagramas</a></li>
+<li class="chapter" data-level="14.4" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#calificación-automática"><i class="fa fa-check"></i><b>14.4</b> Calificación automática</a></li>
+<li class="chapter" data-level="14.5" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#pensamiento-de-nivel-superior"><i class="fa fa-check"></i><b>14.5</b> Pensamiento de nivel superior</a></li>
+<li class="chapter" data-level="14.6" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#ejercicios-11"><i class="fa fa-check"></i><b>14.6</b> Ejercicios</a><ul>
+<li class="chapter" data-level="14.6.1" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#código-de-inversión-y-ejecución-grupos-pequeños-15"><i class="fa fa-check"></i><b>14.6.1</b> Código de inversión y ejecución (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="14.6.2" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#valores-de-rastreo-pares-10"><i class="fa fa-check"></i><b>14.6.2</b> Valores de rastreo (pares / 10)</a></li>
+<li class="chapter" data-level="14.6.3" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#refactorización-grupos-pequeños-15"><i class="fa fa-check"></i><b>14.6.3</b> Refactorización (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="14.6.4" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#etiquetar-un-diagrama-pares-10"><i class="fa fa-check"></i><b>14.6.4</b> Etiquetar un diagrama (pares / 10)</a></li>
+<li class="chapter" data-level="14.6.5" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#rompecabezas-de-lápiz-y-papel-toda-la-clase-15"><i class="fa fa-check"></i><b>14.6.5</b> Rompecabezas de lápiz y papel (toda la clase / 15)</a></li>
+<li class="chapter" data-level="14.6.6" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#fallas-de-conteo-pares-15"><i class="fa fa-check"></i><b>14.6.6</b> Fallas de conteo (pares / 15)</a></li>
+<li class="chapter" data-level="14.6.7" data-path="tipos-de-ejercicio.html"><a href="tipos-de-ejercicio.html#hablando-de-tiempos-individual-10"><i class="fa fa-check"></i><b>14.6.7</b> Hablando de tiempos (individual / 10)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html"><i class="fa fa-check"></i><b>15</b> Construyendo una comunidad de práctica</a><ul>
+<li class="chapter" data-level="15.1" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#aprende-luego-haz"><i class="fa fa-check"></i><b>15.1</b> Aprende, luego haz</a></li>
+<li class="chapter" data-level="15.2" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#cuatro-pasos"><i class="fa fa-check"></i><b>15.2</b> Cuatro pasos</a></li>
+<li class="chapter" data-level="15.3" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#inducción"><i class="fa fa-check"></i><b>15.3</b> Inducción</a></li>
+<li class="chapter" data-level="15.4" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#retencion"><i class="fa fa-check"></i><b>15.4</b> Retencion</a></li>
+<li class="chapter" data-level="15.5" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#gobernancia"><i class="fa fa-check"></i><b>15.5</b> Gobernancia</a></li>
+<li class="chapter" data-level="15.6" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#cuídate"><i class="fa fa-check"></i><b>15.6</b> Cuídate</a></li>
+<li class="chapter" data-level="15.7" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#ejercicios-12"><i class="fa fa-check"></i><b>15.7</b> Ejercicios</a><ul>
+<li class="chapter" data-level="15.7.1" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#qué-tipo-de-comunidad-individual-15"><i class="fa fa-check"></i><b>15.7.1</b> ¿Qué tipo de comunidad? (individual / 15)</a></li>
+<li class="chapter" data-level="15.7.2" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#personas-que-puede-conocer-grupos-pequeños-30"><i class="fa fa-check"></i><b>15.7.2</b> Personas que puede conocer (grupos pequeños / 30)</a></li>
+<li class="chapter" data-level="15.7.3" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#valores-grupos-pequeños-45"><i class="fa fa-check"></i><b>15.7.3</b> Valores (grupos pequeños / 45)</a></li>
+<li class="chapter" data-level="15.7.4" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#procedimientos-de-reunión-grupos-pequeños-30"><i class="fa fa-check"></i><b>15.7.4</b> Procedimientos de reunión (grupos pequeños / 30)</a></li>
+<li class="chapter" data-level="15.7.5" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#tamaño-grupos-pequeños-20"><i class="fa fa-check"></i><b>15.7.5</b> Tamaño (grupos pequeños / 20)</a></li>
+<li class="chapter" data-level="15.7.6" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#convertirse-en-miembro-grupos-pequeños-45"><i class="fa fa-check"></i><b>15.7.6</b> Convertirse en miembro (grupos pequeños / 45)</a></li>
+<li class="chapter" data-level="15.7.7" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#dotación-de-personal-grupos-pequeños-30"><i class="fa fa-check"></i><b>15.7.7</b> Dotación de personal (grupos pequeños / 30)</a></li>
+<li class="chapter" data-level="15.7.8" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#dinero-grupos-pequeños-30"><i class="fa fa-check"></i><b>15.7.8</b> Dinero (grupos pequeños / 30)</a></li>
+<li class="chapter" data-level="15.7.9" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#préstamo-de-ideas-toda-la-clase-15"><i class="fa fa-check"></i><b>15.7.9</b> Préstamo de ideas (toda la clase / 15)</a></li>
+<li class="chapter" data-level="15.7.10" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#quién-eres-tú-grupos-pequeños-20"><i class="fa fa-check"></i><b>15.7.10</b> ¿Quién eres tú? (grupos pequeños / 20)</a></li>
+<li class="chapter" data-level="15.7.11" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#creando-lecciones-juntos-grupos-pequeños-30"><i class="fa fa-check"></i><b>15.7.11</b> Creando lecciones juntos (grupos pequeños / 30)</a></li>
+<li class="chapter" data-level="15.7.12" data-path="construyendo-una-comunidad-de-práctica.html"><a href="construyendo-una-comunidad-de-práctica.html#eres-crujiente-individual-10"><i class="fa fa-check"></i><b>15.7.12</b> ¿Eres crujiente? (individual / 10)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="superar-a.html"><a href="superar-a.html"><i class="fa fa-check"></i><b>16</b> Superar a</a><ul>
+<li class="chapter" data-level="16.1" data-path="superar-a.html"><a href="superar-a.html#marca-y-posicionamiento"><i class="fa fa-check"></i><b>16.1</b> Marca y posicionamiento</a></li>
+<li class="chapter" data-level="16.2" data-path="superar-a.html"><a href="superar-a.html#el-arte-de-la-llamada-fría"><i class="fa fa-check"></i><b>16.2</b> El arte de la llamada fría</a></li>
+<li class="chapter" data-level="16.3" data-path="superar-a.html"><a href="superar-a.html#cambio-académico"><i class="fa fa-check"></i><b>16.3</b> Cambio académico</a></li>
+<li class="chapter" data-level="16.4" data-path="superar-a.html"><a href="superar-a.html#enseñanza-de-campo-libre"><i class="fa fa-check"></i><b>16.4</b> Enseñanza de campo libre</a></li>
+<li class="chapter" data-level="16.5" data-path="superar-a.html"><a href="superar-a.html#pensamientos-finales"><i class="fa fa-check"></i><b>16.5</b> Pensamientos finales</a></li>
+<li class="chapter" data-level="16.6" data-path="superar-a.html"><a href="superar-a.html#ejercicios-13"><i class="fa fa-check"></i><b>16.6</b> Ejercicios</a><ul>
+<li class="chapter" data-level="16.6.1" data-path="superar-a.html"><a href="superar-a.html#lanzando-su-organización-individual-30"><i class="fa fa-check"></i><b>16.6.1</b> Lanzando su organización (individual / 30)</a></li>
+<li class="chapter" data-level="16.6.2" data-path="superar-a.html"><a href="superar-a.html#temas-de-correo-electrónico-pares-10"><i class="fa fa-check"></i><b>16.6.2</b> Temas de correo electrónico (pares / 10)</a></li>
+<li class="chapter" data-level="16.6.3" data-path="superar-a.html"><a href="superar-a.html#manejo-de-resistencia-pasiva-grupos-pequeños-30"><i class="fa fa-check"></i><b>16.6.3</b> Manejo de resistencia pasiva (grupos pequeños / 30)</a></li>
+<li class="chapter" data-level="16.6.4" data-path="superar-a.html"><a href="superar-a.html#por-qué-aprender-a-programar-individual-15"><i class="fa fa-check"></i><b>16.6.4</b> ¿Por qué aprender a programar? (individual / 15)</a></li>
+<li class="chapter" data-level="16.6.5" data-path="superar-a.html"><a href="superar-a.html#programadores-conversacionales-think-pair-share-15"><i class="fa fa-check"></i><b>16.6.5</b> Programadores conversacionales (think-pair-share / 15)</a></li>
+<li class="chapter" data-level="16.6.6" data-path="superar-a.html"><a href="superar-a.html#colaboraciones-grupos-pequeños-30"><i class="fa fa-check"></i><b>16.6.6</b> Colaboraciones (grupos pequeños / 30)</a></li>
+<li class="chapter" data-level="16.6.7" data-path="superar-a.html"><a href="superar-a.html#educacion-clase-entera-10"><i class="fa fa-check"></i><b>16.6.7</b> Educacion (clase entera / 10)</a></li>
+<li class="chapter" data-level="16.6.8" data-path="superar-a.html"><a href="superar-a.html#adopción-institucional-clase-entera-15"><i class="fa fa-check"></i><b>16.6.8</b> Adopción Institucional (clase entera / 15)</a></li>
+<li class="chapter" data-level="16.6.9" data-path="superar-a.html"><a href="superar-a.html#si-al-principio-no-tienes-éxito-grupos-pequeños-15"><i class="fa fa-check"></i><b>16.6.9</b> Si al principio no tienes éxito (grupos pequeños / 15)</a></li>
+<li class="chapter" data-level="16.6.10" data-path="superar-a.html"><a href="superar-a.html#hacer-que-falle-individual-15"><i class="fa fa-check"></i><b>16.6.10</b> Hacer que falle (individual / 15)</a></li>
+<li class="chapter" data-level="16.6.11" data-path="superar-a.html"><a href="superar-a.html#tutoría-toda-la-clase-15"><i class="fa fa-check"></i><b>16.6.11</b> Tutoría (toda la clase / 15)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="por-qué-enseño.html"><a href="por-qué-enseño.html"><i class="fa fa-check"></i><b>17</b> ¿Por qué enseño?</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Enseñando tecnología juntos</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="un-proceso-de-diseño-de-lecciones" class="section level1">
+<h1><span class="header-section-number">Capítulo 8</span> Un proceso de diseño de lecciones</h1>
+<p>La mayoría de la gente diseña lecciones como esta:</p>
+<ol style="list-style-type: decimal">
+<li><p>Alguien te pide que enseñes algo que apenas sabes o en lo que no has pensado en años.</p></li>
+<li><p>Empiezas a escribir diapositivas para explicar lo que sabes sobre el tema.</p></li>
+<li><p>Después de 2 o 3 semanas, haces una tarea basada en lo que has enseñado hasta ahora.</p></li>
+<li><p>Repite el paso 3 varias veces.</p></li>
+<li><p>Te mantienes despierto hasta altas horas de la madrugada para crear un examen final y prometerte que estarás más organizado la próxima vez.</p></li>
+</ol>
+<p>Un método más efectivo es similar en espíritu a una práctica de programación llamada <strong>desarrollo basado en pruebas</strong> (TDD). Los programadores que usan TDD no escriben software y luego prueban que funciona correctamente. En cambio, escriben las pruebas primero, luego escriben suficiente software nuevo para que esas pruebas pasen.</p>
+<p>TDD funciona porque escribir pruebas obliga a los programadores a ser precisos sobre lo que intentan lograr y cómo se ve “hecho”. TDD también evita el pulido sin fin: cuando pasan las pruebas, deja de codificar. Finalmente, reduce el riesgo de sesgo de confirmación: alguien que aún no ha escrito una pieza de software será más objetivo que alguien que acaba de dedicar varias horas de arduo trabajo y realmente quiere terminar.</p>
+<p>Un método similar llamado <strong>diseño hacia atrás</strong> funciona muy bien para el diseño de lecciones. Este método se desarrolló de forma independiente en [Wigg2005, Bigg2011, Fink2013] y se resume en [McTi2013]. En forma simplificada, sus pasos son:</p>
+<ol style="list-style-type: decimal">
+<li><p>Cree o recicle personas aprendices (discutidas en la siguiente sección) para descubrir a quién está tratando de ayudar y qué les resultará atractivo.</p></li>
+<li><p>Haga una lluvia de ideas para tener una idea aproximada de lo que quiere cubrir, cómo lo va a hacer, qué problemas o ideas erróneas espera encontrar, qué no se va a incluir, etc. Dibujar mapas conceptuales puede ayudar mucho en esta etapa (Sección 3.1).</p></li>
+<li><p>Cree una evaluación sumativa (Sección 2.1) para definir su objetivo general. Este puede ser el examen final de un curso o el proyecto final para un taller de un día; independientemente de su forma o tamaño, muestra hasta qué punto espera llegar más claramente que una lista de objetivos en forma de puntos.</p></li>
+<li><p>Cree evaluaciones formativas que brinden a las personas la oportunidad de practicar las cosas que están aprendiendo. Estos también le dirán (y a ellos) si están progresando y dónde deben centrar su atención. La mejor manera de hacer esto es detallar los conocimientos y habilidades utilizados en la evaluación sumativa que desarrolló en el paso anterior y luego crear al menos una evaluación formativa para cada uno.</p></li>
+<li><p>Ordene las evaluaciones formativas para crear un esquema del curso basado en su complejidad, sus dependencias y qué tan bien los temas motivarán a sus alumnos (Sección 10.1).</p></li>
+<li><p>Escriba material para que los alumnos pasen de una evaluación formativa a la siguiente. Cada hora de instrucción debe constar de tres a cinco episodios de este tipo.</p></li>
+<li><p>Escriba una descripción resumida del curso para ayudar a su público objetivo a encontrarlo y determinar si es adecuado para ellos.</p></li>
+</ol>
+<p>Este método ayuda a mantener la enseñanza enfocada en sus objetivos. También garantiza que los alumnos no enfrenten nada al final del curso para el que no estén preparados.</p>
+<blockquote>
+<p><strong>Incentivos perversos</strong></p>
+<p>El diseño hacia atrás no es lo mismo que enseñar a la prueba. Al usar el diseño hacia atrás, los maestros establecen metas para ayudar en el diseño de la lección; Es posible que nunca den el examen final que escribieron. En muchos sistemas escolares, por otro lado, una autoridad externa define los criterios de evaluación para todos los alumnos, independientemente de sus situaciones individuales. Los resultados de esas evaluaciones sumativas afectan directamente el salario y la promoción de los docentes, lo que significa que los docentes tienen un incentivo para centrarse en que los alumnos aprueben las pruebas en lugar de ayudarlos a aprender.</p>
+<p>[Gree2014] argumenta que centrarse en las pruebas y la medición atrae a quienes tienen el poder de establecer las pruebas, pero es poco probable que mejore los resultados a menos que se combine con el apoyo para que los maestros realicen mejoras basadas en los resultados de las pruebas. A menudo falta lo último porque las grandes organizaciones generalmente valoran la uniformidad sobre la productividad [Scot1998].</p>
+</blockquote>
+<p>El diseño inverso se describe como una secuencia, pero casi nunca se hace de esa manera. Podemos, por ejemplo, cambiar de opinión sobre lo que queremos enseñar en base a algo que se nos ocurre mientras escribimos un MCQ, o reevaluar a quién estamos tratando de ayudar una vez que tengamos un resumen de la lección. Sin embargo, las notas que dejamos atrás deben presentar las cosas en el orden descrito anteriormente para que quien tenga que usar o mantener la lección después de nosotros pueda volver sobre nuestro pensamiento. [Parn1986]</p>
+<div id="personas-aprendices" class="section level2">
+<h2><span class="header-section-number">8.1</span> Personas aprendices</h2>
+<p>El primer paso en el proceso de diseño inverso es descubrir quién es su audiencia. Una forma de hacerlo es escribir dos o tres personas aprendices como las de la Sección 1.1. Esta técnica se toma prestada de los diseñadores de experiencia de usuario, que crean perfiles cortos de usuarios típicos para ayudarlos a pensar en su audiencia.</p>
+<p>Una persona de aprendizaje consiste en:</p>
+<ol style="list-style-type: decimal">
+<li><p>los antecedentes generales de la persona;</p></li>
+<li><p>lo que ya saben;</p></li>
+<li><p>lo que quieren hacer; y</p></li>
+<li><p>cualquier necesidad especial que tengan.</p></li>
+</ol>
+<p>Las personas en la Sección 1.1 tienen los cuatro puntos enumerados anteriormente, junto con un breve resumen de cómo este libro los ayudará. Una persona que aprende para un grupo de voluntarios que organiza talleres de Python los fines de semana podría ser:</p>
+<ol style="list-style-type: decimal">
+<li><p>Jorge acaba de mudarse de Costa Rica a Canadá para estudiar ingeniería agrícola. Se ha unido al equipo de fútbol de la universidad y espera aprender a jugar hockey sobre hielo.</p></li>
+<li><p>Además de usar Excel, Word e Internet, la experiencia previa más importante de Jorge con las computadoras es ayudar a su hermana a construir un sitio de WordPress para el negocio familiar en casa.</p></li>
+<li><p>Jorge quiere medir las propiedades del suelo de granjas cercanas utilizando un dispositivo portátil que envía datos a su computadora. En este momento tiene que abrir cada archivo de datos en Excel, eliminar la primera y la última columna, y calcular algunas estadísticas sobre lo que queda. Tiene que recolectar al menos 600 mediciones en los próximos meses, y realmente no quiere tener que hacer estos pasos a mano para cada uno.</p></li>
+<li><p>Jorge sabe leer bien el inglés, pero a veces le cuesta mantenerse al día con la conversación hablada que involucra mucha jerga.</p></li>
+</ol>
+<p>En lugar de escribir nuevas personas para cada lección o curso, los maestros generalmente crean y comparten media docena que cubren a todos los que probablemente enseñarán, luego eligen algunos de ese conjunto para describir a la audiencia para un material en particular. Las personas que se utilizan de esta manera se convierten en una forma abreviada conveniente para los problemas de diseño: al hablar entre ellos, los maestros pueden decir: “¿Entendería Jorge por qué estamos haciendo esto?” o “¿Qué problemas de instalación enfrentaría Jorge?”</p>
+<blockquote>
+<p><strong>Sus objetivos, no los tuyos</strong></p>
+<p>Las personas siempre deben describir lo que el alumno quiere hacer en lugar de lo que crees que realmente necesitan. Pregúntese qué están buscando en línea; probablemente no incluirá jerga que aún no conocen, por lo que parte de lo que tiene que hacer como diseñador de instrucción es descubrir cómo hacer que su lección sea fácil de encontrar.</p>
+</blockquote>
+</div>
+<div id="objetivos-de-aprendizaje" class="section level2">
+<h2><span class="header-section-number">8.2</span> Objetivos de aprendizaje</h2>
+<p>Las evaluaciones formativas y sumativas ayudan a los maestros a descubrir lo que van a enseñar, pero para comunicarlo a los alumnos y otros maestros, la descripción del curso también debe tener <strong>objetivos de aprendizaje</strong>. Estos ayudan a asegurar que todos tengan la misma comprensión de lo que se supone que debe lograr una lección. Por ejemplo, una declaración como “entender Git” podría significar cualquiera de los siguientes:</p>
+<ul>
+<li><p>Los estudiantes pueden describir tres formas en que los sistemas de control de versiones como Git son mejores que las herramientas para compartir archivos como Dropbox y dos formas en que son peores.</p></li>
+<li><p>Los alumnos pueden enviar un archivo modificado a un repositorio de Git utilizando una herramienta GUI de escritorio.</p></li>
+<li><p>Los alumnos pueden explicar qué es un HEAD separado y recuperarse de él mediante operaciones de línea de comandos.</p></li>
+</ul>
+<blockquote>
+<p><strong>Objetivos vs. Resultados</strong></p>
+<p>Un objetivo de aprendizaje es lo que una lección se esfuerza por lograr. Un resultado de aprendizaje es lo que realmente logra, es decir, lo que los alumnos realmente quitan. El papel de la evaluación sumativa es, por lo tanto, comparar los resultados de aprendizaje con los objetivos de aprendizaje.</p>
+</blockquote>
+<p>Un objetivo de aprendizaje describe cómo el alumno demostrará lo que ha aprendido una vez que haya completado con éxito una lección. Más específicamente, tiene un verbo medible o verificable que establece lo que hará el alumno y especifica los criterios para un rendimiento aceptable. Inicialmente, escribir esto puede parecer restrictivo, pero a largo plazo los hará felices a usted, a sus compañeros maestros y a sus alumnos: terminará con pautas claras tanto para su enseñanza como para su evaluación, y sus alumnos apreciarán tener expectativas claras.</p>
+<p>Una forma de entender lo que hace que un buen objetivo de aprendizaje sea ver cómo se puede mejorar uno pobre:</p>
+<ul>
+<li><p>El alumno tendrá la oportunidad de aprender buenas prácticas de programación.
+Esto describe el contenido de la lección, no los atributos de los alumnos exitosos.</p></li>
+<li><p>El alumno apreciará mejor las buenas prácticas de programación.
+Esto no comienza con un verbo activo ni define el nivel de aprendizaje, y el tema del aprendizaje no tiene contexto y no es específico.</p></li>
+<li><p>El alumno comprenderá cómo programar en R.
+Si bien esto comienza con un verbo activo, no define el nivel de aprendizaje y el tema del aprendizaje sigue siendo demasiado vago para la evaluación.</p></li>
+<li><p>El alumno escribirá scripts de análisis de datos de una página para leer, filtrar y resumir datos tabulares usando R.
+Esto comienza con un verbo activo, define el nivel de aprendizaje y proporciona contexto para garantizar que los resultados puedan evaluarse.</p></li>
+</ul>
+<p>Cuando se trata de elegir verbos, muchos maestros usan la <strong>Taxonomía de Bloom</strong>. Publicado por primera vez en 1956 y actualizado a principios de siglo [Ande2001], es un marco ampliamente utilizado para discutir los niveles de comprensión. Su forma más reciente tiene seis categorías; La lista a continuación proporciona algunos de los verbos que se usan típicamente en los objetivos de aprendizaje escritos para cada uno:</p>
+<p><strong>Recordando:</strong>
+Exhiba la memoria del material previamente aprendido al recordar hechos, términos, conceptos básicos y respuestas. (reconocer, enumerar, describir, nombrar, buscar)</p>
+<p><strong>Comprensión:</strong>
+Demuestre comprensión de hechos e ideas organizando, comparando, traduciendo, interpretando, dando descripciones y estableciendo ideas principales. (interpretar, resumir, parafrasear, clasificar, explicar)</p>
+<p><strong>Aplicando:</strong>
+Resuelva nuevos problemas aplicando los conocimientos adquiridos, los hechos, las técnicas y las reglas de una manera diferente. (construir, identificar, usar, planificar, seleccionar)</p>
+<p><strong>Analizando:</strong>
+Examinar y dividir la información en partes identificando motivos o causas; hacer inferencias y encontrar evidencia para apoyar las generalizaciones. (comparar, contrastar, simplificar)</p>
+<p><strong>Evaluando:</strong>
+Presente y defienda opiniones emitiendo juicios sobre la información, la validez de las ideas o la calidad del trabajo en función de un conjunto de criterios. (verificar, elegir, criticar, probar, calificar)</p>
+<p><strong>Creando:</strong>
+Recopile información de una manera diferente combinando elementos en un nuevo patrón o proponiendo soluciones alternativas. (diseñar, construir, mejorar, adaptar, maximizar, resolver)</p>
+<p>La Taxonomía de Bloom aparece en casi todos los libros de texto sobre educación, pero [Masa2018] descubrió que incluso los educadores experimentados tienen problemas para acordar cómo clasificar cosas específicas. Sin embargo, los verbos siguen siendo útiles, como lo es la noción de construir entendimiento en pasos: como ha dicho Daniel Willingham, la gente no puede pensar sin algo en lo que pensar [Will2010], y esta taxonomía puede ayudar a los maestros a asegurar que los alumnos tengan esas cosas cuando los necesitan</p>
+<p>Otra forma de pensar sobre los objetivos de aprendizaje proviene de [Fink2013], que define el aprendizaje en términos del cambio que debe producir en el alumno. La <strong>taxonomía de Fink</strong> también tiene seis categorías, pero a diferencia de Bloom, son complementarias en lugar de jerárquicas:</p>
+<p><strong>Conocimiento fundamental:</strong>
+Comprender y recordar información e ideas. (recuerda, comprende, identifica)</p>
+<p><strong>Solicitud:</strong>
+habilidades, pensamiento crítico, gestión de proyectos. (usar, resolver, calcular, crear)</p>
+<p><strong>Integración:</strong>
+conectando ideas, experiencias de aprendizaje y la vida real. (conectar, relacionar, comparar)</p>
+<p><strong>Dimensión humana:</strong>
+aprender sobre uno mismo y los demás. (llegar a verse a sí mismos como, comprender a los demás en términos de, decidir convertirse)</p>
+<p><strong>Cuidando:</strong>
+desarrollando nuevos sentimientos, intereses y valores. (Emociónate, prepárate para valorar)</p>
+<p><strong>Aprendiendo a aprender:</strong>
+convertirse en un mejor alumno. (identifique la fuente de información para, plantee preguntas útiles sobre)</p>
+<p>Un conjunto de objetivos de aprendizaje basados en esta taxonomía para un curso introductorio sobre HTML y CSS podría ser:</p>
+<ul>
+<li><p>Explicar qué son las propiedades CSS y cómo funcionan los selectores CSS.</p></li>
+<li><p>Diseñe una página web usando etiquetas comunes y propiedades CSS.</p></li>
+<li><p>Compare y contraste la escritura de HTML y CSS con la escritura con herramientas de publicación de escritorio.</p></li>
+<li><p>Identifique y corrija problemas en páginas web de muestra que dificulten la interacción de las personas con discapacidad visual.</p></li>
+<li><p>Describa las características de los sitios web favoritos cuyo diseño le atraiga particularmente y explique por qué.</p></li>
+<li><p>Describa sus dos fuentes de información en línea favoritas sobre CSS y explique qué le gusta de ellas.</p></li>
+</ul>
+</div>
+<div id="mantenibilidad" class="section level2">
+<h2><span class="header-section-number">8.3</span> Mantenibilidad</h2>
+<p>Una vez que se ha creado una lección, alguien necesita mantenerla, y hacerlo es mucho más fácil si se ha desarrollado de manera sostenible. Pero, ¿qué significa exactamente “mantenible”? La respuesta breve es que se puede mantener una lección si es más barato actualizarla que reemplazarla. Esta ecuación depende de cuatro factores:</p>
+<p><strong>Cuán bien documentado está el diseño del curso.</strong>
+Si la persona que realiza el mantenimiento no sabe (o no recuerda) qué se supone que debe lograr la lección o por qué se introducen los temas en un orden particular, les llevará más tiempo actualizarla. Una razón para usar el diseño inverso es capturar decisiones sobre por qué cada curso es como es.</p>
+<p><strong>Qué fácil es para los colaboradores colaborar técnicamente.</strong>
+Los maestros generalmente comparten material enviándose archivos de PowerPoint entre ellos o colocándolos en una unidad compartida. Las herramientas de escritura colaborativa como Google Docs y wikis son una gran mejora, ya que permiten a muchas personas actualizar el mismo documento y comentar las actualizaciones de otras personas. Los sistemas de control de versiones utilizados por los programadores, como GitHub, son otro enfoque. Permiten que cualquier cantidad de personas trabajen de forma independiente y luego fusionan sus cambios de forma controlada y revisable. Desafortunadamente, los sistemas de control de versiones tienen una curva de aprendizaje empinada y no manejan formatos comunes de documentos de oficina.</p>
+<p><strong>Cuán dispuestas están las personas a colaborar.</strong>
+Las herramientas necesarias para construir una Wikipedia para las lecciones han existido durante veinte años, pero la mayoría de los maestros aún no escriben y comparten lecciones de la manera en que escriben y comparten entradas de enciclopedia.</p>
+<p><strong>Cuán útil es realmente compartir.</strong>
+La <strong>paradoja de la reutilización</strong> afirma que cuanto más reutilizable es un objeto de aprendizaje, menos pedagógicamente efectivo es [Wile2002]. La razón es que una buena lección se parece más a una novela que a un programa: sus partes están estrechamente acopladas en lugar de cajas negras independientes. Por lo tanto, la reutilización directa puede ser el objetivo equivocado para las lecciones; podríamos llegar más lejos al intentar hacerlos más fáciles de mezclar.</p>
+<p>Si la paradoja de la reutilización es cierta, la colaboración será más probable si las cosas en las que se colabora son pequeñas. Esto encaja bien con la teoría de las <strong>explicaciones corales</strong> de Mike Caulfield, que argumenta que los sitios como Stack Overflow tienen éxito porque proporcionan un coro de respuestas para cada pregunta, cada una de las cuales es más adecuada para un interrogador ligeramente diferente. Si esto es correcto, las lecciones del mañana pueden ser visitas guiadas a repositorios de preguntas y respuestas curados por la comunidad diseñados para estudiantes en niveles muy diferentes.</p>
+</div>
+<div id="ejercicios-5" class="section level2">
+<h2><span class="header-section-number">8.4</span> Ejercicios</h2>
+<div id="crear-personas-aprendices-grupos-pequeños-30" class="section level3">
+<h3><span class="header-section-number">8.4.1</span> Crear personas aprendices (grupos pequeños / 30)</h3>
+<p>Trabajando en grupos pequeños, cree una persona de 4 puntos que describa a uno de sus alumnos típicos.</p>
+</div>
+<div id="clasificar-los-objetivos-de-aprendizaje-pares-10" class="section level3">
+<h3><span class="header-section-number">8.4.2</span> Clasificar los objetivos de aprendizaje (pares / 10)</h3>
+<p>Mire los ejemplos de objetivos de aprendizaje para un curso introductorio sobre HTML y CSS en la Sección 6.2 y clasifique cada uno según la Taxonomía de Bloom. Compara tus respuestas con las de tu pareja. ¿Dónde estuvo de acuerdo y en desacuerdo?</p>
+</div>
+<div id="escribir-objetivos-de-aprendizaje-pares-20" class="section level3">
+<h3><span class="header-section-number">8.4.3</span> Escribir objetivos de aprendizaje (pares / 20)</h3>
+<p>Escribe uno o más objetivos de aprendizaje para algo que enseñas actualmente o planeas enseñar usando la Taxonomía de Bloom. Trabajando con un compañero, critica y mejora los objetivos. ¿Tiene cada uno un verbo verificable y criterios claros para un desempeño aceptable?</p>
+</div>
+<div id="escribir-más-objetivos-de-aprendizaje-pares-20" class="section level3">
+<h3><span class="header-section-number">8.4.4</span> Escribir más objetivos de aprendizaje (pares / 20)</h3>
+<p>Escribe uno o más objetivos de aprendizaje para algo que enseñas actualmente o planeas enseñar usando la taxonomía de Fink. Trabajando con un compañero, critica y mejora los objetivos.</p>
+</div>
+<div id="ayúdame-a-hacerlo-solo-grupos-pequeños-15" class="section level3">
+<h3><span class="header-section-number">8.4.5</span> Ayúdame a hacerlo solo (grupos pequeños / 15)</h3>
+<p>El teórico educativo Lev Vygotsky introdujo la noción de una Zona de Desarrollo Proximal (ZPD), que incluye los problemas que las personas aún no pueden resolver por sí mismas pero que pueden resolver con la ayuda de un mentor. Estos son los problemas que son más fructíferos para abordar a continuación, ya que están fuera del alcance pero son alcanzables.</p>
+<p>Trabajando en grupos pequeños, elija una persona de alumno que haya desarrollado y describa dos o tres problemas que se encuentran en la ZPD de ese alumno.</p>
+</div>
+<div id="desarrollar-lecciones-restando-complejidad-individual-20" class="section level3">
+<h3><span class="header-section-number">8.4.6</span> Desarrollar lecciones restando complejidad (individual / 20)</h3>
+<p>Una forma de construir una lección de programación es escribir el programa con el que desea que los alumnos terminen, luego eliminar la parte más compleja que desea que escriban y convertirlo en el último ejercicio. Luego puede eliminar la siguiente parte más compleja que desea que escriban y convertirla en el penúltimo ejercicio, y así sucesivamente. Cualquier cosa que quede después de que hayas retirado los ejercicios, como cargar bibliotecas o leer datos, se convierte en el código de inicio que les das.</p>
+<p>Tome un programa o página web que desee que sus alumnos puedan crear y trabaje hacia atrás para dividirlo en partes digeribles. ¿Cuántos hay? ¿Qué idea clave presenta cada uno?</p>
+</div>
+<div id="rareza-no-esencial-individual-15" class="section level3">
+<h3><span class="header-section-number">8.4.7</span> Rareza no esencial (individual / 15)</h3>
+<p>Betsy Leondar-Wright acuñó la frase “rareza inesencial” para describir cosas que los grupos hacen que no son realmente necesarias, pero que alienan a las personas que aún no son miembros de ese grupo. Sumana Harihareswara luego utilizó esta noción como base para una charla sobre rarezas no esenciales en software de código abierto, que incluye cosas como el uso de herramientas de línea de comandos con nombres crípticos. Tómese unos minutos para leer estos artículos, luego haga una lista de las rarezas no esenciales que cree que sus alumnos podrían encontrar cuando les enseñe por primera vez. ¿Cuántos de estos puedes evitar?</p>
+</div>
+<div id="pete-individual-15" class="section level3">
+<h3><span class="header-section-number">8.4.8</span> PETE (individual / 15)</h3>
+<p>Un patrón que funciona bien para programar lecciones es PETE: presentar el problema, trabajar a través de un ejemplo, explicar la teoría y luego elaborar un segundo ejemplo para que los alumnos puedan ver qué es específico de cada caso y qué se aplica a todos los casos. Elija algo que haya enseñado recientemente o que le hayan enseñado y describa una breve lección que siga estos cinco pasos.</p>
+</div>
+<div id="primm-individual-15" class="section level3">
+<h3><span class="header-section-number">8.4.9</span> PRIMM (individual / 15)</h3>
+<p>Otro patrón de lección es PRIMM [Sent2019]: predice el comportamiento o la salida de un programa, ejecútelo para ver lo que realmente hace, investigue por qué lo hace al atravesarlo en un depurador o dibujar el flujo de control, modificarlo (o sus entradas ), y luego hacer algo similar desde cero. Elija algo que haya enseñado recientemente o que le hayan enseñado y describa una breve lección que siga estos cinco pasos.</p>
+</div>
+<div id="concreto-representacional-abstracto-pares-15" class="section level3">
+<h3><span class="header-section-number">8.4.10</span> Concreto-Representacional-Abstracto (pares / 15)</h3>
+<p>Concrete-Representational-Abstract (CRA) es un enfoque para introducir nuevas ideas que se usa principalmente con los alumnos más jóvenes: manipular físicamente un objeto concreto, representar el objeto con una imagen, luego realizar las mismas operaciones usando números, símbolos o alguna otra abstracción .</p>
+<ol style="list-style-type: decimal">
+<li><p>Escriba cada uno de los números 2, 7, 5, 10, 6 en una nota adhesiva.</p></li>
+<li><p>Simule un bucle que encuentre el valor más grande al mirar cada uno a su vez (concreto).</p></li>
+<li><p>Dibuje un diagrama del proceso que utilizó, etiquetando cada paso (representacional).</p></li>
+<li><p>Escriba las instrucciones que alguien más podría seguir para seguir los mismos pasos (resumen).</p></li>
+</ol>
+<p>Compare sus materiales representativos y abstractos con los de su compañero.</p>
+</div>
+<div id="evaluación-de-un-repositorio-de-lecciones-grupos-pequeños-10" class="section level3">
+<h3><span class="header-section-number">8.4.11</span> Evaluación de un repositorio de lecciones (grupos pequeños / 10)</h3>
+<p>[Leak2017] explora por qué los profesores de informática no usan sitios para compartir lecciones y recomienda formas de hacerlos más atractivos:</p>
+<ol style="list-style-type: decimal">
+<li><p>La página de destino debe permitir a los visitantes del sitio identificar sus antecedentes y sus intereses en visitar el sitio. Los sitios deben hacer dos preguntas: “¿Cuál es su rol actual?” y “¿En qué curso y nivel de grado está interesado?”</p></li>
+<li><p>Los sitios deben mostrar todos los recursos de aprendizaje en el contexto del curso completo para que los usuarios potenciales puedan comprender su contexto de uso previsto.</p></li>
+<li><p>Muchos maestros tienen inquietudes acerca de que sus pares (falta de) conocimiento sean juzgados por sus compañeros si publican en los foros de discusión de los sitios. Por lo tanto, estos foros deberían permitir la publicación anónima.</p></li>
+</ol>
+<p>En pequeños grupos, discuta si estas tres características serían suficientes para convencerlo de que use un sitio para compartir lecciones, y si no, qué sería.</p>
+</div>
+</div>
+<div id="resumen-3" class="section level2">
+<h2><span class="header-section-number">8.5</span> Resumen</h2>
+<div class="figure">
+<img src="img_traning/conceptmap-personas.svg" alt="" />
+<p class="caption">pesrsonas</p>
+</div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="aprendizaje-individual.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="conocimiento-pedagógico-del-contenido.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["teaching_tech_together.pdf", "teaching_tech_together.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

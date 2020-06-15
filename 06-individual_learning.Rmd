@@ -1,0 +1,206 @@
+# Aprendizaje individual
+
+Los capítulos anteriores han explorado lo que los maestros pueden hacer para ayudar a los alumnos. Este capítulo analiza lo que los alumnos pueden hacer por sí mismos al cambiar sus estrategias de estudio y descansar lo suficiente.
+
+La estrategia más efectiva es cambiar del aprendizaje pasivo al aprendizaje activo [Hpl2018], lo que mejora significativamente el rendimiento y reduce las tasas de fracaso [Free2014]:
+
+    Passive                   Active
+    Read about something      Do exercises
+    Watch a video             Discuss a topic
+    Attend a lecture          Try to explain it
+    
+    
+Refiriéndose a nuestro modelo simplificado de arquitectura cognitiva (Figura [f: modelo de arco]), el aprendizaje activo es más efectivo porque mantiene la información nueva en la memoria a corto plazo por más tiempo, lo que aumenta las probabilidades de que se codifique con éxito y se almacene en memoria a largo plazo. Y al usar nueva información a medida que llega, los alumnos desarrollan o fortalecen los lazos entre esa información y lo que ya saben, lo que a su vez aumenta las posibilidades de que puedan recuperarla más tarde.
+
+La otra clave para sacar más provecho del aprendizaje es la **metacognición**, o pensar en el propio pensamiento. Así como los buenos músicos escuchan su propia interpretación y los buenos maestros reflexionan sobre su enseñanza (Capítulo 8), los alumnos aprenderán mejor y más rápido si hacen planes, establecen metas y monitorean su progreso. Es difícil para los estudiantes dominar estas habilidades en abstracto, solo decirles que hagan planes no tiene ningún efecto, pero las lecciones pueden diseñarse para fomentar buenas prácticas de estudio, y llamar la atención sobre estas prácticas en clase ayuda a los estudiantes a darse cuenta de que aprender es una habilidad que pueden mejorar como cualquier otra [McGu2015, Miya2018].
+
+El gran premio es la **transferencia de aprendizaje**, que ocurre cuando una cosa que hemos aprendido nos ayuda a aprender otras cosas más rápidamente. Los investigadores distinguen entre **transferencia cercana**, que ocurre entre áreas similares o relacionadas, como fracciones y decimales en matemáticas, y transferencia remota, que ocurre entre dominios diferentes, por ejemplo, la idea de que aprender a jugar al ajedrez ayudará al razonamiento matemático o viceversa.
+
+Sin lugar a dudas, se produce una transferencia cercana, si no fuera así, podría ocurrir un tipo de aprendizaje más allá de la simple memorización, y los maestros lo aprovechan todo el tiempo dando a los alumnos ejercicios que son similares al material que se acaba de presentar en una lección. Sin embargo, [Sala2017] analizó muchos estudios de transferencia lejana y concluyó que:
+
+
+>... los resultados muestran efectos pequeños a moderados. Sin embargo, los tamaños del efecto están inversamente relacionados con la calidad del diseño experimental ... Llegamos a la conclusión de que rara vez se produce una transferencia lejana del aprendizaje.
+
+Cuando se produce una transferencia lejana, parece suceder solo una vez que un sujeto ha sido dominado [Gick1987]. En la práctica, esto significa que aprender a programar no te ayudará a jugar ajedrez y viceversa.
+
+## Seis estrategias
+
+Los psicólogos estudian el aprendizaje de una gran variedad de formas, pero han llegado a conclusiones similares sobre lo que realmente funciona [Mark2018]. Los científicos del aprendizaje han catalogado seis de estas estrategias y las resumieron en un conjunto de carteles descargables. Enseñar estas estrategias a los alumnos, y mencionarlas por su nombre cuando las use en clase, puede ayudarlos a aprender cómo aprender más rápido y mejor [Wein2018a, Wein2018b].
+
+### Práctica espaciada
+
+Diez horas de estudio repartidas en cinco días es más efectivo que dos días de cinco horas, y mucho mejor que un día de diez horas. Por lo tanto, debe crear un cronograma de estudio que difunda las actividades de estudio a lo largo del tiempo: bloquee al menos media hora para estudiar cada tema cada día en lugar de tratar de meter todo en la noche anterior a un examen [Kang2016].
+
+También debe revisar el material después de cada clase, pero no inmediatamente después: tome al menos un descanso de media hora. Cuando revise, asegúrese de incluir al menos un poco de material antiguo: por ejemplo, pase veinte minutos revisando las notas de la clase de ese día y luego cinco minutos revisando el material del día anterior y de una semana antes. Hacer esto también lo ayuda a detectar vacíos o errores en los conjuntos de notas anteriores mientras todavía hay tiempo para corregirlos o hacer preguntas: es doloroso darse cuenta la noche anterior al examen de que no tiene idea de por qué subrayó "¡Demodular!" tres veces.
+
+Al revisar, tome notas sobre cosas que había olvidado: por ejemplo, haga una tarjeta de memoria para cada hecho que no pudo recordar o que recordaba incorrectamente [Matt2019]. Esto lo ayudará a enfocar la próxima ronda de estudio en las cosas que más necesitan atención.
+
+
+>**El valor de las conferencias**
+>
+>Según [Mill2016a], “las conferencias que predominan en los cursos presenciales son formas relativamente ineficaces de enseñar, pero probablemente contribuyen a espaciar el material con el tiempo, porque se desarrollan en un horario establecido a lo largo del tiempo. Por el contrario, dependiendo de cómo estén configurados los cursos, los estudiantes en línea a veces pueden evitar la exposición al material por completo hasta que una tarea esté cerca ”.
+
+### Práctica de recuperación
+
+El factor limitante para la memoria a largo plazo no es la retención (lo que está almacenado) sino la recuperación (a lo que se puede acceder). La recuperación de información específica mejora con la práctica, por lo que los resultados en situaciones reales pueden mejorarse tomando exámenes de práctica o resumiendo los detalles de un tema de memoria y luego verificando lo que fue y no fue recordado. Por ejemplo, [Karp2008] descubrió que las pruebas repetidas mejoraron el recuerdo de las listas de palabras del 35% al 80%.
+
+La recuperación es mejor cuando la práctica utiliza actividades similares a las utilizadas en las pruebas. Por ejemplo, escribir entradas de diario personales ayuda con cuestionarios de opción múltiple, pero menos que hacer cuestionarios de práctica [Mill2016a]. Este fenómeno se llama **procesamiento apropiado para la transferencia**.
+
+Una forma de ejercitar las habilidades de recuperación es resolver problemas dos veces. La primera vez, hágalo completamente de memoria sin notas o discusión con sus compañeros. Después de calificar su propio trabajo con una rúbrica provista por el maestro, resuelva el problema nuevamente utilizando los recursos que desee. La diferencia entre los dos le muestra qué tan bien pudo recuperar y aplicar el conocimiento.
+
+Otro método (mencionado anteriormente) es crear tarjetas flash. Las tarjetas físicas tienen una pregunta u otro mensaje en un lado y la respuesta en el otro, y muchas aplicaciones de tarjetas flash están disponibles para teléfonos. Si está estudiando como parte de un grupo, intercambiar tarjetas con un compañero lo ayuda a descubrir ideas importantes que puede haber perdido o malinterpretado.
+
+**Leer-cubrir-recuperar** es una alternativa rápida a las tarjetas flash. Mientras lee algo, cubra los términos o secciones clave con pequeñas notas adhesivas. Cuando haya terminado, repáselo por segunda vez y vea qué tan bien puede adivinar qué hay debajo de cada una de esas notas adhesivas. Independientemente del método que utilice, no solo practique recordar hechos y definiciones: asegúrese de verificar también su comprensión de las grandes ideas y las conexiones entre ellas. Dibujar un mapa conceptual y luego compararlo con sus notas o con un mapa conceptual dibujado previamente es una forma rápida de hacerlo.
+
+>**Hipercorrección**
+>
+>Un hallazgo poderoso en la investigación del aprendizaje es el efecto de hipercorrección [Metc2016]. A la mayoría de las personas no les gusta que les digan que están equivocadas, por lo que sería razonable suponer que cuanto más confiada esté alguien en la respuesta que han dado en una prueba, más difícil será cambiar de opinión si realmente incorrecto. Resulta que lo contrario es cierto: cuanto más seguro esté alguien de que tenía razón, es más probable que no repita el error si se corrige.
+
+### Intercalar
+Una forma en que puede espaciar su práctica es intercalar el estudio de diferentes temas: en lugar de dominar un tema, luego una segunda y tercera sesión de estudio aleatorio. Aún mejor, cambie el orden: A-B-C-B-A-C es mejor que A-B-C-A-B-C, que a su vez es mejor que A-A-B-B-C-C [Rohr2015]. Esto funciona porque el intercalado fomenta la creación de más vínculos entre diferentes temas, lo que a su vez mejora el recuerdo.
+
+El tiempo que debe dedicar a cada artículo depende del tema y qué tan bien lo conozca. En algún lugar entre 10 y 30 minutos es lo suficientemente largo para que pueda entrar en un estado de flujo (Sección 5.2) pero no para que su mente divague. El estudio de entrelazado inicialmente se sentirá más difícil que centrarse en un tema a la vez, pero eso es una señal de que está funcionando. Si está usando tarjetas de memoria flash o pruebas de práctica para medir su progreso, debería ver una mejora después de solo un par de días.
+
+### Elaboración
+
+Explicarte las cosas a medida que las pasas te ayuda a comprenderlas y recordarlas. Una forma de hacerlo es hacer un seguimiento de cada respuesta en un cuestionario de práctica con una explicación de por qué esa respuesta es correcta o, por el contrario, con una explicación de por qué otra respuesta plausible no lo es. Otra es decirte cómo una nueva idea es similar o diferente de la que has visto anteriormente.
+
+Hablar contigo mismo puede parecer una forma extraña de estudiar, pero [Biel1995] descubrió que las personas capacitadas en autoexplicación superaron a las que no habían sido capacitadas. Del mismo modo, [Chi1989] descubrió que algunos estudiantes simplemente se detienen cuando alcanzan un paso que no entienden cuando intentan resolver problemas. Otros hacen una pausa y generan una explicación de lo que está sucediendo, y el último grupo aprende más rápido. Un ejercicio para desarrollar esta habilidad es pasar por un programa de ejemplo línea por línea con una clase, haciendo que una persona diferente explique cada línea y diga por qué está allí y qué logra.
+
+### Ejemplos concretos
+
+Una forma particularmente útil de elaboración es el uso de ejemplos concretos. Siempre que tenga una declaración de un principio general, intente proporcionar uno o más ejemplos de su uso o, por el contrario, tome cada problema en particular y enumere los principios generales que encarna. [Raws2014] descubrió que los ejemplos y definiciones entrelazados lo hacen más probable que los alumnos recordarían esto último correctamente.
+
+Una forma estructurada de hacer esto es el método ADEPT: dar una analogía, dibujar un diagrama, presentar un ejemplo, describir la idea en lenguaje sencillo y luego dar los detalles técnicos. Nuevamente, si está estudiando con un compañero o en un grupo, puede intercambiar y verificar el trabajo: vea si está de acuerdo en que los ejemplos de otras personas realmente incorporan el principio que se está discutiendo o qué principios se usan en un ejemplo que no se han enumerado.
+
+Otra técnica útil es enseñar por el contrario, es decir, mostrar a los alumnos qué solución no es o qué tipo de problema no resolverá una técnica. Por ejemplo, cuando se les muestra a los niños cómo simplificar fracciones, es importante darles unos 5/7 que no se pueden simplificar para que no se sientan frustrados buscando respuestas que no existen.
+
+
+### Codificación dual
+
+La última de las seis estrategias principales que describen los científicos del aprendizaje es presentar palabras e imágenes juntas. Como se discutió en la Sección 4.1, diferentes subsistemas en nuestros cerebros manejan y almacenan información lingüística y visual, por lo que si se presenta información complementaria a través de ambos canales, pueden reforzarse mutuamente. Sin embargo, el aprendizaje es menos efectivo cuando la misma información se presenta simultáneamente en dos canales diferentes, porque entonces el cerebro tiene que hacer un esfuerzo para verificar los canales entre sí [Maye2003].
+
+Una forma de aprovechar la codificación dual es dibujar o etiquetar líneas de tiempo, mapas, árboles genealógicos o cualquier otra cosa que parezca apropiada para el material. (Personalmente me gustan las imágenes que muestran qué funciones llaman a qué otros en un programa). Dibujar un diagrama sin etiquetas y luego volver a etiquetarlo es una excelente práctica de recuperación.
+
+
+## Gestión del tiempo
+
+Solía alardear de las horas que estaba trabajando. No en muchas palabras, por supuesto, tenía algunas habilidades sociales, pero me presentaba a clase alrededor del mediodía, sin afeitar y bostezando, y mencionaba casualmente a quien escuchara que había estado trabajando hasta las 6:00 a.m.
+
+Mirando hacia atrás, no puedo recordar a quién estaba tratando de impresionar. Lo que recuerdo en cambio es cuánto trabajo hice en esas noches de descanso que tiré una vez que dormí un poco, y cuánto daño causaron a mis notas las cosas que no tiré.
+
+Mi error fue confundir "trabajar" con "ser productivo". No puede producir software (o cualquier otra cosa) sin hacer algo de trabajo, pero puede hacer mucho trabajo fácilmente sin producir nada de valor. Convencer a las personas de esto puede ser difícil, especialmente cuando están en la adolescencia o en la veintena, pero paga enormes dividendos.
+
+El estudio científico del exceso de trabajo y la privación del sueño se remonta al menos a la década de 1890; consulte [Robi2005] para obtener un resumen breve y legible. Los resultados más importantes para los alumnos son:
+
+1. Trabajar más de 8 horas al día durante un período prolongado reduce su productividad total, no solo su productividad por hora, es decir. En total, realiza menos tareas (no solo por hora) cuando está en modo crujiente.
+
+2. Trabajar más de 21 horas seguidas aumenta las posibilidades de que cometa un error catastrófico tanto como estar legalmente borracho.
+
+3. La productividad varía a lo largo de la jornada laboral, y la mayor productividad se produce en las primeras 4 a 6 horas. Después de suficientes horas, la productividad se acerca a cero; eventualmente se vuelve negativo.
+
+Estos hechos han sido reproducidos y verificados durante más de un siglo, y los datos detrás de ellos son tan sólidos como los datos que vinculan el tabaquismo con el cáncer de pulmón. El problema es que las personas generalmente no notan que sus habilidades disminuyen. Al igual que los borrachos que piensan que todavía pueden conducir, las personas privadas de sueño no se dan cuenta de que no están terminando sus oraciones (o pensamientos). Se ha demostrado que cinco días de 8 horas por semana maximizan la producción total a largo plazo en todas las industrias que se hayan estudiado; estudiar o programar no son diferentes.
+
+Pero, ¿qué pasa con las ráfagas cortas de vez en cuando, como tirar una noche entera para cumplir con una fecha límite? Eso también se ha estudiado y los resultados no son agradables. Tu capacidad de pensar cae un 25% por cada 24 horas que estés despierto. Dicho de otra manera, el coeficiente intelectual de una persona promedio es de solo 75 después de una noche entera, lo que lo ubica en el 5% inferior de la población. Si haces dos noches seguidas, tu coeficiente intelectual efectivo es 50, que es el nivel en el que las personas generalmente se consideran incapaces de vivir de forma independiente.
+
+"¡Pero, pero tengo muchas tareas que hacer!" tu dices. "¡Y todos vencen a la vez! ¡Tengo que trabajar horas extra para hacerlos todos! No: las personas deben priorizar y enfocarse para ser productivos, y para hacerlo, se les debe enseñar cómo. Una técnica muy utilizada es hacer una lista de las cosas que deben hacerse, ordenarlas por prioridad y luego apagar el correo electrónico y otras interrupciones durante 30 a 60 minutos y completar una de esas tareas. Si cualquier tarea en una lista de tareas pendientes dura más de una hora, divídala en partes más pequeñas y priorícelas por separado.
+
+La parte más importante de esto es apagar las interrupciones. A pesar de lo que muchas personas quieren creer, los seres humanos no son buenos en la multitarea. En lo que podemos llegar a ser buenos es en la **automaticidad**, que es la capacidad de hacer algo rutinario en segundo plano mientras hacemos otra cosa [Mill2016a]. La mayoría de nosotros podemos hablar mientras picamos cebollas, o tomar café mientras leemos; con la práctica, también podemos tomar notas mientras escuchamos, pero no podemos estudiar de manera efectiva, programar o realizar otras tareas mentalmente desafiantes mientras prestamos atención a otra cosa, solo creemos que podemos hacerlo.
+
+El objetivo de organizarse y prepararse es entrar en el estado mental más productivo posible. Los psicólogos lo llaman flujo [Csik2008]; los atletas lo llaman "estar en la zona", y los músicos hablan de perderse en lo que tocan. Cualquiera sea el nombre que use, las personas producen mucho más por unidad de tiempo en este estado de lo normal. La mala noticia es que toma aproximadamente 10 minutos volver a un estado de flujo después de una interrupción, sin importar cuán corta sea la interrupción. Esto significa que si se le interrumpe media docena de veces por hora, nunca se encuentra en su pico productivo.
+
+>**¿Cómo lo supo?**
+>
+>En su cuento de 1961 "Harrison Bergeron", Kurt Vonnegut describió un futuro en el que todos se ven obligados a ser iguales. Las personas atractivas tienen que usar máscaras, las personas atléticas tienen que usar pesas y las personas inteligentes se ven obligadas a llevar radios que interrumpen sus pensamientos a intervalos aleatorios. A veces me pregunto si, oh, espera, mi teléfono solo, lo siento, ¿de qué estábamos hablando?
+
+
+## Evaluación por pares
+
+Pedirle a la gente de un equipo que califique a sus pares es una práctica común en la industria. [Sond2012] encuestó la literatura sobre evaluación de pares, distinguiendo entre calificación y revisión. Descubrieron que la evaluación por pares aumentó la cantidad, la diversidad y la puntualidad de la retroalimentación, ayudó a los estudiantes a ejercitar el pensamiento de alto nivel, alentó la práctica reflexiva y apoyó el desarrollo de habilidades sociales. Las preocupaciones eran predecibles: validez y fiabilidad, motivación y procrastinación, trolls, colusión y plagio.
+
+Sin embargo, la evidencia muestra que estas preocupaciones no son significativas en la mayoría de las clases. Por ejemplo, [Kauf2000] comparó las calificaciones y calificaciones confidenciales de sus pares en varios ejes para dos cursos de ingeniería de pregrado y descubrió que la autoevaluación y las calificaciones de los pares estaban estadísticamente de acuerdo, que la colusión no era significativa (es decir, las personas no solo daban un alto puntaje a todos sus pares) grados), que los alumnos no inflan sus autoevaluaciones y, lo que es más importante, que las calificaciones no están sesgadas por género o raza.
+
+Una forma de implementar la evaluación por pares es **contribuir con la pedagogía del alumno**, en la cual los alumnos producen artefactos para contribuir al aprendizaje de los demás. Esto puede ser desarrollar una breve lección y compartirla con la clase, agregarla a un banco de preguntas o escribir notas de una clase particular para su publicación en clase. Por ejemplo, [Fran2018] descubrió que los estudiantes que hicieron videos cortos para enseñar conceptos a sus compañeros tuvieron un aumento significativo en su propio aprendizaje en comparación con aquellos que solo estudiaron el material o vieron los videos. Descubrí que pedirles a los alumnos que compartan un error y su solución con la clase todos los días ayuda a sus habilidades analíticas y reduce el síndrome del impostor.
+
+Otro enfoque es la **revisión por pares calibrada**, en la cual un alumno revisa uno o más ejemplos usando una rúbrica y compara su evaluación con la revisión del maestro del mismo trabajo [Kulk2013]. Una vez que las evaluaciones de los alumnos están lo suficientemente cerca de las del maestro, comienzan a evaluar el trabajo real de sus compañeros. Si se combinan las evaluaciones de varios pares, esto puede ser tan preciso como la evaluación de los maestros [Pare2008].
+
+Como todo lo demás, la evaluación es ayudada por rúbricas. El formulario de evaluación en la Sección 21.2 muestra una muestra para comenzar. Para usarlo, clasifícate a ti mismo y a cada uno de tus compañeros de equipo, luego calcula y compara los puntajes. Las grandes disparidades generalmente indican la necesidad de una conversación más larga.
+
+
+## Ejercicios
+
+### Estrategias de aprendizaje (individual / 20)
+
+1. ¿Cuál de las seis estrategias de aprendizaje usa regularmente? ¿Cuáles no?
+
+2. Escriba tres conceptos generales que desea que sus alumnos dominen y dé dos ejemplos específicos de cada uno (práctica de ejemplos concretos). Para cada uno de esos conceptos, trabaje hacia atrás desde uno de sus ejemplos para explicar cómo lo explica el concepto (elaboración).
+
+### Ideas de conexión (pares / 5)
+Este ejercicio es un ejemplo del uso de la elaboración para mejorar la retención. Elija un compañero, haga que cada persona elija independientemente una idea, luego anuncie sus ideas e intente encontrar una cadena de cuatro eslabones que conduzca de una a la otra. Por ejemplo, si las dos ideas son "Saskatchewan" y "estadísticas", los enlaces podrían ser:
+
+* Saskatchewan es una provincia de Canadá;
+
+* Canadá es un país;
+
+* los países tienen gobiernos;
+
+* Los gobiernos utilizan estadísticas para analizar la opinión pública.
+
+### Evolución convergente (pares / 15)
+
+Una práctica que no se cubrió anteriormente son las **notas guiadas**, que son notas preparadas por el maestro que indican a los alumnos que respondan a la información clave en una conferencia o discusión. Las señales pueden ser espacios en blanco donde los alumnos agregan información, asteriscos junto a los términos que los alumnos deben definir, y así sucesivamente.
+
+Cree de dos a cuatro tarjetas de notas guiadas para una lección que haya enseñado recientemente o que vaya a enseñar. Intercambie tarjetas con su pareja: ¿qué tan fácil es entender lo que se solicita? ¿Cuánto tiempo tomaría completar los mensajes? ¿Qué tan bien funciona esto para ejemplos de programación?
+
+### Mentes cambiantes (pares / 10)
+
+[Kirs2013] argumenta que los mitos sobre los nativos digitales, los estilos de aprendizaje y los autodidactas son reflejos de la creencia errónea de que los alumnos saben lo que es mejor para ellos, y advierte que podemos estar en una espiral descendente en la que cada intento de los investigadores en educación refutar estos mitos confirma la creencia de sus oponentes de que aprender ciencia es una pseudociencia. Elija una cosa que haya aprendido sobre el aprendizaje hasta ahora en este libro que lo sorprendió o contradijo algo que creía anteriormente y practique explicárselo a un compañero en 1–2 minutos. ¿Qué tan convincente eres?
+
+### Tarjetas Flash (individuales / 15)
+Use notas adhesivas o cualquier otra cosa que tenga a mano para hacer media docena de tarjetas para un tema que haya enseñado o aprendido recientemente. Opere con un socio y vea cuánto tiempo le lleva a cada uno de ustedes lograr un recuerdo 100% perfecto. Deje las tarjetas a un lado cuando haya terminado, luego regrese después de media hora y vea cuál es su tasa de recuperación.
+
+### Usando ADEPT (toda la clase / 15)
+Elija algo que haya enseñado recientemente o que le hayan enseñado y describa una breve lección que utilice el método ADEPT de cinco pasos para presentarlo.
+
+### El costo de la multitarea (pares / 10)
+El blog de Learning Scientists describe un experimento simple que puede hacer con solo un cronómetro para demostrar el costo mental de la multitarea. Trabajando en parejas, mida cuánto tiempo le toma a cada persona realizar cada una de estas tres tareas:
+
+* Cuente del 1 al 26 dos veces.
+
+* Recita el alfabeto de la A a la Z dos veces.
+
+* Intercalar los números y letras, es decir, "1, A, 2, B, ..." y así sucesivamente.
+
+Haga que cada par informe sus números. Sin una práctica específica, la tercera tarea siempre lleva mucho más tiempo que cualquiera de las tareas componentes.
+
+### Mitos en la educación informática (toda la clase / 20)
+
+[Guzd2015b] presenta una lista de las diez creencias erróneas principales sobre la educación informática, que incluye:
+
+1. La falta de mujeres en Ciencias de la Computación es como todos los demás campos STEM.
+
+2. Para obtener más mujeres en CS, necesitamos más profesores femeninos de CS.
+
+3. Las evaluaciones de los estudiantes son la mejor manera de evaluar la enseñanza.
+
+4. Los buenos maestros personalizan la educación para los estilos de aprendizaje de los estudiantes.
+
+5. Un buen maestro de CS debe modelar buenas prácticas de desarrollo de software porque su trabajo es producir excelentes ingenieros de software.
+
+6. Algunas personas son naturalmente mejores programadores que otras.
+
+Haga que todos voten +1 (de acuerdo), -1 (en desacuerdo) o 0 (no estoy seguro) por cada punto, luego lea las explicaciones completas en el artículo original y vote nuevamente. ¿En cuáles cambiaron de opinión las personas? ¿Cuáles creen que todavía son verdad y por qué?
+
+### Revisión por pares calibrada (pares / 20)
+
+1. Cree una rúbrica de 5–10 puntos con entradas como “nombres de variables buenos”, “sin código redundante” y “flujo de control anidado adecuadamente” para calificar el tipo de programas que le gustaría que escribieran sus alumnos.
+
+2. Elija o cree un pequeño programa que contenga 3–4 violaciones de estas entradas.
+
+3. Califique el programa de acuerdo con su rúbrica.
+
+4. Haga que un compañero califique el mismo programa con la misma rúbrica. ¿Qué aceptan que no lo hiciste? ¿Qué critican que no hiciste?
+
+## Resumen
+
+![Concepts: Active learning](./img_traning/conceptmap-active-learning.svg)

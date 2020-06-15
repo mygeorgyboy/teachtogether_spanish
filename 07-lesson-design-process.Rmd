@@ -1,0 +1,252 @@
+# Un proceso de diseño de lecciones
+
+La mayoría de la gente diseña lecciones como esta:
+
+1. Alguien te pide que enseñes algo que apenas sabes o en lo que no has pensado en años.
+
+2. Empiezas a escribir diapositivas para explicar lo que sabes sobre el tema.
+
+3. Después de 2 o 3 semanas, haces una tarea basada en lo que has enseñado hasta ahora.
+
+4. Repite el paso 3 varias veces.
+
+5. Te mantienes despierto hasta altas horas de la madrugada para crear un examen final y prometerte que estarás más organizado la próxima vez.
+
+Un método más efectivo es similar en espíritu a una práctica de programación llamada **desarrollo basado en pruebas** (TDD). Los programadores que usan TDD no escriben software y luego prueban que funciona correctamente. En cambio, escriben las pruebas primero, luego escriben suficiente software nuevo para que esas pruebas pasen.
+
+TDD funciona porque escribir pruebas obliga a los programadores a ser precisos sobre lo que intentan lograr y cómo se ve "hecho". TDD también evita el pulido sin fin: cuando pasan las pruebas, deja de codificar. Finalmente, reduce el riesgo de sesgo de confirmación: alguien que aún no ha escrito una pieza de software será más objetivo que alguien que acaba de dedicar varias horas de arduo trabajo y realmente quiere terminar.
+
+Un método similar llamado **diseño hacia atrás** funciona muy bien para el diseño de lecciones. Este método se desarrolló de forma independiente en [Wigg2005, Bigg2011, Fink2013] y se resume en [McTi2013]. En forma simplificada, sus pasos son:
+
+1. Cree o recicle personas aprendices (discutidas en la siguiente sección) para descubrir a quién está tratando de ayudar y qué les resultará atractivo.
+
+2. Haga una lluvia de ideas para tener una idea aproximada de lo que quiere cubrir, cómo lo va a hacer, qué problemas o ideas erróneas espera encontrar, qué no se va a incluir, etc. Dibujar mapas conceptuales puede ayudar mucho en esta etapa (Sección 3.1).
+
+3. Cree una evaluación sumativa (Sección 2.1) para definir su objetivo general. Este puede ser el examen final de un curso o el proyecto final para un taller de un día; independientemente de su forma o tamaño, muestra hasta qué punto espera llegar más claramente que una lista de objetivos en forma de puntos.
+
+4. Cree evaluaciones formativas que brinden a las personas la oportunidad de practicar las cosas que están aprendiendo. Estos también le dirán (y a ellos) si están progresando y dónde deben centrar su atención. La mejor manera de hacer esto es detallar los conocimientos y habilidades utilizados en la evaluación sumativa que desarrolló en el paso anterior y luego crear al menos una evaluación formativa para cada uno.
+
+5. Ordene las evaluaciones formativas para crear un esquema del curso basado en su complejidad, sus dependencias y qué tan bien los temas motivarán a sus alumnos (Sección 10.1).
+
+6. Escriba material para que los alumnos pasen de una evaluación formativa a la siguiente. Cada hora de instrucción debe constar de tres a cinco episodios de este tipo.
+
+7. Escriba una descripción resumida del curso para ayudar a su público objetivo a encontrarlo y determinar si es adecuado para ellos.
+
+Este método ayuda a mantener la enseñanza enfocada en sus objetivos. También garantiza que los alumnos no enfrenten nada al final del curso para el que no estén preparados.
+
+
+>**Incentivos perversos**
+>
+>El diseño hacia atrás no es lo mismo que enseñar a la prueba. Al usar el diseño hacia atrás, los maestros establecen metas para ayudar en el diseño de la lección; Es posible que nunca den el examen final que escribieron. En muchos sistemas escolares, por otro lado, una autoridad externa define los criterios de evaluación para todos los alumnos, independientemente de sus situaciones individuales. Los resultados de esas evaluaciones sumativas afectan directamente el salario y la promoción de los docentes, lo que significa que los docentes tienen un incentivo para centrarse en que los alumnos aprueben las pruebas en lugar de ayudarlos a aprender.
+>
+>[Gree2014] argumenta que centrarse en las pruebas y la medición atrae a quienes tienen el poder de establecer las pruebas, pero es poco probable que mejore los resultados a menos que se combine con el apoyo para que los maestros realicen mejoras basadas en los resultados de las pruebas. A menudo falta lo último porque las grandes organizaciones generalmente valoran la uniformidad sobre la productividad [Scot1998].
+
+El diseño inverso se describe como una secuencia, pero casi nunca se hace de esa manera. Podemos, por ejemplo, cambiar de opinión sobre lo que queremos enseñar en base a algo que se nos ocurre mientras escribimos un MCQ, o reevaluar a quién estamos tratando de ayudar una vez que tengamos un resumen de la lección. Sin embargo, las notas que dejamos atrás deben presentar las cosas en el orden descrito anteriormente para que quien tenga que usar o mantener la lección después de nosotros pueda volver sobre nuestro pensamiento. [Parn1986]
+
+
+## Personas aprendices
+
+El primer paso en el proceso de diseño inverso es descubrir quién es su audiencia. Una forma de hacerlo es escribir dos o tres personas aprendices como las de la Sección 1.1. Esta técnica se toma prestada de los diseñadores de experiencia de usuario, que crean perfiles cortos de usuarios típicos para ayudarlos a pensar en su audiencia.
+
+Una persona de aprendizaje consiste en:
+
+1. los antecedentes generales de la persona;
+
+2. lo que ya saben;
+
+3. lo que quieren hacer; y
+
+4. cualquier necesidad especial que tengan.
+
+Las personas en la Sección 1.1 tienen los cuatro puntos enumerados anteriormente, junto con un breve resumen de cómo este libro los ayudará. Una persona que aprende para un grupo de voluntarios que organiza talleres de Python los fines de semana podría ser:
+
+1. Jorge acaba de mudarse de Costa Rica a Canadá para estudiar ingeniería agrícola. Se ha unido al equipo de fútbol de la universidad y espera aprender a jugar hockey sobre hielo.
+
+2. Además de usar Excel, Word e Internet, la experiencia previa más importante de Jorge con las computadoras es ayudar a su hermana a construir un sitio de WordPress para el negocio familiar en casa.
+
+3. Jorge quiere medir las propiedades del suelo de granjas cercanas utilizando un dispositivo portátil que envía datos a su computadora. En este momento tiene que abrir cada archivo de datos en Excel, eliminar la primera y la última columna, y calcular algunas estadísticas sobre lo que queda. Tiene que recolectar al menos 600 mediciones en los próximos meses, y realmente no quiere tener que hacer estos pasos a mano para cada uno.
+
+4. Jorge sabe leer bien el inglés, pero a veces le cuesta mantenerse al día con la conversación hablada que involucra mucha jerga.
+
+En lugar de escribir nuevas personas para cada lección o curso, los maestros generalmente crean y comparten media docena que cubren a todos los que probablemente enseñarán, luego eligen algunos de ese conjunto para describir a la audiencia para un material en particular. Las personas que se utilizan de esta manera se convierten en una forma abreviada conveniente para los problemas de diseño: al hablar entre ellos, los maestros pueden decir: "¿Entendería Jorge por qué estamos haciendo esto?" o "¿Qué problemas de instalación enfrentaría Jorge?"
+
+
+
+>**Sus objetivos, no los tuyos**
+>
+>Las personas siempre deben describir lo que el alumno quiere hacer en lugar de lo que crees que realmente necesitan. Pregúntese qué están buscando en línea; probablemente no incluirá jerga que aún no conocen, por lo que parte de lo que tiene que hacer como diseñador de instrucción es descubrir cómo hacer que su lección sea fácil de encontrar.
+
+
+## Objetivos de aprendizaje
+
+Las evaluaciones formativas y sumativas ayudan a los maestros a descubrir lo que van a enseñar, pero para comunicarlo a los alumnos y otros maestros, la descripción del curso también debe tener **objetivos de aprendizaje**. Estos ayudan a asegurar que todos tengan la misma comprensión de lo que se supone que debe lograr una lección. Por ejemplo, una declaración como "entender Git" podría significar cualquiera de los siguientes:
+
+* Los estudiantes pueden describir tres formas en que los sistemas de control de versiones como Git son mejores que las herramientas para compartir archivos como Dropbox y dos formas en que son peores.
+
+* Los alumnos pueden enviar un archivo modificado a un repositorio de Git utilizando una herramienta GUI de escritorio.
+
+* Los alumnos pueden explicar qué es un HEAD separado y recuperarse de él mediante operaciones de línea de comandos.
+
+>**Objetivos vs. Resultados**
+>
+>Un objetivo de aprendizaje es lo que una lección se esfuerza por lograr. Un resultado de aprendizaje es lo que realmente logra, es decir, lo que los alumnos realmente quitan. El papel de la evaluación sumativa es, por lo tanto, comparar los resultados de aprendizaje con los objetivos de aprendizaje.
+
+
+
+
+Un objetivo de aprendizaje describe cómo el alumno demostrará lo que ha aprendido una vez que haya completado con éxito una lección. Más específicamente, tiene un verbo medible o verificable que establece lo que hará el alumno y especifica los criterios para un rendimiento aceptable. Inicialmente, escribir esto puede parecer restrictivo, pero a largo plazo los hará felices a usted, a sus compañeros maestros y a sus alumnos: terminará con pautas claras tanto para su enseñanza como para su evaluación, y sus alumnos apreciarán tener expectativas claras.
+
+Una forma de entender lo que hace que un buen objetivo de aprendizaje sea ver cómo se puede mejorar uno pobre:
+
+* El alumno tendrá la oportunidad de aprender buenas prácticas de programación.
+Esto describe el contenido de la lección, no los atributos de los alumnos exitosos.
+
+* El alumno apreciará mejor las buenas prácticas de programación.
+Esto no comienza con un verbo activo ni define el nivel de aprendizaje, y el tema del aprendizaje no tiene contexto y no es específico.
+
+* El alumno comprenderá cómo programar en R.
+Si bien esto comienza con un verbo activo, no define el nivel de aprendizaje y el tema del aprendizaje sigue siendo demasiado vago para la evaluación.
+* El alumno escribirá scripts de análisis de datos de una página para leer, filtrar y resumir datos tabulares usando R.
+Esto comienza con un verbo activo, define el nivel de aprendizaje y proporciona contexto para garantizar que los resultados puedan evaluarse.
+
+Cuando se trata de elegir verbos, muchos maestros usan la **Taxonomía de Bloom**. Publicado por primera vez en 1956 y actualizado a principios de siglo [Ande2001], es un marco ampliamente utilizado para discutir los niveles de comprensión. Su forma más reciente tiene seis categorías; La lista a continuación proporciona algunos de los verbos que se usan típicamente en los objetivos de aprendizaje escritos para cada uno:
+
+**Recordando:**
+Exhiba la memoria del material previamente aprendido al recordar hechos, términos, conceptos básicos y respuestas. (reconocer, enumerar, describir, nombrar, buscar)
+
+**Comprensión:**
+Demuestre comprensión de hechos e ideas organizando, comparando, traduciendo, interpretando, dando descripciones y estableciendo ideas principales. (interpretar, resumir, parafrasear, clasificar, explicar)
+
+**Aplicando:**
+Resuelva nuevos problemas aplicando los conocimientos adquiridos, los hechos, las técnicas y las reglas de una manera diferente. (construir, identificar, usar, planificar, seleccionar)
+
+**Analizando:**
+Examinar y dividir la información en partes identificando motivos o causas; hacer inferencias y encontrar evidencia para apoyar las generalizaciones. (comparar, contrastar, simplificar)
+
+**Evaluando:**
+Presente y defienda opiniones emitiendo juicios sobre la información, la validez de las ideas o la calidad del trabajo en función de un conjunto de criterios. (verificar, elegir, criticar, probar, calificar)
+
+**Creando:**
+Recopile información de una manera diferente combinando elementos en un nuevo patrón o proponiendo soluciones alternativas. (diseñar, construir, mejorar, adaptar, maximizar, resolver)
+
+
+La Taxonomía de Bloom aparece en casi todos los libros de texto sobre educación, pero [Masa2018] descubrió que incluso los educadores experimentados tienen problemas para acordar cómo clasificar cosas específicas. Sin embargo, los verbos siguen siendo útiles, como lo es la noción de construir entendimiento en pasos: como ha dicho Daniel Willingham, la gente no puede pensar sin algo en lo que pensar [Will2010], y esta taxonomía puede ayudar a los maestros a asegurar que los alumnos tengan esas cosas cuando los necesitan
+
+Otra forma de pensar sobre los objetivos de aprendizaje proviene de [Fink2013], que define el aprendizaje en términos del cambio que debe producir en el alumno. La **taxonomía de Fink** también tiene seis categorías, pero a diferencia de Bloom, son complementarias en lugar de jerárquicas:
+
+**Conocimiento fundamental:**
+Comprender y recordar información e ideas. (recuerda, comprende, identifica)
+
+**Solicitud:**
+habilidades, pensamiento crítico, gestión de proyectos. (usar, resolver, calcular, crear)
+
+**Integración:**
+conectando ideas, experiencias de aprendizaje y la vida real. (conectar, relacionar, comparar)
+
+**Dimensión humana:**
+aprender sobre uno mismo y los demás. (llegar a verse a sí mismos como, comprender a los demás en términos de, decidir convertirse)
+
+**Cuidando:**
+desarrollando nuevos sentimientos, intereses y valores. (Emociónate, prepárate para valorar)
+
+**Aprendiendo a aprender:**
+convertirse en un mejor alumno. (identifique la fuente de información para, plantee preguntas útiles sobre)
+
+Un conjunto de objetivos de aprendizaje basados en esta taxonomía para un curso introductorio sobre HTML y CSS podría ser:
+
+* Explicar qué son las propiedades CSS y cómo funcionan los selectores CSS.
+
+* Diseñe una página web usando etiquetas comunes y propiedades CSS.
+
+* Compare y contraste la escritura de HTML y CSS con la escritura con herramientas de publicación de escritorio.
+
+* Identifique y corrija problemas en páginas web de muestra que dificulten la interacción de las personas con discapacidad visual.
+
+* Describa las características de los sitios web favoritos cuyo diseño le atraiga particularmente y explique por qué.
+
+* Describa sus dos fuentes de información en línea favoritas sobre CSS y explique qué le gusta de ellas.
+
+
+
+## Mantenibilidad
+
+Una vez que se ha creado una lección, alguien necesita mantenerla, y hacerlo es mucho más fácil si se ha desarrollado de manera sostenible. Pero, ¿qué significa exactamente "mantenible"? La respuesta breve es que se puede mantener una lección si es más barato actualizarla que reemplazarla. Esta ecuación depende de cuatro factores:
+
+**Cuán bien documentado está el diseño del curso.**
+Si la persona que realiza el mantenimiento no sabe (o no recuerda) qué se supone que debe lograr la lección o por qué se introducen los temas en un orden particular, les llevará más tiempo actualizarla. Una razón para usar el diseño inverso es capturar decisiones sobre por qué cada curso es como es.
+
+**Qué fácil es para los colaboradores colaborar técnicamente.**
+Los maestros generalmente comparten material enviándose archivos de PowerPoint entre ellos o colocándolos en una unidad compartida. Las herramientas de escritura colaborativa como Google Docs y wikis son una gran mejora, ya que permiten a muchas personas actualizar el mismo documento y comentar las actualizaciones de otras personas. Los sistemas de control de versiones utilizados por los programadores, como GitHub, son otro enfoque. Permiten que cualquier cantidad de personas trabajen de forma independiente y luego fusionan sus cambios de forma controlada y revisable. Desafortunadamente, los sistemas de control de versiones tienen una curva de aprendizaje empinada y no manejan formatos comunes de documentos de oficina.
+
+**Cuán dispuestas están las personas a colaborar.**
+Las herramientas necesarias para construir una Wikipedia para las lecciones han existido durante veinte años, pero la mayoría de los maestros aún no escriben y comparten lecciones de la manera en que escriben y comparten entradas de enciclopedia.
+
+**Cuán útil es realmente compartir.**
+La **paradoja de la reutilización** afirma que cuanto más reutilizable es un objeto de aprendizaje, menos pedagógicamente efectivo es [Wile2002]. La razón es que una buena lección se parece más a una novela que a un programa: sus partes están estrechamente acopladas en lugar de cajas negras independientes. Por lo tanto, la reutilización directa puede ser el objetivo equivocado para las lecciones; podríamos llegar más lejos al intentar hacerlos más fáciles de mezclar.
+
+Si la paradoja de la reutilización es cierta, la colaboración será más probable si las cosas en las que se colabora son pequeñas. Esto encaja bien con la teoría de las **explicaciones corales** de Mike Caulfield, que argumenta que los sitios como Stack Overflow tienen éxito porque proporcionan un coro de respuestas para cada pregunta, cada una de las cuales es más adecuada para un interrogador ligeramente diferente. Si esto es correcto, las lecciones del mañana pueden ser visitas guiadas a repositorios de preguntas y respuestas curados por la comunidad diseñados para estudiantes en niveles muy diferentes.
+
+
+## Ejercicios
+### Crear personas aprendices (grupos pequeños / 30)
+Trabajando en grupos pequeños, cree una persona de 4 puntos que describa a uno de sus alumnos típicos.
+
+### Clasificar los objetivos de aprendizaje (pares / 10)
+
+Mire los ejemplos de objetivos de aprendizaje para un curso introductorio sobre HTML y CSS en la Sección 6.2 y clasifique cada uno según la Taxonomía de Bloom. Compara tus respuestas con las de tu pareja. ¿Dónde estuvo de acuerdo y en desacuerdo?
+
+### Escribir objetivos de aprendizaje (pares / 20)
+
+Escribe uno o más objetivos de aprendizaje para algo que enseñas actualmente o planeas enseñar usando la Taxonomía de Bloom. Trabajando con un compañero, critica y mejora los objetivos. ¿Tiene cada uno un verbo verificable y criterios claros para un desempeño aceptable?
+
+### Escribir más objetivos de aprendizaje (pares / 20)
+Escribe uno o más objetivos de aprendizaje para algo que enseñas actualmente o planeas enseñar usando la taxonomía de Fink. Trabajando con un compañero, critica y mejora los objetivos.
+
+### Ayúdame a hacerlo solo (grupos pequeños / 15)
+El teórico educativo Lev Vygotsky introdujo la noción de una Zona de Desarrollo Proximal (ZPD), que incluye los problemas que las personas aún no pueden resolver por sí mismas pero que pueden resolver con la ayuda de un mentor. Estos son los problemas que son más fructíferos para abordar a continuación, ya que están fuera del alcance pero son alcanzables.
+
+Trabajando en grupos pequeños, elija una persona de alumno que haya desarrollado y describa dos o tres problemas que se encuentran en la ZPD de ese alumno.
+
+### Desarrollar lecciones restando complejidad (individual / 20)
+Una forma de construir una lección de programación es escribir el programa con el que desea que los alumnos terminen, luego eliminar la parte más compleja que desea que escriban y convertirlo en el último ejercicio. Luego puede eliminar la siguiente parte más compleja que desea que escriban y convertirla en el penúltimo ejercicio, y así sucesivamente. Cualquier cosa que quede después de que hayas retirado los ejercicios, como cargar bibliotecas o leer datos, se convierte en el código de inicio que les das.
+
+Tome un programa o página web que desee que sus alumnos puedan crear y trabaje hacia atrás para dividirlo en partes digeribles. ¿Cuántos hay? ¿Qué idea clave presenta cada uno?
+
+
+
+### Rareza no esencial (individual / 15)
+Betsy Leondar-Wright acuñó la frase "rareza inesencial" para describir cosas que los grupos hacen que no son realmente necesarias, pero que alienan a las personas que aún no son miembros de ese grupo. Sumana Harihareswara luego utilizó esta noción como base para una charla sobre rarezas no esenciales en software de código abierto, que incluye cosas como el uso de herramientas de línea de comandos con nombres crípticos. Tómese unos minutos para leer estos artículos, luego haga una lista de las rarezas no esenciales que cree que sus alumnos podrían encontrar cuando les enseñe por primera vez. ¿Cuántos de estos puedes evitar?
+
+### PETE (individual / 15)
+Un patrón que funciona bien para programar lecciones es PETE: presentar el problema, trabajar a través de un ejemplo, explicar la teoría y luego elaborar un segundo ejemplo para que los alumnos puedan ver qué es específico de cada caso y qué se aplica a todos los casos. Elija algo que haya enseñado recientemente o que le hayan enseñado y describa una breve lección que siga estos cinco pasos.
+
+### PRIMM (individual / 15)
+Otro patrón de lección es PRIMM [Sent2019]: predice el comportamiento o la salida de un programa, ejecútelo para ver lo que realmente hace, investigue por qué lo hace al atravesarlo en un depurador o dibujar el flujo de control, modificarlo (o sus entradas ), y luego hacer algo similar desde cero. Elija algo que haya enseñado recientemente o que le hayan enseñado y describa una breve lección que siga estos cinco pasos.
+
+### Concreto-Representacional-Abstracto (pares / 15)
+Concrete-Representational-Abstract (CRA) es un enfoque para introducir nuevas ideas que se usa principalmente con los alumnos más jóvenes: manipular físicamente un objeto concreto, representar el objeto con una imagen, luego realizar las mismas operaciones usando números, símbolos o alguna otra abstracción .
+
+1. Escriba cada uno de los números 2, 7, 5, 10, 6 en una nota adhesiva.
+
+2. Simule un bucle que encuentre el valor más grande al mirar cada uno a su vez (concreto).
+
+3. Dibuje un diagrama del proceso que utilizó, etiquetando cada paso (representacional).
+
+4. Escriba las instrucciones que alguien más podría seguir para seguir los mismos pasos (resumen).
+
+Compare sus materiales representativos y abstractos con los de su compañero.
+
+### Evaluación de un repositorio de lecciones (grupos pequeños / 10)
+[Leak2017] explora por qué los profesores de informática no usan sitios para compartir lecciones y recomienda formas de hacerlos más atractivos:
+
+1. La página de destino debe permitir a los visitantes del sitio identificar sus antecedentes y sus intereses en visitar el sitio. Los sitios deben hacer dos preguntas: "¿Cuál es su rol actual?" y "¿En qué curso y nivel de grado está interesado?"
+
+2. Los sitios deben mostrar todos los recursos de aprendizaje en el contexto del curso completo para que los usuarios potenciales puedan comprender su contexto de uso previsto.
+
+3. Muchos maestros tienen inquietudes acerca de que sus pares (falta de) conocimiento sean juzgados por sus compañeros si publican en los foros de discusión de los sitios. Por lo tanto, estos foros deberían permitir la publicación anónima.
+
+En pequeños grupos, discuta si estas tres características serían suficientes para convencerlo de que use un sitio para compartir lecciones, y si no, qué sería.
+
+## Resumen
+
+![pesrsonas](./img_traning/conceptmap-personas.svg)

@@ -1,0 +1,326 @@
+# Conocimiento pedagógico del contenido
+
+Cada maestro necesita tres cosas:
+
+**El conocimiento del contenido** como cómo programar;
+
+**Conocimiento pedagógico general** como la comprensión de la psicología del aprendizaje; y
+
+**Conocimiento de contenido pedagógico** (PCK), que es el conocimiento específico del dominio de cómo enseñar un concepto particular a una audiencia particular. En informática, PCK incluye cosas como qué ejemplos usar cuando se enseña cómo se pasan los parámetros a una función o qué conceptos erróneos sobre el anidamiento de etiquetas HTML son más comunes.
+
+Podemos agregar conocimiento técnico a esta mezcla [Koeh2013], pero eso no cambia el punto clave: no es suficiente conocer la materia y cómo enseñar; hay que saber cómo enseñar esa materia en particular [Maye2004]. Por lo tanto, este capítulo resume algunos resultados de la investigación en educación informática que se agregarán a su tienda de PCK.
+
+Como con toda investigación, se requiere cierta precaución al interpretar los resultados:
+
+**Las teorías cambian a medida que hay más datos disponibles.**
+La investigación en educación informática (CER) es una disciplina joven: la Sociedad Estadounidense para la Educación en Ingeniería se fundó en 1893 y el Consejo Nacional de Maestros de Matemáticas en 1920, pero la Asociación de Maestros de Ciencias de la Computación no existió hasta 2005. Si bien un flujo constante de Se informan nuevos conocimientos en conferencias como SIGCSE, ITiCSE e ICER, simplemente no sabemos tanto sobre aprender a programar como sobre aprender a leer, practicar un deporte o hacer aritmética básica.
+
+**La mayoría de los temas de estos estudios son extraños:**
+son de sociedades occidentales, educativas, industrializadas, ricas y democráticas [Henr2010]. Lo que es más, también son en su mayoría jóvenes y en aulas institucionales, ya que esa es la población a la que la mayoría de los investigadores tienen acceso más fácil. Sabemos mucho menos sobre adultos, miembros de grupos marginados, estudiantes en entornos de campo libre o programadores de usuarios finales, a pesar de que hay muchos más.
+
+Si se tratara de un tratado académico, por lo tanto, sería el prefacio de la mayoría de las afirmaciones con calificadores como "Algunas investigaciones parecen indicar que ..." Pero dado que los maestros reales en las aulas reales tienen que tomar decisiones independientemente de si la investigación tiene respuestas claras o no, esto El capítulo presenta mejores conjeturas accionables en lugar de quizás matices.
+
+
+>**Jerga**
+>
+>Como cualquier especialidad, CER tiene jerga. CS1 se refiere a un curso introductorio de un semestre en el que los alumnos cumplen con variables, bucles y funciones por primera vez, mientras que CS2 se refiere a un segundo curso que cubre estructuras de datos básicas como pilas y colas, y CS0 se refiere a un curso introductorio para personas sin ninguna experiencia previa que no tengan la intención de continuar con la informática de inmediato. Las definiciones completas de estos términos se pueden encontrar en las Pautas del plan de estudios de ACM.
+
+
+## ¿Qué les estamos enseñando ahora?
+
+Se sabe muy poco sobre lo que enseñan los bootcamps de codificación y otras iniciativas de campo libre, en parte porque muchos son reacios a compartir su plan de estudios. Sabemos más sobre lo que enseñan las instituciones [Luxt2017]:
+
+
+|Topic	|%|	Topic |	%|
+|------|---|-------|--|
+|Programming Process	|87%	|Data Types	|23%|
+|Abstract Programming Thinking | 63% | Input/Output | 17% |
+|Data Structures | 40% | Libraries | 15% |
+|Object-Oriented Concepts | 36% | Variables & Assignment | 14% |
+|Control Structures | 33% | Recursion | 10% |
+|Operations & Functions|26%|Pointers & Memory Management|5%|
+
+
+Las etiquetas de temas de alto nivel como estas pueden ocultar una multitud de pecados. Un resultado más tangible proviene de [Rich2017] que revisó un centenar de artículos para encontrar trayectorias de aprendizaje para las clases de computación en las escuelas primarias y secundarias. Sus resultados para secuenciación, repetición y condicionales son mapas conceptuales esencialmente colectivos que combinan y racionalizan el pensamiento implícito y explícito de muchos educadores diferentes (Figura [f: pck-trayectoria]).
+
+![Condicionales](./img_traning/conditionals.svg)
+
+
+## ¿Cuánto están aprendiendo?
+
+Puede haber un mundo de diferencia entre lo que los maestros enseñan y cuánto aprenden los alumnos. Para explorar esto último, debemos usar otras medidas o hacer estudios directos. Tomando el enfoque anterior, aproximadamente dos tercios de los estudiantes postsecundarios pasan su primer curso de computación, con algunas variaciones dependiendo del tamaño de la clase, etc., pero sin diferencias significativas en el tiempo o basadas en el idioma [Benn2007a, Wats2014].
+
+¿Cómo afecta la experiencia previa a estos resultados? Para averiguarlo, [Wilc2018] comparó el rendimiento y la confianza de los novatos con y sin experiencia previa en programación en CS1 y CS2 (ver más abajo). Descubrieron que los novatos con experiencia previa superaron a los novatos sin un 10% en CS1, pero esas diferencias desaparecieron al final de CS2. También descubrieron que las mujeres con exposición previa superaron a sus pares masculinos en todas las áreas, pero siempre tenían menos confianza en sus habilidades (Sección 10.4).
+
+En cuanto a los estudios directos de cuánto aprenden los principiantes, [McCr2001] presentó un estudio internacional de múltiples sitios que luego fue replicado por [Utti2013]. Según el primer estudio, "... los resultados decepcionantes sugieren que muchos estudiantes no saben programar al finalizar sus cursos introductorios". Más específicamente, "Para una muestra combinada de 216 estudiantes de cuatro universidades, el puntaje promedio fue de 22.89 de 110 puntos en los criterios generales de evaluación desarrollados para este estudio". Este resultado puede decir tanto sobre las expectativas de los maestros como sobre la capacidad de los estudiantes, pero de cualquier manera, nuestra primera recomendación es medir y rastrear los resultados de manera que se puedan comparar con el tiempo para que pueda saber si sus lecciones se están volviendo más o menos. menos efectivo.
+
+
+## ¿Qué ideas erróneas tienen los novatos?
+El Capítulo 2 explica por qué aclarar los conceptos erróneos de los principiantes es tan importante como enseñarles estrategias para resolver problemas. El error más grande que los novatos tienen, a veces llamado la "superbacteria" en la codificación, es la creencia de que las computadoras entienden lo que las personas quieren decir de la misma manera que otro ser humano [Pea1986]. Por lo tanto, nuestra segunda recomendación es enseñar a los novatos que las computadoras no entienden los programas, es decir, que llamar a un "costo" variable no garantiza que su valor sea realmente un costo.
+
+[Sorv2018] presenta más de cuarenta conceptos erróneos que los maestros también pueden tratar de aclarar, muchos de los cuales también se discuten en la encuesta de [Qian2017]. Una es la creencia de que las variables en los programas funcionan de la misma manera que en las hojas de cálculo, es decir, después de ejecutar:
+
+grado = 65
+total = grado + 10
+grado = 80
+imprimir (total)
+el valor del total será 90 en lugar de 75 [Kohn2017]. Este es un ejemplo de la forma en que los novatos construyen un modelo mental plausible pero equivocado haciendo analogías; Otros conceptos erróneos incluyen:
+
+Una variable contiene el historial de los valores que le han sido asignados, es decir, recuerda cuál era su valor.
+
+Se garantiza que dos objetos con el mismo valor para un atributo de nombre o id serán el mismo objeto.
+
+Las funciones se ejecutan como se definen o se ejecutan en el orden en que se definen.
+
+
+## ¿Qué errores cometen los novatos?
+
+Los errores que cometen los principiantes pueden decirnos qué priorizar en nuestra enseñanza, pero resulta que la mayoría de los maestros no saben cuán comunes son realmente los diferentes tipos de errores. El estudio más grande de esto es, [Brow2017], que encontró que las comillas y paréntesis no coincidentes son el tipo más común de errores en los programas Java novatos, pero también son los más fáciles de corregir, mientras que algunos errores (como poner la condición de un if en {} en lugar de ()) con mayor frecuencia se hacen solo una vez. Como era de esperar, los errores que producen errores de compilación se corrigen mucho más rápido que los que no. Sin embargo, algunos errores se cometen muchas veces, como invocar métodos con argumentos incorrectos (por ejemplo, pasar una cadena en lugar de un entero).
+
+>**No es correcto o no está hecho**
+>
+>Una dificultad en una investigación como esta es distinguir los errores del trabajo en progreso. Por ejemplo, una instrucción if vacía o un método que se define pero aún no se usa puede ser un signo de código incompleto en lugar de un error.
+
+[Brow2017] también comparó los errores que los principiantes realmente cometen con lo que sus maestros pensaron que cometieron. Descubrieron que, "... los educadores solo formaron un consenso débil sobre qué errores son más frecuentes, que sus clasificaciones solo tenían una correspondencia moderada con los estudiantes en los ... datos, y que la experiencia de los educadores no tuvo ningún efecto en este nivel de acuerdo". Por ejemplo, confundir = (asignación) y == (igualdad) no era tan común como la mayoría de los maestros creían.
+
+>**No solo por código**
+>
+>[Park2015] recopiló datos de un editor HTML en línea durante un curso introductorio de desarrollo web y descubrió que casi todos los alumnos cometieron errores de sintaxis que permanecieron sin resolver semanas después del curso. El 20% de estos errores se relacionan con las reglas relativamente complejas que dictan cuándo es válido que los elementos HTML se aniden entre sí, pero el 35% se relaciona con la sintaxis de etiqueta más simple que determina cómo se anidan los elementos HTML. La tendencia de muchos maestros a decir: "Pero las reglas son simples", es un buen ejemplo de punto ciego experto que se analiza en el Capítulo 3 ...
+
+## ¿Cómo se programa de novicios?
+[Solo1984, Solo1986] fue pionero en la exploración de estrategias de programación para principiantes y expertos. El hallazgo clave es que los expertos saben tanto "qué" como "cómo", es decir, entienden qué poner en los programas y tienen un conjunto de patrones o planes de programas para guiar su construcción. Los principiantes carecen de ambos, pero la mayoría de los maestros se centran únicamente en el primero, a pesar de que los errores a menudo son causados por no tener una estrategia para resolver el problema en lugar de la falta de conocimiento sobre el idioma. Un trabajo reciente ha demostrado la efectividad de enseñar cuatro habilidades distintas en un orden específico [Xie2019]:
+
+La condición de un ciclo while se evalúa constantemente y el ciclo se detiene tan pronto como se vuelve falso. Por el contrario, las condiciones en si las declaraciones también se evalúan constantemente, y sus declaraciones se ejecutan tan pronto como la condición se vuelve verdadera, independientemente de dónde esté el flujo de control en ese momento.
+
+La asignación mueve valores, es decir, después de a = b, la variable b está vacía.
+
+
+|	 |semantics of code	| templates related to goals |
+|---|----------|--------|
+|reading	|1. read code and predict behavior	|3. recognize templates and their uses|
+|writing	|2. write correct syntax	|4. use templates to meet goals|
+
+
+Por lo tanto, nuestras próximas recomendaciones son que los alumnos lean el código, luego lo modifiquen, luego lo escriban e introduzcan patrones comunes explícitamente y que los alumnos practiquen su uso. [Mull2007b] es solo uno de los muchos estudios que demuestran los beneficios de enseñar patrones comunes explícitamente, y descomponer los problemas en patrones crea oportunidades naturales para crear y etiquetar submetas [Marg2012, Marg2016].
+
+## ¿Cómo se depuran los novatos?
+
+Hace una década, [McCa2008] escribió: "Es sorprendente lo poco que se dedica el espacio de página a errores y depuración en la mayoría de los libros de texto introductorios de programación". Poco ha cambiado desde entonces: hay cientos de libros sobre compiladores y sistemas operativos, pero solo unos pocos sobre depuración, y nunca he visto un curso de pregrado dedicado al tema.
+
+[List2004, List2009] descubrió que muchos novatos luchaban por predecir la salida de piezas cortas de código y seleccionar la finalización correcta del código de un conjunto de posibilidades cuando se les decía lo que se suponía que debía hacer. Más recientemente, [Harr2018] descubrió que la brecha entre poder rastrear el código y poder escribirlo se ha cerrado en gran medida por CS2, pero que los principiantes que todavía tienen una brecha (en cualquier dirección) probablemente lo hagan mal.
+
+Por lo tanto, nuestra quinta recomendación es enseñar explícitamente a los novatos a depurar. [Fitz2008, Murp2008] descubrió que los buenos depuradores eran buenos programadores, pero no todos los buenos programadores eran buenos para la depuración. Aquellos que usaron un depurador simbólico para recorrer sus programas, rastrearon la ejecución a mano, escribieron pruebas y releyeron las especificaciones con frecuencia, que son todos hábitos de enseñanza. Sin embargo, el seguimiento de la ejecución paso a paso a veces se usaba de manera ineficaz: por ejemplo, un novato podría poner la misma declaración de impresión en ambas partes de un if-else. Los novatos también comentarían las líneas que en realidad eran correctas al tratar de aislar un problema; los maestros pueden cometer estos dos errores deliberadamente, señalarlos y corregirlos para ayudar a los novatos a superarlos.
+
+Enseñar a los principiantes a depurar también puede ayudar a que las clases sean más fáciles de manejar. [Alqa2017] descubrió que los alumnos con más experiencia resolvieron los problemas de depuración significativamente más rápido, pero los tiempos variaron ampliamente: 4-10 minutos era un rango típico para ejercicios individuales, lo que significa que algunos Los alumnos necesitan 2–3 veces más que otros para realizar los mismos ejercicios. Enseñar a los alumnos más lentos lo que hacen los más rápidos ayudará a que el progreso general del grupo sea más uniforme.
+
+La depuración depende de poder leer el código, que múltiples estudios han demostrado que es la forma más efectiva de encontrar errores [Basi1987, Keme2009, Bacc2013]. La rúbrica de calidad de código desarrollada en [Steg2014, Steg2016a] es una buena lista de verificación de las cosas que debe buscar, aunque se presenta mejor en fragmentos en lugar de todos a la vez.
+
+Hacer que los alumnos lean el código y resuman su comportamiento es un buen ejercicio (Sección 5.1), pero a menudo toma demasiado tiempo para ser práctico en clase. Hacer que pronostiquen la salida de un programa justo antes de que se ejecute, por otro lado, ayuda a reforzar el aprendizaje (Sección 9.11) y también les da un momento natural para hacer preguntas de "qué pasaría si". Los maestros o los alumnos también pueden rastrear los cambios en las variables a medida que avanzan, lo que [Cunn2017] encontró efectivo (Sección 12.2).
+
+
+## ¿Qué pasa con las pruebas?
+
+Los programadores novatos parecen tan reacios a probar software como los profesionales. No hay duda de que hacerlo es valioso: [Cart2017] descubrió que los principiantes de alto rendimiento pasaban mucho tiempo probando, mientras que los de bajo rendimiento pasaban mucho más tiempo trabajando en código con errores, y muchos maestros requieren que los alumnos escriban pruebas para las tareas. ¿Pero qué tan bien hacen esto? Una respuesta proviene de [Bria2015], que calificó los programas de los alumnos según la cantidad de casos de prueba proporcionados por el maestro que pasaron esos programas y, a la inversa, califica los casos de prueba escritos por los alumnos de acuerdo con la cantidad de errores sembrados deliberadamente. Descubrieron que las pruebas de los principiantes a menudo tienen una cobertura baja (es decir, no prueban la mayor parte del código) y que a menudo prueban muchas cosas a la vez, lo que dificulta determinar las causas de los errores.
+
+Otra respuesta proviene de [Edwa2014b], que examinó todos los errores en todos los envíos de código de los novatos combinados e identificó los detectados por el conjunto de pruebas de los novatos. Descubrieron que las pruebas de los principiantes solo detectaban un promedio del 13,6% de las fallas presentes en toda la población del programa. Además, el 90% de las pruebas de los principiantes fueron muy similares, lo que indica que los principiantes escriben principalmente pruebas para confirmar que el código está haciendo lo que se supone que debe hacer en lugar de encontrar casos en los que no.
+
+Un enfoque para enseñar mejores prácticas de prueba es definir un problema de programación al proporcionar un conjunto de pruebas que se aprobarán en lugar de a través de una descripción escrita (Sección 12.1). Sin embargo, antes de hacer esto, tómese un momento para ver cuántas pruebas ha escrito recientemente para su propio código, y luego decida si está enseñando qué cree que deberían hacer las personas o qué hacen (y usted) realmente.
+
+## ¿Importan los idiomas?
+La respuesta corta es "sí": los novatos aprenden a programar más rápido y aprenden más utilizando herramientas basadas en bloques como Scratch (Figura [f: pck-scratch]) [Wein2017]. Una razón es que los sistemas basados en bloques reducen la carga cognitiva al eliminar la posibilidad de errores de sintaxis. Otra es que las interfaces de bloque fomentan la exploración de una manera que el texto no: como todas las buenas herramientas, Scratch se puede aprender accidentalmente [Malo2010].
+
+Pero, ¿qué sucede después de los bloques? [Chen2018] descubrió que los alumnos cuyo primer lenguaje de programación era gráfico tenían calificaciones más altas en los cursos de programación introductoria que aquellos cuyo primer idioma era textual cuando los idiomas se introdujeron en o antes de los primeros años de la adolescencia. Por lo tanto, nuestra sexta recomendación es comenzar a niños y adolescentes con interfaces basadas en bloques antes de pasar a sistemas basados en texto. La calificación de edad está ahí porque Scratch deliberadamente parece que está destinado a usuarios más jóvenes, y aún puede ser difícil convencer a los adultos de que lo tomen en serio.
+
+![Scratch](./img_traning/scratch-program.png)
+
+
+Scratch probablemente ha sido estudiado más que cualquier otra herramienta de programación. Un ejemplo es [Aiva2016], que analizó más de 250,000 proyectos de Scratch y descubrió (entre otras cosas) que aproximadamente el 28% de los proyectos tienen algunos bloques que nunca se llaman o activan. Como en el apartado anterior sobre los programas Java incompletos versus incorrectos, los autores plantean la hipótesis de que los usuarios pueden estar utilizando estos bloques como un bloc de notas para realizar un seguimiento de los bits de código que (todavía) no quieren tirar. Otro ejemplo es [Grov2017, Mlad2017], que estudió a los principiantes aprendiendo sobre bucles en Scratch, Logo y Python. Descubrieron que las ideas erróneas sobre los bucles se minimizan cuando se usa un lenguaje basado en bloques en lugar de un lenguaje basado en texto. Además, a medida que las tareas se vuelven más complejas (como el uso de bucles anidados) las diferencias se hacen más grandes.
+
+>**Más duro de lo necesario**
+>
+>Los creadores de lenguajes de programación hacen que esos lenguajes sean más difíciles de aprender al no realizar pruebas básicas de usabilidad. Por ejemplo, [Stef2013] descubrió que, "... las tres palabras más comunes para bucles en ciencias de la computación, para, while y foreach, fueron calificadas como las tres opciones menos intuitivas por los no programadores". Su trabajo muestra que la sintaxis de estilo C (como se usa en Java y Perl) es tan difícil de aprender para los principiantes como una sintaxis diseñada al azar, pero que la sintaxis de lenguajes como Python y Ruby es significativamente más fácil de aprender, y la sintaxis de un lenguaje cuyas características se prueban antes de agregarse al lenguaje es aún más fácil. [Stef2017] es un breve resumen útil de lo que realmente sabemos sobre el diseño de lenguajes de programación y por qué creemos que es cierto, mientras que [Guzd2016] expone cinco principios que los lenguajes de programación para los alumnos deben seguir.
+
+## Programación orientada a objetos
+Los objetos y las clases son herramientas poderosas para programadores experimentados, y muchos educadores abogan por un primer enfoque de objetos para la programación de la enseñanza (aunque a veces no están de acuerdo exactamente sobre lo que eso significa [Benn2007b]). [Sorv2014] describe y motiva este enfoque, y [Koll2015] describe Tres generaciones de herramientas diseñadas para soportar la programación de principiantes en entornos orientados a objetos.
+
+Introducir objetos temprano tiene algunos desafíos. [Mill2016b] descubrió que la mayoría de los principiantes que usan Python luchaban por comprenderse a sí mismos (lo que se refiere al objeto actual): lo omitieron en las definiciones de métodos, no lo usaron al hacer referencia a los atributos de los objetos, o ambos [ Rago2017] encontró algo similar en los estudiantes de secundaria, y también descubrió que los maestros de secundaria a menudo tampoco tenían claro el concepto. A fin de cuentas, recomendamos que los maestros comiencen con funciones en lugar de objetos, es decir, que a los alumnos no se les enseñe cómo definir clases hasta que comprendan las estructuras de control básicas y los tipos de datos.
+
+
+## Declaraciones de tipo
+Los programadores han discutido durante décadas acerca de si los tipos de datos de las variables deberían ser declarados o no, generalmente en función de su experiencia personal como profesionales en lugar de cualquier tipo de datos. los programas tienen cierta complejidad, pero vale la pena con bastante rapidez al actuar como documentación para el uso de un método, en particular al evitar preguntas sobre lo que está disponible y cómo usarlo.
+
+## Nomenclatura variable
+[Kern1999] escribió: “A menudo se alienta a los programadores a usar nombres de variables largos independientemente del contexto. Esto es un error: la claridad a menudo se logra a través de la brevedad ". Muchos programadores creen esto, pero [Hofm2017] descubrió que el uso de palabras completas en nombres de variables condujo a un promedio de comprensión un 19% más rápido en comparación con letras y abreviaturas. En contraste, [Beni2017] descubrió que el uso de nombres de variables de una letra no afectaba la capacidad de los principiantes para modificar el código. Esto puede deberse a que sus programas son más cortos que los profesionales o porque algunos nombres de variables de una sola letra tienen tipos y significados implícitos. Por ejemplo, la mayoría de los programadores suponen que i, j y n son enteros y que s es una cadena, mientras que x, y y z son números de punto flotante o enteros más o menos equitativamente.
+
+¿Qué tan importante es esto? [Bink2012] informó que leer y comprender el código es fundamentalmente diferente de leer la prosa: “… la estructura más formal y la sintaxis del código fuente permite a los programadores asimilar y comprender partes del código con bastante rapidez independientemente del estilo. En particular ... las balizas y los planes de programa juegan un papel importante en la comprensión ". También descubrió que los desarrolladores experimentados no se ven afectados por el estilo del identificador, por lo que nuestra recomendación es utilizar un estilo coherente en todos los ejemplos. Dado que la mayoría de los idiomas tienen guías de estilo (por ejemplo, PEP 8 para Python) y herramientas para verificar que el código siga estas pautas, nuestra recomendación completa es usar herramientas para garantizar que todos los ejemplos de código se adhieran a un estilo consistente.
+
+## ¿Ayudan los mejores mensajes de error?
+Los mensajes de error incomprensibles son una fuente importante de frustración para los principiantes (y también para programadores experimentados). Por lo tanto, varios investigadores han explorado si mejores mensajes de error ayudarían a aliviar esto. Por ejemplo, [Beck2016] reescribió algunos de los mensajes del compilador de Java para que en lugar de:
+
+    C:\stj\Hello.java:2: error: cannot find symbol
+            public static void main(string[ ] args)
+    ^
+    1 error
+    Process terminated ... there were problems.
+    learners would see:
+    
+    Looks like a problem on line number 2.
+    If "string" refers to a datatype, capitalize the 's'!
+    
+Efectivamente, los novatos que recibieron estos mensajes cometieron menos errores repetidos y menos errores en general.
+
+[Bari2017] fue más allá y utilizó el seguimiento ocular para mostrar que a pesar de las quejas de los escritores de compiladores, las personas realmente leen los mensajes de error; de hecho, pasan del 13 al 25% de su tiempo haciendo esto. Sin embargo, leer mensajes de error resulta ser tan difícil como leer el código fuente, y lo difícil que es leer los mensajes de error predice fuertemente el rendimiento de la tarea. Por lo tanto, los maestros deben mostrar a los alumnos cómo leer e interpretar los mensajes de error. [Marc2011] tiene una rúbrica para las respuestas a los mensajes de error que pueden ser útiles para calificar tales ejercicios.
+
+
+## ¿Ayuda la visualización?
+Visualizar la ejecución del programa es una idea cada vez más popular, y las herramientas como el Tutor de Python en línea [Guo2013] y Loupe (que muestra cómo funciona el bucle de eventos de JavaScript) son útiles para la enseñanza. Sin embargo, las personas aprenden más de la construcción de visualizaciones que de la visualización de visualizaciones construidas por otros, [Stas1998, Ceti2016] entonces, ¿la visualización realmente ayuda al aprendizaje?
+
+Para responder a esto, [Cunn2017] replicó un estudio anterior de los tipos de bocetos que los alumnos hacen al rastrear la ejecución del código. Descubrieron que no dibujar en absoluto se correlaciona con un menor éxito, mientras que el seguimiento de los cambios en los valores de las variables escribiendo nuevos valores cerca de sus nombres a medida que cambian era la estrategia más efectiva.
+
+Un posible efecto de confusión que verificaron fue el tiempo: dado que los dibujantes tardan significativamente más tiempo en resolver problemas, ¿lo hacen mejor solo porque piensan por más tiempo? La respuesta es no: no hubo correlación entre el tiempo necesario y el puntaje alcanzado. Por lo tanto, nuestra recomendación es enseñar a los alumnos a rastrear los valores de las variables al depurar.
+
+>**Diagramas de flujo**
+>
+>Un hallazgo que a menudo se pasa por alto sobre la visualización es que las personas entienden los diagramas de flujo mejor que el pseudocódigo si ambos están igualmente bien estructurados [Scan1989]. Trabajos anteriores que muestran que los diagramas de flujo superados en el pseudocódigo utilizaron pseudocódigo estructurado y diagramas de flujo enredados; Cuando se nivelaba el campo de juego, a los novatos les iba mejor con la representación gráfica.
+
+## ¿Qué más podemos hacer para ayudar?
+[Viha2014] examinó la mejora promedio en las tasas de aprobación de varios tipos de intervención en las clases de programación. Señalan que hay muchas razones para tomar sus conclusiones con un grano de sal: las prácticas de enseñanza previas al cambio rara vez se establecen claramente, la calidad del cambio no se juzga, y solo el 8.3% de los estudios informaron resultados negativos, por lo que es positivo el sesgo de informes o la forma en que enseñamos en este momento es lo peor posible y cualquier cosa sería una mejora. Y como muchos otros estudios discutidos en este capítulo, solo estaban viendo clases universitarias, por lo que sus hallazgos pueden no generalizarse a otros grupos.
+
+Con esas advertencias en mente, encontraron diez cosas que los maestros pueden hacer para mejorar los resultados (Figura [f: pck-intervenciones]):
+
+**Colaboración:** Actividades que fomentan la colaboración de los alumnos, ya sea en aulas o laboratorios.
+
+**Cambio de contenido:** Se modificaron o actualizaron partes del material didáctico.
+
+**Contextualización:** El contenido y las actividades del curso se alinearon con un contexto específico, como juegos o medios.
+
+**CS0:** Creación de un curso preliminar a tomar antes del curso introductorio de programación; podría organizarse solo para algunos (por ejemplo, estudiantes en riesgo).
+
+**Tema del juego:** Se introdujo un componente temático del juego en el curso.
+
+**Sistema de clasificación:** Un cambio en el esquema de calificación, como aumentar el peso de las actividades de programación y reducir el peso del examen.
+
+**Trabajo en equipo:** Actividades con un mayor compromiso de trabajo en grupo, como el aprendizaje en equipo y el aprendizaje cooperativo.
+
+**Computación de medios:** Actividades que declaran explícitamente el uso de la computación de medios (Capítulo 10).
+
+**Apoyo de los compañeros:** Apoyo de pares en forma de pares, grupos, tutores o tutores pares contratados.
+
+**Otro apoyo:** Un término general para todas las actividades de apoyo, p. aumento de horas docentes, canales de soporte adicionales, etc.
+
+![întervention](./img_traning/interventions-scaled.png)
+
+
+Esta lista destaca la importancia del aprendizaje cooperativo. [Beck2013] analizó esto específicamente durante tres años académicos en cursos impartidos por dos maestros diferentes y encontró beneficios significativos en general y para muchos subgrupos. Los cooperadores obtuvieron calificaciones más altas y dejaron menos preguntas en blanco en el examen final, lo que indica una mayor autoeficacia y disposición para tratar de depurar las cosas.
+
+>**Computación sin codificación**
+>
+>Escribir código no es la única forma de enseñar a las personas cómo programar: hacer que los novatos trabajen en ejercicios de creatividad computacional mejora las calificaciones en varios niveles [Shel2017]. Un ejercicio típico es describir un objeto cotidiano (como un clip o un cepillo de dientes) en términos de sus entradas, salidas y funciones. Este tipo de enseñanza a veces se llama desconectado; El sitio CS Unplugged tiene lecciones y ejercicios para hacerlo.
+
+## ¿Dónde sigue?
+Para aquellos que quieren profundizar, [Finc2019] es un resumen completo de CER, [Ihan2016] resume los métodos que los estudios usan con más frecuencia. Espero que algún día tengamos catálogos como [Ojos2015] y más materiales de capacitación para maestros como [Hazz2014, Guzd2015a, Sent2018] para ayudarnos a todos a hacerlo mejor.
+
+La mayor parte de la investigación reportada en este capítulo fue financiada públicamente pero está encerrada detrás de los muros de pago: supuse que violé la ley 250 veces para descargar documentos de sitios como Sci-Hub mientras escribía este libro. Espero que llegue el día en que nadie tenga que hacer eso; Si eres un investigador, acelera ese día publicando tu trabajo en lugares de acceso abierto.
+
+## Ejercicios
+
+### Malentendidos de sus alumnos (grupos pequeños / 15)
+Trabajando en grupos pequeños, vuelva a leer la Sección 7.3 y haga una lista de conceptos erróneos que cree que tienen sus alumnos. ¿Qué tan específicos son? ¿Cómo verificaría qué tan precisa es su lista?
+
+### Comprobación de errores comunes (individual / 20)
+Estos errores comunes se toman de una lista más larga en [Sirk2012]:
+
+**Asignación invertida:** El alumno asigna el valor de la variable de la izquierda a la variable de la derecha en lugar de al revés.
+
+**Rama equivocada:** El alumno piensa que el código en el cuerpo de un if se ejecuta incluso si la condición es falsa.
+
+**Función de ejecución en lugar de definirla:** El alumno cree que una función se ejecuta como se define.
+
+Escriba un ejercicio para cada uno para verificar que los alumnos no estén cometiendo ese error.
+
+### Código destrozado (pares / 15)
+
+[Chen2017] describe ejercicios en los que los alumnos reconstruyen el código que ha sido destrozado al eliminar comentarios, eliminar o reemplazar líneas de código, líneas móviles, etc. El rendimiento en estos se correlaciona fuertemente con el rendimiento en las evaluaciones en las que los alumnos escriben código, pero estas preguntas requieren menos trabajo para marcar. Lleve la solución a un ejercicio de programación que haya creado en el pasado, manipúlelo de dos maneras diferentes, intercambie con un compañero y vea cuánto tiempo le lleva a cada uno responder correctamente a la pregunta del otro.
+
+### El problema de la lluvia (pares / 10)
+[Solo1986] introdujo el problema de la lluvia, que se ha utilizado en muchos estudios posteriores de programación [Fisl2014, Simo2013, Sepp2015]. Escriba un programa que lea repetidamente en enteros positivos hasta que lea el número entero 99999. Después de ver 99999, el programa imprime el promedio de los números vistos.
+
+1. Resuelve el problema de la lluvia en el lenguaje de programación que elijas.
+
+2. Compare su solución con la de su compañero. ¿Qué hace el tuyo que el suyo no y viceversa?
+
+### Roles de variables (pares / 15)
+[Kuit2004, Byck2005, Saja2006] presentó un conjunto de patrones de una sola variable que he encontrado muy útil en la enseñanza de principiantes:
+
+**Valor fijo:** Un elemento de datos que no obtiene un nuevo valor adecuado después de su inicialización.
+
+**Paso a paso:**  Un elemento de datos que pasa por una sucesión de valores sistemática y predecible.
+
+**Caminante:** Un elemento de datos que atraviesa una estructura de datos.
+
+**Titular más reciente:** Un elemento de datos que contiene el último valor encontrado al pasar por una sucesión de valores.
+
+**Titular más buscado:** Un elemento de datos que contiene el mejor o más apropiado valor encontrado hasta ahora.
+
+**Recolector:** Un elemento de datos que acumula el efecto de valores individuales.
+
+**Seguidor:** Un elemento de datos que siempre obtiene su nuevo valor del valor anterior de algún otro elemento de datos.
+
+**Bandera unidireccional:** Un elemento de datos de dos valores que no puede obtener su valor inicial una vez que se ha cambiado el valor.
+
+**Temporal:** Un elemento de datos que tiene algún valor solo por un tiempo muy corto.
+
+**Organizador:** Una estructura de datos que almacena elementos que se pueden reorganizar.
+
+**Envase:** Una estructura de datos que almacena elementos que se pueden agregar y eliminar.
+
+Elija un programa de 5–15 líneas y clasifique sus variables usando estas categorías. Compara tus clasificaciones con las de un compañero. Cuando no estuvieron de acuerdo, ¿entendieron la opinión del otro?
+
+
+
+### ¿Qué estás enseñando? (individual / 10)
+Compare los temas que enseña con la lista desarrollada en [Luxt2017] (Sección 7.1). ¿Qué temas cubren? ¿Cuál no cubres? ¿Qué temas adicionales cubre que no están en su lista?
+
+### Actividades beneficiosas (individual / 10)
+Mire la lista de intervenciones desarrolladas por [Viha2014] (Sección 7.10). ¿Cuál de estas cosas ya haces en tus clases? ¿Cuáles podrías agregar fácilmente? ¿Cuáles son irrelevantes?
+
+### Conceptos erróneos y desafíos (grupos pequeños / 15)
+El sitio de Desarrollo Profesional para la Enseñanza de Principios de CS incluye una lista detallada de las ideas y ejercicios erróneos de los alumnos. Trabajando en grupos pequeños, elija una sección (como estructuras de datos o funciones) y revise su lista. ¿Cuál de estos conceptos erróneos recuerda haber tenido cuando era un alumno? ¿Cuál tienes todavía? ¿Qué has visto en tus alumnos?
+
+### ¿Qué es lo que más te importa? (toda la clase / 15)
+[Denn2019] pidió a las personas que propongan y califiquen varias preguntas de CER, y descubrieron que no había superposición entre las que más les importaban a los investigadores y las que a los no investigadores les importaban más. Los favoritos de los investigadores fueron:
+
+1. ¿Qué conceptos fundamentales de programación son los más desafiantes para los estudiantes?
+
+2. ¿Qué estrategias de enseñanza son más efectivas cuando se trata de una amplia gama de experiencia previa en clases de programación introductoria?
+
+3. ¿Qué afecta la capacidad de los estudiantes para generalizar a partir de ejemplos de programación simples?
+
+4. ¿Qué prácticas de enseñanza son más efectivas para enseñar computación a los niños?
+
+5. ¿Qué tipo de problemas encuentran los estudiantes en las clases de programación más interesantes?
+
+6. ¿Cuáles son las formas más efectivas de enseñar programación a varios grupos?
+
+7. ¿Cuáles son las formas más efectivas de escalar la educación informática para llegar a la población general de estudiantes?
+
+Mientras que las preguntas más importantes para los no investigadores fueron:
+
+1. ¿Cómo y cuándo es mejor dar a los estudiantes comentarios sobre su código para mejorar el aprendizaje?
+
+2. ¿Qué tipo de ejercicios de programación son más efectivos al enseñar a los estudiantes de informática?
+
+3. ¿Cuáles son los méritos relativos del aprendizaje basado en proyectos, las conferencias y el aprendizaje activo para los estudiantes que aprenden computación?
+
+4. ¿Cuál es la forma más efectiva de proporcionar comentarios a los estudiantes en las clases de programación?
+
+5. ¿Qué les resulta más difícil a las personas cuando dividen los problemas en tareas más pequeñas mientras programan?
+
+6. ¿Cuáles son los conceptos clave que los estudiantes deben entender en las clases introductorias de computación?
+
+7. ¿Cuáles son las formas más efectivas de desarrollar competencia informática entre los estudiantes en disciplinas no informáticas?
+
+8. ¿Cuál es el mejor orden para enseñar conceptos y habilidades informáticas básicas?
+
+Haga que cada persona en la clase, independientemente, otorgue un punto a cada una de las ocho preguntas de las listas combinadas que más les interesan, luego calcule un puntaje promedio para cada pregunta. ¿Cuáles son los más populares en tu clase? ¿En qué grupo están las preguntas más populares?
+

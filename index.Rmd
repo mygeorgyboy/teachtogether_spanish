@@ -1,0 +1,32 @@
+--- 
+title: "Enseñando tecnología juntos"
+author: "Greg Wilson"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Dedicatoria 
+
+Esta es una "traducción" de Google translator del siguiente sitio web:
+
+Source document http://teachtogether.tech/
+
+**Cómo crear y entregar lecciones que funcionen y construir una comunidad docente a su alrededor**
+
+Greg Wilson
+
+Taylor & Francis, 2019, 978-0-367-35328-5
+
+
+
+Para mi madre, Doris Wilson,
+quien enseñó a cientos de niños a leer y creer en sí mismos.
+Y para mi hermano Jeff, que no vivió para verlo terminado.
+"Recuerda, todavía tienes muchos buenos momentos frente a ti".
+Todas las regalías de la venta de este libro se donan a
+las carpinterías,
+una organización de voluntarios que enseña
+habilidades básicas de codificación y ciencia de datos
+a investigadores de todo el mundo.

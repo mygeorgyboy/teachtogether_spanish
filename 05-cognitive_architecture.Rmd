@@ -1,0 +1,233 @@
+# Arquitectura cognitiva
+
+Hemos estado hablando de modelos mentales como si fueran cosas reales, pero ¿qué sucede realmente en el cerebro de un alumno cuando está aprendiendo? La respuesta corta es que no lo sabemos; la respuesta más larga es que sabemos mucho más de lo que solíamos saber. Este capítulo profundizará un poco más en lo que hacen los cerebros mientras aprenden y cómo podemos aprovechar eso para diseñar y brindar lecciones de manera más efectiva.
+
+## ¿Qué está pasando allí?
+
+![f: arch-model](./img_traning/cognitive-architecture.svg)
+
+
+
+La figura [f: arch-model] es un modelo simplificado de arquitectura cognitiva humana. El núcleo de este modelo es la separación entre la memoria a corto y largo plazo discutida en la Sección 3.2. La memoria a largo plazo es como su sótano: almacena cosas de manera más o menos permanente, pero no puede acceder a su contenido directamente. En cambio, confía en su memoria a corto plazo, que es la mesa de la cocina desordenada de su mente.
+
+Cuando necesita algo, su cerebro lo recupera de la memoria a largo plazo y lo guarda en la memoria a corto plazo. Por el contrario, la nueva información que llega a la memoria a corto plazo debe codificarse para almacenarse en la memoria a largo plazo. Si esa información no está codificada y almacenada, no se recuerda y el aprendizaje no ha tenido lugar.
+
+La información ingresa a la memoria a corto plazo principalmente a través de su canal verbal (para el habla) y el canal visual (para las imágenes) 50. La mayoría de las personas confían principalmente en su canal visual, pero cuando las imágenes y las palabras se complementan entre sí, el cerebro hace un mejor trabajo al recordarlas a ambas: están codificadas juntas, por lo que recordar una más adelante ayuda a activar la recuperación de la otra.
+
+Las entradas lingüísticas y visuales son procesadas por diferentes partes del cerebro humano, y las memorias lingüísticas y visuales también se almacenan por separado. Esto significa que la correlación de los flujos lingüísticos y visuales de información requiere un esfuerzo cognitivo: cuando alguien lee algo mientras lo escucha en voz alta, su cerebro no puede evitar comprobar que está obteniendo la misma información en ambos canales.
+
+Por lo tanto, el aprendizaje aumenta cuando la información se presenta simultáneamente en dos canales diferentes, pero se reduce cuando esa información es redundante en lugar de complementaria, un fenómeno llamado **efecto de atención dividida** [Maye2003]. Por ejemplo, a las personas generalmente les resulta más difícil aprender de un video que tiene narración y subtítulos en pantalla que de uno que tiene la narración o los subtítulos, pero no ambos, porque parte de su atención debe dedicarse a verificar que La narración y los subtítulos concuerdan entre sí. Dos excepciones notables a esto son las personas que aún no hablan bien el idioma y las personas con problemas de audición u otras necesidades especiales, quienes pueden encontrar que el valor de la información redundante supera el esfuerzo de procesamiento adicional.
+
+
+>**Pieza por pieza**
+>
+>El efecto de atención dividida explica por qué es más efectivo dibujar un diagrama pieza por pieza mientras se enseña que presentar todo de una vez. Si partes del diagrama aparecen al mismo tiempo que se dicen las cosas, las dos se correlacionarán en la memoria del alumno. Señalar una parte del diagrama más adelante es más probable que active el recuerdo de lo que se dijo cuando se dibujó esa parte.
+
+El efecto de atención dividida no significa que los alumnos no deberían tratar de conciliar múltiples flujos de información entrantes; después de todo, esto es lo que tienen que hacer en el mundo real [Atki2000]. En cambio, significa que la instrucción no debería requerir que las personas lo hagan mientras dominan por primera vez las habilidades de la unidad; en cambio, el uso de múltiples fuentes de información simultáneamente debe tratarse como una tarea de aprendizaje separada.
+
+>**No todos los gráficos son iguales**
+>
+>[Sung2012] presenta un estudio elegante que distingue gráficos seductores (que son muy interesantes pero no directamente relevantes para el objetivo de instrucción), gráficos decorativos (que son neutrales pero no directamente relevantes para el objetivo de instrucción) y gráficos instructivos (que son directamente relevantes a la meta de instrucción). Los estudiantes que recibieron cualquier tipo de gráfico dieron al material calificaciones de satisfacción más altas que aquellos que no obtuvieron gráficos, pero solo los estudiantes que obtuvieron gráficos instructivos en realidad obtuvieron mejores resultados.
+>
+>Del mismo modo, [Stam2013, Stam2014] descubrió que tener más información en realidad puede reducir el rendimiento. Mostraron a los niños fotos, dibujos y números, o simplemente números para dos tareas. Para algunos, tener imágenes o imágenes y números superó a tener números solamente, pero para otros, tener imágenes superó a imágenes y números, que superaron simplemente tener números.
+
+
+## Carga cognitiva
+
+En [Kirs2006], Kirschner, Sweller y Clark escribieron:
+
+>Aunque los enfoques de instrucción no guiados o mínimamente guiados son muy populares e intuitivamente atractivos ... estos enfoques ignoran tanto las estructuras que constituyen la arquitectura cognitiva humana como la evidencia de los estudios empíricos durante el último medio siglo que constantemente indican que la instrucción mínimamente guiada es menos efectiva y menos eficiente que enfoques de instrucción que ponen un fuerte énfasis en la orientación del proceso de aprendizaje del alumno. La ventaja de la orientación comienza a retroceder solo cuando los alumnos tienen un conocimiento previo suficientemente alto para proporcionar orientación "interna".
+
+
+Debajo de la jerga, los autores afirmaban que hacer que los alumnos hagan sus propias preguntas, establezcan sus propios objetivos y encuentren su propio camino a través de un tema es menos efectivo que mostrarles cómo hacer las cosas paso a paso. El enfoque de “elige tu propia aventura” se conoce como aprendizaje basado en la indagación, y es intuitivamente atractivo: después de todo, ¿quién argumentaría en contra de que los estudiantes usen su propia iniciativa para resolver problemas del mundo real de manera realista? Sin embargo, pedirles a los alumnos que hagan esto en un nuevo dominio los sobrecarga al exigirles que dominen el contenido real de un dominio y sus estrategias de resolución de problemas al mismo tiempo.
+
+Más específicamente, la **teoría de la carga cognitiva** propuso que las personas tienen que lidiar con tres cosas cuando están aprendiendo:
+
+**Carga intrínseca**
+Es lo que la gente debe tener en cuenta para absorber material nuevo.
+
+**Carga pertinente**
+Es el esfuerzo mental (deseable) requerido para vincular información nueva a información antigua, que es una de las cosas que distingue el aprendizaje de la memorización.
+
+**Carga extraña**
+Es cualquier cosa que distraiga del aprendizaje.
+
+La teoría de la carga cognitiva sostiene que las personas tienen que dividir una cantidad fija de memoria de trabajo entre estas tres cosas. Nuestro objetivo como maestros es maximizar la memoria disponible para manejar la carga intrínseca, lo que significa reducir la carga pertinente en cada paso y eliminar la carga extraña.
+
+## Problemas de Parsons
+
+Un tipo de ejercicio que puede explicarse en términos de carga cognitiva a menudo se usa al enseñar idiomas. Supongamos que le pide a alguien que traduzca la oración, "¿Cómo está su rodilla hoy?" en frisón. Para resolver el problema, necesitan recordar tanto el vocabulario como la gramática, que es una doble carga cognitiva. Si les pide que pongan “azada”, “har”, “es”, “hjoed” y “knie” en el orden correcto, por otro lado, les está permitiendo centrarse únicamente en aprender gramática. Sin embargo, si escribe estas palabras en cinco fuentes o colores diferentes, habrá aumentado la carga cognitiva extraña, porque involuntariamente (y posiblemente inconscientemente) gastarán algún esfuerzo tratando de descubrir si las diferencias son significativas (Figura [f: arquitectura- frisio]).
+
+![f:architecture-frisian](./img_traning/frisian.png)
+
+El equivalente de codificación de esto se llama Parsons Problem56 [Pars2006]. Al enseñar a las personas a programar, puede darles las líneas de código que necesitan para resolver un problema y pedirles que las pongan en el orden correcto. Esto les permite concentrarse en el flujo de control y las dependencias de datos sin distraerse con nombres variables o tratar de recordar qué funciones llamar. Múltiples estudios han demostrado que los problemas de Parsons toman menos tiempo para que los alumnos lo hagan, pero producen resultados educativos equivalentes [Eric2017].
+
+## Ejemplos descoloridos
+
+Otro tipo de ejercicio que se puede explicar en términos de carga cognitiva es dar a los alumnos una serie de ejemplos desvaídos. El primer ejemplo de una serie presenta un uso completo de una estrategia particular de resolución de problemas. El siguiente problema es del mismo tipo, pero tiene algunas lagunas para que el alumno las complete. Cada problema sucesivo le da al andamiaje menos andamios, hasta que se les pide que resuelvan un problema completo desde cero. Cuando enseñamos álgebra en la escuela secundaria, por ejemplo, podríamos comenzar con esto:
+
+      (4x + 8)/2	=	5
+      4x + 8	=	2 * 5
+      4x + 8	=	10
+      4x	=	10 - 8
+      4x	=	2
+      x	=	2 / 4
+      x	=	1 / 2
+      
+Y luego pida a los alumnos que resuelvan esto:
+
+      (3x - 1)*3	=	12
+      3x - 1	=	_ / _
+      3x - 1	=	4
+      3x	=	_
+      x	=	_ / 3
+      x	=	_
+      
+y esto:
+
+      (5x + 1)*3	=	4
+      5x + 1	=	_
+      5x	=	_
+      x	=	_
+      
+y finalmente esto:
+
+      (2x + 8)/4	=	1
+      x	=	_
+
+
+
+Un ejercicio similar para enseñar Python podría comenzar mostrando a los alumnos cómo encontrar la longitud total de una lista de palabras:
+
+    # total_length(["red", "green", "blue"]) => 12
+    define total_length(list_of_words):
+        total = 0
+        for word in list_of_words:
+            total = total + length(word)
+        return total
+        
+y luego pídales que llenen los espacios en blanco en esto (que enfoca su atención en las estructuras de control):
+
+    # word_lengths(["red", "green", "blue"]) => [3, 5, 4]
+    define word_lengths(list_of_words):
+        list_of_lengths = []
+        for ____ in ____:
+            append(list_of_lengths, ____)
+        return list_of_lengths
+        
+El siguiente problema podría ser este (que centra su atención en actualizar el resultado final):
+
+    # join_all(["red", "green", "blue"]) => "redgreenblue"
+    define join_all(list_of_words):
+        joined_words = ____
+        for ____ in ____:
+            ____
+        return joined_words
+        
+Finalmente, se les pedirá a los alumnos que escriban una función completa por su cuenta:
+
+    # make_acronym(["red", "green", "blue"]) => "RGB"
+    define make_acronym(list_of_words):
+    
+ ----
+ 
+Los ejemplos descoloridos funcionan porque introducen la estrategia de resolución de problemas pieza por pieza: en cada paso, los alumnos tienen un nuevo problema que abordar, que es menos intimidante que una pantalla en blanco o una hoja de papel en blanco (Sección 9.11). También alienta a los alumnos a pensar en las similitudes y diferencias entre varios enfoques, lo que ayuda a crear los vínculos en sus modelos mentales que ayudan a la recuperación.
+
+La clave para construir un buen ejemplo desvanecido es pensar en la estrategia de resolución de problemas que debe enseñar. Por ejemplo, los problemas de programación sobre todo usan el patrón de diseño del acumulador, en el que los resultados del procesamiento de elementos de una colección se agregan repetidamente a una sola variable de alguna manera para crear el resultado final.
+
+
+>**Aprendizaje Cognitivo**
+>
+>Un modelo alternativo de aprendizaje e instrucción que también usa andamiaje y desvanecimiento es el aprendizaje cognitivo, que enfatiza la forma en que un maestro transmite habilidades y conocimientos a un aprendiz. El maestro proporciona modelos de desempeño y resultados, luego entrena a los novatos explicando lo que están haciendo y por qué [Coll1991, Casp2007]. El aprendiz reflexiona sobre su propia resolución de problemas, p. pensando en voz alta o criticando su propio trabajo, y eventualmente explora problemas de su propia elección.
+>
+>Este modelo nos dice que los maestros deben presentar varios ejemplos al presentar una nueva idea para que los alumnos puedan ver qué generalizar, y que debemos variar la forma del problema para dejar en claro cuáles son y cuáles no son características superficiales60. Los problemas deben presentarse en contextos del mundo real, y debemos alentar la autoexplicación para ayudar a los alumnos a organizarse y dar sentido a lo que se les acaba de enseñar (Sección 5.1).
+
+## Submetas marcadas
+
+Etiquetar submetas significa dar nombres a los pasos en una descripción paso a paso de un proceso de resolución de problemas. [Marg2016, Morr2016] descubrieron que los alumnos con submetas marcadas resolvieron los problemas de Parsons mejor que los alumnos sin ellos, y el mismo beneficio se ve en otros dominios [Marg2012]. Volviendo al ejemplo de Python utilizado anteriormente, los objetivos secundarios para encontrar la longitud total de una lista de palabras o construir un acrónimo son:
+
+1. Cree un valor vacío del tipo que se devolverá.
+
+2. Obtenga el valor que se agregará al resultado de la variable de bucle.
+
+3. Actualice el resultado con ese valor.
+
+El etiquetado de submetas funciona porque agrupar los pasos relacionados en fragmentos con nombre (Sección 3.2) ayuda a los alumnos a distinguir qué es genérico de lo que es específico para el problema en cuestión. También les ayuda a construir un modelo mental de ese tipo de problema para que puedan resolver otros problemas de ese tipo, y les brinda una oportunidad natural para explicarse por sí mismos (Sección 5.1).
+
+
+## Manuales Minimos
+
+La aplicación más pura de la teoría de la carga cognitiva puede ser el manual mínimo de John Carroll [Carr1987, Carr2014]. Su punto de partida es una cita de un usuario: "Quiero hacer algo, no aprender a hacer todo". Carroll y sus colegas rediseñaron la capacitación para presentar cada idea como una tarea autónoma de una sola página: un título que describe de qué se trataba la página, instrucciones paso a paso de cómo hacer una sola cosa (por ejemplo, cómo eliminar una línea en blanco en un editor de texto), y luego varias notas sobre cómo reconocer y depurar problemas comunes. Descubrieron que reescribir los materiales de capacitación de esta manera los acortaba en general y que las personas que los usaban aprendían más rápido. Estudios posteriores confirmaron que este enfoque superó al enfoque tradicional independientemente de la experiencia previa con las computadoras [Lazo1993]. [Carr2014] resumió este trabajo diciendo:
+
+>Nuestros diseños "minimalistas" buscaban aprovechar la iniciativa del usuario y el conocimiento previo, en lugar de controlarlo a través de advertencias y pasos ordenados. Hizo hincapié en que los usuarios suelen aportar mucha experiencia y conocimientos a este aprendizaje, por ejemplo, conocimiento sobre el dominio de la tarea, y que dicho conocimiento podría ser un recurso para los diseñadores de instrucción. El minimalismo aprovechó los episodios de reconocimiento de errores, diagnóstico y recuperación, en lugar de intentar simplemente evitar el error. Enmarcó la resolución de problemas y la recuperación como oportunidades de aprendizaje en lugar de como aberraciones.
+
+## Otros modelos de aprendizaje
+Los críticos de la teoría de la carga cognitiva a veces han argumentado que cualquier resultado puede justificarse después del hecho al etiquetar las cosas que perjudican el rendimiento como cargas extrañas y las que no son intrínsecas o relevantes. Sin embargo, la instrucción basada en la teoría de la carga cognitiva es indudablemente efectiva. Por ejemplo, [Maso2016] rediseñó un curso de base de datos para eliminar la atención dividida y los efectos de redundancia y proporcionar ejemplos y objetivos secundarios trabajados. El nuevo curso redujo la tasa de fracaso del examen en un 34% y aumentó la satisfacción del alumno.
+
+Una década después de la publicación de [Kirs2006], un número creciente de personas cree que la teoría de la carga cognitiva y los enfoques basados   en la indagación son compatibles si se ven de la manera correcta. [Kaly2015] argumenta que la teoría de la carga cognitiva es básicamente una microgestión del aprendizaje dentro de un contexto más amplio que considera cosas como la motivación, mientras que [Kirs2018] extiende la teoría de la carga cognitiva para incluir aspectos colaborativos del aprendizaje. Al igual que con [Mark2018] (discutido en la Sección 5.1), las perspectivas de los investigadores pueden diferir, pero la implementación práctica de sus teorías a menudo termina siendo la misma.
+
+Uno de los desafíos en la investigación educativa es que lo que entendemos por "aprendizaje" resulta complicado una vez que se mira más allá del aula occidental estandarizada. Dos perspectivas específicas de la psicología educativa han influido en este libro. El que hemos usado hasta ahora es el cognitivismo, que se enfoca en cosas como el reconocimiento de patrones, la formación de la memoria y el recuerdo. Es bueno para responder preguntas de bajo nivel, pero generalmente ignora cuestiones más grandes como, "¿Qué queremos decir con" aprendizaje "?" y, "¿Quién puede decidir?" El otro es el aprendizaje situado, que se enfoca en atraer a las personas a una comunidad y reconoce que la enseñanza y el aprendizaje siempre están enraizados en quiénes somos y a quién aspiramos ser. Lo discutiremos con más detalle en el Capítulo 13.
+
+El sitio web de Learning Theories y [Wibu2016] tienen buenos resúmenes de estas y otras perspectivas. Además del cognitivismo, los que se encuentran con mayor frecuencia incluyen el conductismo (que trata la educación como un condicionamiento de estímulo / respuesta), el constructivismo (que considera el aprendizaje como un proceso activo durante el cual los alumnos construyen conocimiento por sí mismos) y el conectivismo (que sostiene que el conocimiento se distribuye, que el aprendizaje es el proceso de navegación, crecimiento y poda de conexiones, y que enfatiza los aspectos sociales del aprendizaje hechos posibles por internet). Estas perspectivas pueden ayudarnos a organizar nuestros pensamientos, pero en la práctica, siempre tenemos que probar nuevos métodos en la clase, con estudiantes reales, para descubrir qué tan bien equilibran las muchas fuerzas en juego.
+
+## Ejercicios
+
+### Crear un ejemplo desvanecido (pares / 30)
+
+Es muy común que los programas cuenten cuántas cosas se dividen en diferentes categorías: por ejemplo, cuántas veces aparecen diferentes colores en una imagen, o cuántas veces aparecen diferentes palabras en un párrafo de texto.
+
+1. Cree un breve ejemplo (no más de 10 líneas de código) que muestre a las personas cómo hacer esto, y luego cree un segundo ejemplo que resuelva un problema similar de una manera similar pero que tenga un par de espacios en blanco para que los alumnos completen. usted decide qué desvanecerse? ¿Cuál sería el siguiente ejemplo de la serie?
+
+2. Defina la audiencia para sus ejemplos. Por ejemplo, ¿son estos principiantes que solo conocen algunos conceptos básicos de programación? ¿O son estos alumnos con alguna experiencia en programación?
+
+3. Muestre su ejemplo a un compañero, pero no le diga para qué nivel cree que es. Una vez que hayan completado los espacios en blanco, pídales que adivinen el nivel deseado.
+
+Si hay personas entre los aprendices que no programan nada, intente ubicarlos en diferentes grupos y haga que jueguen el papel de aprendices para esos grupos. Alternativamente, elija un dominio de problema diferente y desarrolle un ejemplo desvanecido para él.
+
+### Carga de clasificación (grupos pequeños / 15)
+
+1. Elija una breve lección que un miembro de su grupo haya enseñado o tomado recientemente.
+
+2. Haga una lista en forma de puntos de las ideas, instrucciones y explicaciones que contiene.
+
+3. Clasifique cada uno como intrínseco, pertinente o extraño. ¿En qué estaban todos de acuerdo? ¿Dónde estabas en desacuerdo y por qué?
+
+(El ejercicio "Cómo notar su punto ciego" en la Sección 3.4 le dará una idea de cuán detallada debe ser su lista de puntos).
+
+### Crear un problema de Parsons (pares / 20)
+
+Escriba cinco o seis líneas de código que hagan algo útil, mézclelas y pídale a su compañero que las ordene. Si está utilizando un lenguaje basado en sangría como Python, no sangra ninguna de las líneas; Si está utilizando un lenguaje de llaves como Java, no incluya ninguna de las llaves. (Si su grupo incluye personas que no son programadores, use un dominio problemático diferente, como hacer pan de plátano).
+
+### Manuales mínimos (individual / 20)
+Escriba una guía de una página para hacer algo que sus alumnos puedan encontrar en una de sus clases, como centrar el texto horizontalmente o imprimir un número con un cierto número de dígitos después del punto decimal. Intente enumerar al menos tres o cuatro comportamientos o resultados incorrectos que el alumno pueda ver e incluya una explicación de una o dos líneas de por qué sucede cada uno y cómo corregirlo.
+
+### Aprendizaje cognitivo (pares / 15)
+
+Elija un problema de codificación que pueda resolver en dos o tres minutos y piense en voz alta mientras lo resuelve mientras su compañero le hace preguntas sobre lo que está haciendo y por qué. No solo explique lo que está haciendo, sino también por qué lo está haciendo, cómo sabe que es lo correcto y qué alternativas ha considerado pero descartado. Cuando termines, intercambia roles con tu pareja y repite el ejercicio.
+
+### Ejemplos resueltos (pares / 15)
+
+Ver ejemplos prácticos ayuda a las personas a aprender a programar más rápido que simplemente escribir mucho código [Skud2014], y deconstruir el código al rastrearlo o depurarlo también aumenta el aprendizaje [Grif2016]. Trabajando en parejas, revise un código de 10 a 15 líneas y explique qué hace cada declaración y por qué es necesaria. ¿Cuánto tiempo se tarda? ¿Cuántas cosas cree que necesita explicar por línea de código?
+
+### Gráficos críticos (individual / 30)
+[Maye2009, Mill2016a] presenta seis principios para buenos gráficos de enseñanza:
+
+**Señalización:** resalte visualmente los puntos más importantes para que se destaquen del material menos crítico.
+
+**Contigüidad espacial:** coloque subtítulos tan cerca de los gráficos como sea práctico para compensar el costo de cambiar entre los dos.
+
+**Contigüidad temporal:** Presentar narración hablada y gráficos tan cercanos en el tiempo como sea práctico. (Presentar ambos a la vez es mejor que presentarlos uno tras otro).
+
+**Segmentación:** Cuando presente una secuencia larga de material o cuando los alumnos no tengan experiencia con el tema, divida la presentación en segmentos cortos y permita que los alumnos controlen la rapidez con la que avanzan al siguiente.
+
+**Pre-entrenamiento:** Si los alumnos no conocen los conceptos y la terminología principales utilizados en su presentación, enseñe solo esos conceptos y términos de antemano.
+
+**Modalidad:** las personas aprenden mejor de las imágenes más la narración que de las imágenes más el texto, a menos que sean hablantes no nativos o que tengan palabras o símbolos técnicos.
+
+Elija un video de una lección o hable en línea que use diapositivas u otras presentaciones estáticas y califique sus gráficos como "pobre", "promedio" o "bueno" de acuerdo con estos seis criterios.
+
+## Resumen
+
+* Resumen
+![f:cognitive-load](./img_traning/conceptmap-cognitive-load.svg)
+-----

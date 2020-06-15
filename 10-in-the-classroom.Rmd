@@ -1,0 +1,318 @@
+# En el aula
+
+El capítulo anterior describió cómo practicar la entrega de lecciones y describió un método, la codificación en vivo, que permite a los maestros adaptarse al ritmo e intereses de sus alumnos. Este capítulo describe otras prácticas que también son útiles en la programación de clases.
+
+Antes de describirlos, vale la pena detenerse por un momento para establecer expectativas. El mejor método de enseñanza que conocemos es la tutoría individual: [Bloo1984] descubrió que los estudiantes que enseñaron uno a uno hicieron dos desviaciones estándar mejor que aquellos que aprendieron a través de una conferencia convencional, es decir, que los estudiantes con tutoría individual superaron al 98% de los estudiantes a los que se les dio una conferencia. Sin embargo, si bien la tutoría y el aprendizaje fueron las formas más comunes de transmitir el conocimiento a lo largo de la mayor parte de la historia, la industrialización de la educación formal la ha convertido en la excepción hoy en día. A pesar de la exageración en torno a la inteligencia artificial, no va a cuadrar este círculo en el corto plazo, por lo que cada método descrito a continuación es esencialmente un intento de abordar la efectividad de la tutoría individual a escala.
+
+## Hacer cumplir el Código de conducta
+Lo más importante que aprendí sobre la enseñanza en los últimos 30 años es lo importante que es para todos tratar a los demás con respeto, tanto dentro como fuera de clase. Si utiliza este material de alguna manera, adopte un Código de conducta como el que figura en el Apéndice 17 y solicite a todos los que participen en sus clases que lo cumplan. No puede evitar que las personas sean ofensivas, al igual que las leyes contra el robo impiden que las personas roben, pero puede aclarar las expectativas y las consecuencias, y señalar que está tratando de hacer que su clase sea acogedora para todos.
+
+Pero un Código de conducta solo es útil si se aplica. Si cree que alguien ha violado el suyo, puede advertirlo, pedirle disculpas y / o expulsarlo, dependiendo de la gravedad de la violación y de si cree o no que fue intencional. Hagas lo que hagas:
+
+**Hazlo delante de testigos.** La mayoría de las personas atenuará su lenguaje y hostilidad frente a una audiencia, y tener a alguien más presente asegura que la discusión posterior no degenere en afirmaciones contradictorias sobre quién dijo qué.
+
+**Si expulsa a alguien, dígaselo al resto de la clase y explique por qué.** Esto ayuda a evitar que se propaguen los rumores y muestra que su Código de Conducta realmente significa algo.
+
+**Envíe un correo electrónico al delincuente tan pronto como pueda** para resumir lo que sucedió y los pasos que siguió, y copie el mensaje a los anfitriones de su taller o a uno de sus compañeros maestros para que haya un registro contemporáneo de la conversación. Si el delincuente responde, no participe en un largo debate: nunca es productivo.
+
+Lo que sucede fuera de la clase importa al menos tanto como lo que sucede dentro de él [Parte2011], por lo que debe proporcionar una forma para que los alumnos informen los problemas que no están allí para verse. Un paso es pedirle a alguien que no sea parte de su grupo que sea el primer punto de contacto; de esa manera, si alguien quiere presentar una queja sobre usted o uno de sus compañeros maestros, tiene cierta seguridad de confidencialidad y acción independiente. [Auro2019] tiene muchos otros consejos y es breve y práctico.
+
+## Instrucción de pares
+No importa cuán bueno sea un maestro, solo pueden decir una cosa a la vez. Entonces, ¿cómo pueden aclarar muchos conceptos erróneos diferentes en un tiempo razonable? La mejor solución desarrollada hasta ahora es una técnica llamada instrucción entre pares. Originalmente creado por Eric Mazur en Harvard [Mazu1996], se ha estudiado ampliamente en una amplia variedad de contextos, incluida la programación [Crou2001, Port2013], y [Port2016] descubrió que los alumnos valoran la instrucción de sus pares incluso en el primer contacto.
+
+La instrucción entre pares intenta proporcionar instrucción individualizada de manera escalable al intercalar la evaluación formativa con la discusión del alumno:
+
+1. Dé una breve introducción al tema.
+
+2. Dé a los alumnos una pregunta de opción múltiple que analice sus conceptos erróneos (en lugar de probar el conocimiento factual simple).
+
+3. Haga que todos los alumnos voten sobre sus respuestas a la MCQ.
+* Si todos los alumnos tienen la respuesta correcta, continúe.
+* Si todos tienen la misma respuesta incorrecta, aborde ese error específico.
+* Si tienen una combinación de respuestas correctas e incorrectas, deles varios minutos para discutir entre ellos en grupos de 2 a 4, luego vote nuevamente.
+
+Como muestra este video, la discusión grupal mejora significativamente la comprensión de los alumnos porque descubre vacíos en su razonamiento y los obliga a aclarar su pensamiento. Vuelva a sondear la clase y luego le indica al maestro si pueden seguir adelante o si se necesitan más explicaciones. Una ronda final de explicación adicional después de que se presenta la respuesta correcta ofrece a los alumnos una oportunidad más para solidificar su comprensión.
+
+Pero, ¿podría ser esto un falso positivo? ¿Están mejorando los resultados debido a una mayor comprensión durante la discusión o simplemente por un efecto de seguir al líder ("vota como Jane, ella siempre tiene la razón") [Smit2009] probó esto siguiendo la primera pregunta con una segunda que los alumnos respondieron individualmente. Encontraron que
+
+
+>**Taking a Stand**
+>
+>It is important to have learners vote publicly so that they can’t change their minds afterward and rationalize it by making excuses to themselves like “I just misread the question.” Much of the value of peer instruction comes from the hypercorrection of getting the wrong answer and having to think through the reasons why (Section 5.1).
+
+
+## Enseñar juntos
+
+**La enseñanza conjunta** describe cualquier situación en la que dos maestros trabajan juntos en el mismo salón de clases. [Frie2016] describe varias formas de hacerlo:
+
+**Docencia en equipo:** Ambos maestros ofrecen una sola secuencia de contenido en tándem, turnándose como músicos que toman solos.
+
+**Enseñar y ayudar:** El maestro A enseña mientras el maestro B se mueve por el aula para ayudar a los alumnos con dificultades.
+
+**Enseñanza alternativa:**
+El maestro A proporciona a un pequeño grupo de alumnos instrucción más intensiva o especializada, mientras que el maestro B brinda una lección general al grupo principal.
+
+**Enseñar y observar:**
+El maestro A enseña mientras el maestro B observa a los alumnos y recopila datos sobre su comprensión para ayudar a planificar lecciones futuras.
+
+**Enseñanza paralela:**
+La clase se divide en dos y los maestros presentan el mismo material simultáneamente a cada uno.
+
+**Estación de enseñanza:**
+Los alumnos se dividen en pequeños grupos que rotan de una estación o actividad a la siguiente mientras los maestros supervisan donde sea necesario.
+
+Todos estos modelos crean más oportunidades para la transferencia involuntaria de conocimiento que la enseñanza sola. La enseñanza en equipo es particularmente beneficiosa en los talleres de un día de duración: brinda a la voz de cada maestro la oportunidad de descansar y reduce el riesgo de que estén tan cansados ​​al final del día que comenzarán a criticar a sus alumnos o a tocar el teclado.
+
+>**Ayudar**
+>
+>Muchas personas que no se sienten cómodas enseñando están dispuestas y pueden proporcionar asistencia técnica en clase. Pueden ayudar a los alumnos con la configuración e instalación, responder preguntas técnicas durante los ejercicios, monitorear la sala para detectar personas que puedan necesitar ayuda o vigilar las notas compartidas (Sección 9.7) y responder preguntas o recordarle al maestro que lo haga. durante los descansos
+>
+>Los ayudantes a veces son personas que se capacitan para convertirse en maestros (es decir, son maestros B en el modelo de enseñanza y asistencia), pero también pueden ser miembros del personal de soporte técnico de la institución anfitriona, ex alumnos de la clase o estudiantes avanzados que ya conocen el material. bien. Usar este último como ayudante es doblemente efectivo: no solo es más probable que comprendan los problemas que tienen sus compañeros, sino que también les impide aburrirse. Esto ayuda a toda la clase a mantenerse comprometida porque el aburrimiento es contagioso: si un puñado de personas comienza a salir, las personas a su alrededor harán lo mismo.
+
+Si usted y un compañero están enseñando conjuntamente:
+
+* Tómese 2-3 minutos antes del comienzo de cada clase para confirmar quién está enseñando qué. Si tiene tiempo, intente dibujar o revisar un mapa conceptual juntos.
+
+* Use ese tiempo para resolver un par de señales manuales también. "Estás yendo demasiado rápido", "habla", "ese alumno necesita ayuda", y "Es hora de un descanso en el baño" son útiles.
+
+* Cada persona debe enseñar durante al menos 10-15 minutos seguidos, ya que los alumnos se distraerán con cambios más frecuentes.
+
+* La persona que no está enseñando no debe interrumpir, ofrecer correcciones o elaboraciones, o hacer cualquier otra cosa para distraerse de lo que la persona que enseña está haciendo o diciendo. La única excepción es hacer preguntas principales si los alumnos parecen letárgicos o inseguros de sí mismos.
+
+* Cada persona debe tomar un par de minutos antes de comenzar a enseñar para ver lo que su compañero va a enseñar después de haber terminado, y luego no presentar nada de ese material.
+
+* La persona que no está enseñando debe mantenerse comprometida con la clase, no ponerse al día con su correo electrónico. Monitorear las notas compartidas (Sección 9.7), vigilar a los alumnos para ver quién tiene dificultades, anotar algunos comentarios para darle a su compañero de enseñanza en el próximo descanso: cualquier cosa que contribuya a la lección es mejor que cualquier cosa que no lo haga.
+
+Lo que es más importante, tómese unos minutos cuando termine la clase para felicitarse o compadecerse: en la enseñanza como en la vida, la miseria compartida disminuye y aumenta la alegría compartida.
+
+## Evaluar conocimiento previo
+Cuanto más sepa sobre sus alumnos antes de comenzar a enseñar, más podrá ayudarlos. Dentro de un sistema escolar formal, los requisitos previos para su curso le dirán algo sobre lo que probablemente ya sepan. Sin embargo, en un entorno de campo libre, sus alumnos pueden ser mucho más diversos, por lo que es posible que desee darles una breve encuesta o cuestionario antes de su clase para averiguar qué conocimientos y habilidades tienen.
+
+Pedirle a las personas que se califiquen a sí mismas en una escala del 1 al 5 no tiene sentido porque mientras menos personas sepan sobre un tema, menos precisas podrán estimar sus conocimientos (Figura [f: clase-dunning-kruger], de https: // theness. com / neurologicablog / index.php / misunderstanding-dunning-kruger /), un fenómeno llamado **efecto Dunning-Kruger** [Krug1999]. Por el contrario, las personas que son miembros de grupos subrepresentados a menudo subestimarán sus habilidades.
+
+
+![Dunning-Kruger](./img_traning/dunning-kruger.png)
+
+En lugar de pedirles a las personas que se autoevalúen, puede preguntarles con qué facilidad podrían completar algunas tareas específicas. Sin embargo, hacer esto es arriesgado, porque la escuela capacita a las personas para tratar cualquier cosa que parezca un examen como algo que tienen que aprobar en lugar de una oportunidad para dar forma a la instrucción. Si alguien responde "No sé" incluso a un par de preguntas sobre su preevaluación, podría concluir que su clase es demasiado avanzada para ellos. Por lo tanto, podría asustar a muchas de las personas que más desea ayudar.
+
+La Sección 21.5 presenta un breve cuestionario de preevaluación que la mayoría de los estudiantes potenciales es poco probable que encuentren intimidante. Si lo usa o algo similar, intente hacer un seguimiento con las personas que no responden para averiguar por qué no y comparar su evaluación de los alumnos con su autoevaluación para mejorar sus preguntas.
+
+## Plan para habilidades mixtas
+Si sus alumnos tienen niveles muy diversos de conocimiento previo, puede terminar fácilmente en una situación en la que un tercio de su clase se pierde y un tercio se aburre. Eso no es satisfactorio para todos, pero hay algunas estrategias que puedes usar para manejar la situación:
+
+* Antes de ejecutar un taller, comunique su nivel claramente a todos mostrando algunos ejemplos de ejercicios que se les pedirá que completen. Esto ayuda a los posibles participantes a medir el nivel de la clase de manera mucho más efectiva que una lista de temas en forma de puntos.
+
+* Proporcione ejercicios extra a su propio ritmo para que los alumnos más avanzados no terminen temprano y se aburran.
+
+* Esté atento a los alumnos que se están quedando atrás e intervienen temprano para que no se sientan frustrados y se den por vencidos.
+
+* Solicite a los alumnos más avanzados que ayuden a las personas que están a su lado (consulte la Sección 9.6 a continuación).
+
+Otra forma de acomodar habilidades mixtas es hacer que todos trabajen en el material por su cuenta a su propio ritmo como lo harían en un curso en línea, pero hacerlo simultáneamente y al mismo tiempo que los ayudantes deambulan por la sala para que la gente se despegue. Algunas personas irán tres o cuatro veces más lejos que otras cuando los talleres se realicen así, pero todos habrán tenido un día gratificante y desafiante.
+
+>**Principiantes falsos**
+>Un principiante falso es alguien que ha estudiado un idioma antes pero lo está aprendiendo nuevamente. Pueden ser indistinguibles de los principiantes absolutos en las pruebas de preevaluación, pero pueden moverse mucho más rápidamente una vez que comienza la clase porque están volviendo a aprender en lugar de aprender por primera vez.
+>
+>Ser un principiante falso a menudo es un signo de privilegio preparatorio [Marg2010], y los principiantes falsos son comunes en las clases de programación de rango libre. Por ejemplo, un niño cuya familia es lo suficientemente rica como para haberlos enviado a un campamento de verano de robótica puede tener un mal desempeño en una prueba previa de conocimiento de programación porque el material no está fresco en su mente, pero aún tiene una ventaja sobre un niño de Un fondo menos afortunado. Las estrategias descritas anteriormente pueden ayudar a nivelar el campo de juego en casos como este, pero una vez más, la solución real es usar su propio privilegio para abordar factores más grandes fuera de clase [Parte2011].
+
+Lo más importante es aceptar que no puede ayudar a todos todo el tiempo. Si reduce la velocidad para acomodar a dos personas que están luchando, está fallando a los otros dieciocho. Del mismo modo, si pasas unos minutos hablando de un tema avanzado con un alumno aburrido, el resto de la clase se sentirá excluido.
+
+
+## Programación en pareja
+
+**La programación por pares** es una práctica de desarrollo de software en la que dos programadores trabajan juntos en una computadora. Una persona (el conductor) escribe mientras que la otra (el navegador) ofrece comentarios y sugerencias, y los dos intercambian roles varias veces por hora.
+
+La programación en pareja es una práctica efectiva en el trabajo profesional [Hann2009] y también es una buena forma de enseñar: los beneficios incluyen una mayor tasa de éxito en cursos introductorios, un mejor software y una mayor confianza del alumno en sus soluciones. También hay evidencia de que los estudiantes de grupos subrepresentados se benefician aún más que otros [McDo2006, Hank2011, Port2013, Cele2018]. Los socios pueden ayudarse mutuamente durante los ejercicios prácticos, aclarar los conceptos erróneos de cada uno cuando se presenta la solución y discutir intereses comunes durante los descansos. Lo he encontrado particularmente útil con las clases de habilidades mixtas, ya que los pares son más homogéneos que los individuos.
+
+Cuando use el emparejamiento, ponga a todos en parejas, no solo a los estudiantes que tienen dificultades, para que nadie se sienta singular. También es útil hacer que las personas se sienten en nuevos lugares (y, por lo tanto, se emparejen con diferentes parejas) de forma regular, y que las personas cambien los roles dentro de cada pareja tres o cuatro veces por hora para que la personalidad más fuerte en cada pareja no domine La sesión.
+
+Si sus alumnos son nuevos en la programación de parejas, tómese unos minutos para demostrar cómo se ve realmente para que entiendan que la persona que no tiene las manos en el teclado no debe sentarse y mirar. Finalmente, dígales que las personas que se centran en tratar de completar la tarea lo más rápido posible son menos justas en su intercambio [Lewi2015].
+
+>**Cambio de socios**
+> Los maestros tienen opiniones encontradas sobre si se debe exigir a las personas que cambien de pareja a intervalos regulares. Por un lado, les da a todos la oportunidad de obtener nuevas ideas y hacer nuevos amigos. Por otro lado, mover computadoras y adaptadores de corriente a escritorios nuevos varias veces al día es perjudicial, y el emparejamiento puede ser incómodo para los introvertidos. Dicho esto, [Hann2010] encontró una correlación débil entre los rasgos de personalidad de los "Cinco Grandes" y el rendimiento en la programación de pares, aunque un estudio anterior [Wall2009] encontró que los pares cuyos miembros tenían diferentes niveles de rasgos de personalidad se comunicaban con más frecuencia.
+
+
+## Tomar notas ... ¿Juntos?
+
+Tomar notas es una forma de elaboración en tiempo real (Sección 5.1): te obliga a organizar y reflexionar sobre el material a medida que entra, lo que a su vez aumenta la probabilidad de que lo transfieras a la memoria a largo plazo. Muchos estudios han demostrado que tomar notas mientras se aprende mejora la retención [Aike1975, Boha2011]. Si bien aún no se ha estudiado ampliamente [Ornd2015, Yang2015], he descubierto que hacer que los alumnos tomen notas juntos en una página en línea compartida también es efectivo:
+
+* Permite a las personas comparar lo que creen que están escuchando con lo que otras personas están escuchando, lo que les ayuda a llenar vacíos y corregir conceptos erróneos de inmediato.
+
+* Ofrece a los alumnos más avanzados de la clase algo útil para hacer. En lugar de aburrirse y revisar Instagram durante la clase, pueden tomar la iniciativa de registrar lo que se dice, lo que los mantiene interesados y permite a los estudiantes menos avanzados centrar más su atención en el nuevo material.
+
+* Las notas que toman los alumnos suelen ser más útiles para ellos que las que el maestro prepararía de antemano, ya que es más probable que los alumnos escriban lo que realmente encontraron nuevo en lugar de lo que el maestro predijo que sería nuevo.
+
+* Echar un vistazo a las notas recientes mientras los alumnos trabajan en un ejercicio ayuda al maestro a descubrir que la clase perdió o no entendió algo.
+
+>**¿Es la pluma más poderosa que el teclado?**
+>
+>[Muel2014] informó que tomar notas en una computadora generalmente es menos efectivo que tomar notas con lápiz y papel. Si bien su resultado fue ampliamente compartido, [More2019] no pudo replicarlo.
+
+Si los alumnos toman notas juntos, también puede hacer que peguen fragmentos breves de código y respuestas en forma de puntos o frases para preguntas de evaluación formativa. Para evitar que todos intenten editar el mismo par de líneas al mismo tiempo, haga una lista del nombre de todos y péguelo en el documento cada vez que desee que cada persona responda una pregunta.
+
+Los estudiantes a menudo encuentran que tomar notas juntos es una distracción la primera vez que lo intentan porque tienen que dividir su atención entre lo que dice el maestro y lo que escriben sus compañeros (Sección 4.1). Si solo está trabajando con un grupo en particular una vez, debe prestar atención a los consejos de la Sección 9.12 y hacer que tomen notas individualmente.
+
+
+### Points for Improvement
+
+One way to demonstrate to learners that they are learning with you, not just from you, is to allow them to take notes by editing (a copy of) your lesson. Instead of posting PDFs for them to download, create editable copies of your slides, notes, and exercises in a wiki, a Google Doc, or anything else that allows you to review and comment on changes. Giving people credit for fixing mistakes, clarifying explanations, adding new examples, and writing new exercises doesn’t reduce your workload, but increases engagement and the lesson’s lifetime (Section 6.3).
+
+
+## Notas adhesivas
+Las notas adhesivas son una de mis herramientas de enseñanza favoritas, y no estoy solo amando su versatilidad, portabilidad, adhesividad, capacidad de plegado y aroma sutil pero atractivo [Ward2015].
+
+### Como banderas de estado
+Entregue a cada alumno dos notas adhesivas de diferentes colores, como el naranja y el verde. Estos se pueden retener para votar, pero su uso real es como indicadores de estado. Si alguien ha completado un ejercicio y quiere que lo revisen, ponen la nota adhesiva verde en su computadora portátil; si se encuentran con un problema y necesitan ayuda, colocan el naranja. Esto funciona mucho mejor que hacer que las personas levanten la mano: es más discreto (lo que significa que es más probable que lo hagan), pueden seguir trabajando mientras se levanta su bandera en lugar de tratar de escribir con una sola mano, y el maestro puede vea rápidamente desde el frente de la sala en qué estado se encuentra la clase. Las banderas de estado son particularmente útiles cuando las personas en clases de habilidades mixtas están trabajando en el material a su propia velocidad (Sección 9.5).
+
+Una vez que sus alumnos se sientan cómodos con dos adhesivos, deles un tercero que puedan soportar cuando sus cerebros estén llenos o que necesiten un descanso en el baño220. Una vez más, es más probable que los adultos publiquen una nota adhesiva que levantar la mano, y una vez que sube una nota adhesiva azul, suele aparecer una ráfaga de otras.
+
+### Para distribuir la atención
+Las notas adhesivas también se pueden usar para garantizar que la atención del maestro se distribuya de manera justa. Haga que cada alumno escriba su nombre en una nota adhesiva y lo ponga en su computadora portátil. Cada vez que el maestro los llama o contesta una de sus preguntas, toman nota adhesiva. Una vez que todas las notas adhesivas están caídas, todos vuelven a poner las suyas.
+
+Esta técnica facilita que el maestro vea con quién no ha hablado recientemente, lo que a su vez lo ayuda a evitar prejuicios inconscientes e interactuar preferentemente con sus alumnos más extrovertidos. Sin un control como este, es demasiado fácil crear un ciclo de retroalimentación en el que los extrovertidos reciban más atención, lo que los lleva a mejorar, lo que a su vez los lleva a obtener más atención, mientras que los estudiantes más tranquilos, menos confiados o marginados quedan detrás [Alvi1999, Juss2005].
+
+También muestra a los alumnos que la atención se está distribuyendo de manera justa, de modo que cuando se les llama, no sentirán que están siendo molestados. Cuando estoy trabajando con un nuevo grupo, permito que las personas tomen sus propias notas adhesivas durante las primeras horas o dos de clase si prefieren no ser llamados. Si continúan haciendo esto a medida que pasa el tiempo, trato de mantener una conversación tranquila con ellos para averiguar por qué y ver si hay algo que pueda hacer para que se sientan más cómodos.
+
+### Como tarjetas de minutos
+También puede usar notas adhesivas como tarjetas de minutos. Antes de cada descanso, los alumnos se toman un minuto para escribir una cosa en la nota adhesiva verde que creen que será útil y una cosa en la nota naranja que encontraron demasiado rápida, lenta, confusa o irrelevante. Mientras disfrutan de su café o almuerzo, repase sus notas y busque patrones. Tarda menos de cinco minutos en ver qué disfrutan los alumnos de una clase de 40 personas, por qué están confundidos, qué problemas tienen y qué preguntas aún no han respondido.
+
+Los alumnos no deben firmar sus tarjetas de actas: se consideran comentarios anónimos. La técnica de uno arriba / uno abajo descrita en la Sección 9.11 es una oportunidad de retroalimentación colectiva atribuible.
+
+
+
+## Nunca una página en blanco
+Los talleres de programación y otros tipos de clases se pueden construir alrededor de un conjunto de ejercicios independientes, desarrollar un solo ejemplo extendido por etapas o usar una estrategia mixta. Las dos ventajas principales de los ejercicios independientes son que las personas que se quedan atrás pueden volver a sincronizar fácilmente y que los desarrolladores de la lección pueden agregar, eliminar y reorganizar el material a voluntad (Sección 6.3). Por otro lado, un solo ejemplo extendido mostrará a los alumnos cómo encajan las partes que están aprendiendo: en el lenguaje educativo, les brinda más oportunidades para integrar sus conocimientos.
+
+Independientemente del enfoque que adopte, los principiantes nunca deben comenzar a hacer ejercicios con una página o pantalla en blanco, ya que a menudo les resulta intimidante o desconcertante. Si han estado siguiendo la codificación en vivo, pídales que agreguen algunas líneas más o que modifiquen el ejemplo que han creado. Alternativamente, si están tomando notas juntas, pegue algunas líneas de código de inicio en el documento para que se extiendan o modifiquen.
+
+Modificar el código existente en lugar de escribir un código nuevo desde cero no solo da estructura a los alumnos: también está más cerca de lo que harán en la vida real. Sin embargo, tenga en cuenta que los alumnos pueden distraerse al tratar de comprender todo el código de inicio en lugar de hacer su propio trabajo. El vacío público estático de Java main () o un puñado de declaraciones de importación en la parte superior de un programa Python pueden tener sentido para usted, pero es una carga extraña para ellos (Capítulo 4).
+
+## Preparando a tus alumnos
+Los estudiantes de campo libre a menudo quieren traer sus propias computadoras y salir de la clase con esas máquinas configuradas para hacer un trabajo real. Por lo tanto, los maestros de campo libre deben prepararse para enseñar tanto en Windows como en MacOS222, aunque sería más simple exigir a los alumnos que usen solo uno.
+
+>**Denominadores Comunes**
+>
+>Si sus participantes están usando diferentes sistemas operativos, trate de evitar el uso de funciones que son específicas de uno solo y señale cualquiera que sí use. Por ejemplo, los controles y el comportamiento de "minimizar ventana" en Windows son diferentes de los de MacOS.
+
+No importa con cuántas plataformas tenga que lidiar, ponga instrucciones detalladas de configuración en el sitio web de su curso y envíe un correo electrónico a los alumnos un par de días antes de que comience el taller para recordarles que hagan la configuración. Algunas personas seguirán apareciendo sin el software requerido porque tuvieron problemas, no pudieron encontrar el tiempo para completar todos los pasos o simplemente son el tipo de persona que nunca sigue las instrucciones por adelantado. Para detectar esto, haga que todos ejecuten un comando simple tan pronto como lleguen y muestre a los maestros el resultado, luego busque ayudantes y otros aprendices para ayudar a las personas que han tenido problemas.
+
+>**Maquinas virtuales**
+>
+>Algunas personas usan herramientas como Docker para colocar máquinas virtuales en las computadoras de los alumnos para que todos trabajen exactamente con las mismas herramientas, pero esto presenta un nuevo conjunto de problemas. Las máquinas más antiguas o más pequeñas simplemente no son lo suficientemente rápidas para ejecutarlas, los alumnos luchan por alternar entre dos conjuntos diferentes de métodos abreviados de teclado para cosas como copiar y pegar, e incluso los profesionales competentes se confundirán acerca de qué está sucediendo exactamente dónde.
+
+La configuración es tan complicada que muchos maestros prefieren que los alumnos usen herramientas basadas en el navegador. Sin embargo, esto hace que la clase dependa del WiFi institucional (que puede ser de calidad muy variable) y no satisface el deseo de los alumnos de irse con sus propias máquinas listas para su uso en el mundo real. Sin embargo, a medida que las herramientas basadas en la nube como Glitch y RStudio Cloud se vuelven más robustas, la última consideración se vuelve menos importante.
+
+Una última forma de abordar los problemas de configuración es dividir la clase durante varios días y hacer que la gente instale lo que se requiere para cada día antes de abandonar la clase el día anterior. Dividir el trabajo en trozos hace que cada uno sea menos intimidante, es más probable que los alumnos lo hagan, y garantiza que pueda comenzar a tiempo para cada lección, excepto la primera.
+
+## Otras prácticas docentes
+Ninguna de las prácticas más pequeñas que se describen a continuación son esenciales, pero todas mejorarán la entrega de lecciones. Al igual que con el ajedrez y el matrimonio, el éxito en la enseñanza es a menudo una cuestión de progreso lento y constante.
+
+### Comience con introducciones
+Comience su clase presentándose. Si eres un experto, cuéntales un poco sobre cómo llegaste a donde estás; Si solo tienes dos pasos por delante, enfatiza lo que tú y ellos tienen en común. Digas lo que digas, tus objetivos son hacerte más accesible y alentarlos a creer que pueden tener éxito.
+
+Los alumnos también deben presentarse entre ellos. En una clase de una docena, pueden hacer esto verbalmente; en una clase más grande o si son extraños entre sí, creo que es mejor que cada uno escriba una o dos líneas sobre ellos en las notas compartidas (Sección 9.7).
+
+### Configura tu propio entorno
+Configurar su entorno es tan importante como configurar a sus alumnos, pero es más complicado. Además de tener acceso a la red y todo el software que va a utilizar, también debe tomar un vaso de agua o una taza de té o café. Esto ayuda a mantener su garganta lubricada, pero su verdadero propósito es darle una excusa para hacer una pausa y pensar durante un par de segundos cuando alguien hace una pregunta difícil o cuando pierde la noción de lo que iba a decir a continuación. Probablemente también desee algunos lápices de pizarra y algunas de las otras cosas descritas en la Sección 21.3.
+
+Una forma de evitar que su trabajo diario se interponga en su enseñanza es crear una cuenta separada en su computadora para este último. Use los valores predeterminados del sistema para todo en esta segunda cuenta, junto con una fuente más grande y un fondo de pantalla en blanco, y apague las notificaciones para que su enseñanza no se vea interrumpida por ventanas emergentes.
+
+### Evite la tarea en formatos de todo el día
+Los alumnos que hayan pasado un día entero programando estarán cansados. Si les das tarea para hacer después del horario laboral, comenzarán al día siguiente también cansados, así que no lo hagas.
+
+### No toque el teclado del alumno
+A menudo es tentador arreglar las cosas para los alumnos, pero incluso si narras cada paso, es probable que los desmotive al enfatizar la brecha entre su conocimiento y el tuyo. En cambio, mantenga las manos alejadas del teclado y hable con sus alumnos sobre lo que necesiten hacer: tomará más tiempo, pero es más probable que se quede.
+
+### Repita la pregunta
+Cada vez que alguien haga una pregunta en clase, repítala antes de responder para verificar que la haya entendido y darles a las personas que tal vez no la hayan escuchado la oportunidad de hacerlo. Esto es particularmente importante cuando se graban o transmiten presentaciones, ya que su micrófono generalmente no captará lo que otras personas están diciendo. Repetir las preguntas también le da la oportunidad de redirigir la pregunta a algo que le resulte más cómodo responder ...
+
+### Uno arriba, uno abajo
+Un complemento de las tarjetas de minutos es pedir comentarios resumidos al final de cada día. Alternativamente, los alumnos dan un punto positivo o uno negativo sobre el día sin repetir nada de lo que ya se ha dicho. La prohibición de las repeticiones obliga a las personas a decir cosas que de otra manera no podrían decir: una vez que se hayan dado todos los comentarios "seguros", los participantes comenzarán a decir lo que realmente piensan.
+
+>**Diferentes modos, diferentes respuestas**
+>
+>Las tarjetas de minutos (Sección 9.8) son anónimas; la retroalimentación alterna hacia arriba y hacia abajo no lo es. Debes usar los dos juntos porque el anonimato permite la honestidad y el trolling.
+
+
+### Haga que los alumnos hagan predicciones
+La investigación ha demostrado que las personas aprenden más de las manifestaciones si se les pide que predigan lo que va a suceder [Mill2013]. Hacer esto encaja naturalmente en la codificación en vivo: después de agregar o cambiar algunas líneas de un programa, pregunte a la clase qué sucederá cuando se ejecute. Si el ejemplo es incluso moderadamente complejo, la predicción puede servir como una pregunta motivadora para una ronda de instrucción entre pares.
+
+### Configurando Tablas
+Es posible que no tenga ningún control sobre el diseño de los escritorios o mesas en la sala en la que enseña, pero si lo hace, descubrimos que es mejor tener asientos planos (estilo cena) en lugar de asientos inclinados (estilo teatro). que puede llegar a los alumnos que necesitan ayuda más fácilmente y para que sea más fácil para los alumnos emparejarse entre sí (Sección 9.5). Las tomas de corriente en el piso para que no tenga que pasar cables de alimentación por el piso hacen la vida más fácil y segura, pero aún son poco comunes.
+
+Independientemente del diseño que tenga, intente asegurarse de que cada asiento tenga una vista sin obstáculos de la pantalla. Un buen respaldo también es importante, ya que las personas estarán en ellos durante un período prolongado. Al igual que las tomas de corriente en el piso, desafortunadamente, los buenos asientos en el aula todavía son poco comunes.
+
+### Pastillas para la tos
+Si habla todo el día con una habitación llena de personas, se le pone la garganta irritada porque irrita las células epiteliales de la laringe y la faringe. Esto no solo te vuelve ronco, sino que también te hace más vulnerable a la infección (que es parte de la razón por la que las personas a menudo sufren resfriados después de enseñar).
+
+La mejor manera de protegerse contra esto es mantener su garganta alineada, y la mejor manera de hacerlo es usar pastillas para la tos temprano y con frecuencia. Los buenos también enmascararán el inicio del aliento de café, por lo que sus alumnos probablemente estarán agradecidos.
+
+### Piensa-Par-Comparte
+Think-pair-share es una técnica liviana que ayuda a las personas a mejorar ideas a través de la discusión con sus compañeros. Cada persona comienza pensando individualmente sobre una pregunta o problema y anotando algunas notas. Luego explican sus ideas entre sí en parejas, fusionándolas o seleccionando las más prometedoras. Finalmente, algunas parejas presentan sus ideas a todo el grupo.
+
+Think-pair-share funciona porque obliga a las personas a externalizar su cognición (Sección 3.1). También les da la oportunidad de detectar y resolver lagunas o contradicciones en sus ideas antes de exponerlos a un grupo más grande, lo que puede hacer que los estudiantes menos extrovertidos estén un poco menos nerviosos por parecer tontos.
+
+### Mañana, mediodía y noche
+[Smar2018] descubrió que a los alumnos les va menos bien si sus clases y otros trabajos se programan en horarios que no se alinean con sus relojes corporales naturales, es decir, que si una persona de la mañana toma clases nocturnas o viceversa, sus calificaciones se ven afectadas. Por lo general, no es posible acomodar esto en grupos pequeños, pero los más grandes deberían tratar de escalonar las horas de inicio de las sesiones paralelas. Esto también puede ayudar a las personas a hacer malabarismos con las responsabilidades de cuidado infantil y otras limitaciones, y reducir la duración de las alineaciones en los descansos para tomar café y para los baños.
+
+### Humor
+El humor debe usarse con moderación cuando se enseña: la mayoría de los chistes son menos divertidos cuando se escriben y se vuelven aún menos divertidos con cada relectura. Ser espontáneamente divertido mientras enseña suele funcionar mejor, pero puede salir mal fácilmente: lo que es una broma para tu círculo de amigos puede ser un problema político serio para tu audiencia. Si haces bromas cuando enseñas, no las hagas a expensas de ningún grupo o de ninguna persona, excepto posiblemente tú mismo.
+
+## Limite la innovación
+Cada una de las técnicas presentadas en este capítulo mejorará sus clases, pero no debe tratar de adoptarlas todas a la vez. La razón es que cada nueva práctica aumenta su carga cognitiva y la de sus alumnos, ya que ahora todos están tratando de aprender una nueva forma de aprender, así como el tema de la lección. Si está trabajando con un grupo repetidamente, puede introducir una nueva técnica cada pocas lecciones; Si solo los tiene para un taller de un día, es mejor elegir un método que no hayan visto antes y que se sientan cómodos con eso.
+
+
+## Ejercicios
+
+### Crear un cuestionario (individual / 20)
+Usando el cuestionario en la Sección 21.5 como plantilla, cree un cuestionario corto que pueda dar a los alumnos antes de enseñar una clase propia. ¿Qué es lo que más desea saber sobre sus antecedentes y cómo pueden ambas partes estar seguras de que están de acuerdo sobre el nivel de comprensión que está preguntando?
+
+### Uno de los tuyos (clase completa / 15)
+Piense en una práctica de enseñanza que no se ha descrito hasta ahora. Presente su idea a un compañero, escuche la suya y seleccione una para presentarla al grupo como un todo. (Este ejercicio es un ejemplo de think-pair-share).
+
+### ¿Puedo conducir? (pares / 10)
+Intercambie computadoras con un compañero (preferiblemente uno que use un sistema operativo diferente al suyo) y realice un ejercicio de programación simple. ¿Qué tan frustrante es? ¿Cuánta información te da sobre lo que los novatos tienen que pasar todo el tiempo?
+
+### Emparejamiento (pares / 15)
+Mire este video de programación en pareja y luego practique hacerlo con un compañero. Recuerde cambiar los roles entre controlador y navegador cada pocos minutos. ¿Cuánto tiempo te lleva caer en un ritmo de trabajo?
+
+### Comparar notas (grupos pequeños / 15)
+Forme grupos de 3 a 4 personas y compare las notas que ha tomado en este capítulo. ¿Qué pensaste que era digno de mención que tus compañeros extrañaron y viceversa? ¿Qué entendiste de manera diferente?
+
+### Credibilidad (individual / 15)
+[Fink2013] describe tres cosas que hacen que los maestros sean creíbles ante los ojos de sus alumnos:
+
+**Competencia:** conocimiento del tema como lo demuestra la capacidad de explicar ideas complejas o hacer referencia al trabajo de otros.
+
+**Integridad:** teniendo en cuenta los mejores intereses de los alumnos. Esto se puede mostrar dando retroalimentación individualizada, ofreciendo una explicación racional para las decisiones de calificación y tratando a todos los alumnos de la misma manera.
+
+**Dinamismo:** entusiasmo por el tema (Capítulo 8).
+
+Describa una cosa que hace cuando enseña que se ajusta a cada categoría, y luego describa una cosa que no hace pero que debería hacer.
+
+### Medición de efectividad (individual / 15)
+[Kirk1994] define cuatro niveles para evaluar el entrenamiento:
+
+**Reacción:** ¿Cómo se sintieron los alumnos sobre la capacitación?
+
+**Aprendizaje:**¿cuánto aprendieron realmente?
+
+**Comportamiento:** ¿Cuánto han cambiado su comportamiento como resultado?
+
+**Resultados:** ¿Cómo han afectado esos cambios en el comportamiento a su producción o la producción de su grupo?
+
+¿Qué haces en cada nivel para evaluar qué y cómo enseñas? ¿Qué podrías hacer que no estás haciendo?
+
+### Objeciones y contra objeciones (think-pair-share / 15)
+Ha decidido no preguntar a sus alumnos si su clase fue útil porque sabe que no hay correlación entre sus respuestas y cuánto realmente aprenden (Sección 7.1). En cambio, ha presentado cuatro propuestas, cada una de las cuales sus colegas han rechazado:
+
+**Vea si recomiendan la clase a sus amigos.** ¿Por qué sería esto más significativo que preguntarles cómo se sienten acerca de la clase?
+
+**Deles un examen al final.** Pero cuánto saben los alumnos al final del día es un mal predictor de cuánto recordarán dos o tres meses después, y cualquier tipo de examen final hará que la clase sea mucho más estresante.
+
+**Déles un examen dos o tres meses después.** Eso es prácticamente imposible con los estudiantes de campo libre, y las personas que no obtuvieron nada del taller probablemente sean menos propensas a participar en el seguimiento, por lo que los comentarios recopilados de esta manera serán sesgados.
+
+**Vea si siguen usando lo que aprendieron.** La instalación de software espía en las computadoras de los alumnos está mal vista, entonces, ¿cómo se implementará?
+
+Trabajando por su cuenta, encuentre respuestas a estas objeciones, luego comparta sus respuestas con un compañero y discuta los enfoques que ha planteado. Cuando haya terminado, comparta su enfoque favorito con la clase.
+

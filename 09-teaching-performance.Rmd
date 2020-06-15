@@ -1,0 +1,245 @@
+# La enseñanza como arte de performance
+
+En Darwin Among the Machines, George Dyson escribió: “En el juego de la vida y la evolución hay tres jugadores en la mesa: los seres humanos, la naturaleza y las máquinas. Estoy firmemente del lado de la naturaleza. Pero sospecho que la naturaleza está del lado de las máquinas ... ”De manera similar, ahora hay tres jugadores en el juego de la educación: libros de texto y otros materiales de solo lectura, conferencias en vivo y lecciones automatizadas en línea. Puede dar a sus alumnos lecciones escritas y una combinación de videos grabados y ejercicios a su propio ritmo, pero si va a enseñar en persona, debe ofrecer algo diferente (y con suerte mejor que) a cualquiera de ellos. Por lo tanto, este capítulo se centra en cómo enseñar programación al hacerlo realmente.
+
+
+## Codificación en vivo
+
+>La enseñanza es teatro, no cine.
+>
+>-- Neal Davis
+
+La forma más efectiva de enseñar programación es la codificación en vivo [Rubi2013, Haar2017, Raj2018]. En lugar de presentar material escrito previamente, el maestro escribe el código en frente de la clase mientras los alumnos siguen, escribiéndolo y ejecutándolo a medida que avanzan. La codificación en vivo funciona mejor que las diapositivas por varias razones:
+
+* Permite la **enseñanza activa** al permitir que los maestros sigan los intereses y las preguntas de sus alumnos en el momento. Una plataforma deslizante es como una vía de ferrocarril: puede ser un viaje suave, pero debe decidir de antemano a dónde irá. La codificación en vivo es más como conducir un vehículo todoterreno: puede ser más accidentado, pero es mucho más fácil cambiar de dirección e ir a donde la gente quiere.
+
+* Ver cómo se escribe un programa es más motivador que mirar a alguien pasar las diapositivas.
+
+* Facilita la transferencia involuntaria de conocimiento: las personas aprenden más de lo que enseñamos conscientemente al observar cómo hacemos las cosas.
+
+* Disminuye la velocidad del maestro: si tienen que escribir el programa a medida que avanzan, entonces solo pueden ir dos veces más rápido que sus alumnos en lugar de diez veces más rápido que con las diapositivas.
+
+* Ayuda a reducir la carga en la memoria a corto plazo porque hace que el maestro sea más consciente de cuánto están tirando a sus alumnos.
+
+* Los alumnos pueden ver cómo diagnosticar y corregir errores. Pasarán mucho tiempo haciendo esto; a menos que sea un mecanógrafo perfecto, la codificación en vivo garantiza que puedan ver cómo hacerlo.
+
+* Ver a los maestros cometer errores muestra a los alumnos que está bien cometer errores por su cuenta. Si el maestro no se avergüenza de cometer errores y hablar sobre ellos, los alumnos también se sentirán más cómodos haciéndolo.
+
+Otro beneficio de la codificación en vivo es que demuestra el orden en que se deben escribir los programas. Al observar cómo las personas resolvieron los problemas de Parsons, [Ihan2011] descubrió que los programadores experimentados a menudo arrastraban la firma del método al principio, luego agregaban la mayoría del flujo de control (es decir, bucles y condicionales), y solo luego agregaban detalles como la inicialización y el manejo de variables de vitrinas. Esta autoría fuera de orden es ajena a los novatos, que leen y escriben el código en el orden en que se presenta en la página; verlo les ayuda a aprender a descomponer los problemas en submetas que pueden abordarse una por una. La codificación en vivo también brinda a los maestros la oportunidad de enfatizar la importancia de pequeños pasos con comentarios frecuentes [Blik2014] y la importancia de elegir un plan en lugar de hacer cambios más o menos aleatorios y esperar que las cosas mejoren [Spoh1985].
+
+Se necesita un poco de práctica para sentirse cómodo hablando mientras codifica frente a una audiencia, pero la mayoría de las personas informan que rápidamente no se vuelve más difícil que hablar alrededor de una cubierta de diapositivas. Las secciones a continuación ofrecen consejos sobre cómo mejorar su codificación en vivo.
+
+
+## Abraza tus errores
+>Los errores tipográficos son la pedagogía.
+>
+> -- Emily Jane McTavish
+
+La regla más importante de la codificación en vivo es aceptar sus errores. No importa qué tan bien te prepares, harás algunos; cuando lo haga, piense en ellos con su audiencia. Si bien es difícil obtener datos, los programadores profesionales dedican del 25% al ​​60% de su tiempo a la depuración; los novatos gastan mucho más (Sección 7.6), pero la mayoría de los libros de texto y tutoriales dedican poco tiempo a diagnosticar y corregir problemas. Si hablas en voz alta mientras descubres qué escribiste mal o dónde tomaste el camino equivocado, y explicas cómo te has corregido, les darás a tus alumnos una caja de herramientas que pueden usar cuando cometen sus propios errores.
+
+>**Tortas deliberadas** 
+>
+>Una vez que haya dado una lección varias veces, es poco probable que cometa algo más que errores básicos de escritura (que aún pueden ser informativos). Puede intentar recordar errores pasados y hacerlos deliberadamente, pero eso a menudo se siente forzado. Un enfoque alternativo es la codificación de contracciones: solicite a los alumnos uno por uno que le digan qué escribir a continuación. Esto está prácticamente garantizado para meterte en algún tipo de problema.
+
+
+## Pedir predicciones
+
+Una forma de mantener a los alumnos interesados mientras está codificando en vivo es pedirles que hagan predicciones sobre lo que hará el código en la pantalla. Luego, puede escribir las primeras sugerencias que hacen, hacer que toda la clase vote sobre lo que ellos piensan que es más probable y luego ejecutar el código. Esta es una forma ligera de instrucción entre pares, que discutiremos en la Sección 9.2; además de mantener su atención en la tarea, les da práctica para razonar sobre el comportamiento del código.
+
+## Tomar con calma
+
+Cada vez que escriba un comando, agregue una línea de código a un programa, o seleccione un elemento de un menú, diga lo que está haciendo en voz alta y luego señale lo que ha hecho y su salida en la pantalla y repáselo. segunda vez. Esto permite a los alumnos ponerse al día y comprobar que lo que acaban de hacer es correcto. Es particularmente importante cuando algunos de sus alumnos tienen dificultades para ver o escuchar o no dominan el idioma de instrucción.
+
+Hagas lo que hagas, no copie y pegue código: hacer esto prácticamente garantiza que competirá por delante de sus alumnos. Y si utiliza la finalización de tabulación, dígalo en voz alta para que sus alumnos comprendan lo que está haciendo: "Usemos el punto de tortuga" r "" yo "y la tabulación para" hacer lo correcto "
+
+Si la salida de su comando o código hace que lo que acaba de escribir desaparezca de la vista, desplácese hacia arriba para que los alumnos puedan verlo nuevamente. Si eso no es práctico, ejecute el mismo comando por segunda vez o copie y pegue los últimos comandos en las notas compartidas del taller.
+
+## Ser visto y escuchado
+Cuando se sienta, es más probable que mire su pantalla en lugar de mirar a su audiencia y puede estar oculto de los alumnos en las últimas filas de su clase. Si eres físicamente capaz de pararte durante un par de horas, debes hacerlo mientras enseñas. Planifique esto y asegúrese de tener una mesa elevada, un escritorio de pie o un atril para su computadora portátil para que no tenga que inclinarse para escribir.
+
+Independientemente de si está de pie o sentado, asegúrese de moverse lo más que pueda: vaya a la pantalla para señalar algo, dibuje algo en la pizarra o simplemente aléjese de su computadora por unos momentos y hable directamente con tu audiencia Hacer esto aleja la atención de sus alumnos de sus pantallas y les proporciona un momento natural para hacer preguntas.
+
+Si va a enseñar durante más de un par de horas, vale la pena usar un micrófono incluso en una habitación pequeña. Tu garganta se cansa como cualquier otra parte de tu cuerpo; usar un micrófono no es diferente de usar zapatos cómodos (que también debes hacer). También puede marcar una gran diferencia para las personas con discapacidad auditiva.
+
+
+## Refleje el entorno de su alumno
+Es posible que haya personalizado su entorno con un elegante indicador de shell de Unix, un esquema de color personalizado para su entorno de desarrollo o una gran cantidad de métodos abreviados de teclado. Sus alumnos no tendrán nada de esto, así que intente crear un entorno que refleje lo que tienen. Algunos maestros crean una cuenta básica separada en su computadora portátil o una cuenta de solo enseñanza por separado si usan un servicio en línea como Scratch o GitHub. Hacer esto también puede ayudar a evitar que los paquetes que instaló para trabajar ayer rompan la lección que se supone que debe enseñar esta mañana.
+
+## Usa la pantalla sabiamente
+Por lo general, necesitará agrandar su fuente considerablemente para que las personas la lean desde el fondo de la sala, lo que significa que puede colocar mucho menos en la pantalla de lo que está acostumbrado. En muchos casos, se reducirá a 60–70 columnas y 20–30 filas, por lo que está utilizando una supercomputadora del siglo XXI como si fuera una terminal tonta de principios de la década de 1980.
+
+Para gestionar esto, maximice la ventana que está utilizando para enseñar y luego pídales a todos que den su aprobación o rechace su legibilidad. Use una fuente negra sobre un fondo ligeramente teñido en lugar de una fuente clara sobre un fondo oscuro; el tono claro deslumbrará menos que el blanco puro.
+
+Preste atención también a la iluminación de la habitación: no debe estar completamente oscura y no debe haber luces directamente sobre o encima de la pantalla de proyección. Permita unos minutos para que los alumnos vuelvan a colocar sus mesas para que puedan ver con claridad.
+
+Cuando la parte inferior de la pantalla de proyección está a la misma altura que las cabezas de los alumnos, las personas en la parte posterior no podrán ver las partes inferiores. Puede elevar la parte inferior de su ventana para compensar, pero esto le dará aún menos espacio para escribir.
+
+Si puede obtener un segundo proyector y pantalla, úselo: el espacio adicional le permitirá mostrar su código en un lado y su salida o comportamiento en el otro. Si la segunda pantalla requiere su propia computadora, pídale a un ayudante que la controle en lugar de saltar entre dos teclados.
+
+Finalmente, si está enseñando algo como el shell de Unix en una ventana de consola, es importante decirle a la gente cuándo ejecuta un editor de texto en la consola y cuándo regresa al indicador de la consola. La mayoría de los principiantes nunca han visto una ventana asumir múltiples personalidades de esta manera, y pueden confundirse rápidamente cuando interactúa con el shell, cuando escribe en el editor y cuando se trata de un mensaje interactivo para Python o algunos otro idioma. Puede evitar este problema utilizando una ventana separada para editar; Si hace esto, siempre informe a los alumnos cuando cambien el enfoque de uno a otro.
+
+>**Las ayudas de accesibilidad ayudan a todos**
+>
+>Las herramientas como Mouseposé (para Mac) y PointerFocus (para Windows) resaltan la posición del cursor del mouse en la pantalla, y las herramientas de grabación de pantalla como Camtasia y aplicaciones independientes como KeyCastr hacen eco de teclas invisibles como tab y Control-J mientras las escribe. Estos pueden ser un poco molestos cuando comienzas a usarlos, pero ayuda a tus alumnos a descubrir lo que estás haciendo.
+
+
+## Dispositivos dobles
+Algunas personas ahora usan dos dispositivos cuando enseñan: una computadora portátil conectada al proyector para que los alumnos la vean y una tableta para que puedan ver sus propias notas y las notas que los alumnos están tomando (Sección 9.7). Esto es más confiable que pasar de un lado a otro entre escritorios virtuales, aunque una impresión de la lección sigue siendo la tecnología de respaldo más confiable.
+
+## Dibuja temprano, dibuja a menudo
+Los diagramas son siempre una buena idea. A veces tengo una plataforma de diapositivas llena de las que he preparado de antemano, pero construir diagramas paso a paso ayuda con la retención (Sección 4.1) y le permite improvisar.
+
+## Evitar distracciones
+Desactive las notificaciones que pueda usar en su computadora portátil, especialmente las de las redes sociales. Ver mensajes parpadeando en la pantalla lo distrae a usted y a sus alumnos, y puede ser incómodo cuando aparece un mensaje que prefiere que otros no vean. Nuevamente, es posible que desee crear una segunda cuenta en su computadora que no tenga correo electrónico u otras herramientas configuradas.
+
+## Improvisar: después de conocer el material
+Apéguese bastante al plan de la lección que ha elaborado o prestado la primera vez que imparte una lección. Puede ser tentador desviarse del material porque le gustaría mostrar un buen truco o demostrar otra forma de hacer algo, pero existe la posibilidad de que encuentre algo inesperado que le costará más tiempo del que tiene.
+
+Sin embargo, una vez que esté más familiarizado con el material, puede y debe comenzar a improvisar según los antecedentes de sus alumnos, sus preguntas en clase y lo que personalmente le parezca más interesante. Esto es como tocar una nueva canción: te quedas con la partitura las primeras veces, pero después de que te sientas cómodo con los cambios de melodía y acordes, puedes comenzar a poner tu propio sello.
+
+Cuando quieras usar algo nuevo, revísalo de antemano usando la misma computadora en la que estarás enseñando: instalar varios cientos de megabytes de software a través de WiFi de la escuela secundaria frente a aburridos jóvenes de 16 años no es algo que alguna vez quieras tener que hacer
+
+>**Instrucción directa**
+>
+>La Instrucción Directa (DI) es un método de enseñanza centrado en el diseño meticuloso del currículo entregado a través de un guión prescrito. Es más como un actor recitando líneas que como el enfoque de improvisación que recomendamos. [Stoc2018] encontró un efecto positivo estadísticamente significativo para DI a pesar de que a veces se golpea por ser mecánico. Prefiero la improvisación porque la DI requiere más preparación inicial de la que la mayoría de los grupos de aprendizaje de campo libre pueden permitirse.
+
+
+### Mira la pantalla: de vez en cuando
+Está bien enfrentar la pantalla de proyección ocasionalmente cuando está caminando a través de una sección de código o dibujando un diagrama: no mirar una habitación llena de personas que lo están mirando a usted puede ayudarlo a reducir sus niveles de ansiedad y darle un momento para pensar qué para decir a continuación.
+
+Sin embargo, no debes hacer esto por más de unos segundos a la vez. Una buena regla general es tratar la pantalla de proyección como uno de sus alumnos: si le resultara incómodo mirar a alguien durante el tiempo que pasa mirando la pantalla, es hora de darse la vuelta y mirar a su clase nuevamente.
+
+### Inconvenientes
+La codificación en vivo tiene algunos inconvenientes, pero todos se pueden evitar o solucionar con un poco de práctica. Si descubres que estás cometiendo demasiados errores de escritura triviales, reserva cinco minutos todos los días para practicar la escritura: también te ayudará en tu trabajo diario. Si cree que está pasando demasiado tiempo refiriéndose a las notas de su lección, divídalas en partes más pequeñas para que solo tenga que pensar en un pequeño paso a la vez.
+
+Y si siente que está pasando demasiado tiempo escribiendo declaraciones de importación de bibliotecas, encabezados de clase y otro código repetitivo, entregue a usted y a sus alumnos un código esqueleto como punto de partida (Sección 9.9). Hacer esto también reducirá su carga cognitiva, ya que centrará su atención donde lo desee.
+
+### Estudio de la lección
+Desde políticos hasta investigadores y maestros, los reformadores educativos han diseñado sistemas para encontrar y promover personas que puedan enseñar bien y eliminar a quienes no pueden. Pero la suposición de que algunas personas nacen como docentes es errónea: en cambio, como cualquier otra representación artística, las claves para una mejor enseñanza son la práctica y la colaboración. Como explica [Gree2014], el enfoque japonés a esto se llama jugyokenkyu, que significa "estudio de lección":
+
+>Para graduarse, las especializaciones en educación [japonesa] no solo tenían que ver el trabajo de su maestro asignado, sino que debían reemplazarlo efectivamente, instalándose primero en su aula como observadores y luego, a la tercera semana, como una aproximación vacilante ... El maestro mismo. Funcionó como una especie de relevo de enseñanza. Cada alumno tomó una asignatura, planeando cinco días de lecciones ... [y luego] cada uno tomó un día. Para pasar el testigo, tenía que enseñar una lección de un día en cada asignatura: la que planeaba y las cuatro que no ... y tenía que hacerlo directamente bajo la nariz de su maestro. Después, todos, el maestro, los estudiantes universitarios y, a veces, incluso otro observador externo, se sentaban alrededor de una mesa formal para hablar sobre lo que vieron.
+
+
+Poner el trabajo bajo un microscopio para mejorarlo es común en campos tan diversos como la fabricación y la música. Un músico profesional, por ejemplo, diseccionará media docena de grabaciones de "Body and Soul" o "Smells Like Teen Spirit" antes de interpretarlo. También esperarían recibir comentarios de otros músicos durante la práctica y después de las actuaciones.
+
+Pero la retroalimentación continua no es parte de la cultura de enseñanza en la mayoría de los países de habla inglesa. Allí, lo que sucede en el aula se queda en el aula: los maestros no miran las lecciones de los demás de manera regular, por lo que no pueden tomar prestadas las buenas ideas de los demás. Los maestros pueden obtener planes de lecciones y tareas de colegas, la junta escolar o un editor de libros de texto, o revisar algunos MOOC en Internet, pero cada uno tiene que descubrir cómo impartir lecciones específicas en aulas específicas para alumnos específicos. Esto es particularmente cierto para los voluntarios y otros maestros de campo que participan en talleres y campamentos después de la escuela.
+
+Escribir nuevas técnicas y dar **lecciones de demostración** (en las que una persona enseña a estudiantes reales mientras otros maestros observan) no son soluciones. Por ejemplo, [Finc2007, Finc2012] encontró que de las 99 historias de cambio analizadas, los maestros solo buscaron activamente nuevas prácticas o materiales en tres casos, y solo consultaron el material publicado en ocho. La mayoría de los cambios ocurrieron localmente, sin aportes de fuentes externas, o solo involucraron interacción personal con otros educadores. [Bark2015] encontró algo similar:
+
+>La adopción no es una "acción racional" ... sino una serie iterativa de decisiones tomadas en un contexto social, que se basa en tradiciones normativas, indicaciones sociales y procesos emocionales o intuitivos ... No es probable que los profesores utilicen los resultados de la investigación educativa como base para las decisiones de adopción ... La retroalimentación positiva de los estudiantes se toma como una fuerte evidencia por parte del profesorado de que deben continuar una práctica.
+
+Jugyokenkyu funciona porque maximiza la oportunidad de transferencia de conocimiento no planificada entre maestros: alguien se propone demostrar X, pero mientras los mira, su audiencia también aprende Y (o en su lugar). Por ejemplo, un maestro podría tener la intención de mostrar a los alumnos cómo buscar direcciones de correo electrónico en un archivo de texto, pero lo que su audiencia podría eliminar son algunos atajos de teclado nuevos.
+
+## Dando y recibiendo retroalimentación sobre la enseñanza
+Observar a alguien te ayuda, y darle retroalimentación lo ayuda, pero puede ser difícil recibir retroalimentación, especialmente cuando es negativo (Figura [f: desempeño-retroalimentación-sentimientos]).
+
+![f: desempeño-retroalimentación-sentimientos](./img_traning/deathbulge-jerk.jpg)
+
+La retroalimentación es más fácil de dar y recibir cuando ambas partes comparten expectativas sobre lo que está y no está en el alcance y sobre cómo se deben redactar los comentarios. Si usted es la persona que solicita comentarios:
+
+**Iniciar comentarios.** Es mejor pedir comentarios que recibirlos de mala gana.
+
+**Elige tus propias preguntas,** es decir, pedir comentarios específicos. Es mucho más difícil para alguien responder: "¿Qué te parece?" que responder: "¿Estaba hablando demasiado rápido?" o "¿Qué es una cosa de esta lección que debería seguir haciendo?" Dirigir comentarios como este también es más útil para usted. Siempre es mejor tratar de arreglar una cosa a la vez que cambiar todo y esperar que sea para mejor. Dirigir comentarios sobre algo en lo que has elegido trabajar te ayuda a mantenerte enfocado, lo que a su vez aumenta las probabilidades de que veas progreso.
+
+**Use un traductor de comentarios.** Haga que otra persona lea todos los comentarios y le dé un resumen. Puede ser más fácil escuchar: "Varias personas piensan que podría acelerar un poco", que leer varias notas que dicen: "Esto es demasiado lento" o "Esto es aburrido".
+
+**Ser amable con usted mismo.** Muchos de nosotros somos muy críticos con nosotros mismos, por lo que siempre es útil anotar lo que pensamos de nosotros mismos antes de recibir comentarios de los demás. Eso nos permite comparar lo que pensamos de nuestro desempeño con lo que otros piensan, lo que a su vez nos permite escalar el primero con mayor precisión. Por ejemplo, es muy común que las personas piensen que están diciendo "um" y "err" con demasiada frecuencia cuando su audiencia no lo nota. Obtener esa retroalimentación una vez les permite a los maestros ajustar su evaluación de sí mismos la próxima vez que se sientan así.
+También puede dar retroalimentación a otros de manera más efectiva:
+
+**Interactuar.** 
+Mirar fijamente a alguien es una buena manera de hacer que se sienta incómodo, por lo que si desea dar su opinión sobre cómo alguien normalmente enseña, debe tranquilizarlo. Interactuar con ellos de la forma en que lo haría un alumno real es una buena manera de hacerlo, así que haga preguntas o (finja) escribir junto con su ejemplo. Si usted es parte de un grupo, haga que una o dos personas desempeñen el papel de aprendices mientras los demás toman notas.
+
+**Balance de retroalimentación positiva y negativa.** El "sándwich de cumplido" compuesto por un comentario positivo, uno negativo y un segundo positivo se vuelve cansador con bastante rapidez, pero es importante decirle a las personas qué deben seguir haciendo y qué deben cambiar195.
+
+**Toma nota.**
+No recordará todo lo que notó si la presentación dura más de unos segundos, y definitivamente no recordará con qué frecuencia los notó. Haga una nota la primera vez que algo sucede y luego agregue una marca de verificación cuando vuelva a ocurrir para que pueda ordenar sus comentarios por frecuencia.
+
+Tomar notas es más eficiente cuando tienes algún tipo de rúbrica para que no te apresures a escribir tus observaciones mientras la persona que estás observando todavía está hablando. La rúbrica más simple para los comentarios de forma libre de un grupo es una cuadrícula de 2x2 cuyo eje vertical está etiquetado como "lo que salió bien" y "lo que se puede mejorar", y cuyo eje horizontal está etiquetado como "contenido" (lo que se dijo) y "presentación ”(Como se dijo). Los observadores escriben sus comentarios en notas adhesivas mientras miran la demostración, luego los publican en los cuadrantes de una cuadrícula dibujada en una pizarra (Figura [f: rúbrica de rendimiento]).
+
+![f: rúbrica de rendimiento](./img_traning/2x2-rubric.svg)
+
+>**Rúbricas y presupuestos de preguntas**
+>
+>La Sección 21.1 contiene una rúbrica de muestra para evaluar de 5 a 10 minutos de instrucción de programación. Presenta elementos en más o menos el orden en que es probable que aparezcan, p. Las preguntas sobre la introducción vienen antes que las preguntas sobre la conclusión.
+>
+>Las rúbricas como esta tienden a crecer con el tiempo a medida que las personas piensan en cosas que les gustaría agregar. Una buena manera de mantenerlos manejables es insistir en que la longitud total permanezca constante: si alguien desea agregar una pregunta, debe identificar una que sea menos importante y que pueda eliminarse.
+
+Si está interesado en dar y recibir retroalimentación, [Gorm2014] tiene buenos consejos que puede usar para hacer que la retroalimentación entre pares sea una parte rutinaria de su enseñanza, mientras que [Gawa2011] analiza el valor de tener un entrenador.
+
+>**Clases de estudio**
+>
+>Las escuelas de arquitectura a menudo incluyen clases de estudio en las que los estudiantes resuelven pequeños problemas de diseño y reciben comentarios de sus compañeros en ese mismo momento. Estas clases son más efectivas cuando el maestro critica las críticas de los compañeros para que los participantes aprendan no solo cómo construir edificios sino también cómo dar y recibir comentarios [Scho1984]. Las clases magistrales de música tienen un propósito similar, y he descubierto que dar retroalimentación sobre la retroalimentación ayuda a las personas a mejorar su enseñanza también.
+
+## Cómo practicar el rendimiento
+La mejor manera de mejorar la entrega de lecciones en persona es observarse a sí mismo hacerlo:
+
+* Trabajar en grupos de tres.
+
+* Cada persona rota a través de los roles de maestro, audiencia y camarógrafo. El profesor tiene 2 minutos para explicar algo. La persona que pretende ser el público está allí para estar atento, mientras que el camarógrafo graba la sesión con un teléfono celular u otro dispositivo portátil.
+
+* Después de que todos hayan terminado de enseñar, todo el grupo mira los videos juntos. Todos dan su opinión sobre los tres videos, es decir, dan su opinión sobre sí mismos y sobre los demás.
+
+* Después de que los videos han sido discutidos, se eliminan. (Muchas personas se sienten incómodas por las imágenes que aparecen en línea).
+
+* Finalmente, toda la clase vuelve a reunirse y agrega todos los comentarios a una cuadrícula compartida de 2x2 del tipo descrito anteriormente sin decir de quién trata cada elemento de comentarios.
+
+Para que este ejercicio funcione bien:
+
+* Grabe los tres videos y luego mire los tres. Si el ciclo es enseñar-revisar-enseñar-revisar, la última persona que enseña invariablemente se queda sin tiempo (a veces a propósito). Hacer todas las revisiones después de toda la enseñanza también ayuda a poner un poco de distancia entre los dos, lo que hace que el ejercicio sea un poco menos insoportable.
+
+* Deje que las personas sepan al comienzo de la clase que se les pedirá que enseñen algo para que tengan tiempo de elegir un tema. Decirles esto con demasiada anticipación puede ser contraproducente, ya que algunas personas se preocuparán por cuánto deben prepararse.
+
+* Los grupos deben estar físicamente separados para reducir las conversaciones de audio entre sus grabaciones. En la práctica, esto significa 2–3 grupos en un aula de tamaño normal, y el resto utiliza espacios de descanso cercanos, salones de café, oficinas o (en una ocasión) el armario de un conserje.
+
+* Las personas deben dar retroalimentación sobre sí mismas y entre sí para poder calibrar sus impresiones de su propia enseñanza contra las de otras personas. La mayoría de las personas son más duras de lo que deberían ser, y es importante que se den cuenta de esto.
+
+El anuncio de este ejercicio a menudo es recibido con gemidos y aprensión, ya que pocas personas disfrutan de verse o escucharse a sí mismas. Sin embargo, esas mismas personas lo califican constantemente como una de las partes más valiosas de los talleres de enseñanza. También es una buena preparación para la co-enseñanza (Sección 9.3): a los maestros les resulta mucho más fácil intercambiarse comentarios informales si han tenido algo de práctica y tienen una rúbrica compartida para establecer expectativas.
+
+Y hablando de rúbricas: una vez que la clase haya puesto todos sus comentarios en una cuadrícula compartida, elija un puñado de comentarios positivos y negativos, escríbalos como una lista de verificación y haga que hagan el ejercicio nuevamente. La mayoría de las personas se sienten más cómodas la segunda vez, y la evaluación de las cosas que ellos mismos han decidido que es importante aumenta su sentido de autodeterminación (Capítulo 10).
+
+>**Dice**
+>
+>Todos tenemos hábitos nerviosos: hablamos más rápido y con una voz más aguda de lo normal cuando estamos en el escenario, jugamos con nuestro cabello o nos rompemos los nudillos. Los jugadores llaman a estos "avisos", y las personas a menudo no se dan cuenta de que marcan, miran sus zapatos o hacen ruido en su bolsillo cuando en realidad no saben la respuesta a una pregunta.
+>
+>No puedes deshacerte de los avisos por completo, e intentar hacerlo puede hacer que te obsesiones con ellos. Una mejor estrategia es tratar de desplazarlos, por ejemplo, entrenarse para apretar los dedos de los pies dentro de los zapatos cuando está nervioso en lugar de limpiar la oreja con el dedo meñique.
+
+
+## Ejercicios
+
+### Dar comentarios sobre la mala enseñanza (toda la clase / 20)
+
+Como grupo, miren este video de malas enseñanzas y den su opinión sobre dos ejes: positivo versus negativo y contenido versus presentación. Haga que cada persona en la clase agregue un punto a una cuadrícula de 2x2 en una pizarra o en las notas compartidas sin duplicar ningún punto. ¿Qué vieron otras personas que te perdiste? ¿Con qué pensaron que estabas totalmente de acuerdo o en desacuerdo?
+
+### Practicar dar comentarios (grupos pequeños / 45)
+Use el proceso descrito en la Sección 8.4 para practicar la enseñanza en grupos de tres y agrupar los comentarios.
+
+### Lo malo y lo bueno (toda la clase / 20)
+Mire los videos de codificación en vivo mal realizados y la codificación en vivo bien hecha y resuma sus comentarios sobre las diferencias utilizando la cuadrícula 2x2 habitual. ¿Cómo es la segunda ronda de enseñanza mejor que la primera? ¿Hay algo mejor en el primero que en el segundo?
+
+### Mira, luego haz (pares / 30)
+Enseñe 3–4 minutos de una lección usando codificación en vivo a un compañero de clase, luego intercambie y mire mientras esa persona codifica en vivo para usted. No se moleste en intentar grabar estas sesiones (es difícil capturar tanto a la persona como a la pantalla con un dispositivo portátil), pero envíe sus comentarios de la misma manera que lo hizo anteriormente. Explique de antemano a su compañero aprendiz qué va a enseñar y con qué se espera que estén familiarizados los alumnos con los que lo enseña.
+
+* ¿Qué se siente diferente acerca de la codificación en vivo en comparación con ponerse de pie y dar conferencias? ¿Qué fue más fácil o más difícil?
+
+* ¿Cometiste algún error? Si es así, ¿cómo los manejaste?
+
+* ¿Hablaste y escribiste al mismo tiempo, o alternativamente?
+
+* ¿Con qué frecuencia apuntaste a la pantalla? ¿Con qué frecuencia resaltaste con el mouse?
+
+* ¿Qué intentarás seguir haciendo la próxima vez? ¿Qué intentarás hacer de manera diferente?
+
+### Cuenta (grupos pequeños / 15)
+
+* Tome nota de lo que cree que son sus avisos, pero no los comparta con otras personas.
+
+* Enseñe una lección corta (de 2 a 3 minutos de duración).
+
+* Pregunta a tu audiencia cómo creen que traicionas el nerviosismo. ¿Su lista es la misma que la tuya?
+
+### Consejos de enseñanza (grupos pequeños / 15)
+El sitio de CS Teaching Tips tiene una gran cantidad de consejos prácticos sobre la enseñanza de la informática, así como una colección de hojas de consejos descargables. Revise sus hojas de consejos en pequeños grupos y clasifique cada consejo de acuerdo a si lo usa todo el tiempo, lo usa ocasionalmente o nunca lo usa. ¿En qué difieren su práctica y la práctica de sus compañeros? ¿Hay algún consejo con el que no estés de acuerdo o creas que sería ineficaz?
+
+## Resumen
+
+![realimentacion](./img_traning/conceptmap-feedback.svg)
